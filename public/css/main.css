@@ -1341,6 +1341,7 @@ pre code {
 .lightbox-close {
   top: 20px;
   right: 20px;
+  z-index: 1002;
 }
 
 .lightbox-nav {
