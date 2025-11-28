@@ -2,7 +2,8 @@
 layout: "layouts/post.njk"
 title: "Migrating from WordPress to 11ty (Eleventy)"
 date: "2025-11-22T18:07:00.000Z"
-tags: ["11ty", "wordpress", "migration", "webdev", "programming"]
+updated: "2025-11-28T16:51:00.000Z"
+tags: ["11ty", "wordpress", "migration", "webdev", "programming", "open-source"]
 categories: ["Blog"]
 type: "post"
 ---
@@ -26,6 +27,9 @@ I wanted something simpler:
 - No databases.
 
 After some research I decided to go with [11ty](https://www.11ty.dev/) (which I've never heard of before).
+
+## Open-source
+This website and its content are [open-source](https://github.com/alfredbaudisch/alfredbaudisch.com).
 
 ## New Layout/Design
 
