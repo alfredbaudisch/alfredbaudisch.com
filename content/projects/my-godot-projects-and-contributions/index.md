@@ -4,7 +4,7 @@ title: "My Godot Projects and Contributions"
 date: "2022-10-23T14:28:44.000Z"
 updated: "2025-11-22T14:27:20.000Z"
 type: "project"
-tags: ["godot", "godot engine"]
+tags: ["godot", "godot engine", "open-source"]
 projectStyles: ["Gamedev"]
 projectStatus: ["Personal / Hobby", "Work In Progress"]
 projectTypes: ["Open-source"]
