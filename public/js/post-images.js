@@ -11,9 +11,45 @@
     const pageContent = document.querySelector('.page-content');
     const aboutPageIntro = document.querySelector('.about-page-intro');
     const processSection = document.querySelector('.process-section');
+    const featuredImageLink = document.querySelector('.featured-image-link');
     
     // Collect all images for lightbox gallery (shared across all images)
     const lightboxImages = [];
+    
+    // Handle featured image first (so it appears first in lightbox)
+    if (featuredImageLink) {
+      const featuredImg = featuredImageLink.querySelector('img');
+      if (featuredImg) {
+        const featuredSrc = featuredImageLink.href || featuredImg.src;
+        const featuredAlt = featuredImg.alt || '';
+        
+        lightboxImages.push({
+          src: featuredSrc,
+          alt: featuredAlt,
+          caption: featuredAlt,
+          index: 0
+        });
+        
+        featuredImageLink.addEventListener('click', (e) => {
+          e.preventDefault();
+          
+          const openLightbox = () => {
+            if (window.lightboxInstance && lightboxImages.length > 0) {
+              window.lightboxInstance.open(lightboxImages, 0);
+            }
+          };
+          
+          if (window.lightboxInstance) {
+            openLightbox();
+          } else {
+            setTimeout(() => {
+              openLightbox();
+            }, 200);
+          }
+        });
+        featuredImageLink.style.cursor = 'pointer';
+      }
+    }
     
     // Find all images that are not already in galleries
     // Exclude images inside .image-gallery
@@ -34,19 +70,22 @@
         return;
       }
       
+      // Use the current array length as the index (accounts for featured image if present)
+      const imgIndex = lightboxImages.length;
+      
       // Add to lightbox images array
       lightboxImages.push({
         src: img.src,
         alt: img.alt || '',
         caption: img.alt || '',
-        index: index
+        index: imgIndex
       });
       
       // Wrap image in a clickable container
       const wrapper = document.createElement('a');
       wrapper.href = '#';
       wrapper.className = 'post-image-link';
-      wrapper.setAttribute('data-lightbox-index', index);
+      wrapper.setAttribute('data-lightbox-index', imgIndex);
       wrapper.setAttribute('data-lightbox', 'content');
       
       // Insert wrapper before image
