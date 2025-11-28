@@ -28,7 +28,9 @@ layout: layouts/base.njk
       
       {% if featuredImage %}
       <div class="post-featured-image">
-        <img src="{{ featuredImage }}" alt="{{ title }}" loading="lazy">
+        <a href="{{ featuredImage }}" class="featured-image-link" data-lightbox="featured">
+          <img src="{{ featuredImage }}" alt="{{ title }}" loading="lazy">
+        </a>
       </div>
       {% endif %}
     </header>
