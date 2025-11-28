@@ -1359,34 +1359,47 @@ pre code {
   right: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {  
   .lightbox-content {
-    max-width: 95%;
+    max-width: 100%;
+    width: 100%;
     padding: 0;
-    margin: 0 50px;
+    margin: 0;
+    max-height: calc(100vh - 80px);
+    border: none;
   }
   
   .lightbox-image {
-    max-height: 90vh;
+    max-height: calc(100vh - 80px);
+    width: 100%;
+    object-fit: contain;
   }
   
   .lightbox-caption {
     max-height: 80px;
     font-size: 0.9em;
+    position: relative;
+    bottom: auto;
   }
   
   .lightbox-nav {
-    width: 40px;
-    height: 40px;
-    font-size: 1.5em;
+    width: 50px;
+    height: 50px;
+    font-size: 1.8em;
+    top: auto;
+    bottom: 20px;
+    transform: none;
   }
   
   .lightbox-nav.prev {
-    left: 5px;
+    left: 50%;
+    transform: translateX(calc(-100% - 10px));
   }
   
   .lightbox-nav.next {
-    right: 5px;
+    right: auto;
+    left: 50%;
+    transform: translateX(10px);
   }
   
   .lightbox-close {
