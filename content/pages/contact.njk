@@ -1,0 +1,21 @@
+---
+layout: layouts/page.njk
+title: Contact
+---
+
+{% set markdownContent %}
+## Links and Social Networks
+{% endset %}
+
+{{ markdownContent | markdown | safe }}
+
+{% include "components/social-links.njk" %}
+
+{% set bottomMarkdownContent %}
+## Email
+
+Address: contact [at] [this website domain] [dot] com
+{% endset %}
+
+{{ bottomMarkdownContent | markdown | safe }}
+

@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+---
+<article class="page">
+  <div class="container">
+    <h1 class="page-title">{{ title }}</h1>
+    
+    {% if page.filePathStem == '/pages/about' and aboutIntroImage %}
+    {% include "components/about-page-intro.njk" %}
+    {% endif %}
+    
+    <div class="page-content">
+      {{ content | safe }}
+    </div>
+  </div>
+</article>
+

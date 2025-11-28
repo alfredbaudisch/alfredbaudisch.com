@@ -1,0 +1,50 @@
+---
+layout: false
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>{{ site.title }}</title>
+    <link>{{ site.url }}</link>
+    <description>{{ site.description }}</description>
+    <language>en-US</language>
+    <managingEditor>{{ site.author }}</managingEditor>
+    <webMaster>{{ site.author }}</webMaster>
+    {% if collections.homepageContent[0] %}
+    <lastBuildDate>{{ collections.homepageContent[0].data.date | dateRSS }}</lastBuildDate>
+    {% endif %}
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml"/>
+    {% for post in collections.homepageContent.slice(0, 20) %}
+    <item>
+      <title>{{ post.data.title | xml }}</title>
+      <link>{{ site.url }}{{ post.url }}</link>
+      <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+      <pubDate>{{ post.data.date | dateRSS }}</pubDate>
+      {% if post.data.updated %}
+      <atom:updated>{{ post.data.updated | dateISO }}</atom:updated>
+      {% endif %}
+      <description><![CDATA[{% if post.data.metaDescription %}{{ post.data.metaDescription }}{% elif post.data.excerpt %}{{ post.data.excerpt | striptags | truncate(200) }}{% elif post.templateContent %}{{ post.templateContent | striptags | truncate(200) }}{% endif %}]]></description>
+      {% if post.data.featuredImage %}
+      {% set imageUrl = post.data.featuredImage %}
+      {% if imageUrl and not imageUrl.startsWith('http') %}
+      {% set imageUrl = site.url + imageUrl %}
+      {% endif %}
+      <enclosure url="{{ imageUrl }}" type="image/jpeg"/>
+      {% endif %}
+      {% if post.data.categories %}
+      {% for category in post.data.categories %}
+      <category>{{ category | xml }}</category>
+      {% endfor %}
+      {% endif %}
+      {% if post.data.tags %}
+      {% for tag in post.data.tags %}
+      <category>{{ tag | xml }}</category>
+      {% endfor %}
+      {% endif %}
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
+

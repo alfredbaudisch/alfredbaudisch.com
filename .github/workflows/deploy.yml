@@ -1,0 +1,36 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+        lfs: true
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Build site
+      run: npm run build
+    
+    - name: Sync files to VPS using rsync
+      run: |
+        echo "${{ secrets.VPS_SSH_KEY }}" > /tmp/deploy_key
+        chmod 600 /tmp/deploy_key
+        rsync -avz --delete --no-owner --no-group \
+          -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /tmp/deploy_key" \
+          _site/ ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/var/www/alfredbaudisch.com/_site/
+        rm -f /tmp/deploy_key

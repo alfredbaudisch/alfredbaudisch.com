@@ -1,0 +1,44 @@
+{% if relatedLogs and relatedLogs.length > 0 %}
+<section class="related-content">
+  <h2>
+    {% if projectName and projectUrl %}
+      All Logs from <a href="{{ projectUrl }}">{{ projectName }}</a>
+    {% elif experimentName and experimentUrl %}
+      All Logs from <a href="{{ experimentUrl }}">{{ experimentName }}</a>
+    {% else %}
+      {{ sectionTitle }}
+    {% endif %}
+  </h2>
+  <div class="related-logs">
+    {% for log in relatedLogs %}
+    <article class="related-log-card">
+      {% if log.data.featuredImageThumb or log.data.featuredImage %}
+      <a href="{{ log.url }}">
+        <img src="{{ log.data.featuredImageThumb or log.data.featuredImage }}" alt="{{ log.data.title }}" class="related-log-image" loading="lazy">
+      </a>
+      {% endif %}
+      
+      <div class="related-log-content">
+        <h3><a href="{{ log.url }}" {% if log.url == page.url %}aria-current="page"{% endif %}>{{ log.data.title }}</a></h3>
+        <time datetime="{{ log.data.date | dateISO }}">{{ log.data.date | dateDisplay("MMMM d, yyyy") }}</time>
+        
+        {% if log.data.type == 'project-log' and log.data.logCategories %}
+        <div class="taxonomy-tags">
+          {% for category in log.data.logCategories %}
+          <a href="/log-category/{{ category | slug }}/" class="taxonomy-tag log-category">{{ category }}</a>
+          {% endfor %}
+        </div>
+        {% elif log.data.type == 'experiment-log' and log.data.logCategories %}
+        <div class="taxonomy-tags">
+          {% for category in log.data.logCategories %}
+          <a href="/log-category/{{ category | slug }}/" class="taxonomy-tag log-category">{{ category }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+

@@ -1,0 +1,105 @@
+---
+layout: layouts/base.njk
+title: Projects
+permalink: /projects/
+---
+
+<div class="container archive-page">
+  <header>
+    <h1>Projects</h1>
+    <p>I have created and worked in hundreds of different projects from many different categories (mostly as a software architect or developer). I hope to one day list all of them here, for that reason keep in mind that the projects listed here so far are just a tiny fraction of my work.</p>
+  </header>
+  
+  <div class="archive-filters" id="project-filters">
+    <button class="archive-filter active" data-filter="all">All Projects</button>
+    {% set allProjectTypes = [] %}
+    {% for project in collections.projects %}
+      {% if project.data.projectTypes %}
+        {% for type in project.data.projectTypes %}
+          {% if type not in allProjectTypes %}
+            {% set allProjectTypes = (allProjectTypes.push(type), allProjectTypes) %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+    {% for type in allProjectTypes %}
+    <button class="archive-filter" data-filter="{{ type | slug }}">{{ type }}</button>
+    {% endfor %}
+  </div>
+  
+  <div class="archive-grid" id="projects-grid">
+    {% for project in collections.projects %}
+    <article class="content-card" data-project-types="{% if project.data.projectTypes %}{% for type in project.data.projectTypes %}{{ type | slug }} {% endfor %}{% endif %}">
+      {% if project.data.featuredImageThumb %}
+      <a href="{{ project.url }}"><img src="{{ project.data.featuredImageThumb }}" alt="{{ project.data.title }}" class="content-card-image"></a>
+      {% elif project.data.featuredImage %}
+      <a href="{{ project.url }}"><img src="{{ project.data.featuredImage }}" alt="{{ project.data.title }}" class="content-card-image"></a>
+      {% endif %}
+      
+      <div class="content-card-body">
+        <h2 class="content-card-title">
+          <a href="{{ project.url }}">{{ project.data.title }}</a>
+        </h2>
+        
+        <div class="content-card-meta">
+          <time datetime="{{ project.data.date | dateISO }}">{{ project.data.date | dateDisplay("MMMM d, yyyy") }}</time>
+        </div>
+        
+        {% if project.data.excerpt or project.templateContent %}
+        <p class="content-card-excerpt">
+          {{ project.data.excerpt or project.templateContent | striptags | truncate(150) }}
+        </p>
+        {% endif %}
+        
+        {% if project.data.projectTypes or project.data.projectStyles %}
+        <div class="taxonomy-tags">
+          {% if project.data.projectTypes %}
+            {% for type in project.data.projectTypes %}
+            <span class="taxonomy-tag project-type">{{ type }}</span>
+            {% endfor %}
+          {% endif %}
+          {% if project.data.projectStyles %}
+            {% for style in project.data.projectStyles %}
+            <span class="taxonomy-tag project-style">{{ style }}</span>
+            {% endfor %}
+          {% endif %}
+        </div>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  // Simple client-side filtering
+  document.addEventListener('DOMContentLoaded', function() {
+    const filters = document.querySelectorAll('.archive-filter');
+    const projects = document.querySelectorAll('.content-card[data-project-types]');
+    
+    filters.forEach(filter => {
+      filter.addEventListener('click', function() {
+        // Update active state
+        filters.forEach(f => f.classList.remove('active'));
+        this.classList.add('active');
+        
+        const filterValue = this.dataset.filter;
+        
+        // Filter projects
+        projects.forEach(project => {
+          if (filterValue === 'all') {
+            project.style.display = '';
+          } else {
+            const projectTypes = project.dataset.projectTypes || '';
+            if (projectTypes.includes(filterValue)) {
+              project.style.display = '';
+            } else {
+              project.style.display = 'none';
+            }
+          }
+        });
+      });
+    });
+  });
+</script>
+

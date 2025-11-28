@@ -1,0 +1,19 @@
+<footer class="site-footer box-border">
+  <div class="container">
+    <p>&copy; {{ "now" | dateDisplay("yyyy") }} {{ site.author }}.</p>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <ul>
+        {% for item in navigation.main %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% if item.title == "Projects" %}
+        <li><a href="/experiments/">Experiments</a></li>
+        {% endif %}
+        {% if item.title == "Contact" %}
+        <li><a href="/sitemap/">Sitemap</a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</footer>
+

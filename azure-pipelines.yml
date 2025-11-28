@@ -1,0 +1,47 @@
+# Azure Pipelines deployment workflow
+# Equivalent to .github/workflows/deploy.yml
+
+trigger:
+  branches:
+    include:
+      - master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  - group: deployment-variables
+
+steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '18.x'
+    displayName: 'Setup Node.js'
+
+  - script: |
+      npm ci
+    displayName: 'Install dependencies'
+
+  - script: |
+      npm run build
+    displayName: 'Build site'
+
+  - task: Bash@3
+    displayName: 'Sync files to VPS using rsync'
+    inputs:
+      targetType: 'inline'
+      script: |
+        set -e
+        
+        # Write SSH key to temporary file
+        echo "$(VPS_SSH_KEY)" > $(Agent.TempDirectory)/deploy_key
+        chmod 600 $(Agent.TempDirectory)/deploy_key
+        
+        # Sync files using rsync
+        rsync -avz --delete --no-owner --no-group \
+          -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i $(Agent.TempDirectory)/deploy_key" \
+          _site/ $(VPS_USER)@$(VPS_HOST):/var/www/alfredbaudisch.com/_site/
+        
+        # Clean up SSH key
+        rm -f $(Agent.TempDirectory)/deploy_key
+

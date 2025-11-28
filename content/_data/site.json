@@ -1,0 +1,23 @@
+{
+  "title": "Alfred Reinold Baudisch",
+  "titleMobile": "Alfred R. Baudisch",
+  "description": "Software engineer and DBA. 30+ years of experience, Elixir, Phoenix, PostgreSQL, Godot. 3D Artist (Blender). Hyper-learner. Copenhagen, DK.",
+  "url": "https://alfredbaudisch.com",
+  "author": "Alfred Reinold Baudisch",
+  "aboutImage": "/media/wp-content/2021/03/200205-Alfred-Koda-1-150x150.png",
+  "aboutImageAlt": "Alfred R. Baudisch and Koda",
+  "socialLinks": [
+    { "name": "Twitter", "url": "https://twitter.com/alfredbaudisch", "label": "Twitter" },
+    { "name": "Mastodon", "url": "https://mastodon.gamedev.place/@alfredbaudisch", "label": "Mastodon" },
+    { "name": "LinkedIn", "url": "https://www.linkedin.com/in/alfred-reinold-baudisch-6b1a731a/", "label": "LinkedIn" },
+    { "name": "GitHub", "url": "https://github.com/alfredbaudisch", "label": "GitHub" },
+    { "name": "Medium", "url": "https://alfredbaudisch.medium.com/", "label": "Medium" },
+    { "name": "YouTube", "url": "https://www.youtube.com/AlfredBaudischCreations", "label": "Projects Channel" },
+    { "name": "YouTube", "url": "https://youtube.com/alfredbaudisch", "label": "Personal Channel" },
+    { "name": "YouTube", "url": "https://youtube.com/pescadinamica", "label": "YouTube" },
+    { "name": "itch.io", "url": "https://splitpainter.itch.io/", "label": "Games and Tools" },
+    { "name": "Tumblr", "url": "https://alfredbaudisch.tumblr.com", "label": "Tumblr" },
+    { "name": "DeviantArt", "url": "https://www.deviantart.com/alfredbaudisch", "label": "DeviantArt" }
+  ]
+}
+

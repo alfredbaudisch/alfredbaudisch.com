@@ -1,0 +1,92 @@
+{% if categories or projectTypes or experimentTypes or projectStatus or projectStyles or logCategories or tools or tags %}
+<div class="taxonomy-section">
+  {% if categories %}
+  <div class="taxonomy-group">
+    <span class="taxonomy-label">Categories:</span>
+    <div class="taxonomy-tags">
+      {% for category in categories %}
+      <a href="/{{ category | slug }}/" class="taxonomy-tag category-tag">{{ category }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+  
+  {% if projectTypes %}
+  <div class="taxonomy-group">
+    <span class="taxonomy-label">Project Types:</span>
+    <div class="taxonomy-tags">
+      {% for type in projectTypes %}
+      <a href="/projects/{{ type | slug }}/" class="taxonomy-tag project-type">{{ type }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+  
+  {% if experimentTypes %}
+  <div class="taxonomy-group">
+    <span class="taxonomy-label">Experiment Types:</span>
+    <div class="taxonomy-tags">
+      {% for type in experimentTypes %}
+      <a href="/experiments/{{ type | slug }}/" class="taxonomy-tag experiment-type">{{ type }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+  
+  {% if logCategories %}
+  <div class="taxonomy-group">
+    <span class="taxonomy-label">Log Categories:</span>
+    <div class="taxonomy-tags">
+      {% for category in logCategories %}
+      <a href="/log-category/{{ category | slug }}/" class="taxonomy-tag log-category">{{ category }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if projectStyles %}
+  <div class="taxonomy-group">
+    <span class="taxonomy-label">Project Styles:</span>
+    <div class="taxonomy-tags">
+      {% for style in projectStyles %}
+      <a href="/project-style/{{ style | slug }}/" class="taxonomy-tag project-style">{{ style }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+  
+  {% if tools %}
+  <div class="taxonomy-group">
+    <span class="taxonomy-label">Tools:</span>
+    <div class="taxonomy-tags">
+      {% for tool in tools %}
+      <a href="/tools/{{ tool | slug }}/" class="taxonomy-tag tool">{{ tool }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if projectStatus %}
+  <div class="taxonomy-group">
+    <span class="taxonomy-label">Project Status:</span>
+    <div class="taxonomy-tags">
+      {% for status in projectStatus %}
+      <a href="/project-status/{{ status | slug }}/" class="taxonomy-tag project-status">{{ status }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+  
+  {% if tags %}
+  <div class="taxonomy-group">
+    <span class="taxonomy-label">Tags:</span>
+    <div class="taxonomy-tags">
+      {% for tag in tags %}
+      <a href="/tag/{{ tag | slug }}/" class="taxonomy-tag">{{ tag }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+</div>
+{% endif %}
+

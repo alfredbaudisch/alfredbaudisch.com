@@ -1,0 +1,75 @@
+---
+layout: layouts/base.njk
+---
+<article class="post project">
+  <div class="container">
+    {% set projectType = projectTypes[0] if projectTypes and projectTypes.length > 0 else null %}
+    {% set projectTypeSlug = projectType | slug if projectType else null %}
+    {% if projectType %}
+    {% set breadcrumbs = [
+      { title: "Projects", url: "/projects/" },
+      { title: projectType, url: "/projects/" + projectTypeSlug + "/" }
+    ] %}
+    {% else %}
+    {% set breadcrumbs = [
+      { title: "Projects", url: "/projects/" }
+    ] %}
+    {% endif %}
+    {% include "components/breadcrumbs.njk" %}
+    
+    <header>
+      <h1 class="post-title">{{ title }}</h1>
+      <div class="post-meta">
+        <time datetime="{{ date | dateISO }}">{{ date | dateDisplay("MMMM d, yyyy") }}</time>
+        {% if updated %}
+        <span class="updated">Updated: <time datetime="{{ updated | dateISO }}">{{ updated | dateDisplay("MMMM d, yyyy") }}</time></span>
+        {% endif %}
+      </div>
+
+      {% if featuredImage %}
+      <div class="post-featured-image">
+        <img src="{{ featuredImage }}" alt="{{ title }}" loading="lazy">
+      </div>
+      {% endif %}
+    </header>
+    
+    <div class="post-content">
+      {{ content | safe }}
+    </div>
+    
+    {% if processImage %}
+    <section class="process-section">
+      <h2>Process</h2>
+      <div class="process-image-wrapper">
+        <a href="{{ processImage }}" class="process-image-link" data-lightbox="process">
+          <img src="{{ processImage }}" alt="Process image for {{ title }}" loading="lazy">
+        </a>
+      </div>
+    </section>
+    {% endif %}
+    
+    {% if links and links.length > 0 %}
+    <section class="links-section">
+      <h2>Links</h2>
+      <ul class="links-list">
+        {% for link in links %}
+        <li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    
+    {% set projectSlug = page.filePathStem.split('/').slice(-2, -1)[0] %}
+    {% set relatedLogs = collections.projectLogs | getLogsByProject(projectSlug) %}
+    {% set sectionTitle = "Project Logs" %}
+    {% include "components/related-logs.njk" %}
+
+    {% if projectStyles or projectStatus or projectTypes or tools or tags %}
+    <footer class="post-footer">
+      {% include "macros/taxonomy.njk" %}
+    </footer>
+    {% endif %}
+  </div>
+</article>
+

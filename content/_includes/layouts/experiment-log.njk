@@ -1,0 +1,85 @@
+---
+layout: layouts/base.njk
+---
+<article class="post experiment-log">
+  <div class="container">
+    {% set experimentSlug = parentExperiment %}
+    {% set experiment = collections.experiments | findExperimentBySlug(experimentSlug) %}
+    {% set experimentType = experiment.data.experimentTypes[0] if experiment and experiment.data.experimentTypes and experiment.data.experimentTypes.length > 0 else null %}
+    {% set experimentTypeSlug = experimentType | slug if experimentType else null %}
+    {% if experimentType %}
+    {% set breadcrumbs = [
+      { title: "Experiments", url: "/experiments/" },
+      { title: experimentType, url: "/experiments/" + experimentTypeSlug + "/" },
+      { title: experiment.data.title if experiment else parentExperiment, url: experiment.url if experiment else "/experiments/" + parentExperiment + "/" },
+      { title: "Journal" }
+    ] %}
+    {% else %}
+    {% set breadcrumbs = [
+      { title: "Experiments", url: "/experiments/" },
+      { title: experiment.data.title if experiment else parentExperiment, url: experiment.url if experiment else "/experiments/" + parentExperiment + "/" },
+      { title: "Journal" }
+    ] %}
+    {% endif %}
+    {% include "components/breadcrumbs.njk" %}
+    
+    <header>
+      <h1 class="post-title">{{ title }}</h1>
+      <div class="post-meta">
+        <time datetime="{{ date | dateISO }}">{{ date | dateDisplay("MMMM d, yyyy") }}</time>
+        {% if updated %}
+        <span class="updated">Updated: <time datetime="{{ updated | dateISO }}">{{ updated | dateDisplay("MMMM d, yyyy") }}</time></span>
+        {% endif %}
+      </div>
+
+      {% if featuredImage %}
+      <div class="post-featured-image">
+        <img src="{{ featuredImage }}" alt="{{ title }}" loading="lazy">
+      </div>
+      {% endif %}
+    </header>
+    
+    <div class="post-content">
+      {{ content | safe }}
+    </div>
+    
+    {% if processImage %}
+    <section class="process-section">
+      <h2>Process</h2>
+      <div class="process-image-wrapper">
+        <a href="{{ processImage }}" class="process-image-link" data-lightbox="process">
+          <img src="{{ processImage }}" alt="Process image for {{ title }}" loading="lazy">
+        </a>
+      </div>
+    </section>
+    {% endif %}
+    
+    {% if links and links.length > 0 %}
+    <section class="links-section">
+      <h2>Links</h2>
+      <ul class="links-list">
+        {% for link in links %}
+        <li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+    
+    {% set relatedLogs = collections.experimentLogs | getLogsByExperiment(parentExperiment) %}
+    {% if experiment %}
+    {% set experimentName = experiment.data.title %}
+    {% set experimentUrl = experiment.url %}
+    {% else %}
+    {% set experimentName = parentExperiment %}
+    {% set experimentUrl = "/experiments/" + parentExperiment + "/" %}
+    {% endif %}
+    {% include "components/related-logs.njk" %}
+
+    {% if logCategories or tags %}
+    <footer class="post-footer">
+      {% include "macros/taxonomy.njk" %}
+    </footer>
+    {% endif %}
+  </div>
+</article>
+

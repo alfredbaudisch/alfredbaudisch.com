@@ -1,0 +1,83 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.taxonomyArchives
+  size: 1
+  alias: archive
+permalink: "{{ archive.url }}"
+eleventyComputed:
+  title: "{{ archive.taxonomyType | formatTaxonomyType }}: {{ archive.taxonomyValue }}"
+  taxonomyType: "{{ archive.taxonomyType }}"
+  taxonomyValue: "{{ archive.taxonomyValue }}"
+---
+
+<div class="container archive-page">
+  {% set archive = pagination.items[0] %}
+  <header>
+    <h1>{{ archive.taxonomyType | formatTaxonomyType }}: {{ archive.taxonomyValue }}</h1>
+  </header>
+  
+  {% set filteredItems = collections.allContent | filterByTaxonomy(archive.taxonomyType, archive.taxonomyValue) %}
+  
+  {% if filteredItems.length > 0 %}
+  <div class="archive-grid">
+    {% for item in filteredItems %}
+    <article class="content-card">
+      {% if item.data.featuredImageThumb %}
+      <a href="{{ item.url }}"><img src="{{ item.data.featuredImageThumb }}" alt="{{ item.data.title }}" class="content-card-image"></a>
+      {% elif item.data.featuredImage %}
+      <a href="{{ item.url }}"><img src="{{ item.data.featuredImage }}" alt="{{ item.data.title }}" class="content-card-image"></a>
+      {% endif %}
+      
+      <div class="content-card-body">
+        <h2 class="content-card-title">
+          <a href="{{ item.url }}">{{ item.data.title }}</a>
+        </h2>
+        
+        <div class="content-card-meta">
+          <time datetime="{{ item.data.date | dateISO }}">{{ item.data.date | dateDisplay("MMMM d, yyyy") }}</time>
+          {% if item.data.updated %}
+          <span class="updated">Updated: <time datetime="{{ item.data.updated | dateISO }}">{{ item.data.updated | dateDisplay("MMMM d, yyyy") }}</time></span>
+          {% endif %}
+        </div>
+        
+        {% if item.data.excerpt or item.templateContent %}
+        <p class="content-card-excerpt">
+          {{ item.data.excerpt or item.templateContent | striptags | truncate(150) }}
+        </p>
+        {% endif %}
+        
+        {% if item.data.type == 'post' and item.data.categories %}
+        <div class="taxonomy-tags">
+          {% for category in item.data.categories %}
+          <a href="/{{ category | slug }}/" class="taxonomy-tag">{{ category }}</a>
+          {% endfor %}
+        </div>
+        {% elif item.data.type == 'project' and item.data.projectTypes %}
+        <div class="taxonomy-tags">
+          {% for type in item.data.projectTypes %}
+          <a href="/projects/{{ type | slug }}/" class="taxonomy-tag project-type">{{ type }}</a>
+          {% endfor %}
+        </div>
+        {% elif item.data.type == 'experiment' and item.data.experimentTypes %}
+        <div class="taxonomy-tags">
+          {% for type in item.data.experimentTypes %}
+          <a href="/experiments/{{ type | slug }}/" class="taxonomy-tag experiment-type">{{ type }}</a>
+          {% endfor %}
+        </div>
+        {% elif (item.data.type == 'project-log' or item.data.type == 'experiment-log') and item.data.logCategories %}
+        <div class="taxonomy-tags">
+          {% for category in item.data.logCategories %}
+          <a href="/log-category/{{ category | slug }}/" class="taxonomy-tag log-category">{{ category }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p>No posts found for this {{ archive.taxonomyType }}.</p>
+  {% endif %}
+</div>
+

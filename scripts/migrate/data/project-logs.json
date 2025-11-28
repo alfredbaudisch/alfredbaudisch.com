@@ -1,0 +1,872 @@
+[
+  {
+    "id": 2636,
+    "date": "2023-03-05T19:10:23",
+    "date_gmt": "2023-03-05T18:10:23",
+    "guid": {
+      "rendered": "https://alfredbaudisch.com/?post_type=project-logs&#038;p=2636"
+    },
+    "modified": "2023-03-19T17:01:05",
+    "modified_gmt": "2023-03-19T16:01:05",
+    "slug": "making-my-simulator-indie-game-in-3-engines-br-food-sim-devlog-1",
+    "status": "publish",
+    "type": "project-logs",
+    "link": "https://alfredbaudisch.com/project-logs/making-my-simulator-indie-game-in-3-engines-br-food-sim-devlog-1/",
+    "title": {
+      "rendered": "Making my Simulator Indie Game in 3 Engines &#8211; BR Food Sim Devlog 1 - Brazilian Street Food Simulator (Games Projects)"
+    },
+    "content": {
+      "rendered": "\n<p>The first devlog of my game Brazilian Street Food Simulator is out!</p>\n\n\n\n<p>I talk about how for the past 6 months I lost my mind after the game went viral and getting choice paralysis between many concepts and engines. I&#8217;ve been making it with Unreal Engine, Godot and Unity at the same time.</p>\n\n\n\n<p><strong>Watch the devlog on <a href=\"https://www.youtube.com/watch?v=MIdwLRzjw18\">YouTube</a>.</strong></p>\n\n\n\n<h2 class=\"wp-block-heading\">Brazilian Portuguese</h2>\n\n\n\n<p>O 1º devlog do Brazilian Street Food Simulator está no ar!</p>\n\n\n\n<p>Eu falo sobre como fui a loucura depois do jogo ter ido viral e como o estou produzindo com 3 ENGINES AO MESMO TEMPO!</p>\n\n\n\n<p>O vídeo está em inglês, mas tem legendas em português!</p>\n\n\n\n<p>Assista ao <strong>devlog no <a href=\"https://www.youtube.com/watch?v=MIdwLRzjw18\">YouTube</a>.</strong></p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>The first devlog of my game Brazilian Street Food Simulator is out! I talk about how for the past 6&hellip; <a class=\"more-link\" href=\"https://alfredbaudisch.com/project-logs/making-my-simulator-indie-game-in-3-engines-br-food-sim-devlog-1/\">Continue reading <span class=\"screen-reader-text\">Making my Simulator Indie Game in 3 Engines &#8211; BR Food Sim Devlog 1 &#8211; Brazilian Street Food Simulator (Games Projects)</span></a></p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 2641,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": "",
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": "",
+      "project_log_parent_project": "2423"
+    },
+    "tags": [],
+    "project-style": [
+      129,
+      138
+    ],
+    "log-category": [
+      232
+    ],
+    "tool": [
+      137,
+      106,
+      108,
+      113,
+      199
+    ],
+    "class_list": [
+      "post-2636",
+      "project-logs",
+      "type-project-logs",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "project-style-gamedev",
+      "project-style-video",
+      "log-category-devlog",
+      "tool-adobe-premiere",
+      "tool-blender",
+      "tool-godot",
+      "tool-unity",
+      "tool-unreal-engine",
+      "entry"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v15.9.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Making my Simulator Indie Game in 3 Engines - BR Food Sim Devlog 1 - Alfred Reinold Baudisch</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<link rel=\"canonical\" href=\"https://alfredbaudisch.com/project-logs/making-my-simulator-indie-game-in-3-engines-br-food-sim-devlog-1/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Making my Simulator Indie Game in 3 Engines - BR Food Sim Devlog 1 - Alfred Reinold Baudisch\" />\n<meta property=\"og:description\" content=\"The first devlog of my game Brazilian Street Food Simulator is out! I talk about how for the past 6&hellip; Continue reading Making my Simulator Indie Game in 3 Engines &#8211; BR Food Sim Devlog 1 - Brazilian Street Food Simulator (Games Projects)\" />\n<meta property=\"og:url\" content=\"https://alfredbaudisch.com/project-logs/making-my-simulator-indie-game-in-3-engines-br-food-sim-devlog-1/\" />\n<meta property=\"og:site_name\" content=\"Alfred Reinold Baudisch\" />\n<meta property=\"article:modified_time\" content=\"2023-03-19T16:01:05+00:00\" />\n<meta property=\"og:image\" content=\"https://alfredbaudisch.com/wp-content/uploads/2023/03/DevlogBRFoodSim-Devlog1-v3-Screenshotsv2.jpg\" />\n\t<meta property=\"og:image:width\" content=\"1920\" />\n\t<meta property=\"og:image:height\" content=\"1080\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\">\n\t<meta name=\"twitter:data1\" content=\"1 minute\">\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Person\",\"Organization\"],\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\",\"name\":\"alfredbaudisch\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https://secure.gravatar.com/avatar/1084695a59f72a0bd2c732621bea4839?s=96&d=mm&r=g\",\"caption\":\"alfredbaudisch\"},\"logo\":{\"@id\":\"https://alfredbaudisch.com/#personlogo\"},\"sameAs\":[\"https://alfredbaudisch.com\"]},{\"@type\":\"WebSite\",\"@id\":\"https://alfredbaudisch.com/#website\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Alfred Reinold Baudisch\",\"description\":\"\",\"publisher\":{\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://alfredbaudisch.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/project-logs/making-my-simulator-indie-game-in-3-engines-br-food-sim-devlog-1/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https://alfredbaudisch.com/wp-content/uploads/2023/03/DevlogBRFoodSim-Devlog1-v3-Screenshotsv2.jpg\",\"width\":1920,\"height\":1080},{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/project-logs/making-my-simulator-indie-game-in-3-engines-br-food-sim-devlog-1/#webpage\",\"url\":\"https://alfredbaudisch.com/project-logs/making-my-simulator-indie-game-in-3-engines-br-food-sim-devlog-1/\",\"name\":\"Making my Simulator Indie Game in 3 Engines - BR Food Sim Devlog 1 - Alfred Reinold Baudisch\",\"isPartOf\":{\"@id\":\"https://alfredbaudisch.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://alfredbaudisch.com/project-logs/making-my-simulator-indie-game-in-3-engines-br-food-sim-devlog-1/#primaryimage\"},\"datePublished\":\"2023-03-05T18:10:23+00:00\",\"dateModified\":\"2023-03-19T16:01:05+00:00\",\"breadcrumb\":{\"@id\":\"https://alfredbaudisch.com/project-logs/making-my-simulator-indie-game-in-3-engines-br-food-sim-devlog-1/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://alfredbaudisch.com/project-logs/making-my-simulator-indie-game-in-3-engines-br-food-sim-devlog-1/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://alfredbaudisch.com/project-logs/making-my-simulator-indie-game-in-3-engines-br-food-sim-devlog-1/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/project-logs/\",\"url\":\"https://alfredbaudisch.com/project-logs/\",\"name\":\"Project Logs\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/project-logs/making-my-simulator-indie-game-in-3-engines-br-food-sim-devlog-1/\",\"url\":\"https://alfredbaudisch.com/project-logs/making-my-simulator-indie-game-in-3-engines-br-food-sim-devlog-1/\",\"name\":\"Making my Simulator Indie Game in 3 Engines &#8211; BR Food Sim Devlog 1 - Brazilian Street Food Simulator (Games Projects)\"}}]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs/2636"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/types/project-logs"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs/2636/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 2638,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs/2636/revisions/2638"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media/2641"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media?parent=2636"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tags?post=2636"
+        },
+        {
+          "taxonomy": "project-style",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-style?post=2636"
+        },
+        {
+          "taxonomy": "log-category",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/log-category?post=2636"
+        },
+        {
+          "taxonomy": "tool",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tool?post=2636"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 2629,
+    "date": "2023-03-03T11:26:28",
+    "date_gmt": "2023-03-03T10:26:28",
+    "guid": {
+      "rendered": "https://alfredbaudisch.com/?post_type=project-logs&#038;p=2629"
+    },
+    "modified": "2023-03-03T11:33:24",
+    "modified_gmt": "2023-03-03T10:33:24",
+    "slug": "godot-course-table-of-contents-dynamic-inventory-system",
+    "status": "publish",
+    "type": "project-logs",
+    "link": "https://alfredbaudisch.com/project-logs/godot-course-table-of-contents-dynamic-inventory-system/",
+    "title": {
+      "rendered": "Table of Contents from the Godot Course - Godot Course: Dynamic Inventory System and User Interfaces (Education Projects)"
+    },
+    "content": {
+      "rendered": "\n<p>This is the table of contents from the <a href=\"https://alfredbaudisch.com/projects/education/dynamic-inventory-system-and-user-interfaces-with-godot-course/\">Godot Course: Dynamic Inventory System and User Interfaces (Education Projects)</a>.</p>\n\n\n\n<h2 class=\"wp-block-heading\">01-Setup and Godot Concepts</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>01-001-Installation and Project Setup</li><li>01-002-Godot Editor Interface</li><li>01-003-Editor Settings</li><li>01-004-Scenes and Nodes</li><li>01-005-Controls, Anchors, Margins and Layouts</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">02-Creating the UI</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>02-001-Introduction</li><li>02-002-Starting the UIInventory Scene</li><li>02-003-Container Control Nodes</li><li>02-004-Placing a HBoxContainer</li><li>02-005-Understading Anchors and Margins</li><li>02-006-Adding the Items and Info Columns</li><li>02-007-Categories Header and Grid</li><li>02-008-Category Button Scene</li><li>02-009-Category Button Adjustments</li><li>02-010-Grid for Inventory Items</li><li>02-011-Reusable Button Frame Scene</li><li>02-012-Inventory Item Button Scene</li><li>02-013-Aligning the Navigation Arrows</li><li>02-014-Creating the Item Info Box</li><li>02-015-Rich Label for the Item Description</li><li>02-016-Custom UI Theme</li><li>02-017-Item and Equipment Stats Labels and Icons</li><li>02-018-Understanding Size Flags</li><li>02-019-Documentation Inside Godot</li><li>02-020-Equipment Slots and Complex UI Positioning</li><li>02-021-UI to any Screen Size and Keep Aspect Ratio</li><li>02-022-Context Menu and Setting Button Skinning</li><li>02-023-Placing the Context Menu</li><li>02-024-Understanding UI Scrolling in Godot</li><li>02-025-Placing the ScrollContainer to Scroll Inventory Items</li><li>02-026-Customizing and Hiding Scroll Bars</li><li>02-027-Inventory Full Screen and Title Header</li><li>02-028-Gold Counter</li><li>02-029-Character Level Progress Bar</li><li>02-030-Inventory Footer and Close Button</li><li>02-031-Importing the Sample Game and Tilemap Scene</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">03-GDScript Crash Course</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>03-001-Intro to GDScript for Programmers</li><li>03-002-Signals, Coroutines and Event-Based Programming</li><li>03-003-Building a Traffic Light with Godot to explore all features of GDScript</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">04-Godot Resources In-Depth and Inventory Data Model</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>04-001-Resources</li><li>04-002-Resources as Scriptable Objects</li><li>04-003-Why create custom Resources and Scriptable Objects</li><li>04-004-Coding EntityItem and our First Custom Resource</li><li>04-005-Creating More Item Resources</li><li>04-006-EntityPlayer and Player Resource</li><li>04-007-Game State with Singletons and Preloading Resources</li><li>04-008-Instantiating Custom Resources, Unique and Shared Resources</li><li>04-009-Inventory with Unique Item Instances and References</li><li>04-010-Multiple Item Categories in One with Category Displays</li><li>04-011-Importing the Sample Database and Creating a Big Inventory</li><li>04-012-Dynamically Loading Resources from a Directory</li><li>04-013-Indexing Items by Category</li><li>04-014-Counting Items from Multiple Categories</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">05-Dynamically Populating Inventory Grids and Scroll Animations</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>05-001-Planning a Pagination Based Scrolling (Infinite Scrolling)</li><li>05-002-Starting the Implementation of the Scrolling</li><li>05-003-Instantiating Grid Buttons for Inventory Items</li><li>05-004-Assigning EntityItem and Item Sprites to Buttons in the Grid</li><li>05-005-Splitting Items in Different Grid Pages</li><li>05-006-Calculating Page Size and Amount of Pages</li><li>05-007-Scrolling Left and Right by Jumping to Pages</li><li>05-008-Hiding Navigation Buttons In the First and Last Pages</li><li>05-009-Basic Scrolling Animation with an Animation Player</li><li>05-010-Coding the Scroll Forward Animation</li><li>05-011-Coding the Scroll Backwards Animation</li><li>05-012-Updating Navigation Params when the Animation Finishes</li><li>05-013-Splitting Items by Category with Dynamic Grids per Category</li><li>05-014-Code Hack to Fix the Scroll Animation Issue</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">06-Inventory Category Buttons (Category Displays)</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>06-001-Instantiating Category Buttons</li><li>06-002-Assigning the Icons of Categories to Buttons</li><li>06-003-Saving References to Category Display Pages and Nodes</li><li>06-004-Navigate to Category Page</li><li>06-005-Category Button States and Highlighting on Mouse Over</li><li>06-006-Active Category Displays</li><li>06-007-Label with the Name of the Active Category</li><li>06-008-Label Centered on Top of the Active Category</li><li>06-009-Category Label Movement with the Mouse</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">07-Item Info Box</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>07-001-Item Button Mouse Hover Border</li><li>07-002-Referencing the Nodes of the Info Box</li><li>07-003-Assigning Item Properties to the Info Box</li><li>07-004-Displaying Item Properties on Mouse Hover</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">08-Equipping and Unequipping Items</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>08-001-AnimationPlayer and Functions to Highlight Active Item Buttons</li><li>08-002-Highlighting Item Buttons on Click</li><li>08-003-Showing the Item Context Menu</li><li>08-004-Data Model for Equipped Items</li><li>08-005-Base Equip and Unequip Items Funcions</li><li>08-006-Custom Signals for Handling Item Equip Events</li><li>08-007-Item Equipped Background</li><li>08-008-Binding an Item to the Context Menu</li><li>08-009-Equip and Unequip Items with the Context Menu</li><li>08-010-Equipment Slots with Assigned Item Types</li><li>08-011-Fixing the Unequip Slot Callback</li><li>08-012-Showing the Icon of the Equipped Items</li><li>08-013-Automatically Unequip One Handed when Two Handed is Equipped</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">09-Acquiring and Picking Up Items</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>09-001-Adding New Items Into The Inventory</li><li>09-002-Reloading The Inventory Screen With New Items</li><li>09-003-Hiding And Showing The Inventory Screen In The Game</li><li>09-004-Pause The Game When The Inventory Is Open</li><li>09-005-Collectable Item Nodes And Adding To The Inventory</li></ul>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>This is the table of contents from the Godot Course: Dynamic Inventory System and User Interfaces (Education Projects). 01-Setup and&hellip; <a class=\"more-link\" href=\"https://alfredbaudisch.com/project-logs/godot-course-table-of-contents-dynamic-inventory-system/\">Continue reading <span class=\"screen-reader-text\">Table of Contents from the Godot Course &#8211; Godot Course: Dynamic Inventory System and User Interfaces (Education Projects)</span></a></p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": "",
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": "",
+      "project_log_parent_project": "1743"
+    },
+    "tags": [
+      169,
+      63,
+      220
+    ],
+    "project-style": [
+      129
+    ],
+    "log-category": [],
+    "tool": [
+      173,
+      108
+    ],
+    "class_list": [
+      "post-2629",
+      "project-logs",
+      "type-project-logs",
+      "status-publish",
+      "format-standard",
+      "hentry",
+      "tag-course",
+      "tag-godot",
+      "tag-godot-engine",
+      "project-style-gamedev",
+      "tool-gdscript",
+      "tool-godot",
+      "entry"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v15.9.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Table of Contents from the Godot Course - Alfred Reinold Baudisch</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<link rel=\"canonical\" href=\"https://alfredbaudisch.com/project-logs/godot-course-table-of-contents-dynamic-inventory-system/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Table of Contents from the Godot Course - Alfred Reinold Baudisch\" />\n<meta property=\"og:description\" content=\"This is the table of contents from the Godot Course: Dynamic Inventory System and User Interfaces (Education Projects). 01-Setup and&hellip; Continue reading Table of Contents from the Godot Course - Godot Course: Dynamic Inventory System and User Interfaces (Education Projects)\" />\n<meta property=\"og:url\" content=\"https://alfredbaudisch.com/project-logs/godot-course-table-of-contents-dynamic-inventory-system/\" />\n<meta property=\"og:site_name\" content=\"Alfred Reinold Baudisch\" />\n<meta property=\"article:modified_time\" content=\"2023-03-03T10:33:24+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\">\n\t<meta name=\"twitter:data1\" content=\"3 minutes\">\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Person\",\"Organization\"],\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\",\"name\":\"alfredbaudisch\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https://secure.gravatar.com/avatar/1084695a59f72a0bd2c732621bea4839?s=96&d=mm&r=g\",\"caption\":\"alfredbaudisch\"},\"logo\":{\"@id\":\"https://alfredbaudisch.com/#personlogo\"},\"sameAs\":[\"https://alfredbaudisch.com\"]},{\"@type\":\"WebSite\",\"@id\":\"https://alfredbaudisch.com/#website\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Alfred Reinold Baudisch\",\"description\":\"\",\"publisher\":{\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://alfredbaudisch.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/project-logs/godot-course-table-of-contents-dynamic-inventory-system/#webpage\",\"url\":\"https://alfredbaudisch.com/project-logs/godot-course-table-of-contents-dynamic-inventory-system/\",\"name\":\"Table of Contents from the Godot Course - Alfred Reinold Baudisch\",\"isPartOf\":{\"@id\":\"https://alfredbaudisch.com/#website\"},\"datePublished\":\"2023-03-03T10:26:28+00:00\",\"dateModified\":\"2023-03-03T10:33:24+00:00\",\"breadcrumb\":{\"@id\":\"https://alfredbaudisch.com/project-logs/godot-course-table-of-contents-dynamic-inventory-system/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://alfredbaudisch.com/project-logs/godot-course-table-of-contents-dynamic-inventory-system/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://alfredbaudisch.com/project-logs/godot-course-table-of-contents-dynamic-inventory-system/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/project-logs/\",\"url\":\"https://alfredbaudisch.com/project-logs/\",\"name\":\"Project Logs\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/project-logs/godot-course-table-of-contents-dynamic-inventory-system/\",\"url\":\"https://alfredbaudisch.com/project-logs/godot-course-table-of-contents-dynamic-inventory-system/\",\"name\":\"Table of Contents from the Godot Course - Godot Course: Dynamic Inventory System and User Interfaces (Education Projects)\"}}]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs/2629"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/types/project-logs"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 3,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs/2629/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 2634,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs/2629/revisions/2634"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media?parent=2629"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tags?post=2629"
+        },
+        {
+          "taxonomy": "project-style",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-style?post=2629"
+        },
+        {
+          "taxonomy": "log-category",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/log-category?post=2629"
+        },
+        {
+          "taxonomy": "tool",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tool?post=2629"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1910,
+    "date": "2022-04-30T14:53:51",
+    "date_gmt": "2022-04-30T12:53:51",
+    "guid": {
+      "rendered": "https://alfredbaudisch.com/?post_type=project-logs&#038;p=1910"
+    },
+    "modified": "2022-05-01T06:41:32",
+    "modified_gmt": "2022-05-01T04:41:32",
+    "slug": "game-development-documentaries-and-game-jams-interview-with-phil-strahl-pixel-prophecy",
+    "status": "publish",
+    "type": "project-logs",
+    "link": "https://alfredbaudisch.com/project-logs/game-development-documentaries-and-game-jams-interview-with-phil-strahl-pixel-prophecy/",
+    "title": {
+      "rendered": "Game Development Documentaries and Game Jams &#8211; Interview with Phil Strahl (Pixel Prophecy) - Indie Gamedev Podcast (Education Projects)"
+    },
+    "content": {
+      "rendered": "\n<p>He&#8217;s a creative mastermind, he makes high production indie game development videos and documentaries that can take as much as 400 hours of work. He makes music, costumes, art, programming, and more. In this podcast, Phil Strahl, from Pixel Prophecy.</p>\n\n\n\n<p>He participates in game jams, especially Ludum Dare and records everything, producing eye catching and engaging documentaries &#8211; &#8220;Pixel Prophecy &#8211; Videos About Making Games&#8221;.</p>\n\n\n\n<figure class=\"wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Game Development Documentaries and Game Jams - Interview with Phil Strahl (Pixel Prophecy)\" width=\"750\" height=\"422\" src=\"https://www.youtube.com/embed/vcUND7iCFtA?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Links</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>Watch and listen to the episode <a href=\"https://youtu.be/vcUND7iCFtA\">on YouTube</a></li><li>Pixel Prophecy YouTube: <a href=\"https://www.youtube.com/c/pixelprophecy\">https://www.youtube.com/c/pixelprophecy</a></li><li>Pixel Prophecy Patreon: <a href=\"https://www.patreon.com/pixelprophecy\">https://www.patreon.com/pixelprophecy</a></li><li>Twitter: <a href=\"https://twitter.com/PixelProphecy\">https://twitter.com/PixelProphecy</a></li><li>Phil&#8217;s Ludum Dare games: <a href=\"https://ldjam.com/users/philstrahl/games\">https://ldjam.com/users/philstrahl/games</a></li><li>LDJam poster: <a href=\"https://www.patreon.com/posts/theme-always-18279566\">https://www.patreon.com/posts/theme-always-18279566</a></li><li>Fine Sweeper on Steam: <a href=\"https://store.steampowered.com/app/367000/Fine_Sweeper/\">https://store.steampowered.com/app/367000/Fine_Sweeper/</a></li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">Other links mentioned in the video</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>Ludum Dare Game Jam: <a href=\"https://ldjam.com/\">https://ldjam.com/</a></li><li>Reaper DAW: <a href=\"https://www.reaper.fm/\">https://www.reaper.fm/</a></li><li>Reason DAW: <a href=\"https://www.reasonstudios.com/en/reason\">https://www.reasonstudios.com/en/reason</a></li><li>Unreal Engine: <a href=\"https://www.unrealengine.com/\">https://www.unrealengine.com/</a></li><li>Unity: <a href=\"https://unity.com/\">https://unity.com/</a></li><li>Godot: <a href=\"https://godotengine.org/\">https://godotengine.org/</a></li><li>Alfred&#8217;s game, Kaoamaru Kaiju: <a href=\"https://splitpainter.itch.io/kaoamaru-kaiju\">https://splitpainter.itch.io/kaoamaru-kaiju</a></li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">Table of Contents</h2>\n\n\n\n<p>00:00:00 Introduction<br>00:00:39 Can you give us a quick introduction about yourself?<br>00:01:09 Where do you live?<br>00:01:32 How to pronounce your name?<br>00:01:59 Phil Strahl vs Pixel Prophecy<br>00:02:51 Do you work with games full-time?<br>00:03:33 What is your field of work? Gamedev at work?<br>00:04:54 When and how did you start making games?<br>00:10:41 Move from programming to colorist<br>00:15:39 When did you start making music?<br>00:21:05 Catchy music from the game Rampage<br>00:22:00 Creating what you love vs popular opinion<br>00:24:01 &#8220;Create for yourself, not for others&#8221;<br>00:25:10 &#8220;Indie Games and originality, innovation, passion&#8221;<br>00:27:20 Van Gogh and Indie Games<br>00:29:00 How do your create game development docs and videos?<br>00:39:15 How to make video editing fun?<br>00:44:44 How long does it take to make documentaries?<br>00:48:50 Finishing things is very important<br>00:51:40 Gamedev and Game Jams as an Excuse to Make Things<br>00:59:31 Most memorable Game Jam<br>01:03:20 Have you ever liked a Game Jam theme?<br>01:04:23 &#8220;Open-ended game ideas, limitations, overthinking&#8221;<br>01:08:16 &#8220;Artist&#8217;s Dilemma, finding our own twist&#8221;<br>01:11:58 Complexity when Making Games<br>01:13:57 Releasing a Commercial Game as Indie<br>01:15:27 Finished not Perfect Indie Game<br>01:16:27 Building a Game from Scratch<br>01:21:01 Indie game marketing<br>01:22:33 Curiosity: Erlang Language<br>01:24:15 Curiosity: Alfred&#8217;s name German pronunciation<br>01:25:18 What is your favorite DAW Digital Audio Workstation?<br>01:27:20 Favorite video editing software<br>01:29:05 Favorite Game Engine<br>01:31:54 Unreal Engine and Godot<br>01:34:00 Speaking of Unity<br>01:35:58 Tips to those starting to make games<br>01:38:15 Closing words</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>He&#8217;s a creative mastermind, he makes high production indie game development videos and documentaries that can take as much as&hellip; <a class=\"more-link\" href=\"https://alfredbaudisch.com/project-logs/game-development-documentaries-and-game-jams-interview-with-phil-strahl-pixel-prophecy/\">Continue reading <span class=\"screen-reader-text\">Game Development Documentaries and Game Jams &#8211; Interview with Phil Strahl (Pixel Prophecy) &#8211; Indie Gamedev Podcast (Education Projects)</span></a></p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 1903,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": "",
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": "",
+      "project_log_parent_project": "1898"
+    },
+    "tags": [
+      190
+    ],
+    "project-style": [
+      189,
+      129,
+      138
+    ],
+    "log-category": [
+      192,
+      191
+    ],
+    "tool": [
+      137,
+      110
+    ],
+    "class_list": [
+      "post-1910",
+      "project-logs",
+      "type-project-logs",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "tag-podcast",
+      "project-style-audio",
+      "project-style-gamedev",
+      "project-style-video",
+      "log-category-episode",
+      "log-category-interview",
+      "tool-adobe-premiere",
+      "tool-photoshop",
+      "entry"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v15.9.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Game Development Documentaries and Game Jams - Interview with Phil Strahl (Pixel Prophecy) - Alfred Reinold Baudisch</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<link rel=\"canonical\" href=\"https://alfredbaudisch.com/project-logs/game-development-documentaries-and-game-jams-interview-with-phil-strahl-pixel-prophecy/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Game Development Documentaries and Game Jams - Interview with Phil Strahl (Pixel Prophecy) - Alfred Reinold Baudisch\" />\n<meta property=\"og:description\" content=\"He&#8217;s a creative mastermind, he makes high production indie game development videos and documentaries that can take as much as&hellip; Continue reading Game Development Documentaries and Game Jams &#8211; Interview with Phil Strahl (Pixel Prophecy) - Indie Gamedev Podcast (Education Projects)\" />\n<meta property=\"og:url\" content=\"https://alfredbaudisch.com/project-logs/game-development-documentaries-and-game-jams-interview-with-phil-strahl-pixel-prophecy/\" />\n<meta property=\"og:site_name\" content=\"Alfred Reinold Baudisch\" />\n<meta property=\"article:modified_time\" content=\"2022-05-01T04:41:32+00:00\" />\n<meta property=\"og:image\" content=\"https://alfredbaudisch.com/wp-content/uploads/2022/04/Podcast-PhilStrahl-PixelProphecy.jpg\" />\n\t<meta property=\"og:image:width\" content=\"1920\" />\n\t<meta property=\"og:image:height\" content=\"1080\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\">\n\t<meta name=\"twitter:data1\" content=\"2 minutes\">\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Person\",\"Organization\"],\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\",\"name\":\"alfredbaudisch\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https://secure.gravatar.com/avatar/1084695a59f72a0bd2c732621bea4839?s=96&d=mm&r=g\",\"caption\":\"alfredbaudisch\"},\"logo\":{\"@id\":\"https://alfredbaudisch.com/#personlogo\"},\"sameAs\":[\"https://alfredbaudisch.com\"]},{\"@type\":\"WebSite\",\"@id\":\"https://alfredbaudisch.com/#website\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Alfred Reinold Baudisch\",\"description\":\"\",\"publisher\":{\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://alfredbaudisch.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/project-logs/game-development-documentaries-and-game-jams-interview-with-phil-strahl-pixel-prophecy/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https://alfredbaudisch.com/wp-content/uploads/2022/04/Podcast-PhilStrahl-PixelProphecy.jpg\",\"width\":1920,\"height\":1080},{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/project-logs/game-development-documentaries-and-game-jams-interview-with-phil-strahl-pixel-prophecy/#webpage\",\"url\":\"https://alfredbaudisch.com/project-logs/game-development-documentaries-and-game-jams-interview-with-phil-strahl-pixel-prophecy/\",\"name\":\"Game Development Documentaries and Game Jams - Interview with Phil Strahl (Pixel Prophecy) - Alfred Reinold Baudisch\",\"isPartOf\":{\"@id\":\"https://alfredbaudisch.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://alfredbaudisch.com/project-logs/game-development-documentaries-and-game-jams-interview-with-phil-strahl-pixel-prophecy/#primaryimage\"},\"datePublished\":\"2022-04-30T12:53:51+00:00\",\"dateModified\":\"2022-05-01T04:41:32+00:00\",\"breadcrumb\":{\"@id\":\"https://alfredbaudisch.com/project-logs/game-development-documentaries-and-game-jams-interview-with-phil-strahl-pixel-prophecy/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://alfredbaudisch.com/project-logs/game-development-documentaries-and-game-jams-interview-with-phil-strahl-pixel-prophecy/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://alfredbaudisch.com/project-logs/game-development-documentaries-and-game-jams-interview-with-phil-strahl-pixel-prophecy/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/project-logs/\",\"url\":\"https://alfredbaudisch.com/project-logs/\",\"name\":\"Project Logs\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/project-logs/game-development-documentaries-and-game-jams-interview-with-phil-strahl-pixel-prophecy/\",\"url\":\"https://alfredbaudisch.com/project-logs/game-development-documentaries-and-game-jams-interview-with-phil-strahl-pixel-prophecy/\",\"name\":\"Game Development Documentaries and Game Jams &#8211; Interview with Phil Strahl (Pixel Prophecy) - Indie Gamedev Podcast (Education Projects)\"}}]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs/1910"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/types/project-logs"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 5,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs/1910/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 1923,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs/1910/revisions/1923"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media/1903"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media?parent=1910"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tags?post=1910"
+        },
+        {
+          "taxonomy": "project-style",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-style?post=1910"
+        },
+        {
+          "taxonomy": "log-category",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/log-category?post=1910"
+        },
+        {
+          "taxonomy": "tool",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tool?post=1910"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1906,
+    "date": "2022-04-30T11:44:52",
+    "date_gmt": "2022-04-30T09:44:52",
+    "guid": {
+      "rendered": "https://alfredbaudisch.com/?post_type=project-logs&#038;p=1906"
+    },
+    "modified": "2022-04-30T11:55:26",
+    "modified_gmt": "2022-04-30T09:55:26",
+    "slug": "northern-journey-indie-skyrim-game-made-by-one-person-interview-with-slid-studio",
+    "status": "publish",
+    "type": "project-logs",
+    "link": "https://alfredbaudisch.com/project-logs/northern-journey-indie-skyrim-game-made-by-one-person-interview-with-slid-studio/",
+    "title": {
+      "rendered": "Northern Journey &#8220;Indie Skyrim&#8221; Game Made by One Person &#8211; Interview with Slid Studio - Indie Gamedev Podcast (Education Projects)"
+    },
+    "content": {
+      "rendered": "\n<p>He didn&#8217;t know how to make games, but by improvising every aspect of game development, he made and published an ambitious 3D game.</p>\n\n\n\n<figure class=\"wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Northern Journey &quot;Indie Skyrim&quot; Game Made by One Person - Interview with Slid Studio\" width=\"750\" height=\"422\" src=\"https://www.youtube.com/embed/buA49oOboNA?list=PLqYboeh3Jru49ycXI57lQdmpEmApQWrSh\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div></figure>\n\n\n\n<p>He didn&#8217;t know programming, he didn&#8217;t know any game engine and he didn&#8217;t know how to make art for games. But he wanted to make the game of his dreams, an FPS game. Three years later, he finished and shipped the game Northern Journey, a 3D game with interconnected levels, whimsical characters, and hypnotizing music, made with Unreal Engine 4 (Blueprints) and Blender. Currently a success on Steam.</p>\n\n\n\n<p>In this podcast, I interviewed Øystein from Slid Studios in Norway, a Solo Indie Game Developer, where he talks about his unique journey while developing the Northern Journey from scratch, with no planning and no schedules. Did you know that he learned and made everything from scratch, including every asset, texture, sound, and more? Not only that, before making the game he spent 10 years making an indie movie.</p>\n\n\n\n<p>This interview is packed with valuable insights for those that want to go big without giving up and without burning out when making indie games.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Links</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>Watch and listen to the episode <a href=\"https://www.youtube.com/watch?v=buA49oOboNA&amp;list=PLqYboeh3Jru49ycXI57lQdmpEmApQWrSh\">on YouTube</a></li><li>The Northern Journey: <a href=\"https://store.steampowered.com/app/1639790/Northern_Journey/\">https://store.steampowered.com/app/1639790/Northern_Journey/</a></li><li>Slid Studio YouTube: <a href=\"https://www.youtube.com/channel/UCNBzq8B9E84RoCbsgUAmeBw\">https://www.youtube.com/channel/UCNBzq8B9E84RoCbsgUAmeBw</a></li><li>Slid Studio Twitter: <a href=\"https://twitter.com/slidstudio\">https://twitter.com/slidstudio</a></li><li>Making my Game as a Single Dev (Northern Journey, Unreal Engine 4, Norway): <a href=\"https://www.youtube.com/watch?v=lIjt1mKWn4o\">https://www.youtube.com/watch?v=lIjt1mKWn4o</a></li><li>The Death of Balder: <a href=\"https://www.youtube.com/watch?v=pUvVRBFFfbI\">https://www.youtube.com/watch?v=pUvVRBFFfbI</a></li><li>Renoise: <a href=\"https://www.renoise.com/\">https://www.renoise.com/</a></li><li>Blender: <a href=\"https://www.blender.org/\">https://www.blender.org/</a></li><li>Unreal Engine (UE4 e UE5): <a href=\"https://www.unrealengine.com/\">https://www.unrealengine.com/</a></li><li>Audacity: <a href=\"https://github.com/audacity/audacity\">https://github.com/audacity/audacity</a></li></ul>\n\n\n\n<p>The Northern Journey is set on a vast landscape inspired by the Norwegian fjords, with a story based on Nordic and Scandinavian folklore and tales, where you hold medieval weapons.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Table of Contents</h2>\n\n\n\n<p>00:00:00 &#8211; Introduction<br>00:00:44 &#8211; Øystein Introduction<br>00:01:10 &#8211; What is The Northern Journey?<br>00:02:32 &#8211; Is it an RPG FPS or Exploration FPS?<br>00:03:50 &#8211; Is the game based in Norway?<br>00:04:41 &#8211; What is your favorite thing in the game?<br>00:05:32 &#8211; Holistic Game Dev<br>00:08:42 &#8211; Did holistic help save money?<br>00:09:24 &#8211; Take a lot of texture photos<br>00:10:49 &#8211; How long did it take you to complete the game?<br>00:11:09 &#8211; Did you work full-time on the game?<br>00:11:40 &#8211; Where to buy the game?<br>00:12:54 &#8211; Making a Movie alone The Death of Balder<br>00:14:50 &#8211; How many years to make the movie?<br>00:16:27 &#8211; Make from start to finish and finish it<br>00:17:12 &#8211; The Northern Journey proof of concept prototype<br>00:21:10 &#8211; How much time to make the prototype?<br>00:22:11 &#8211; Planning the game and schedule milestones<br>00:24:59 &#8211; Improvising Game and Level Design<br>00:27:49 &#8211; Creating immersive big levels<br>00:30:16 &#8211; Gameplay backtracking in big levels<br>00:32:29 &#8211; Creature, enemy, and NPC design<br>00:34:04 &#8211; How to make unique characters?<br>00:35:31 &#8211; Why does the game have so many spiders?<br>00:37:53 &#8211; Game Music and OST<br>00:41:17 &#8211; Is the game successful?<br>00:43:24 &#8211; Additional sources of income<br>00:44:46 &#8211; No lights in the game?<br>00:47:35 &#8211; DAW Software (Music Production)<br>00:48:48 &#8211; Any plans to move to UE5?<br>00:50:28 &#8211; Drawing tablet<br>00:50:40 &#8211; Why Blender 2.79 and not 2.8+?<br>00:52:27 &#8211; Risk of failing: make the game for yourself or for the market?<br>00:55:37 &#8211; New game and future plans<br>00:58:03 &#8211; Game Making as a vehicle of Art Making<br>01:03:04 &#8211; How to focus while working on a big game?<br>01:06:14 &#8211; Where to follow your work?<br>01:07:39 &#8211; Final advice &#8211; don&#8217;t make games, but…<br>01:08:01 &#8211; Make small games or the game of your dreams?<br>01:10:27 &#8211; Conclusion<br>01:10:55 &#8211; Support the Podcast</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>He didn&#8217;t know how to make games, but by improvising every aspect of game development, he made and published an&hellip; <a class=\"more-link\" href=\"https://alfredbaudisch.com/project-logs/northern-journey-indie-skyrim-game-made-by-one-person-interview-with-slid-studio/\">Continue reading <span class=\"screen-reader-text\">Northern Journey &#8220;Indie Skyrim&#8221; Game Made by One Person &#8211; Interview with Slid Studio &#8211; Indie Gamedev Podcast (Education Projects)</span></a></p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 1902,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": "",
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": "",
+      "project_log_parent_project": "1898"
+    },
+    "tags": [
+      190
+    ],
+    "project-style": [
+      189,
+      129,
+      138
+    ],
+    "log-category": [
+      192,
+      191
+    ],
+    "tool": [
+      137,
+      110
+    ],
+    "class_list": [
+      "post-1906",
+      "project-logs",
+      "type-project-logs",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "tag-podcast",
+      "project-style-audio",
+      "project-style-gamedev",
+      "project-style-video",
+      "log-category-episode",
+      "log-category-interview",
+      "tool-adobe-premiere",
+      "tool-photoshop",
+      "entry"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v15.9.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Northern Journey &quot;Indie Skyrim&quot; Game Made by One Person - Interview with Slid Studio - Alfred Reinold Baudisch</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<link rel=\"canonical\" href=\"https://alfredbaudisch.com/project-logs/northern-journey-indie-skyrim-game-made-by-one-person-interview-with-slid-studio/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Northern Journey &quot;Indie Skyrim&quot; Game Made by One Person - Interview with Slid Studio - Alfred Reinold Baudisch\" />\n<meta property=\"og:description\" content=\"He didn&#8217;t know how to make games, but by improvising every aspect of game development, he made and published an&hellip; Continue reading Northern Journey &#8220;Indie Skyrim&#8221; Game Made by One Person &#8211; Interview with Slid Studio - Indie Gamedev Podcast (Education Projects)\" />\n<meta property=\"og:url\" content=\"https://alfredbaudisch.com/project-logs/northern-journey-indie-skyrim-game-made-by-one-person-interview-with-slid-studio/\" />\n<meta property=\"og:site_name\" content=\"Alfred Reinold Baudisch\" />\n<meta property=\"article:modified_time\" content=\"2022-04-30T09:55:26+00:00\" />\n<meta property=\"og:image\" content=\"https://alfredbaudisch.com/wp-content/uploads/2022/04/Podcast-NorthernJourney-5-with-title.jpg\" />\n\t<meta property=\"og:image:width\" content=\"1920\" />\n\t<meta property=\"og:image:height\" content=\"1080\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\">\n\t<meta name=\"twitter:data1\" content=\"3 minutes\">\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Person\",\"Organization\"],\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\",\"name\":\"alfredbaudisch\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https://secure.gravatar.com/avatar/1084695a59f72a0bd2c732621bea4839?s=96&d=mm&r=g\",\"caption\":\"alfredbaudisch\"},\"logo\":{\"@id\":\"https://alfredbaudisch.com/#personlogo\"},\"sameAs\":[\"https://alfredbaudisch.com\"]},{\"@type\":\"WebSite\",\"@id\":\"https://alfredbaudisch.com/#website\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Alfred Reinold Baudisch\",\"description\":\"\",\"publisher\":{\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://alfredbaudisch.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/project-logs/northern-journey-indie-skyrim-game-made-by-one-person-interview-with-slid-studio/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https://alfredbaudisch.com/wp-content/uploads/2022/04/Podcast-NorthernJourney-5-with-title.jpg\",\"width\":1920,\"height\":1080},{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/project-logs/northern-journey-indie-skyrim-game-made-by-one-person-interview-with-slid-studio/#webpage\",\"url\":\"https://alfredbaudisch.com/project-logs/northern-journey-indie-skyrim-game-made-by-one-person-interview-with-slid-studio/\",\"name\":\"Northern Journey \\\"Indie Skyrim\\\" Game Made by One Person - Interview with Slid Studio - Alfred Reinold Baudisch\",\"isPartOf\":{\"@id\":\"https://alfredbaudisch.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://alfredbaudisch.com/project-logs/northern-journey-indie-skyrim-game-made-by-one-person-interview-with-slid-studio/#primaryimage\"},\"datePublished\":\"2022-04-30T09:44:52+00:00\",\"dateModified\":\"2022-04-30T09:55:26+00:00\",\"breadcrumb\":{\"@id\":\"https://alfredbaudisch.com/project-logs/northern-journey-indie-skyrim-game-made-by-one-person-interview-with-slid-studio/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://alfredbaudisch.com/project-logs/northern-journey-indie-skyrim-game-made-by-one-person-interview-with-slid-studio/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://alfredbaudisch.com/project-logs/northern-journey-indie-skyrim-game-made-by-one-person-interview-with-slid-studio/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/project-logs/\",\"url\":\"https://alfredbaudisch.com/project-logs/\",\"name\":\"Project Logs\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/project-logs/northern-journey-indie-skyrim-game-made-by-one-person-interview-with-slid-studio/\",\"url\":\"https://alfredbaudisch.com/project-logs/northern-journey-indie-skyrim-game-made-by-one-person-interview-with-slid-studio/\",\"name\":\"Northern Journey &#8220;Indie Skyrim&#8221; Game Made by One Person &#8211; Interview with Slid Studio - Indie Gamedev Podcast (Education Projects)\"}}]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs/1906"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/types/project-logs"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 3,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs/1906/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 1920,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs/1906/revisions/1920"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media/1902"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media?parent=1906"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tags?post=1906"
+        },
+        {
+          "taxonomy": "project-style",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-style?post=1906"
+        },
+        {
+          "taxonomy": "log-category",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/log-category?post=1906"
+        },
+        {
+          "taxonomy": "tool",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tool?post=1906"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1901,
+    "date": "2022-04-30T11:39:27",
+    "date_gmt": "2022-04-30T09:39:27",
+    "guid": {
+      "rendered": "https://alfredbaudisch.com/?post_type=project-logs&#038;p=1901"
+    },
+    "modified": "2022-04-30T11:54:55",
+    "modified_gmt": "2022-04-30T09:54:55",
+    "slug": "make-money-with-indie-games-realistically-jake-birkett-interview",
+    "status": "publish",
+    "type": "project-logs",
+    "link": "https://alfredbaudisch.com/project-logs/make-money-with-indie-games-realistically-jake-birkett-interview/",
+    "title": {
+      "rendered": "Make Money with Indie Games Realistically &#8211; Jake Birkett Interview - Indie Gamedev Podcast (Education Projects)"
+    },
+    "content": {
+      "rendered": "\n<p>Interview in English. In this podcast with Jake Birkett from Grey Alien Games, we talk about how to work full-time with indie game development, how to make money with small and casual games, and how to survive in the long run in this industry. NOTICE: the English subtitles are auto-generated &#8211; Full-time Indie Game Developer for 16 Years.</p>\n\n\n\n<figure class=\"wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Como Ganhar Dinheiro com Jogos Indie Realisticamente - Entrevista Jake Birkett (Gamedev Podcast)\" width=\"750\" height=\"422\" src=\"https://www.youtube.com/embed/KooZ-H72i7Q?list=PLqYboeh3Jru49ycXI57lQdmpEmApQWrSh\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Additional info</h2>\n\n\n\n<p>Jake Birkett has 16 years of experience as an independent game developer, 13 published commercial games. Jake is an authority in the indie games and casual games market.</p>\n\n\n\n<p>Is it possible to develop your own games and make money with them? How to not go bankrupt with game development?</p>\n\n\n\n<h2 class=\"wp-block-heading\">Links</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>Watch and hear the episode <a href=\"https://www.youtube.com/watch?v=KooZ-H72i7Q&amp;list=PLqYboeh3Jru49ycXI57lQdmpEmApQWrSh\">on YouTube</a></li><li><a href=\"https://podcasts.apple.com/us/podcast/make-money-with-indie-games-realistically-surviving-16/id1604814201?i=1000547780239\">Apple Podcast</a></li><li><a href=\"https://open.spotify.com/episode/5ljoCgIiSbb7nlseTNG9OH\">Spotify</a></li><li>Grey Alien Games Steam: <a href=\"https://store.steampowered.com/developer/GreyAlienGames\">https://store.steampowered.com/developer/GreyAlienGames</a></li><li>Itch: <a href=\"https://greyaliengames.itch.io/\">https://greyaliengames.itch.io/</a></li><li>Twitter: <a href=\"https://twitter.com/GreyAlien\">https://twitter.com/GreyAlien</a></li><li>Site: <a href=\"https://www.greyaliengames.com/\">https://www.greyaliengames.com/</a></li><li>Patreon: <a href=\"https://www.patreon.com/GreyAlien\">https://www.patreon.com/GreyAlien</a></li><li>YouTube: <a href=\"https://www.youtube.com/JakeBirkett\">https://www.youtube.com/JakeBirkett</a></li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">Videos and articles</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>You are spending too long making your game: <a href=\"https://www.youtube.com/watch?v=XmIFaAU0mJg\">https://www.youtube.com/watch?v=XmIFaAU0mJg</a></li><li>You&#8217;re Spending Too Long Making Your Game | Jake Birkett: <a href=\"https://www.youtube.com/watch?v=HkEE5pvQOR8\">https://www.youtube.com/watch?v=HkEE5pvQOR8</a></li><li>How to Survive in Gamedev for Eleven Years Without a Hit: <a href=\"https://www.youtube.com/watch?v=JmwbYl6f11c\">https://www.youtube.com/watch?v=JmwbYl6f11c</a></li><li>T-Minus 30 interview with Jake Birkett: <a href=\"https://www.youtube.com/watch?v=_iEcjQNeK8I\">https://www.youtube.com/watch?v=_iEcjQNeK8I</a></li><li>Lessons From 10+ Years Fulltime Indie Dev | Jake Birkett (Grey Alien Games) | MGD #28: <a href=\"https://www.youtube.com/watch?v=yBpXAEaWZT0\">https://www.youtube.com/watch?v=yBpXAEaWZT0</a></li><li>TBoIG 2018: Jake Birkett &#8211; Make Money from Small Indie Games: You Don&#8217;t Need a Huge Hit: <a href=\"https://www.youtube.com/watch?v=xTZdNVeApTM\">https://www.youtube.com/watch?v=xTZdNVeApTM</a></li><li>Are Casual Games Recession Proof?: <a href=\"http://greyaliengames.com/blog/are-casual-games-recession-proof/\">http://greyaliengames.com/blog/are-casual-games-recession-proof/</a></li></ul>\n\n\n\n<h3 class=\"wp-block-heading\">Table of Contents</h3>\n\n\n\n<p>00:00 &#8211; Introduction<br>00:46 &#8211; Who is Jake Birkett and Grey Alien Games?<br>02:38 &#8211; Full-time indie, rich and famous<br>06:02 &#8211; Jake&#8217;s Games<br>08:41 &#8211; How to have game ideas?<br>12:33 &#8211; Finish or abandon projects?<br>14:17 &#8211; How to deal with ambitious game ideas?<br>15:32 &#8211; Your first game must be small<br>17:23 &#8211; How to cover the costs of game development?<br>20:51 &#8211; Chances of having a hit (&#8220;Notch factor&#8221;)<br>21:35 &#8211; Make games or earn a salary from a job?<br>22:37 &#8211; Publish many small games<br>24:19 &#8211; More games lead to more fans and cross sales<br>25:43 &#8211; Sustainable or successful?<br>26:51 &#8211; Casual games market<br>32:10 &#8211; Where to sell your games?<br>34:37 &#8211; T-Minus 30, Jake&#8217;s new game<br>38:00 &#8211; Engine and tools<br>41:16 &#8211; Who makes the art for your games?<br>42:59 &#8211; Aesthetics matter<br>43:22 &#8211; Where is my computer gone?<br>44:42 &#8211; Where do you live?<br>45:31 &#8211; Where to find Jake and his games?<br>46:21 &#8211; Closing words and final advice</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Interview in English. In this podcast with Jake Birkett from Grey Alien Games, we talk about how to work full-time&hellip; <a class=\"more-link\" href=\"https://alfredbaudisch.com/project-logs/make-money-with-indie-games-realistically-jake-birkett-interview/\">Continue reading <span class=\"screen-reader-text\">Make Money with Indie Games Realistically &#8211; Jake Birkett Interview &#8211; Indie Gamedev Podcast (Education Projects)</span></a></p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 1904,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": "",
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": "",
+      "project_log_parent_project": "1898"
+    },
+    "tags": [
+      190
+    ],
+    "project-style": [
+      189,
+      129,
+      138
+    ],
+    "log-category": [
+      192,
+      191
+    ],
+    "tool": [
+      137,
+      110
+    ],
+    "class_list": [
+      "post-1901",
+      "project-logs",
+      "type-project-logs",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "tag-podcast",
+      "project-style-audio",
+      "project-style-gamedev",
+      "project-style-video",
+      "log-category-episode",
+      "log-category-interview",
+      "tool-adobe-premiere",
+      "tool-photoshop",
+      "entry"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v15.9.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Make Money with Indie Games Realistically - Jake Birkett Interview - Alfred Reinold Baudisch</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<link rel=\"canonical\" href=\"https://alfredbaudisch.com/project-logs/make-money-with-indie-games-realistically-jake-birkett-interview/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Make Money with Indie Games Realistically - Jake Birkett Interview - Alfred Reinold Baudisch\" />\n<meta property=\"og:description\" content=\"Interview in English. In this podcast with Jake Birkett from Grey Alien Games, we talk about how to work full-time&hellip; Continue reading Make Money with Indie Games Realistically &#8211; Jake Birkett Interview - Indie Gamedev Podcast (Education Projects)\" />\n<meta property=\"og:url\" content=\"https://alfredbaudisch.com/project-logs/make-money-with-indie-games-realistically-jake-birkett-interview/\" />\n<meta property=\"og:site_name\" content=\"Alfred Reinold Baudisch\" />\n<meta property=\"article:modified_time\" content=\"2022-04-30T09:54:55+00:00\" />\n<meta property=\"og:image\" content=\"https://alfredbaudisch.com/wp-content/uploads/2022/04/Podcast-JakeBirkett-Icons-Upd.jpg\" />\n\t<meta property=\"og:image:width\" content=\"1920\" />\n\t<meta property=\"og:image:height\" content=\"1080\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\">\n\t<meta name=\"twitter:data1\" content=\"2 minutes\">\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Person\",\"Organization\"],\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\",\"name\":\"alfredbaudisch\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https://secure.gravatar.com/avatar/1084695a59f72a0bd2c732621bea4839?s=96&d=mm&r=g\",\"caption\":\"alfredbaudisch\"},\"logo\":{\"@id\":\"https://alfredbaudisch.com/#personlogo\"},\"sameAs\":[\"https://alfredbaudisch.com\"]},{\"@type\":\"WebSite\",\"@id\":\"https://alfredbaudisch.com/#website\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Alfred Reinold Baudisch\",\"description\":\"\",\"publisher\":{\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://alfredbaudisch.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/project-logs/make-money-with-indie-games-realistically-jake-birkett-interview/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https://alfredbaudisch.com/wp-content/uploads/2022/04/Podcast-JakeBirkett-Icons-Upd.jpg\",\"width\":1920,\"height\":1080},{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/project-logs/make-money-with-indie-games-realistically-jake-birkett-interview/#webpage\",\"url\":\"https://alfredbaudisch.com/project-logs/make-money-with-indie-games-realistically-jake-birkett-interview/\",\"name\":\"Make Money with Indie Games Realistically - Jake Birkett Interview - Alfred Reinold Baudisch\",\"isPartOf\":{\"@id\":\"https://alfredbaudisch.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://alfredbaudisch.com/project-logs/make-money-with-indie-games-realistically-jake-birkett-interview/#primaryimage\"},\"datePublished\":\"2022-04-30T09:39:27+00:00\",\"dateModified\":\"2022-04-30T09:54:55+00:00\",\"breadcrumb\":{\"@id\":\"https://alfredbaudisch.com/project-logs/make-money-with-indie-games-realistically-jake-birkett-interview/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://alfredbaudisch.com/project-logs/make-money-with-indie-games-realistically-jake-birkett-interview/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://alfredbaudisch.com/project-logs/make-money-with-indie-games-realistically-jake-birkett-interview/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/project-logs/\",\"url\":\"https://alfredbaudisch.com/project-logs/\",\"name\":\"Project Logs\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/project-logs/make-money-with-indie-games-realistically-jake-birkett-interview/\",\"url\":\"https://alfredbaudisch.com/project-logs/make-money-with-indie-games-realistically-jake-birkett-interview/\",\"name\":\"Make Money with Indie Games Realistically &#8211; Jake Birkett Interview - Indie Gamedev Podcast (Education Projects)\"}}]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs/1901"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/types/project-logs"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 4,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs/1901/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 1918,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs/1901/revisions/1918"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media/1904"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media?parent=1901"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tags?post=1901"
+        },
+        {
+          "taxonomy": "project-style",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-style?post=1901"
+        },
+        {
+          "taxonomy": "log-category",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/log-category?post=1901"
+        },
+        {
+          "taxonomy": "tool",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tool?post=1901"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1883,
+    "date": "2022-04-29T06:40:02",
+    "date_gmt": "2022-04-29T04:40:02",
+    "guid": {
+      "rendered": "https://alfredbaudisch.com/?post_type=project-logs&#038;p=1883"
+    },
+    "modified": "2022-04-29T07:04:17",
+    "modified_gmt": "2022-04-29T05:04:17",
+    "slug": "donkeys-and-quick-and-dirty-uis-with-godot-godot-book-1",
+    "status": "publish",
+    "type": "project-logs",
+    "link": "https://alfredbaudisch.com/project-logs/donkeys-and-quick-and-dirty-uis-with-godot-godot-book-1/",
+    "title": {
+      "rendered": "Donkeys and Quick and Dirty UIs with Godot &#8211; Update #1 - Book: Godot Software Development (Education Projects)"
+    },
+    "content": {
+      "rendered": "\n<p>As the <strong>first update related to the Godot Software Development book</strong>, this is just a quick post to show something that I did yesterday with Godot: it&#8217;s been 3 months that I&#8217;m trying to decide a game idea to make, but I get lost forever in a cycle of indecision due to having too many ideas all the time, then I end up choosing none of the ideas and then I starve due to my indecision, there&#8217;s even a name for that, called <strong>the parable of&nbsp;<a href=\"https://alfredbaudisch.us14.list-manage.com/track/click?u=0039aa18bf16e51da03c6af99&amp;id=87e57b8cb5&amp;e=12afac9e9a\" target=\"_blank\" rel=\"noreferrer noopener\">Buridan&#8217;s Ass</a></strong>.</p>\n\n\n\n<p>I got tired of it and decided to make a quick idea generator that mixes what I have in mind for a game.<br><br>It took me around 10 minutes to throw a very quick and dirty UI and write the logic for the idea generator, with a bunch of data sets with my preferences. After some tweaking, it generated a bunch of ideas that I&#8217;m satisfied with. I normally write these as console applications using <a href=\"https://elixir-lang.org\">Elixir</a> or Python, but using Godot allows for a quicker visual iteration. Is it ugly? Yes. Is it adjustable for screen-sizes? Absolutely not. But it got the work done.</p>\n\n\n\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"660\" height=\"284\" src=\"https://alfredbaudisch.com/wp-content/uploads/2022/04/IdeaGeneratorGodot.png\" alt=\"\" class=\"wp-image-1888\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2022/04/IdeaGeneratorGodot.png 660w, https://alfredbaudisch.com/wp-content/uploads/2022/04/IdeaGeneratorGodot-300x129.png 300w\" sizes=\"(max-width: 660px) 100vw, 660px\" /><figcaption>This is not the idea I chose, but thinking about it&#8230; maybe I should change my mind again and pick this crazy mix? 😛</figcaption></figure>\n\n\n\n<p>And then I decided that this is what the <strong>first chapter of the <a href=\"https://alfredbaudisch.com/projects/education/godots-book-developing-software-tools-business-apps-api-database/\" target=\"_blank\" rel=\"noreferrer noopener\">Godot Software Development book</a> will be: using Godot as a way to create quick and dirty software prototypes</strong>. This is not only for personal prototypes. The idea is specially in a <strong>business situation where you need to validate something, in a few minutes you can prototype it with Godot</strong>, due to the stupidly easy to use UI system and lightweight environment.<br><br>On other news, <strong>I released my <a href=\"https://alfredbaudisch.us14.list-manage.com/track/click?u=0039aa18bf16e51da03c6af99&amp;id=3206a581a9&amp;e=12afac9e9a\" target=\"_blank\" rel=\"noreferrer noopener\">Inventory System and UI</a> as open-source yesterday</strong>, check it out on <a href=\"https://alfredbaudisch.us14.list-manage.com/track/click?u=0039aa18bf16e51da03c6af99&amp;id=abedb83e1f&amp;e=12afac9e9a\" target=\"_blank\" rel=\"noreferrer noopener\">Github</a>, for another complex UI project with Godot (my other one is <a href=\"https://alfredbaudisch.com/projects/open-source/godello/\">Godello, the clone of Trello</a>).</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>As the first update related to the Godot Software Development book, this is just a quick post to show something&hellip; <a class=\"more-link\" href=\"https://alfredbaudisch.com/project-logs/donkeys-and-quick-and-dirty-uis-with-godot-godot-book-1/\">Continue reading <span class=\"screen-reader-text\">Donkeys and Quick and Dirty UIs with Godot &#8211; Update #1 &#8211; Book: Godot Software Development (Education Projects)</span></a></p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": "",
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": "",
+      "project_log_parent_project": "1831"
+    },
+    "tags": [
+      180
+    ],
+    "project-style": [
+      181
+    ],
+    "log-category": [
+      158,
+      155
+    ],
+    "tool": [
+      173,
+      108
+    ],
+    "class_list": [
+      "post-1883",
+      "project-logs",
+      "type-project-logs",
+      "status-publish",
+      "format-standard",
+      "hentry",
+      "tag-book",
+      "project-style-software-development",
+      "log-category-brainstorming",
+      "log-category-programming",
+      "tool-gdscript",
+      "tool-godot",
+      "entry"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v15.9.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Donkeys and Quick and Dirty UIs with Godot - Update #1 - Alfred Reinold Baudisch</title>\n<meta name=\"description\" content=\"Of Starvation, Donkeys and Quick and Dirty UIs and Prototypes with Godot. Idea for the first chapter for the Godot Software Develoment Book.\" />\n<link rel=\"canonical\" href=\"https://alfredbaudisch.com/project-logs/donkeys-and-quick-and-dirty-uis-with-godot-godot-book-1/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Donkeys and Quick and Dirty UIs with Godot - Update #1 - Alfred Reinold Baudisch\" />\n<meta property=\"og:description\" content=\"Of Starvation, Donkeys and Quick and Dirty UIs and Prototypes with Godot. Idea for the first chapter for the Godot Software Develoment Book.\" />\n<meta property=\"og:url\" content=\"https://alfredbaudisch.com/project-logs/donkeys-and-quick-and-dirty-uis-with-godot-godot-book-1/\" />\n<meta property=\"og:site_name\" content=\"Alfred Reinold Baudisch\" />\n<meta property=\"article:modified_time\" content=\"2022-04-29T05:04:17+00:00\" />\n<meta property=\"og:image\" content=\"https://alfredbaudisch-website.s3.amazonaws.com/2022/04/IdeaGeneratorGodot.png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\">\n\t<meta name=\"twitter:data1\" content=\"2 minutes\">\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Person\",\"Organization\"],\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\",\"name\":\"alfredbaudisch\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https://secure.gravatar.com/avatar/1084695a59f72a0bd2c732621bea4839?s=96&d=mm&r=g\",\"caption\":\"alfredbaudisch\"},\"logo\":{\"@id\":\"https://alfredbaudisch.com/#personlogo\"},\"sameAs\":[\"https://alfredbaudisch.com\"]},{\"@type\":\"WebSite\",\"@id\":\"https://alfredbaudisch.com/#website\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Alfred Reinold Baudisch\",\"description\":\"\",\"publisher\":{\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://alfredbaudisch.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/project-logs/donkeys-and-quick-and-dirty-uis-with-godot-godot-book-1/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https://alfredbaudisch.com/wp-content/uploads/2022/04/IdeaGeneratorGodot.png\",\"width\":660,\"height\":284},{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/project-logs/donkeys-and-quick-and-dirty-uis-with-godot-godot-book-1/#webpage\",\"url\":\"https://alfredbaudisch.com/project-logs/donkeys-and-quick-and-dirty-uis-with-godot-godot-book-1/\",\"name\":\"Donkeys and Quick and Dirty UIs with Godot - Update #1 - Alfred Reinold Baudisch\",\"isPartOf\":{\"@id\":\"https://alfredbaudisch.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://alfredbaudisch.com/project-logs/donkeys-and-quick-and-dirty-uis-with-godot-godot-book-1/#primaryimage\"},\"datePublished\":\"2022-04-29T04:40:02+00:00\",\"dateModified\":\"2022-04-29T05:04:17+00:00\",\"description\":\"Of Starvation, Donkeys and Quick and Dirty UIs and Prototypes with Godot. Idea for the first chapter for the Godot Software Develoment Book.\",\"breadcrumb\":{\"@id\":\"https://alfredbaudisch.com/project-logs/donkeys-and-quick-and-dirty-uis-with-godot-godot-book-1/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://alfredbaudisch.com/project-logs/donkeys-and-quick-and-dirty-uis-with-godot-godot-book-1/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://alfredbaudisch.com/project-logs/donkeys-and-quick-and-dirty-uis-with-godot-godot-book-1/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/project-logs/\",\"url\":\"https://alfredbaudisch.com/project-logs/\",\"name\":\"Project Logs\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/project-logs/donkeys-and-quick-and-dirty-uis-with-godot-godot-book-1/\",\"url\":\"https://alfredbaudisch.com/project-logs/donkeys-and-quick-and-dirty-uis-with-godot-godot-book-1/\",\"name\":\"Donkeys and Quick and Dirty UIs with Godot &#8211; Update #1 - Book: Godot Software Development (Education Projects)\"}}]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs/1883"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/types/project-logs"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 7,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs/1883/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 1892,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-logs/1883/revisions/1892"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media?parent=1883"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tags?post=1883"
+        },
+        {
+          "taxonomy": "project-style",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-style?post=1883"
+        },
+        {
+          "taxonomy": "log-category",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/log-category?post=1883"
+        },
+        {
+          "taxonomy": "tool",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tool?post=1883"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

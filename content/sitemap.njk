@@ -1,0 +1,172 @@
+---
+layout: layouts/base.njk
+title: Sitemap
+permalink: /sitemap/
+---
+
+<div class="container">
+  <h1>Sitemap</h1>
+  
+  <section class="sitemap-section">
+    <h2>Pages</h2>
+    <ul class="sitemap-list">
+      {% for page in collections.pages | sort(false, false, "data.title") %}
+      <li>
+        <a href="{{ page.url }}">{{ page.data.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="sitemap-section">
+    <h2>Posts by Category</h2>
+    {% set postsByCategory = collections.posts | groupBy("categories") %}
+    {% for category in postsByCategory | keys | sort %}
+    <h3>{{ category }}</h3>
+    <ul class="sitemap-list">
+      {% for post in postsByCategory[category] | sort(false, false, "data.date") %}
+      <li>
+        <a href="{{ post.url }}">{{ post.data.title }}</a>
+        <time datetime="{{ post.data.date | dateISO }}"> ({{ post.data.date | dateDisplay("yyyy-MM-dd") }})</time>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </section>
+
+  <section class="sitemap-section">
+    <h2>Projects by Type</h2>
+    {% set projectsByType = collections.projects | groupBy("projectTypes") %}
+    {% for type in projectsByType | keys | sort %}
+    <h3>{{ type }}</h3>
+    <ul class="sitemap-list">
+      {% for project in projectsByType[type] | sort(false, false, "data.date") %}
+      <li>
+        <a href="{{ project.url }}">{{ project.data.title }}</a>
+        <time datetime="{{ project.data.date | dateISO }}"> ({{ project.data.date | dateDisplay("yyyy-MM-dd") }})</time>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </section>
+
+  <section class="sitemap-section">
+    <h2>Project Logs</h2>
+    <ul class="sitemap-list">
+      {% for log in collections.projectLogs | sort(false, false, "data.date") %}
+      <li>
+        <a href="{{ log.url }}">{{ log.data.title }}</a>
+        <time datetime="{{ log.data.date | dateISO }}"> ({{ log.data.date | dateDisplay("yyyy-MM-dd") }})</time>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="sitemap-section">
+    <h2>Experiments by Type</h2>
+    {% set experimentsByType = collections.experiments | groupBy("experimentTypes") %}
+    {% for type in experimentsByType | keys | sort %}
+    <h3>{{ type }}</h3>
+    <ul class="sitemap-list">
+      {% for experiment in experimentsByType[type] | sort(false, false, "data.date") %}
+      <li>
+        <a href="{{ experiment.url }}">{{ experiment.data.title }}</a>
+        <time datetime="{{ experiment.data.date | dateISO }}"> ({{ experiment.data.date | dateDisplay("yyyy-MM-dd") }})</time>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </section>
+
+  <section class="sitemap-section">
+    <h2>Experiment Logs</h2>
+    <ul class="sitemap-list">
+      {% for log in collections.experimentLogs | sort(false, false, "data.date") %}
+      <li>
+        <a href="{{ log.url }}">{{ log.data.title }}</a>
+        <time datetime="{{ log.data.date | dateISO }}"> ({{ log.data.date | dateDisplay("yyyy-MM-dd") }})</time>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="sitemap-section">
+    <h2>Categories</h2>
+    <ul class="sitemap-list">
+      {% for archive in collections.categoryArchives | sort(false, false, "category") %}
+      <li>
+        <a href="{{ archive.url }}">{{ archive.category }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="sitemap-section">
+    <h2>Tags</h2>
+    <ul class="sitemap-list">
+      {% for archive in collections.tagArchives | sort(false, false, "tag") %}
+      <li>
+        <a href="{{ archive.url }}">{{ archive.tag }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="sitemap-section">
+    <h2>Taxonomies</h2>
+    
+    <h3>Project Styles</h3>
+    <ul class="sitemap-list">
+      {% for archive in collections.taxonomyArchives %}
+        {% if archive.taxonomyType == "projectStyles" %}
+        <li><a href="{{ archive.url }}">{{ archive.taxonomyValue }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    <h3>Project Status</h3>
+    <ul class="sitemap-list">
+      {% for archive in collections.taxonomyArchives %}
+        {% if archive.taxonomyType == "projectStatus" %}
+        <li><a href="{{ archive.url }}">{{ archive.taxonomyValue }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    <h3>Project Types</h3>
+    <ul class="sitemap-list">
+      {% for archive in collections.taxonomyArchives %}
+        {% if archive.taxonomyType == "projectTypes" %}
+        <li><a href="{{ archive.url }}">{{ archive.taxonomyValue }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    <h3>Tools</h3>
+    <ul class="sitemap-list">
+      {% for archive in collections.taxonomyArchives %}
+        {% if archive.taxonomyType == "tools" %}
+        <li><a href="{{ archive.url }}">{{ archive.taxonomyValue }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    <h3>Log Categories</h3>
+    <ul class="sitemap-list">
+      {% for archive in collections.taxonomyArchives %}
+        {% if archive.taxonomyType == "logCategories" %}
+        <li><a href="{{ archive.url }}">{{ archive.taxonomyValue }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    <h3>Experiment Types</h3>
+    <ul class="sitemap-list">
+      {% for archive in collections.taxonomyArchives %}
+        {% if archive.taxonomyType == "experimentTypes" %}
+        <li><a href="{{ archive.url }}">{{ archive.taxonomyValue }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+</div>

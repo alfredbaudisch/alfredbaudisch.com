@@ -1,0 +1,25 @@
+<section class="about-page-intro">
+  <div class="about-intro-content">
+    {% if aboutIntroImage %}
+    <figure class="about-intro-image">
+      <a href="{{ aboutIntroImageFull }}" data-lightbox="about-intro">
+        <img src="{{ aboutIntroImage }}" alt="{{ aboutIntroImageAlt or 'Alfred R. Baudisch and Koda' }}" loading="lazy">
+      </a>
+      {% if aboutIntroImageCaption %}
+      <figcaption>{{ aboutIntroImageCaption }}</figcaption>
+      {% endif %}
+    </figure>
+    {% endif %}
+    
+    <div class="about-intro-text">
+      {% if aboutIntroText %}
+      <div class="about-intro-paragraphs">
+        {{ aboutIntroText | safe }}
+      </div>
+      {% endif %}
+      
+      {% include "components/social-links.njk" %}
+    </div>
+  </div>
+</section>
+

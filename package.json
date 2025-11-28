@@ -1,0 +1,33 @@
+{
+  "name": "alfredbaudisch.com",
+  "version": "1.0.0",
+  "description": "Personal website built with 11ty",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "rm -rf _site && NODE_ENV=production npm run build:js && NODE_ENV=production npm run build:css && NODE_ENV=production eleventy",
+    "build:js": "node scripts/build-js.js --production",
+    "build:js:dev": "node scripts/build-js.js",
+    "build:css": "node scripts/build-css.js --production",
+    "build:css:dev": "node scripts/build-css.js",
+    "serve": "eleventy --serve",
+    "dev": "rm -rf _site && NODE_ENV=development npm run build:js:dev && NODE_ENV=development npm run build:css:dev && NODE_ENV=development eleventy --serve --watch",
+    "deploy": "bash scripts/deploy/deploy.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0",
+    "luxon": "^3.3.0",
+    "markdown-it": "^13.0.0",
+    "markdown-it-attrs": "^4.1.0",
+    "prismjs": "^1.29.0",
+    "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.0",
+    "jsdom": "^23.0.0",
+    "nodemon": "^3.0.0",
+    "turndown": "^7.1.3"
+  }
+}

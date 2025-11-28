@@ -1,0 +1,39 @@
+---
+layout: layouts/base.njk
+title: All Posts
+permalink: /archive/
+---
+
+<div class="container">
+  <h1>All Posts</h1>
+  
+  {% set allContent = collections.allContent %}
+  {% set groupedByYear = allContent | groupByYear %}
+  
+  {% for pair in groupedByYear %}
+  {% set year = pair[0] %}
+  {% set items = pair[1] %}
+  <section class="year-section box-border-inset">
+    <h2 class="year-heading">{{ year }}</h2>
+    
+    <ul class="posts-list">
+      {% for item in items %}
+      <li class="post-item">
+        <h3 class="post-item-title">
+          <a href="{{ item.url }}">{{ item.data.title }}</a>
+        </h3>
+        <span class="post-item-type">({{ item | getPostTypeLabel }})</span>
+        
+        <div class="post-item-meta">
+          {% if item.data.updated %}
+          <span class="updated">Updated {{ item.data.updated | dateDisplay("MMMM d, yyyy") }}.</span>
+          {% endif %}
+          <span class="posted">Posted {{ item.data.date | dateDisplay("MMMM d, yyyy") }}</span>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>
+

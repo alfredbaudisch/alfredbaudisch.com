@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  {%- if metaDescription -%}
+    {%- set finalDescription = metaDescription -%}
+  {%- elif description -%}
+    {%- set finalDescription = description -%}
+  {%- elif autoDescription -%}
+    {%- set finalDescription = autoDescription -%}
+  {%- else -%}
+    {%- set finalDescription = site.description -%}
+  {%- endif -%}
+  <meta name="description" content="{{ finalDescription }}">
+  
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS Feed" href="{{ site.url }}/feed.xml">
+  
+  <link rel="icon" href="/media/favicons/cropped-200205-Alfred-Koda-1-32x32.png" sizes="32x32" />
+  <link rel="icon" href="/media/favicons/cropped-200205-Alfred-Koda-1-192x192.png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="/media/favicons/cropped-200205-Alfred-Koda-1-180x180.png" />
+  <meta name="msapplication-TileImage" content="/media/favicons/cropped-200205-Alfred-Koda-1-270x270.png" />
+  
+  <title>{% if page.url == '/' and title %}{{ title }}{% elif title %}{{ title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  
+  <!-- Open Graph / Facebook -->
+  {%- if ogType -%}
+    {%- set finalOgType = ogType -%}
+  {%- elif type == 'post' or type == 'project-log' or type == 'experiment-log' -%}
+    {%- set finalOgType = 'article' -%}
+  {%- else -%}
+    {%- set finalOgType = 'website' -%}
+  {%- endif -%}
+  {%- set ogTitle = ogTitle or title or site.title -%}
+  {%- set ogDescription = ogDescription or finalDescription -%}
+  {%- set ogUrl = site.url + page.url -%}
+  {%- set ogImage = ogImage or featuredImage -%}
+  
+  <meta property="og:type" content="{{ finalOgType }}">
+  <meta property="og:url" content="{{ ogUrl }}">
+  <meta property="og:title" content="{{ ogTitle }}">
+  <meta property="og:description" content="{{ ogDescription }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  {% if ogImage %}
+  <meta property="og:image" content="{{ site.url }}{{ ogImage }}">
+  <meta property="og:image:alt" content="{{ title }}">
+  {% endif %}
+  {% if type == 'post' or type == 'project-log' or type == 'experiment-log' %}
+  <meta property="article:published_time" content="{{ date | dateISO }}">
+  {% if updated %}
+  <meta property="article:modified_time" content="{{ updated | dateISO }}">
+  {% endif %}
+  {% if author %}
+  <meta property="article:author" content="{{ author }}">
+  {% endif %}
+  {% if tags %}
+    {% for tag in tags %}
+    <meta property="article:tag" content="{{ tag }}">
+    {% endfor %}
+  {% endif %}
+  {% endif %}
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="{{ ogUrl }}">
+  <meta name="twitter:title" content="{{ ogTitle }}">
+  <meta name="twitter:description" content="{{ ogDescription }}">
+  {% if ogImage %}
+  <meta name="twitter:image" content="{{ site.url }}{{ ogImage }}">
+  {% endif %}
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="{{ ogUrl }}">
+  
+  {% if noindex or nofollow %}
+  <meta name="robots" content="{{ (noindex, nofollow) | getRobotsMeta }}">
+  {% endif %}
+  
+  <!-- Structured Data (JSON-LD) -->
+  {% if type == "project" or type == "experiment" or type == "post" %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "{% if type == 'project' or type == 'experiment' %}CreativeWork{% else %}BlogPosting{% endif %}",
+    "headline": "{{ title }}",
+    "description": "{{ ogDescription }}",
+    "datePublished": "{{ date | dateISO }}",
+    {% if updated %}"dateModified": "{{ updated | dateISO }}",{% endif %}
+    "author": {
+      "@type": "Person",
+      "name": "{{ site.author }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ site.title }}"
+    }
+    {% if ogImage %},"image": "{{ site.url }}{{ ogImage }}"{% endif %}
+  }
+  </script>
+  {% endif %}
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="{{ assets.css }}">
+  <!-- JetBrains Mono font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  {% include "components/header.njk" %}
+  
+  <main id="main-content">
+    {{ content | safe }}
+  </main>
+  
+  {% include "components/footer.njk" %}
+  
+  <!-- JavaScript -->
+  {%- set useBundled = env.NODE_ENV == 'production' -%}
+  {%- if useBundled -%}
+  <!-- Production: single bundled and minified file -->
+  <script src="{{ assets.js }}"></script>
+  {%- else -%}
+  <!-- Development: individual files for easier debugging -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+  <script src="/js/lightbox.js"></script>
+  <script src="/js/gallery.js"></script>
+  <script src="/js/post-images.js"></script>
+  <script src="/js/code-blocks.js"></script>
+  <script src="/js/mobile-menu.js"></script>
+  {%- endif -%}
+</body>
+</html>
+

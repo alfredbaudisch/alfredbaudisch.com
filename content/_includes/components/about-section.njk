@@ -1,0 +1,20 @@
+<section class="about-section">
+  <div class="about-content">
+    {% if site.aboutImage %}
+    <figure class="about-image">
+      <img src="{{ site.aboutImage }}" alt="{{ site.aboutImageAlt or 'Alfred R. Baudisch and Koda' }}" width="150" height="150" loading="lazy">
+    </figure>
+    {% endif %}
+    
+    <div class="about-text">
+      <p>Polyglot Software Engineer and PostgreSQL Database Architect with 30 years of experience, a specialist in data modeling, software, and system architecture. Current stack: Elixir and Phoenix since 2015. From Curitiba 🇧🇷, living in Copenhagen 🇩🇰.</p>
+      
+      <p>Hyper-learner, indie game developer and aspiring 3D digital artist.</p>
+      
+      {% include "components/social-links.njk" %}
+      
+      <p class="about-more"><a href="/about">More on About</a>.</p>
+    </div>
+  </div>
+</section>
+

@@ -1,0 +1,1477 @@
+[
+  {
+    "id": 2762,
+    "date": "2025-11-20T23:56:44",
+    "date_gmt": "2025-11-20T22:56:44",
+    "guid": {
+      "rendered": "https://alfredbaudisch.com/?post_type=experiment-logs&#038;p=2762"
+    },
+    "modified": "2025-11-21T00:03:16",
+    "modified_gmt": "2025-11-20T23:03:16",
+    "slug": "vertex-alpha-tools-blender-add-on-useful-when-making-n64-and-ps1-graphics",
+    "status": "publish",
+    "type": "experiment-logs",
+    "link": "https://alfredbaudisch.com/experiment-logs/vertex-alpha-tools-blender-add-on-useful-when-making-n64-and-ps1-graphics/",
+    "title": {
+      "rendered": "Vertex Alpha Tools: Blender add-on useful when making N64 and PS1 graphics"
+    },
+    "content": {
+      "rendered": "\n<p>I have <a href=\"https://alfredbaudisch.com/experiment-logs/how-to-make-a-banjo-kazooie-n64-style-terrain-material-in-blender-blended-textures-with-vertex-colors/\" data-type=\"experiment-logs\" data-id=\"2747\">previously shown how to make Banjo-Kazooie</a> (from the Nintendo 64) stylized terrain and environments with vertex colors and vertex color alpha.</p>\n\n\n\n<p>But, there are a few annoyances and small roadblocks in that workflow:</p>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Painting the vertex color alpha to specific values can be difficult.</li>\n\n\n\n<li>It&#8217;s very hard to replicate the same vertex color alpha value in different parts of the mesh (for example, in case you want to equally blend another texture in various sections of the mesh).</li>\n\n\n\n<li>It&#8217;s cumbersome to visualize the vertex alpha itself.</li>\n\n\n\n<li>There&#8217;s no way to know the exact value of the vertex alpha from a specific vertex.</li>\n</ol>\n\n\n\n<p>To solve issue number 2 I found the free &#8220;<a href=\"https://github.com/Desayuno64/VertexAlphaSetter\">VertexAlphaSetter</a>&#8221; Blender add-on by <a href=\"https://github.com/Desayuno64/\">Desayuno64</a>. This add-on lets you set specific alpha values to selected vertices.</p>\n\n\n\n<p>But then I still had all the other 3 issues pending. For that, I created my own solution, &#8220;Vertex Alpha Tools&#8221; (free, <a href=\"https://github.com/alfredbaudisch/VertexAlphaTools\">available on Github)</a>, with the following features:</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"alignright size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"606\" height=\"408\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/VertexAlphaToolsAddon.png\" alt=\"\" class=\"wp-image-2763\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/VertexAlphaToolsAddon.png 606w, https://alfredbaudisch.com/wp-content/uploads/2025/11/VertexAlphaToolsAddon-300x202.png 300w\" sizes=\"(max-width: 606px) 100vw, 606px\" /></figure></div>\n\n\n<ul class=\"wp-block-list\">\n<li>Toggle vertex color alpha as a material overlay.</li>\n\n\n\n<li>Visualize the specific vertex alpha values as 3D labels on top of each vertex.</li>\n\n\n\n<li>And I unified the original &#8220;VertexAlphaSetter&#8221; add-on onto my add-on.</li>\n</ul>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlphaValues.jpeg\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"407\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlphaValues-1024x407.jpeg\" alt=\"\" class=\"wp-image-2764\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlphaValues-1024x407.jpeg 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlphaValues-300x119.jpeg 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlphaValues-768x306.jpeg 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlphaValues-1536x611.jpeg 1536w, https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlphaValues-1568x624.jpeg 1568w, https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlphaValues.jpeg 1900w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a><figcaption class=\"wp-element-caption\">Vertex alpha values on top of each vertex</figcaption></figure>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlpha.jpeg\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"365\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlpha-1024x365.jpeg\" alt=\"\" class=\"wp-image-2765\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlpha-1024x365.jpeg 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlpha-300x107.jpeg 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlpha-768x274.jpeg 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlpha-1536x548.jpeg 1536w, https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlpha-2048x730.jpeg 2048w, https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlpha-1568x559.jpeg 1568w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a><figcaption class=\"wp-element-caption\">Vertex alpha overlay</figcaption></figure>\n\n\n\n<p>This is useful when making both PlayStation 1 (PS1) and Nintendo 64 (N64) stylized graphics with Blender.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>I have previously shown how to make Banjo-Kazooie (from the Nintendo 64) stylized terrain and environments with vertex colors and&hellip; <a class=\"more-link\" href=\"https://alfredbaudisch.com/experiment-logs/vertex-alpha-tools-blender-add-on-useful-when-making-n64-and-ps1-graphics/\">Continue reading <span class=\"screen-reader-text\">Vertex Alpha Tools: Blender add-on useful when making N64 and PS1 graphics</span></a></p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": "",
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": "",
+      "experiment_log_parent_project": "2718"
+    },
+    "tags": [
+      6,
+      244,
+      240,
+      7,
+      237,
+      12
+    ],
+    "project-style": [
+      236,
+      119,
+      242
+    ],
+    "log-category": [
+      155,
+      105
+    ],
+    "tool": [
+      106,
+      134
+    ],
+    "class_list": [
+      "post-2762",
+      "experiment-logs",
+      "type-experiment-logs",
+      "status-publish",
+      "format-standard",
+      "hentry",
+      "tag-3d",
+      "tag-addon",
+      "tag-banjo-kazooie",
+      "tag-blender",
+      "tag-n64",
+      "tag-ps1",
+      "project-style-n64",
+      "project-style-ps1",
+      "project-style-vertex-colors",
+      "log-category-programming",
+      "log-category-texturing",
+      "tool-blender",
+      "tool-python",
+      "entry"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v15.9.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Vertex Alpha Tools: Blender add-on useful when making N64 and PS1 graphics - Alfred Reinold Baudisch</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<link rel=\"canonical\" href=\"https://alfredbaudisch.com/experiment-logs/vertex-alpha-tools-blender-add-on-useful-when-making-n64-and-ps1-graphics/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Vertex Alpha Tools: Blender add-on useful when making N64 and PS1 graphics - Alfred Reinold Baudisch\" />\n<meta property=\"og:description\" content=\"I have previously shown how to make Banjo-Kazooie (from the Nintendo 64) stylized terrain and environments with vertex colors and&hellip; Continue reading Vertex Alpha Tools: Blender add-on useful when making N64 and PS1 graphics\" />\n<meta property=\"og:url\" content=\"https://alfredbaudisch.com/experiment-logs/vertex-alpha-tools-blender-add-on-useful-when-making-n64-and-ps1-graphics/\" />\n<meta property=\"og:site_name\" content=\"Alfred Reinold Baudisch\" />\n<meta property=\"article:modified_time\" content=\"2025-11-20T23:03:16+00:00\" />\n<meta property=\"og:image\" content=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/VertexAlphaToolsAddon.png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\">\n\t<meta name=\"twitter:data1\" content=\"1 minute\">\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Person\",\"Organization\"],\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\",\"name\":\"alfredbaudisch\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https://secure.gravatar.com/avatar/1084695a59f72a0bd2c732621bea4839?s=96&d=mm&r=g\",\"caption\":\"alfredbaudisch\"},\"logo\":{\"@id\":\"https://alfredbaudisch.com/#personlogo\"},\"sameAs\":[\"https://alfredbaudisch.com\"]},{\"@type\":\"WebSite\",\"@id\":\"https://alfredbaudisch.com/#website\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Alfred Reinold Baudisch\",\"description\":\"\",\"publisher\":{\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://alfredbaudisch.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/vertex-alpha-tools-blender-add-on-useful-when-making-n64-and-ps1-graphics/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https://alfredbaudisch.com/wp-content/uploads/2025/11/VertexAlphaToolsAddon.png\",\"width\":606,\"height\":408},{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/vertex-alpha-tools-blender-add-on-useful-when-making-n64-and-ps1-graphics/#webpage\",\"url\":\"https://alfredbaudisch.com/experiment-logs/vertex-alpha-tools-blender-add-on-useful-when-making-n64-and-ps1-graphics/\",\"name\":\"Vertex Alpha Tools: Blender add-on useful when making N64 and PS1 graphics - Alfred Reinold Baudisch\",\"isPartOf\":{\"@id\":\"https://alfredbaudisch.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://alfredbaudisch.com/experiment-logs/vertex-alpha-tools-blender-add-on-useful-when-making-n64-and-ps1-graphics/#primaryimage\"},\"datePublished\":\"2025-11-20T22:56:44+00:00\",\"dateModified\":\"2025-11-20T23:03:16+00:00\",\"breadcrumb\":{\"@id\":\"https://alfredbaudisch.com/experiment-logs/vertex-alpha-tools-blender-add-on-useful-when-making-n64-and-ps1-graphics/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://alfredbaudisch.com/experiment-logs/vertex-alpha-tools-blender-add-on-useful-when-making-n64-and-ps1-graphics/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/vertex-alpha-tools-blender-add-on-useful-when-making-n64-and-ps1-graphics/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/\",\"name\":\"Experiment Logs\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/vertex-alpha-tools-blender-add-on-useful-when-making-n64-and-ps1-graphics/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/vertex-alpha-tools-blender-add-on-useful-when-making-n64-and-ps1-graphics/\",\"name\":\"Vertex Alpha Tools: Blender add-on useful when making N64 and PS1 graphics\"}}]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/2762"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/types/experiment-logs"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 3,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/2762/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 2768,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/2762/revisions/2768"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media?parent=2762"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tags?post=2762"
+        },
+        {
+          "taxonomy": "project-style",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-style?post=2762"
+        },
+        {
+          "taxonomy": "log-category",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/log-category?post=2762"
+        },
+        {
+          "taxonomy": "tool",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tool?post=2762"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 2747,
+    "date": "2025-11-20T23:06:22",
+    "date_gmt": "2025-11-20T22:06:22",
+    "guid": {
+      "rendered": "https://alfredbaudisch.com/?post_type=experiment-logs&#038;p=2747"
+    },
+    "modified": "2025-11-20T23:08:00",
+    "modified_gmt": "2025-11-20T23:08:00",
+    "slug": "how-to-make-a-banjo-kazooie-n64-style-terrain-material-in-blender-blended-textures-with-vertex-colors",
+    "status": "publish",
+    "type": "experiment-logs",
+    "link": "https://alfredbaudisch.com/experiment-logs/how-to-make-a-banjo-kazooie-n64-style-terrain-material-in-blender-blended-textures-with-vertex-colors/",
+    "title": {
+      "rendered": "How to make a Banjo Kazooie (N64) style terrain material in Blender (blended textures with vertex colors)"
+    },
+    "content": {
+      "rendered": "\n<p>In the first part, <a href=\"https://alfredbaudisch.com/experiment-logs/banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage/\" data-type=\"experiment-logs\" data-id=\"2724\">you can see how Banjo-Kazooie from the Nintendo 64 presented its rich environments</a>, making heavy usage of vertex colors for details, lights and ambient occlusion, and texture blending with vertex color alpha. In this article, let&#8217;s try to recreate the same style in Blender using the same techniques.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Initial Material Setup</h2>\n\n\n\n<p>In Blender, in order to blend two textures using the vertex color alpha, add a &#8220;Color Attribute&#8221; node and connect it into the &#8220;Factor&#8221; socket of a &#8220;Mix&#8221; node. Connect the main texture into &#8220;B&#8221; and the secondary texture into &#8220;A&#8221;:</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-VertexColorAlphaMixingBlending.png\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"721\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-VertexColorAlphaMixingBlending-1024x721.png\" alt=\"\" class=\"wp-image-2748\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-VertexColorAlphaMixingBlending-1024x721.png 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-VertexColorAlphaMixingBlending-300x211.png 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-VertexColorAlphaMixingBlending-768x541.png 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-VertexColorAlphaMixingBlending.png 1408w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure></div>\n\n\n<p>If you haven&#8217;t painted any vertex color information yet, you are going to see the main texture (connected to the &#8220;Mix&#8221; node &#8220;B&#8221; socket) covering the whole surface of the mesh:</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-PlainMeshTExture-1024x622.jpeg\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"622\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-PlainMeshTExture-1024x622.jpeg\" alt=\"\" class=\"wp-image-2749\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-PlainMeshTExture-1024x622.jpeg 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-PlainMeshTExture-300x182.jpeg 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-PlainMeshTExture-768x467.jpeg 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-PlainMeshTExture-1536x933.jpeg 1536w, https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-PlainMeshTExture-1568x953.jpeg 1568w, https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-PlainMeshTExture.jpeg 1600w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure>\n\n\n\n<h2 class=\"wp-block-heading\">How to paint Vertex Color Alpha in Blender?</h2>\n\n\n\n<p>In Vertex Paint mode, press A to select all vertices, choose the color white and then go to &#8220;Paint &#8211; Set Vertex Colors&#8221; to fill all vertices as white.</p>\n\n\n\n<p>Then go to the Brush&#8217;s blending mode settings and choose either Erase Alpha or Add Alpha, and this is how you can affect the vertex color alpha in Blender.</p>\n\n\n\n<p>In our case, if you Erase Alpha, it will cause the surface to blend with texture 2:</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/image.png\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"680\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/image-1024x680.png\" alt=\"\" class=\"wp-image-2750\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/image-1024x680.png 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/image-300x199.png 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/image-768x510.png 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/image.png 1286w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure>\n\n\n\n<p>After erasing the vertex color alpha from some vertices, you can see texture 2 blending with texture 1, just like <a href=\"https://alfredbaudisch.com/experiment-logs/banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage/\" data-type=\"experiment-logs\" data-id=\"2724\">how it happens in Banjo-Kazooie</a>:</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/image-1.png\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"751\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/image-1-1024x751.png\" alt=\"\" class=\"wp-image-2751\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/image-1-1024x751.png 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/image-1-300x220.png 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/image-1-768x563.png 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/image-1.png 1194w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure>\n\n\n\n<p>If you want to set selected vertices to specific alpha values, there&#8217;s a <a href=\"https://alfredbaudisch.com/experiment-logs/vertex-alpha-tools-blender-add-on-useful-when-making-n64-and-ps1-graphics/\" data-type=\"experiment-logs\" data-id=\"2762\">free add-on for that</a>.</p>\n\n\n\n<h2 class=\"wp-block-heading\">How to visualize Vertex Color Alpha in Blender?</h2>\n\n\n\n<p>You can use my <a href=\"https://alfredbaudisch.com/experiment-logs/vertex-alpha-tools-blender-add-on-useful-when-making-n64-and-ps1-graphics/\" data-type=\"experiment-logs\" data-id=\"2762\">free Blender add-on Vertex Alpha Tools</a>.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlpha.jpeg\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"365\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlpha-1024x365.jpeg\" alt=\"\" class=\"wp-image-2765\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlpha-1024x365.jpeg 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlpha-300x107.jpeg 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlpha-768x274.jpeg 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlpha-1536x548.jpeg 1536w, https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlpha-2048x730.jpeg 2048w, https://alfredbaudisch.com/wp-content/uploads/2025/11/example-VisualizeVertexColorAlpha-1568x559.jpeg 1568w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a><figcaption class=\"wp-element-caption\">Vertex Alpha Tools add-on</figcaption></figure>\n\n\n\n<p>If you don&#8217;t want to use add-ons, you can connect the Alpha socket of the Color Attribute node onto the Base Color socket:</p>\n\n\n\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"662\" height=\"290\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/image-2.png\" alt=\"\" class=\"wp-image-2752\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/image-2.png 662w, https://alfredbaudisch.com/wp-content/uploads/2025/11/image-2-300x131.png 300w\" sizes=\"(max-width: 662px) 100vw, 662px\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"507\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/image-3-1024x507.png\" alt=\"\" class=\"wp-image-2753\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/image-3-1024x507.png 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/image-3-300x149.png 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/image-3-768x380.png 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/image-3.png 1296w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<h2 class=\"wp-block-heading\">How to display Vertex Colors alongside texture blending with Vertex Color Alpha?</h2>\n\n\n\n<p>Can connect the Color Attribute node Color socket onto a Multiply node, and multiply it with the result of the existing Mix node. The result of the Multiply node is the final Base Color:</p>\n\n\n\n<figure class=\"wp-block-image alignwide size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"590\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-BanjoKazooieMaterialSetup-2-1024x590.png\" alt=\"\" class=\"wp-image-2756\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-BanjoKazooieMaterialSetup-2-1024x590.png 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-BanjoKazooieMaterialSetup-2-300x173.png 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-BanjoKazooieMaterialSetup-2-768x442.png 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-BanjoKazooieMaterialSetup-2-1536x885.png 1536w, https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-BanjoKazooieMaterialSetup-2-1568x903.png 1568w, https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-BanjoKazooieMaterialSetup-2.png 1736w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<p>After painting some vertices and adjusting the vertex alpha of others, this is how it looks with the texture blending and the vertex colors, you can see texture 2 blending with texture 1, as well the colors:</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-VertexColorTextureBlending.jpeg\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"830\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-VertexColorTextureBlending-1024x830.jpeg\" alt=\"\" class=\"wp-image-2757\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-VertexColorTextureBlending-1024x830.jpeg 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-VertexColorTextureBlending-300x243.jpeg 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-VertexColorTextureBlending-768x622.jpeg 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/Blender-VertexColorTextureBlending.jpeg 1318w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Tips</h2>\n\n\n\n<ul class=\"wp-block-list\">\n<li>In Edit Mode, select all vertices, press &#8220;U&#8221;, then &#8220;Reset&#8221; to reset the UV on top of the texture.</li>\n\n\n\n<li>Be sure to check the first part: <a href=\"https://alfredbaudisch.com/experiment-logs/banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage/\" data-type=\"experiment-logs\" data-id=\"2724\">Banjo-Kazooie (N64) environments and levels: texture blending and vertex color usage</a></li>\n</ul>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>In the first part, you can see how Banjo-Kazooie from the Nintendo 64 presented its rich environments, making heavy usage&hellip; <a class=\"more-link\" href=\"https://alfredbaudisch.com/experiment-logs/how-to-make-a-banjo-kazooie-n64-style-terrain-material-in-blender-blended-textures-with-vertex-colors/\">Continue reading <span class=\"screen-reader-text\">How to make a Banjo Kazooie (N64) style terrain material in Blender (blended textures with vertex colors)</span></a></p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 2758,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": "",
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": "",
+      "experiment_log_parent_project": "2718"
+    },
+    "tags": [
+      6,
+      240,
+      7,
+      238,
+      241,
+      237,
+      160,
+      239,
+      243
+    ],
+    "project-style": [
+      120,
+      236,
+      126,
+      225,
+      242
+    ],
+    "log-category": [
+      105
+    ],
+    "tool": [
+      106
+    ],
+    "class_list": [
+      "post-2747",
+      "experiment-logs",
+      "type-experiment-logs",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "tag-3d",
+      "tag-banjo-kazooie",
+      "tag-blender",
+      "tag-environment",
+      "tag-material",
+      "tag-n64",
+      "tag-shaders",
+      "tag-terrain",
+      "tag-vertex-colors",
+      "project-style-low-poly",
+      "project-style-n64",
+      "project-style-photo-texture",
+      "project-style-shaders",
+      "project-style-vertex-colors",
+      "log-category-texturing",
+      "tool-blender",
+      "entry"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v15.9.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>How to make a Banjo Kazooie (N64) style terrain material in Blender (blended textures with vertex colors) - Alfred Reinold Baudisch</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<link rel=\"canonical\" href=\"https://alfredbaudisch.com/experiment-logs/how-to-make-a-banjo-kazooie-n64-style-terrain-material-in-blender-blended-textures-with-vertex-colors/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"How to make a Banjo Kazooie (N64) style terrain material in Blender (blended textures with vertex colors) - Alfred Reinold Baudisch\" />\n<meta property=\"og:description\" content=\"In the first part, you can see how Banjo-Kazooie from the Nintendo 64 presented its rich environments, making heavy usage&hellip; Continue reading How to make a Banjo Kazooie (N64) style terrain material in Blender (blended textures with vertex colors)\" />\n<meta property=\"og:url\" content=\"https://alfredbaudisch.com/experiment-logs/how-to-make-a-banjo-kazooie-n64-style-terrain-material-in-blender-blended-textures-with-vertex-colors/\" />\n<meta property=\"og:site_name\" content=\"Alfred Reinold Baudisch\" />\n<meta property=\"article:modified_time\" content=\"2025-11-20T23:08:00+00:00\" />\n<meta property=\"og:image\" content=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/MakingBanjoKazooieN64TerrainMaterialInBlender.jpg\" />\n\t<meta property=\"og:image:width\" content=\"1980\" />\n\t<meta property=\"og:image:height\" content=\"1080\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\">\n\t<meta name=\"twitter:data1\" content=\"2 minutes\">\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Person\",\"Organization\"],\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\",\"name\":\"alfredbaudisch\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https://secure.gravatar.com/avatar/1084695a59f72a0bd2c732621bea4839?s=96&d=mm&r=g\",\"caption\":\"alfredbaudisch\"},\"logo\":{\"@id\":\"https://alfredbaudisch.com/#personlogo\"},\"sameAs\":[\"https://alfredbaudisch.com\"]},{\"@type\":\"WebSite\",\"@id\":\"https://alfredbaudisch.com/#website\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Alfred Reinold Baudisch\",\"description\":\"\",\"publisher\":{\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://alfredbaudisch.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/how-to-make-a-banjo-kazooie-n64-style-terrain-material-in-blender-blended-textures-with-vertex-colors/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https://alfredbaudisch.com/wp-content/uploads/2025/11/MakingBanjoKazooieN64TerrainMaterialInBlender.jpg\",\"width\":1980,\"height\":1080},{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/how-to-make-a-banjo-kazooie-n64-style-terrain-material-in-blender-blended-textures-with-vertex-colors/#webpage\",\"url\":\"https://alfredbaudisch.com/experiment-logs/how-to-make-a-banjo-kazooie-n64-style-terrain-material-in-blender-blended-textures-with-vertex-colors/\",\"name\":\"How to make a Banjo Kazooie (N64) style terrain material in Blender (blended textures with vertex colors) - Alfred Reinold Baudisch\",\"isPartOf\":{\"@id\":\"https://alfredbaudisch.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://alfredbaudisch.com/experiment-logs/how-to-make-a-banjo-kazooie-n64-style-terrain-material-in-blender-blended-textures-with-vertex-colors/#primaryimage\"},\"datePublished\":\"2025-11-20T22:06:22+00:00\",\"dateModified\":\"2025-11-20T23:08:00+00:00\",\"breadcrumb\":{\"@id\":\"https://alfredbaudisch.com/experiment-logs/how-to-make-a-banjo-kazooie-n64-style-terrain-material-in-blender-blended-textures-with-vertex-colors/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://alfredbaudisch.com/experiment-logs/how-to-make-a-banjo-kazooie-n64-style-terrain-material-in-blender-blended-textures-with-vertex-colors/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/how-to-make-a-banjo-kazooie-n64-style-terrain-material-in-blender-blended-textures-with-vertex-colors/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/\",\"name\":\"Experiment Logs\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/how-to-make-a-banjo-kazooie-n64-style-terrain-material-in-blender-blended-textures-with-vertex-colors/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/how-to-make-a-banjo-kazooie-n64-style-terrain-material-in-blender-blended-textures-with-vertex-colors/\",\"name\":\"How to make a Banjo Kazooie (N64) style terrain material in Blender (blended textures with vertex colors)\"}}]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/2747"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/types/experiment-logs"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/2747/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 2770,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/2747/revisions/2770"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media/2758"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media?parent=2747"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tags?post=2747"
+        },
+        {
+          "taxonomy": "project-style",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-style?post=2747"
+        },
+        {
+          "taxonomy": "log-category",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/log-category?post=2747"
+        },
+        {
+          "taxonomy": "tool",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tool?post=2747"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 2724,
+    "date": "2025-11-20T01:19:17",
+    "date_gmt": "2025-11-20T00:19:17",
+    "guid": {
+      "rendered": "https://alfredbaudisch.com/?post_type=experiment-logs&#038;p=2724"
+    },
+    "modified": "2025-11-19T23:08:21",
+    "modified_gmt": "2025-11-19T23:08:21",
+    "slug": "banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage",
+    "status": "publish",
+    "type": "experiment-logs",
+    "link": "https://alfredbaudisch.com/experiment-logs/banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage/",
+    "title": {
+      "rendered": "Banjo-Kazooie (N64) environments and levels: texture blending and vertex color usage"
+    },
+    "content": {
+      "rendered": "\n<p>Banjo-Kazooie from the Nintendo 64 had environment and terrain details with blended textures (it is also called <a href=\"https://tcrf.net/Prerelease:Banjo-Kazooie/Banjo_Kazoo#Technology\">decal blending</a> in some sources):</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-01-BanjoKazooie-BlendedTextures.jpeg\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"603\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-01-BanjoKazooie-BlendedTextures-1024x603.jpeg\" alt=\"\" class=\"wp-image-2725\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-01-BanjoKazooie-BlendedTextures-1024x603.jpeg 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-01-BanjoKazooie-BlendedTextures-300x177.jpeg 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-01-BanjoKazooie-BlendedTextures-768x452.jpeg 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-01-BanjoKazooie-BlendedTextures-1536x904.jpeg 1536w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-01-BanjoKazooie-BlendedTextures-1568x923.jpeg 1568w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-01-BanjoKazooie-BlendedTextures.jpeg 1600w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure>\n\n\n\n<p>This contrasts with Super Mario 64 where there was a clear separation between each texture:</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-02SuperMario64-AbruptTextures.jpg\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"735\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-02SuperMario64-AbruptTextures-1024x735.jpg\" alt=\"\" class=\"wp-image-2726\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-02SuperMario64-AbruptTextures-1024x735.jpg 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-02SuperMario64-AbruptTextures-300x215.jpg 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-02SuperMario64-AbruptTextures-768x551.jpg 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-02SuperMario64-AbruptTextures.jpg 1400w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure>\n\n\n\n<p>Banjo Kazooie environments and levels also faked light, shadow and ambient occlusion with vertex colors:</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-ryjg.jpeg\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"538\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-ryjg-1024x538.jpeg\" alt=\"\" class=\"wp-image-2728\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-ryjg-1024x538.jpeg 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-ryjg-300x158.jpeg 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-ryjg-768x404.jpeg 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-ryjg-1536x808.jpeg 1536w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-ryjg-2048x1077.jpeg 2048w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-ryjg-1568x824.jpeg 1568w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a><figcaption class=\"wp-element-caption\">Banjo Kazooie&#8217;s Dingpot Teleport Room with vertex colors (from <a href=\"https://noclip.website/#bk/6C;ShareData=ACBqOUo/AWT4(bA9yx4+=GSs25nlphUhBbWT6M}3V/A{YUXa6W9BV)RUtjU[V[\">noclip.website</a>)</figcaption></figure>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-rykl.jpeg\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"541\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-rykl-1024x541.jpeg\" alt=\"\" class=\"wp-image-2727\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-rykl-1024x541.jpeg 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-rykl-300x158.jpeg 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-rykl-768x406.jpeg 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-rykl-1536x811.jpeg 1536w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-rykl-2048x1082.jpeg 2048w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-rykl-1568x828.jpeg 1568w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a><figcaption class=\"wp-element-caption\">Banjo Kazooie&#8217;s Dingpot Teleport Room without vertex colors (from <a href=\"https://noclip.website/#bk/6C;ShareData=ACBqOUo/AWT4(bA9yx4+=GSs25nlphUhBbWT6M}3V/A{YUXa6W9BV)RUtjU[V[\">noclip.website</a>). Notice how everything looks flat without vertex colors.</figcaption></figure>\n\n\n\n<h2 class=\"wp-block-heading\">How did they achieve texture blending?</h2>\n\n\n\n<p>In Banjo Kazooie, surfaces might have two texture channels, and the blending factor between them is decided by the vertex color alpha.</p>\n\n\n\n<p>When disabling vertex colors from the same scene from the first screenshot, this is what the scene looks like:</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-03-BanjoKazooie-DisabledVertexColors.jpeg\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"576\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-03-BanjoKazooie-DisabledVertexColors-1024x576.jpeg\" alt=\"\" class=\"wp-image-2729\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-03-BanjoKazooie-DisabledVertexColors-1024x576.jpeg 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-03-BanjoKazooie-DisabledVertexColors-300x169.jpeg 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-03-BanjoKazooie-DisabledVertexColors-768x432.jpeg 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-03-BanjoKazooie-DisabledVertexColors-1536x865.jpeg 1536w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-03-BanjoKazooie-DisabledVertexColors-1568x883.jpeg 1568w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-03-BanjoKazooie-DisabledVertexColors.jpeg 1890w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a><figcaption class=\"wp-element-caption\">Banjo Kazooie&#8217;s Spiral Mountain, vertex colors disabled. You can see the texture blending between the road, the terrain and the farm plot is gone. The path (which is also painted with vertex colors) is also gone.</figcaption></figure>\n\n\n\n<p><a href=\"https://noclip.website/#bk/01;ShareData=ASKuP9oEUGUFA+H9u^1eWmP;{QUSUaUnOqPUms{KV^ky]UgFD+UOsHx9h_gu+^\">noclip.website</a> allows inspecting the vertex color alpha. This is what it looks like for the same scene:</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-04-BanjoKazooie-VertexColorAlpha.png\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"498\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-04-BanjoKazooie-VertexColorAlpha-1024x498.png\" alt=\"\" class=\"wp-image-2730\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-04-BanjoKazooie-VertexColorAlpha-1024x498.png 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-04-BanjoKazooie-VertexColorAlpha-300x146.png 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-04-BanjoKazooie-VertexColorAlpha-768x374.png 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-04-BanjoKazooie-VertexColorAlpha-1536x748.png 1536w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-04-BanjoKazooie-VertexColorAlpha-2048x997.png 2048w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-04-BanjoKazooie-VertexColorAlpha-1568x763.png 1568w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure>\n\n\n\n<p>Now for a comparison of everything side by side. Notice how the vertex alpha blends the farm plot texture and the terrain texture:</p>\n\n\n\n<figure class=\"wp-block-image alignwide size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-05-BanjoKazooie-VertexColorAlphaBlendedSideBySide-scaled.jpg\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"510\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-05-BanjoKazooie-VertexColorAlphaBlendedSideBySide-1024x510.jpg\" alt=\"\" class=\"wp-image-2731\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-05-BanjoKazooie-VertexColorAlphaBlendedSideBySide-1024x510.jpg 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-05-BanjoKazooie-VertexColorAlphaBlendedSideBySide-300x149.jpg 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-05-BanjoKazooie-VertexColorAlphaBlendedSideBySide-768x382.jpg 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-05-BanjoKazooie-VertexColorAlphaBlendedSideBySide-1536x764.jpg 1536w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-05-BanjoKazooie-VertexColorAlphaBlendedSideBySide-2048x1019.jpg 2048w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-05-BanjoKazooie-VertexColorAlphaBlendedSideBySide-1568x780.jpg 1568w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Vertex Colors: details, fake light, shadow and ambient occlusion</h2>\n\n\n\n<p>An inspection of the vertex colors reveals the grass color and the yellow path, as well faked lights, shadows and ambient occlusion (again, thanks to <a href=\"https://noclip.website/#bk/72;ShareData=ALEeIUY6e5UPE*j97~Pz=t?(UPz5V6UV^M^T*,P/V!jc?Uc!lp8]OC1UsDbWV[\">noclip.website</a>):</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sdzf.png\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"546\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sdzf-1024x546.png\" alt=\"\" class=\"wp-image-2732\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sdzf-1024x546.png 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sdzf-300x160.png 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sdzf-768x409.png 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sdzf-1536x819.png 1536w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sdzf-2048x1092.png 2048w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sdzf-1568x836.png 1568w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure>\n\n\n\n<p>In a closed environment, this is what the vertex color looks like:</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sedd.png\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"525\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sedd-1024x525.png\" alt=\"\" class=\"wp-image-2733\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sedd-1024x525.png 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sedd-300x154.png 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sedd-768x394.png 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sedd-1536x788.png 1536w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sedd-2048x1051.png 2048w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sedd-1568x804.png 1568w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Textures</h2>\n\n\n\n<p>Banjo Kazooie makes use of all the Nintendo 64&#8217;s <a href=\"https://n64squid.com/homebrew/n64-sdk/textures/image-formats/\">texture capabilities</a> and <a href=\"https://youtu.be/xwls5SpNn1s?si=Y7lcHdTwm1x2xFzb&amp;t=103\">formats</a>, but from my quick observations, the majority of textures used in the game&#8217;s environments are:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>32&#215;32 (32-bit)</li>\n\n\n\n<li>64&#215;64 (16 colors)</li>\n\n\n\n<li>32&#215;64</li>\n</ul>\n\n\n\n<p>In order to show more details, it also makes heavy usage of multi-segment 64&#215;64 textures:</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-06-BanjoKazooie-MultiSegmentedTextures.png\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"424\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-06-BanjoKazooie-MultiSegmentedTextures-1024x424.png\" alt=\"\" class=\"wp-image-2741\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-06-BanjoKazooie-MultiSegmentedTextures-1024x424.png 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-06-BanjoKazooie-MultiSegmentedTextures-300x124.png 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-06-BanjoKazooie-MultiSegmentedTextures-768x318.png 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/n64-banjoenvironment-06-BanjoKazooie-MultiSegmentedTextures.png 1470w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a><figcaption class=\"wp-element-caption\">Source: <a href=\"https://tcrf.net/Prerelease:Banjo-Kazooie/Banjo_Kazoo#Technology\">The Cutting Room Floor</a></figcaption></figure>\n\n\n\n<p>There&#8217;s also the usage of noise and alpha textures. If we go back again to the first screenshot example, the game uses a 32&#215;32 noise texture for most of Spiral Mountain:</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sgsw.jpeg\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"618\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sgsw-1024x618.jpeg\" alt=\"\" class=\"wp-image-2734\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sgsw-1024x618.jpeg 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sgsw-300x181.jpeg 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sgsw-768x463.jpeg 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sgsw-1536x926.jpeg 1536w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sgsw-1568x946.jpeg 1568w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-sgsw.jpeg 1834w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure>\n\n\n\n<p>And then it makes heavy use of vertex colors to shape the path:</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-shjl.jpeg\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"607\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-shjl-1024x607.jpeg\" alt=\"\" class=\"wp-image-2735\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-shjl-1024x607.jpeg 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-shjl-300x178.jpeg 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-shjl-768x455.jpeg 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-shjl-1536x911.jpeg 1536w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-shjl-1568x930.jpeg 1568w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-shjl.jpeg 2044w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure>\n\n\n\n<figure class=\"wp-block-image\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-siww.png\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"613\" src=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-siww-1024x613.png\" alt=\"\" class=\"wp-image-2736\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-siww-1024x613.png 1024w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-siww-300x179.png 300w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-siww-768x459.png 768w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-siww-1536x919.png 1536w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-siww-2048x1225.png 2048w, https://alfredbaudisch.com/wp-content/uploads/2025/11/SCR-20251119-siww-1568x938.png 1568w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a><figcaption class=\"wp-element-caption\">Some terrain and environment textures extracted from Banjo Kazooie</figcaption></figure>\n\n\n\n<p><a href=\"https://alfredbaudisch.com/experiment-logs/how-to-make-a-banjo-kazooie-n64-style-terrain-material-in-blender-blended-textures-with-vertex-colors/\" data-type=\"experiment-logs\" data-id=\"2747\">In the next post</a>, I show how to create environments like this with Blender, replicating the same techniques.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Sources and Additional Resources</h2>\n\n\n\n<p><a href=\"https://noclip.website\">noclip.website</a></p>\n\n\n\n<p><a href=\"https://kbrecordzz.com/2022/12/17/banjokazooie/\">Why Banjo-Kazooie looked too good for a 90s game – kbrecordzz</a></p>\n\n\n\n<p><a href=\"https://tcrf.net/Prerelease:Banjo-Kazooie/Banjo_Kazoo#Technology\">The Cutting Room Floor: Banjo-Kazooie</a></p>\n\n\n\n<p><a href=\"https://n64squid.com/homebrew/n64-sdk/textures/image-formats/\">Colour and image format types for the N64 &#8211; N64 Squid</a></p>\n\n\n\n<p><a href=\"https://youtu.be/xwls5SpNn1s?si=Y7lcHdTwm1x2xFzb&amp;t=103\">How we BEAT the Limitations that defined the N64s Artstyle &#8211; YouTube</a></p>\n\n\n\n<figure class=\"wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Rare Revealed: A Rare Look at Dream\" width=\"750\" height=\"422\" src=\"https://www.youtube.com/embed/w72kj20YNA0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n</div></figure>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Banjo-Kazooie from the Nintendo 64 had environment and terrain details with blended textures (it is also called decal blending in&hellip; <a class=\"more-link\" href=\"https://alfredbaudisch.com/experiment-logs/banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage/\">Continue reading <span class=\"screen-reader-text\">Banjo-Kazooie (N64) environments and levels: texture blending and vertex color usage</span></a></p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 2737,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": "",
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": "",
+      "experiment_log_parent_project": "2718"
+    },
+    "tags": [
+      6,
+      240,
+      238,
+      237,
+      239,
+      52
+    ],
+    "project-style": [
+      129,
+      125,
+      236,
+      126
+    ],
+    "log-category": [
+      158,
+      105
+    ],
+    "tool": [],
+    "class_list": [
+      "post-2724",
+      "experiment-logs",
+      "type-experiment-logs",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "tag-3d",
+      "tag-banjo-kazooie",
+      "tag-environment",
+      "tag-n64",
+      "tag-terrain",
+      "tag-texture",
+      "project-style-gamedev",
+      "project-style-hand-painted-texture",
+      "project-style-n64",
+      "project-style-photo-texture",
+      "log-category-brainstorming",
+      "log-category-texturing",
+      "entry"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v15.9.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Banjo-Kazooie (N64) environments and levels: texture blending and vertex color usage - Alfred Reinold Baudisch</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<link rel=\"canonical\" href=\"https://alfredbaudisch.com/experiment-logs/banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Banjo-Kazooie (N64) environments and levels: texture blending and vertex color usage - Alfred Reinold Baudisch\" />\n<meta property=\"og:description\" content=\"Banjo-Kazooie from the Nintendo 64 had environment and terrain details with blended textures (it is also called decal blending in&hellip; Continue reading Banjo-Kazooie (N64) environments and levels: texture blending and vertex color usage\" />\n<meta property=\"og:url\" content=\"https://alfredbaudisch.com/experiment-logs/banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage/\" />\n<meta property=\"og:site_name\" content=\"Alfred Reinold Baudisch\" />\n<meta property=\"article:modified_time\" content=\"2025-11-19T23:08:21+00:00\" />\n<meta property=\"og:image\" content=\"https://alfredbaudisch.com/wp-content/uploads/2025/11/BanjoKazooieEnvironmentNintendo64-N64-scaled.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"1415\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\">\n\t<meta name=\"twitter:data1\" content=\"2 minutes\">\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Person\",\"Organization\"],\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\",\"name\":\"alfredbaudisch\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https://secure.gravatar.com/avatar/1084695a59f72a0bd2c732621bea4839?s=96&d=mm&r=g\",\"caption\":\"alfredbaudisch\"},\"logo\":{\"@id\":\"https://alfredbaudisch.com/#personlogo\"},\"sameAs\":[\"https://alfredbaudisch.com\"]},{\"@type\":\"WebSite\",\"@id\":\"https://alfredbaudisch.com/#website\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Alfred Reinold Baudisch\",\"description\":\"\",\"publisher\":{\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://alfredbaudisch.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https://alfredbaudisch.com/wp-content/uploads/2025/11/BanjoKazooieEnvironmentNintendo64-N64-scaled.jpeg\",\"width\":2560,\"height\":1415},{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage/#webpage\",\"url\":\"https://alfredbaudisch.com/experiment-logs/banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage/\",\"name\":\"Banjo-Kazooie (N64) environments and levels: texture blending and vertex color usage - Alfred Reinold Baudisch\",\"isPartOf\":{\"@id\":\"https://alfredbaudisch.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://alfredbaudisch.com/experiment-logs/banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage/#primaryimage\"},\"datePublished\":\"2025-11-20T00:19:17+00:00\",\"dateModified\":\"2025-11-19T23:08:21+00:00\",\"breadcrumb\":{\"@id\":\"https://alfredbaudisch.com/experiment-logs/banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://alfredbaudisch.com/experiment-logs/banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/\",\"name\":\"Experiment Logs\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage/\",\"name\":\"Banjo-Kazooie (N64) environments and levels: texture blending and vertex color usage\"}}]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/2724"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/types/experiment-logs"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 5,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/2724/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 2761,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/2724/revisions/2761"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media/2737"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media?parent=2724"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tags?post=2724"
+        },
+        {
+          "taxonomy": "project-style",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-style?post=2724"
+        },
+        {
+          "taxonomy": "log-category",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/log-category?post=2724"
+        },
+        {
+          "taxonomy": "tool",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tool?post=2724"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 2358,
+    "date": "2022-07-30T09:53:34",
+    "date_gmt": "2022-07-30T07:53:34",
+    "guid": {
+      "rendered": "https://alfredbaudisch.com/?post_type=experiment-logs&#038;p=2358"
+    },
+    "modified": "2022-07-30T13:49:35",
+    "modified_gmt": "2022-07-30T11:49:35",
+    "slug": "in-game-vertex-painting-with-unreal-engine-wash-car-effect",
+    "status": "publish",
+    "type": "experiment-logs",
+    "link": "https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-unreal-engine-wash-car-effect/",
+    "title": {
+      "rendered": "In-game vertex painting with Unreal Engine (Wash Car Effect)"
+    },
+    "content": {
+      "rendered": "\n<p>As stated in the&nbsp;<a rel=\"noreferrer noopener\" href=\"https://alfredbaudisch.com/experiments/gamedev/runtime-in-game-vertex-painting-to-simulate-dirt-removal/\" target=\"_blank\">experiment page</a>, the intention here is to add and remove dirt to meshes dynamically during runtime.</p>\n\n\n\n<p><strong>Unfortunately, with this implementation, I did not manage to make it work with packaged projects</strong>, due to&nbsp;<code>StaticMeshComponent-&gt;CachePaintedDataIfNecessary();</code>&nbsp;which works only in the Editor and PIE.</p>\n\n\n\n<p>I&#8217;m posting this experiment Log as it can be useful for those looking for runtime Vertex Painting with UE4 and UE5 (and as a future note to myself, in case I need it again).</p>\n\n\n\n<p>In any case, I am not going to use this implementation and this approach, I decided to move forward with splat maps and realtime texture painting with Render Targets.</p>\n\n\n\n<figure class=\"wp-block-video aligncenter\"><video controls src=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/UnrealEngineVertexPaintingCleanCarRuntime.mp4\"></video></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Mesh and Material setup</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>In any mesh, paint in any of the vertex color RGB channels (or in all of them for different effects) where you want to have dirt (or any kind of texture)</li><li>In the material, you LERP between the different textures with the main texture of the mesh, where the amount/alpha are the vertex colors</li></ul>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-full\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-26.png\"><img loading=\"lazy\" decoding=\"async\" width=\"774\" height=\"870\" src=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-26.png\" alt=\"\" class=\"wp-image-2359\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-26.png 774w, https://alfredbaudisch.com/wp-content/uploads/2022/07/image-26-267x300.png 267w, https://alfredbaudisch.com/wp-content/uploads/2022/07/image-26-768x863.png 768w\" sizes=\"(max-width: 774px) 100vw, 774px\" /></a></figure></div>\n\n\n<h2 class=\"wp-block-heading\">Painting in the editor</h2>\n\n\n\n<p>The vertices can be painted both in an external 3D package (Blender, etc) or inside Unreal.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-full\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-27.png\"><img loading=\"lazy\" decoding=\"async\" width=\"896\" height=\"529\" src=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-27.png\" alt=\"\" class=\"wp-image-2360\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-27.png 896w, https://alfredbaudisch.com/wp-content/uploads/2022/07/image-27-300x177.png 300w, https://alfredbaudisch.com/wp-content/uploads/2022/07/image-27-768x453.png 768w\" sizes=\"(max-width: 896px) 100vw, 896px\" /></a></figure></div>\n\n\n<p>Basic material to see vertex colors:</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"348\" height=\"487\" src=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-28.png\" alt=\"\" class=\"wp-image-2361\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-28.png 348w, https://alfredbaudisch.com/wp-content/uploads/2022/07/image-28-214x300.png 214w\" sizes=\"(max-width: 348px) 100vw, 348px\" /></figure></div>\n\n\n<h2 class=\"wp-block-heading\">Coffee, Coins and Thumbs Up</h2>\n\n\n\n<p>If you like my content or if you learned something from it, <a href=\"https://ko-fi.com/alfredbaudisch\">buy me a coffee</a> ☕, <a href=\"https://www.patreon.com/alfredbaudisch\">be my Patreon</a> or simply check <a href=\"https://linktr.ee/alfredbaudisch\">all of my links</a> 🔗 and follow me/subscribe/star my repositories/whatever you prefer. If you want to learn Godot, be sure to check <a href=\"https://alfredbaudisch.com/projects/education/dynamic-inventory-system-and-user-interfaces-with-godot-course/\">my courses</a> 📚! </p>\n\n\n\n<p><strong>Or you can simply add <a href=\"https://store.steampowered.com/app/2125110/?utm_source=alfredbaudisch&amp;utm_campaign=coffee_block\">my game to your Steam Wishlist</a> &#8211; that helps GREATLY and it&#8217;s easy and free 🙂</strong></p>\n\n\n\n<h2 class=\"wp-block-heading\">Implementation</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>Create a new Actor Component C++ class.</li><li>In&nbsp;<code>InitialiseInstancedOverrideVertexColorBuffer</code>&nbsp;it&#8217;s possible to count the amount of dirt and cleaned vertices, in order to track progress of the dirtiness/cleanness of the mesh, I left the&nbsp;<code>TODO</code>&nbsp;placeholders there.</li></ul>\n\n\n\n<h3 class=\"wp-block-heading\">C++ Header</h3>\n\n\n\n<pre class=\"EnlighterJSRAW\" data-enlighter-language=\"cpp\" data-enlighter-theme=\"\" data-enlighter-highlight=\"\" data-enlighter-linenumbers=\"\" data-enlighter-lineoffset=\"\" data-enlighter-title=\"\" data-enlighter-group=\"\">// Fill out your copyright notice in the Description page of Project Settings.\n\n#pragma once\n\n#include \"CoreMinimal.h\"\n#include \"Components/ActorComponent.h\"\n#include \"VertexPaintableComponent.generated.h\"\n\n/*\n * Inspirations and sources:\n * - http://www.orfeasel.com/vertex-painting-at-runtime/\n * - https://github.com/alanedwardes/UE4VertexColorSpread\n * - https://www.raywenderlich.com/6817-dynamic-mesh-painting-in-unreal-engine-4\n * - http://unrealpaths.blogspot.com/2016/06/vertex-painting-on-meshes.html\n * - https://www.youtube.com/watch?v=lkxZ1DMRQPg\n */\n\n/**\nChannel used for spreading vertex colors.\n*/\nUENUM()\nnamespace AVertexColorSpreadChannel\n{\n\tenum Channel\n\t{\n\t\tRed,\n\t\tGreen,\n\t\tBlue,\n\t\tAlpha,\n\t};\n}\n\nUCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )\nclass GAME_API UVertexPaintableComponent : public UActorComponent\n{\n\tGENERATED_BODY()\t\n\npublic:\t\n\t// Sets default values for this component's properties\n\tUVertexPaintableComponent();\n\n\tUFUNCTION(BlueprintCallable, Category=VertexPainting)\n\tvoid PaintVertexAtLocation(FVector HitLocation, float PaintLerpProgress = 1.0f);\n\n\tUPROPERTY(BlueprintReadWrite, EditAnywhere, Category=VertexPainting)\n\tFColor TargetBaseColor = FColor::White;\n\nprotected:\n\t// Called when the game starts\n\tvirtual void BeginPlay() override;\n\n\t/**\n\tCreate LOD info entries, and ensure the override vertex color buffer exists.\n\t*/\n\tvoid InitialiseLODInfoAndBuffers();\n\n\t/**\n\tCreate a new override vertex color buffer.\n\t*/\n\tvoid InitialiseInstancedOverrideVertexColorBuffer(FStaticMeshComponentLODInfo* InstanceMeshLODInfo,\n\t                                                  FStaticMeshLODResources&amp; LODModel);\n\t\n\t/**\n\tGet the intensity of the selected channel (see Channel)\n\t*/\n\tint32 GetNearestVertIndex(FVector Position, FStaticMeshLODResources&amp; LODModel);\n\n\t/**\n\tGet the intensity of the selected channel (see Channel)\n\t*/\n\tuint8 GetIntensity(FColor Color);\n\n\t/**\n\tSet the intensity of the selected channel to the given value (see Channel)\n\t*/\n\tvoid SetIntensity(FColor *Color, uint8 Intensity);\n\n\tUPROPERTY(BlueprintReadOnly)\n\tUStaticMeshComponent* StaticMeshComponent;\t\t\n};\n\n</pre>\n\n\n\n<h3 class=\"wp-block-heading\">C++ Implementation</h3>\n\n\n\n<pre class=\"EnlighterJSRAW\" data-enlighter-language=\"cpp\" data-enlighter-theme=\"\" data-enlighter-highlight=\"\" data-enlighter-linenumbers=\"\" data-enlighter-lineoffset=\"\" data-enlighter-title=\"\" data-enlighter-group=\"\">// Fill out your copyright notice in the Description page of Project Settings.\n\n#include \"VertexPaintableComponent.h\"\n#include \"StaticMeshResources.h\"\n\n// Sets default values for this component's properties\nUVertexPaintableComponent::UVertexPaintableComponent()\n{\n\t// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features\n\t// off to improve performance if you don't need them.\n\tPrimaryComponentTick.bCanEverTick = true;\n}\n\n// Called when the game starts\nvoid UVertexPaintableComponent::BeginPlay()\n{\n\tSuper::BeginPlay();\n\n\tStaticMeshComponent = GetOwner()->FindComponentByClass&lt;UStaticMeshComponent>();\n\n\tif(StaticMeshComponent != nullptr &amp;&amp; IsValid(StaticMeshComponent))\n\t{\n\t\tInitialiseLODInfoAndBuffers();\n\t}\n}\n\nvoid UVertexPaintableComponent::PaintVertexAtLocation(FVector HitLocation, float PaintLerpProgress)\n{\n\t// Init the buffers and LOD data\n\tInitialiseLODInfoAndBuffers();\n\n\tFStaticMeshComponentLODInfo* InstanceMeshLODInfo = &amp;StaticMeshComponent->LODData[0];\n\tFStaticMeshLODResources&amp; LODModel = StaticMeshComponent->GetStaticMesh()->GetRenderData()->LODResources[0];\t\n\n\tfloat BrushSize = 150.0f;\n\tauto LocalToWorld = StaticMeshComponent->GetComponentToWorld().ToMatrixWithScale();\n\n\tfor (auto i = 0; i &lt; LODModel.GetNumVertices(); i++)\n\t{\n\t\tauto LocalVertexPosition = LODModel.VertexBuffers.PositionVertexBuffer.VertexPosition(i);\n\t\tauto WorldVertexPosition = LocalToWorld.TransformPosition(UE::Math::TVector4&lt;double>(LocalVertexPosition.X, LocalVertexPosition.Y, LocalVertexPosition.Z, 1.0f));\n\t\tauto Distance = FVector::DistSquared(WorldVertexPosition, HitLocation);\t\t\n\n\t\tif (Distance &lt;= BrushSize)\n\t\t{\n\t\t\tFLinearColor from = FLinearColor(InstanceMeshLODInfo->OverrideVertexColors->VertexColor(i));\n\t\t\tFLinearColor to = FLinearColor(TargetBaseColor);\n\n\t\t\tFColor &amp;currentColor = InstanceMeshLODInfo->OverrideVertexColors->VertexColor(i);\n\t\t\tcurrentColor = FLinearColor::LerpUsingHSV(from, to, PaintLerpProgress).ToFColor(false);\n\t\t}\n\t}\n\n\t// Notify the render thread about the buffer change\n\tBeginUpdateResourceRHI(InstanceMeshLODInfo->OverrideVertexColors);\n\tStaticMeshComponent->MarkRenderStateDirty();\n\n#if WITH_EDITORONLY_DATA\n\tStaticMeshComponent->CachePaintedDataIfNecessary();\n#endif\n}\n\nint32 UVertexPaintableComponent::GetNearestVertIndex(FVector Position, FStaticMeshLODResources&amp; LODModel)\n{\n\tauto ShortestDistance = 0;\n\tauto NearestVertexIndex = -1;\n\tauto LocalToWorld = StaticMeshComponent->GetComponentToWorld().ToMatrixWithScale();\n\n\tfor (auto i = 0; i &lt; LODModel.GetNumVertices(); i++)\n\t{\n\t\tauto LocalVertexPosition = LODModel.VertexBuffers.PositionVertexBuffer.VertexPosition(i);\n\t\tauto WorldVertexPosition = LocalToWorld.TransformPosition(UE::Math::TVector4&lt;double>(LocalVertexPosition.X, LocalVertexPosition.Y, LocalVertexPosition.Z, 1.0f));\n\t\tauto Distance = FVector::DistSquared(WorldVertexPosition, Position);\n\n\t\tif (Distance &lt; ShortestDistance || ShortestDistance &lt; 0)\n\t\t{\n\t\t\tShortestDistance = Distance;\n\t\t\tNearestVertexIndex = i;\n\t\t}\n\t}\n\n\treturn NearestVertexIndex;\n}\n\nvoid UVertexPaintableComponent::InitialiseLODInfoAndBuffers()\n{\n\tif (StaticMeshComponent->LODData.Num() == 0)\n\t{\n\t\tStaticMeshComponent->SetLODDataCount(1, StaticMeshComponent->LODData.Num());\n\t}\n\n\tFStaticMeshLODResources&amp; LODModel = StaticMeshComponent->GetStaticMesh()->GetRenderData()->LODResources[0];\n\tFStaticMeshComponentLODInfo* InstanceMeshLODInfo = &amp;StaticMeshComponent->LODData[0];\n\n\tif (InstanceMeshLODInfo->OverrideVertexColors == nullptr)\n\t{\n\t\tInitialiseInstancedOverrideVertexColorBuffer(InstanceMeshLODInfo, LODModel);\n\t}\n}\n\nvoid UVertexPaintableComponent::InitialiseInstancedOverrideVertexColorBuffer(FStaticMeshComponentLODInfo* InstanceMeshLODInfo, FStaticMeshLODResources&amp; LODModel)\n{\n\t// Check that we don't already have an overridden vertex color buffer\n\tcheck(InstanceMeshLODInfo->OverrideVertexColors == nullptr);\n\n\t// Create a new buffer\n\tInstanceMeshLODInfo->OverrideVertexColors = new FColorVertexBuffer;\n\t\n\tif ((int32)LODModel.VertexBuffers.ColorVertexBuffer.GetNumVertices() >= LODModel.GetNumVertices())\n\t{\n\t\t// If the mesh already has vertex colours, initialise OverrideVertexColors from them\n\t\tInstanceMeshLODInfo->OverrideVertexColors->InitFromColorArray(&amp;LODModel.VertexBuffers.ColorVertexBuffer.VertexColor(0), LODModel.GetNumVertices());\n\t}\n\telse\n\t{\n\t\t// If it doesn't, set all overridden vert colours to black\n\t\tInstanceMeshLODInfo->OverrideVertexColors->InitFromSingleColor(TargetBaseColor, LODModel.GetNumVertices());\n\t}\n\n\tfor (auto i = 0; i &lt; LODModel.GetNumVertices(); i++)\n\t{\n\t\tif(InstanceMeshLODInfo->OverrideVertexColors->VertexColor(i) != TargetBaseColor)\n\t\t{\n\t\t\t// TODO: add vertex idx to the dirt list\n\t\t\t// TODO: save amount of dirt vertexes, to keep track of % cleaned/dirt\n\t\t}\n\t}\n\n\tBeginInitResource(InstanceMeshLODInfo->OverrideVertexColors);\n}\n\n</pre>\n\n\n\n<h3 class=\"wp-block-heading\">Add Component</h3>\n\n\n\n<p>Add the newly created&nbsp;<code>VertexPaintableComponent</code>&nbsp;to any mesh supposed to be paintable during runtime.</p>\n\n\n\n<h3 class=\"wp-block-heading\">Performing the Vertex Painting Action</h3>\n\n\n\n<p>Perform a line trace with the character and then call&nbsp;<code>Paint Vertex at Location</code>&nbsp;from the Hit&#8217;s&nbsp;<code>VertexPaintableComponent</code>&nbsp;component (if found).<br>Copy the Blueprints from here:&nbsp;<a href=\"https://blueprintue.com/blueprint/fky3jco9/\" target=\"_blank\" rel=\"noreferrer noopener\">https://blueprintue.com/blueprint/fky3jco9/</a></p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-29.png\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"488\" src=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-29-1024x488.png\" alt=\"\" class=\"wp-image-2362\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-29-1024x488.png 1024w, https://alfredbaudisch.com/wp-content/uploads/2022/07/image-29-300x143.png 300w, https://alfredbaudisch.com/wp-content/uploads/2022/07/image-29-768x366.png 768w, https://alfredbaudisch.com/wp-content/uploads/2022/07/image-29.png 1339w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure></div>\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-30.png\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"396\" src=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-30-1024x396.png\" alt=\"\" class=\"wp-image-2363\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-30-1024x396.png 1024w, https://alfredbaudisch.com/wp-content/uploads/2022/07/image-30-300x116.png 300w, https://alfredbaudisch.com/wp-content/uploads/2022/07/image-30-768x297.png 768w, https://alfredbaudisch.com/wp-content/uploads/2022/07/image-30.png 1382w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure></div>",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>As stated in the&nbsp;experiment page, the intention here is to add and remove dirt to meshes dynamically during runtime. Unfortunately,&hellip; <a class=\"more-link\" href=\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-unreal-engine-wash-car-effect/\">Continue reading <span class=\"screen-reader-text\">In-game vertex painting with Unreal Engine (Wash Car Effect)</span></a></p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 2360,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": "",
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": "",
+      "experiment_log_parent_project": "2082"
+    },
+    "tags": [
+      160,
+      224,
+      203,
+      210
+    ],
+    "project-style": [
+      129,
+      225
+    ],
+    "log-category": [
+      155
+    ],
+    "tool": [
+      201,
+      199
+    ],
+    "class_list": [
+      "post-2358",
+      "experiment-logs",
+      "type-experiment-logs",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "tag-shaders",
+      "tag-ue",
+      "tag-ue5",
+      "tag-unreal-engine",
+      "project-style-gamedev",
+      "project-style-shaders",
+      "log-category-programming",
+      "tool-c",
+      "tool-unreal-engine",
+      "entry"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v15.9.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>In-game vertex painting with Unreal Engine (Wash Car Effect) - Alfred Reinold Baudisch</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<link rel=\"canonical\" href=\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-unreal-engine-wash-car-effect/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"In-game vertex painting with Unreal Engine (Wash Car Effect) - Alfred Reinold Baudisch\" />\n<meta property=\"og:description\" content=\"As stated in the&nbsp;experiment page, the intention here is to add and remove dirt to meshes dynamically during runtime. Unfortunately,&hellip; Continue reading In-game vertex painting with Unreal Engine (Wash Car Effect)\" />\n<meta property=\"og:url\" content=\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-unreal-engine-wash-car-effect/\" />\n<meta property=\"og:site_name\" content=\"Alfred Reinold Baudisch\" />\n<meta property=\"article:modified_time\" content=\"2022-07-30T11:49:35+00:00\" />\n<meta property=\"og:image\" content=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-27.png\" />\n\t<meta property=\"og:image:width\" content=\"896\" />\n\t<meta property=\"og:image:height\" content=\"529\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\">\n\t<meta name=\"twitter:data1\" content=\"5 minutes\">\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Person\",\"Organization\"],\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\",\"name\":\"alfredbaudisch\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https://secure.gravatar.com/avatar/1084695a59f72a0bd2c732621bea4839?s=96&d=mm&r=g\",\"caption\":\"alfredbaudisch\"},\"logo\":{\"@id\":\"https://alfredbaudisch.com/#personlogo\"},\"sameAs\":[\"https://alfredbaudisch.com\"]},{\"@type\":\"WebSite\",\"@id\":\"https://alfredbaudisch.com/#website\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Alfred Reinold Baudisch\",\"description\":\"\",\"publisher\":{\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://alfredbaudisch.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-unreal-engine-wash-car-effect/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-27.png\",\"width\":896,\"height\":529},{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-unreal-engine-wash-car-effect/#webpage\",\"url\":\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-unreal-engine-wash-car-effect/\",\"name\":\"In-game vertex painting with Unreal Engine (Wash Car Effect) - Alfred Reinold Baudisch\",\"isPartOf\":{\"@id\":\"https://alfredbaudisch.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-unreal-engine-wash-car-effect/#primaryimage\"},\"datePublished\":\"2022-07-30T07:53:34+00:00\",\"dateModified\":\"2022-07-30T11:49:35+00:00\",\"breadcrumb\":{\"@id\":\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-unreal-engine-wash-car-effect/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-unreal-engine-wash-car-effect/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-unreal-engine-wash-car-effect/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/\",\"name\":\"Experiment Logs\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-unreal-engine-wash-car-effect/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-unreal-engine-wash-car-effect/\",\"name\":\"In-game vertex painting with Unreal Engine (Wash Car Effect)\"}}]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/2358"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/types/experiment-logs"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 3,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/2358/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 2384,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/2358/revisions/2384"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media/2360"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media?parent=2358"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tags?post=2358"
+        },
+        {
+          "taxonomy": "project-style",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-style?post=2358"
+        },
+        {
+          "taxonomy": "log-category",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/log-category?post=2358"
+        },
+        {
+          "taxonomy": "tool",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tool?post=2358"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 2353,
+    "date": "2022-07-30T09:49:14",
+    "date_gmt": "2022-07-30T07:49:14",
+    "guid": {
+      "rendered": "https://alfredbaudisch.com/?post_type=experiment-logs&#038;p=2353"
+    },
+    "modified": "2022-07-30T18:06:46",
+    "modified_gmt": "2022-07-30T16:06:46",
+    "slug": "in-game-vertex-painting-with-godot-engine-wash-car-effect",
+    "status": "publish",
+    "type": "experiment-logs",
+    "link": "https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-godot-engine-wash-car-effect/",
+    "title": {
+      "rendered": "In-game vertex painting with Godot Engine (Wash Car Effect)"
+    },
+    "content": {
+      "rendered": "\n<p>As stated in the&nbsp;<a href=\"https://alfredbaudisch.com/experiments/gamedev/runtime-in-game-vertex-painting-to-simulate-dirt-removal/\" target=\"_blank\" rel=\"noreferrer noopener\">experiment page</a>, the intention here is to add and remove dirt from meshes dynamically during runtime. My implementation works in packaged games and projects, without any performance hit (dealing with vertex colors is cheap).</p>\n\n\n\n<p>In any case, I am not going to use this implementation and this approach. I decided to move forward with splat maps and <a href=\"https://alfredbaudisch.com/blog/gamedev/godot-engine/godot-engine-in-game-splat-map-texture-painting-dirt-removal-effect/\">realtime texture painting with Render Textures from Viewports</a>, because then I don&#8217;t have to worry about mesh density. But it&#8217;s fine to use this implementation for simple meshes and simple use cases.</p>\n\n\n\n<p>The source-code and a sample <a href=\"https://github.com/alfredbaudisch/GodotInGameVertexPaintingDirtEffect\">working project is available on my Github</a>.</p>\n\n\n\n<figure class=\"wp-block-video aligncenter\"><video controls src=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/GodotVertexPaintingExample.mp4\"></video></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Mesh and Material Setup</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>In any mesh, paint in any of the vertex color RGB channels (or in all of them for different effects) where you want to have dirt (or any kind of texture)</li><li>In the material, you interpolate between the different textures with the main texture of the mesh, where the amount/alpha are the vertex colors.</li></ul>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-24.png\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"747\" src=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-24-1024x747.png\" alt=\"\" class=\"wp-image-2354\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-24-1024x747.png 1024w, https://alfredbaudisch.com/wp-content/uploads/2022/07/image-24-300x219.png 300w, https://alfredbaudisch.com/wp-content/uploads/2022/07/image-24-768x560.png 768w, https://alfredbaudisch.com/wp-content/uploads/2022/07/image-24.png 1224w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure></div>\n\n\n<h3 class=\"wp-block-heading\">Painting in the editor (Preloading vertex colors)</h3>\n\n\n\n<p>In order to map the starting colors of the vertices (for example, where in the car it&#8217;s going to be dirty?), the vertices have to be pre-painted.</p>\n\n\n\n<p>They can be painted both in an external 3D package (Blender, etc) or inside Godot, but to paint inside Godot you need the <a href=\"https://github.com/tomankirilov/VPainter\" target=\"_blank\" rel=\"noreferrer noopener\">VPainter addon</a>.</p>\n\n\n\n<p>Then, with this implementation, you can paint the vertices at runtime, for example, to remove dirt and other effects.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Implementation</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>Attach a script to your character or camera.</li><li>Point your camera to a mesh with vertex colors painted and a mesh that has the previous material, and paint (or clean!).</li><li>Download the sample project from GitHub.</li></ul>\n\n\n\n<pre class=\"EnlighterJSRAW\" data-enlighter-language=\"python\" data-enlighter-theme=\"\" data-enlighter-highlight=\"\" data-enlighter-linenumbers=\"\" data-enlighter-lineoffset=\"\" data-enlighter-title=\"\" data-enlighter-group=\"\">extends Spatial\n\nvar recheck := false\nvar ray_length = 1000\n\nvar brush_size:float = .3\nvar brush_opacity:float = .25\nvar brush_hardness:float = 0.2\n\nvar paint_color = Color(1, 1, 1, 1)\n\nvar click_position\nexport var mesh_path : NodePath\nvar current_mesh : MeshInstance\n\nfunc _ready():\n\tcurrent_mesh = get_node(mesh_path) as MeshInstance\n\nfunc _unhandled_input(event):\t\t\n\tif event is InputEventMouseMotion:\n\t\trecheck = true\n\nfunc _physics_process(delta):\n\tif recheck:\n\t\tvar position2D = get_tree().root.get_mouse_position()\n\t\t\n\t\tvar camera = $Camera\n\t\tvar from = camera.project_ray_origin(position2D)\n\t\tvar to = from + camera.project_ray_normal(position2D) * ray_length\n\t\t\n\t\tvar space_state = get_world().direct_space_state\n\t\t# use global coordinates, not local to node\n\t\tvar result = space_state.intersect_ray(from, to, [self], 1, true, true)\t\n\t\t\n\t\tif result.size() > 0:\n\t\t\tclick_position = result.position\n\t\t\t_paint_tool()\n\t\t\t\n\t\trecheck = false\t\n\n#\n# This code segment is taken from https://github.com/tomankirilov/VPainter\n# Copyright (c) 2020 toman kirilov (MIT License)\n# \nfunc _paint_tool() -> void:\n\tvar data = MeshDataTool.new()\n\tdata.create_from_surface(current_mesh.mesh, 0)\t\n\n\tfor i in range(data.get_vertex_count()):\n\t\tvar vertex := current_mesh.to_global(data.get_vertex(i))\n\t\tvar vertex_distance:float = vertex.distance_to(click_position)\n\n\t\tif vertex_distance &lt; brush_size/2:\n\t\t\tvar linear_distance = 1 - (vertex_distance / (brush_size/2))\n\t\t\tvar calculated_hardness = linear_distance * brush_hardness\t\t\t\n\t\t\tdata.set_vertex_color(i, data.get_vertex_color(i).linear_interpolate(paint_color, brush_opacity))\n\n\tcurrent_mesh.mesh.surface_remove(0)\n\tdata.commit_to_surface(current_mesh.mesh)\n</pre>\n\n\n\n<h2 class=\"wp-block-heading\">Coffee, Coins and Thumbs Up</h2>\n\n\n\n<p>If you like my content or if you learned something from it, <a href=\"https://ko-fi.com/alfredbaudisch\">buy me a coffee</a> ☕, <a href=\"https://www.patreon.com/alfredbaudisch\">be my Patreon</a> or simply check <a href=\"https://linktr.ee/alfredbaudisch\">all of my links</a> 🔗 and follow me/subscribe/star my repositories/whatever you prefer. If you want to learn Godot, be sure to check <a href=\"https://alfredbaudisch.com/projects/education/dynamic-inventory-system-and-user-interfaces-with-godot-course/\">my courses</a> 📚! </p>\n\n\n\n<p><strong>Or you can simply add <a href=\"https://store.steampowered.com/app/2125110/?utm_source=alfredbaudisch&amp;utm_campaign=coffee_block\">my game to your Steam Wishlist</a> &#8211; that helps GREATLY and it&#8217;s easy and free 🙂</strong></p>\n\n\n\n<h2 class=\"wp-block-heading\">Where to place the materials?</h2>\n\n\n\n<p>In the example project, the example Mesh is a car from Kenney, which has many different surfaces.</p>\n\n\n\n<p>In this case, MeshInstance&#8217;s &#8220;Surface 3&#8221; contains the material&nbsp;<code>R_M_SuvHood.tres</code>&nbsp;and &#8220;Surface 5&#8221; contains the material&nbsp;<code>R_M_SuvWindows.tres</code>.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-full\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-25.png\"><img loading=\"lazy\" decoding=\"async\" width=\"264\" height=\"877\" src=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-25.png\" alt=\"\" class=\"wp-image-2355\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-25.png 264w, https://alfredbaudisch.com/wp-content/uploads/2022/07/image-25-90x300.png 90w\" sizes=\"(max-width: 264px) 100vw, 264px\" /></a></figure></div>",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>As stated in the&nbsp;experiment page, the intention here is to add and remove dirt from meshes dynamically during runtime. My&hellip; <a class=\"more-link\" href=\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-godot-engine-wash-car-effect/\">Continue reading <span class=\"screen-reader-text\">In-game vertex painting with Godot Engine (Wash Car Effect)</span></a></p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 2354,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_stopmodifiedupdate": true,
+      "_modified_date": "",
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": "",
+      "experiment_log_parent_project": "2082"
+    },
+    "tags": [
+      63,
+      220,
+      160
+    ],
+    "project-style": [
+      129,
+      225
+    ],
+    "log-category": [
+      155
+    ],
+    "tool": [
+      173,
+      108
+    ],
+    "class_list": [
+      "post-2353",
+      "experiment-logs",
+      "type-experiment-logs",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "tag-godot",
+      "tag-godot-engine",
+      "tag-shaders",
+      "project-style-gamedev",
+      "project-style-shaders",
+      "log-category-programming",
+      "tool-gdscript",
+      "tool-godot",
+      "entry"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v15.9.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>In-game vertex painting with Godot Engine (Wash Car Effect) - Alfred Reinold Baudisch</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<link rel=\"canonical\" href=\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-godot-engine-wash-car-effect/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"In-game vertex painting with Godot Engine (Wash Car Effect) - Alfred Reinold Baudisch\" />\n<meta property=\"og:description\" content=\"As stated in the&nbsp;experiment page, the intention here is to add and remove dirt from meshes dynamically during runtime. My&hellip; Continue reading In-game vertex painting with Godot Engine (Wash Car Effect)\" />\n<meta property=\"og:url\" content=\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-godot-engine-wash-car-effect/\" />\n<meta property=\"og:site_name\" content=\"Alfred Reinold Baudisch\" />\n<meta property=\"article:modified_time\" content=\"2022-07-30T16:06:46+00:00\" />\n<meta property=\"og:image\" content=\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-24.png\" />\n\t<meta property=\"og:image:width\" content=\"1224\" />\n\t<meta property=\"og:image:height\" content=\"893\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\">\n\t<meta name=\"twitter:data1\" content=\"3 minutes\">\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Person\",\"Organization\"],\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\",\"name\":\"alfredbaudisch\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https://secure.gravatar.com/avatar/1084695a59f72a0bd2c732621bea4839?s=96&d=mm&r=g\",\"caption\":\"alfredbaudisch\"},\"logo\":{\"@id\":\"https://alfredbaudisch.com/#personlogo\"},\"sameAs\":[\"https://alfredbaudisch.com\"]},{\"@type\":\"WebSite\",\"@id\":\"https://alfredbaudisch.com/#website\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Alfred Reinold Baudisch\",\"description\":\"\",\"publisher\":{\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://alfredbaudisch.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-godot-engine-wash-car-effect/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https://alfredbaudisch.com/wp-content/uploads/2022/07/image-24.png\",\"width\":1224,\"height\":893},{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-godot-engine-wash-car-effect/#webpage\",\"url\":\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-godot-engine-wash-car-effect/\",\"name\":\"In-game vertex painting with Godot Engine (Wash Car Effect) - Alfred Reinold Baudisch\",\"isPartOf\":{\"@id\":\"https://alfredbaudisch.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-godot-engine-wash-car-effect/#primaryimage\"},\"datePublished\":\"2022-07-30T07:49:14+00:00\",\"dateModified\":\"2022-07-30T16:06:46+00:00\",\"breadcrumb\":{\"@id\":\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-godot-engine-wash-car-effect/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-godot-engine-wash-car-effect/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-godot-engine-wash-car-effect/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/\",\"name\":\"Experiment Logs\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-godot-engine-wash-car-effect/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-godot-engine-wash-car-effect/\",\"name\":\"In-game vertex painting with Godot Engine (Wash Car Effect)\"}}]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/2353"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/types/experiment-logs"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 12,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/2353/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 2394,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/2353/revisions/2394"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media/2354"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media?parent=2353"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tags?post=2353"
+        },
+        {
+          "taxonomy": "project-style",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-style?post=2353"
+        },
+        {
+          "taxonomy": "log-category",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/log-category?post=2353"
+        },
+        {
+          "taxonomy": "tool",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tool?post=2353"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 2010,
+    "date": "2022-06-19T10:54:27",
+    "date_gmt": "2022-06-19T08:54:27",
+    "guid": {
+      "rendered": "https://alfredbaudisch.com/?post_type=experiment-logs&#038;p=2010"
+    },
+    "modified": "2022-06-19T11:43:00",
+    "modified_gmt": "2022-06-19T11:43:00",
+    "slug": "devlog-02-lack-of-progress-an-lack-of-fun",
+    "status": "publish",
+    "type": "experiment-logs",
+    "link": "https://alfredbaudisch.com/experiment-logs/devlog-02-lack-of-progress-an-lack-of-fun/",
+    "title": {
+      "rendered": "Devlog 02: Lack of Progress and Feature Creep"
+    },
+    "content": {
+      "rendered": "\n<p>It&#8217;s been almost a month since the <a href=\"https://alfredbaudisch.com/experiment-logs/devlog-01-camera-system-and-grid-based-construction/\">first devlog</a> of this gamedev experiment and since then I haven&#8217;t developed the game anymore, because of a huge task I had to finish at work.</p>\n\n\n\n<p>Now that I&#8217;m available again, I tried to resume making this game, but for now, <strong>it&#8217;s not clicking with me anymore</strong>. This whole game idea started inspired by two other games: <strong><a href=\"https://store.steampowered.com/app/1822910/Capybara_Spa/\">Capybara Spa</a>, but using Farming mechanics similar to <a href=\"https://store.steampowered.com/app/673950/Farm_Together/\">Farm Together</a>.</strong></p>\n\n\n\n<p>I liked how Farm Together has laid down the <strong>farming system</strong> (moving a 3rd person character to a tile instead of using the mouse) and I liked the &#8220;hyper casual&#8221;, <strong>relaxed nature of Capybara Spa</strong>, but mostly important, I liked that <strong>the whole purpose of that game is to feed Capybaras while listening to them munching food</strong> &#8211; it&#8217;s relaxing. </p>\n\n\n\n<h2 class=\"wp-block-heading\">Game Design in the Mind of an Software Architect</h2>\n\n\n\n<p>Due to me bringing my experience as a Software Architect and Data Scientist into Game Development, I turn most of my hobby gamedev projects, including this one, into a <strong><a href=\"https://youtu.be/tu_vljnsVdI?t=1154\">Feature Creep mess</a></strong>, <strong>I focus too much on making systems instead of making a game</strong>, afterall I consider Game Design to be much harder than anything else.</p>\n\n\n\n<p>I have a lot to learn and practice in terms of Game Design, hats off for whoever creates a fun and engaging game (and that&#8217;s why I have NEVER rated an indie game negatively. In terms of indie games, I always drop a positive review, even if I don&#8217;t like the game).</p>\n\n\n\n<p>So for now I&#8217;m not considering this as a fun game anymore or something that I really want to finish &#8211; because my whole idea to begin with was to create a small game to release on Steam.</p>\n\n\n\n<p><strong>I have more than enough programming experience and enough 3D art making skills to make ANY kind of game I want</strong>, but on the other side, <strong>the way I approach Game Design tends to come with scopes that are too big, too mechanical, too messy, too bloated</strong>.</p>\n\n\n\n<p>I already read a dozen books on the subject, but since <strong>I overthink everything</strong> and since I structure everything I study and do in <strong>systems and connections in my mind</strong>, I end up creating <strong>hundreds of new connections in my game ideas all the time, always leading to Feature Creep even before starting</strong> &#8211; I add <strong>mechanics for the sake of mechanics</strong>, in order to try to fulfill every possible aspect of a game world or genre.</p>\n\n\n\n<p>Also, abstraction is something that I still struggle with and that I will probably struggle with my whole life. Which leads even more to think only about systems, instead of &#8220;fun&#8221;.</p>\n\n\n\n<p>Maybe I should stick to the principles of <a href=\"https://www.youtube.com/watch?v=tu_vljnsVdI\"><strong>Blatant and Blind Imitation</strong></a>? This way, <strong>I wouldn&#8217;t have to come up with something new, and I wouldn&#8217;t even have to think about Game Design, I could just copy it and I could focus on what I do better: architect and implement systems</strong>. This is also <strong>the perfect way to create educational content and even ready-to-use packages</strong> and assets to sell on the Asset Stores, <strong>similarly to <a href=\"https://www.youtube.com/c/RyanLaley\">Ryan Laley</a>&#8216;s channel or even my own <a href=\"https://alfredbaudisch.com/projects/education/dynamic-inventory-system-and-user-interfaces-with-godot-course/\">Zelda Breath of the Wild Inventory Course with Godot</a></strong>.</p>\n\n\n\n<p>It also seems to me that creating <a href=\"https://store.steampowered.com/app/24010/Train_Simulator_Classic/\">realistic simulators</a> should be the way to go &#8211; afterall I also greatly enjoy <a href=\"https://store.steampowered.com/app/1248130/Farming_Simulator_22/\">playing Simulators</a>. And <a href=\"https://store.steampowered.com/publisher/playway/list/39592/\">these Simulators</a> are just systems on top of systems and more systems.</p>\n\n\n\n<p>What am I waiting for? Seems to be the perfect scenario (system development + something that I enjoy). So this is probably going to be my next gamedev experiment iteration.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Game design sins / Artyom Volkov (Ciliz)\" width=\"750\" height=\"422\" src=\"https://www.youtube.com/embed/tu_vljnsVdI?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Experiments and Code Leftovers</h2>\n\n\n\n<p>I&#8217;m glad I put this under <strong>&#8220;Experiments&#8221;</strong>, since I can <strong>easily drop it</strong> without feeling guilty and <strong>I&#8217;ll start another game idea</strong> that I had this week &#8211; also as an experiment. <strong>I still want to release a game on Steam.</strong></p>\n\n\n\n<p>At the same time, that&#8217;s the good part of doing this as a hobby, there&#8217;s no external pressure and no time pressures, the freedom allows to jump around (this is also bad at the same time) &#8211; the only pressure is the one I bring onto myself, as it&#8217;s clear from this article.</p>\n\n\n\n<p>I wrote a lot of C++ code for this experiment (I&#8217;m using Unreal Engine), and I created 3 different game systems. I may re-use the code and/or systems in other projects. I may even release some code as open-source or even as Unreal Engine Marketplace assets. But no promises. I just want to make a game and release it.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>It&#8217;s been almost a month since the first devlog of this gamedev experiment and since then I haven&#8217;t developed the&hellip; <a class=\"more-link\" href=\"https://alfredbaudisch.com/experiment-logs/devlog-02-lack-of-progress-an-lack-of-fun/\">Continue reading <span class=\"screen-reader-text\">Devlog 02: Lack of Progress and Feature Creep</span></a></p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": "",
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": "",
+      "experiment_log_parent_project": "1990"
+    },
+    "tags": [
+      207
+    ],
+    "project-style": [
+      129
+    ],
+    "log-category": [
+      158,
+      155,
+      157
+    ],
+    "tool": [
+      201,
+      199
+    ],
+    "class_list": [
+      "post-2010",
+      "experiment-logs",
+      "type-experiment-logs",
+      "status-publish",
+      "format-standard",
+      "hentry",
+      "tag-game-design",
+      "project-style-gamedev",
+      "log-category-brainstorming",
+      "log-category-programming",
+      "log-category-specification",
+      "tool-c",
+      "tool-unreal-engine",
+      "entry"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v15.9.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Devlog 02: Lack of Progress and Feature Creep - Alfred Reinold Baudisch</title>\n<meta name=\"description\" content=\"After a month without progress, I&#039;m back to this gamedev experiment, but it&#039;s a Feature Creep mess and I can&#039;t find fun as in &quot;game&quot;. Onto the next idea!\" />\n<link rel=\"canonical\" href=\"https://alfredbaudisch.com/experiment-logs/devlog-02-lack-of-progress-an-lack-of-fun/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Devlog 02: Lack of Progress and Feature Creep - Alfred Reinold Baudisch\" />\n<meta property=\"og:description\" content=\"After a month without progress, I&#039;m back to this gamedev experiment, but it&#039;s a Feature Creep mess and I can&#039;t find fun as in &quot;game&quot;. Onto the next idea!\" />\n<meta property=\"og:url\" content=\"https://alfredbaudisch.com/experiment-logs/devlog-02-lack-of-progress-an-lack-of-fun/\" />\n<meta property=\"og:site_name\" content=\"Alfred Reinold Baudisch\" />\n<meta property=\"article:modified_time\" content=\"2022-06-19T11:43:00+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\">\n\t<meta name=\"twitter:data1\" content=\"4 minutes\">\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Person\",\"Organization\"],\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\",\"name\":\"alfredbaudisch\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https://secure.gravatar.com/avatar/1084695a59f72a0bd2c732621bea4839?s=96&d=mm&r=g\",\"caption\":\"alfredbaudisch\"},\"logo\":{\"@id\":\"https://alfredbaudisch.com/#personlogo\"},\"sameAs\":[\"https://alfredbaudisch.com\"]},{\"@type\":\"WebSite\",\"@id\":\"https://alfredbaudisch.com/#website\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Alfred Reinold Baudisch\",\"description\":\"\",\"publisher\":{\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://alfredbaudisch.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/devlog-02-lack-of-progress-an-lack-of-fun/#webpage\",\"url\":\"https://alfredbaudisch.com/experiment-logs/devlog-02-lack-of-progress-an-lack-of-fun/\",\"name\":\"Devlog 02: Lack of Progress and Feature Creep - Alfred Reinold Baudisch\",\"isPartOf\":{\"@id\":\"https://alfredbaudisch.com/#website\"},\"datePublished\":\"2022-06-19T08:54:27+00:00\",\"dateModified\":\"2022-06-19T11:43:00+00:00\",\"description\":\"After a month without progress, I'm back to this gamedev experiment, but it's a Feature Creep mess and I can't find fun as in \\\"game\\\". Onto the next idea!\",\"breadcrumb\":{\"@id\":\"https://alfredbaudisch.com/experiment-logs/devlog-02-lack-of-progress-an-lack-of-fun/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://alfredbaudisch.com/experiment-logs/devlog-02-lack-of-progress-an-lack-of-fun/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/devlog-02-lack-of-progress-an-lack-of-fun/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/\",\"name\":\"Experiment Logs\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/devlog-02-lack-of-progress-an-lack-of-fun/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/devlog-02-lack-of-progress-an-lack-of-fun/\",\"name\":\"Devlog 02: Lack of Progress and Feature Creep\"}}]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/2010"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/types/experiment-logs"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 15,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/2010/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 2697,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/2010/revisions/2697"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media?parent=2010"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tags?post=2010"
+        },
+        {
+          "taxonomy": "project-style",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-style?post=2010"
+        },
+        {
+          "taxonomy": "log-category",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/log-category?post=2010"
+        },
+        {
+          "taxonomy": "tool",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tool?post=2010"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1999,
+    "date": "2022-05-22T14:43:59",
+    "date_gmt": "2022-05-22T12:43:59",
+    "guid": {
+      "rendered": "https://alfredbaudisch.com/?post_type=experiment-logs&#038;p=1999"
+    },
+    "modified": "2022-05-22T16:43:39",
+    "modified_gmt": "2022-05-22T14:43:39",
+    "slug": "devlog-01-camera-system-and-grid-based-construction",
+    "status": "publish",
+    "type": "experiment-logs",
+    "link": "https://alfredbaudisch.com/experiment-logs/devlog-01-camera-system-and-grid-based-construction/",
+    "title": {
+      "rendered": "Devlog 01: Camera System and Grid Based Building"
+    },
+    "content": {
+      "rendered": "\n<p>The project started officially on 10th of May, I only worked on it for a few days on the weekends.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Camera System</h2>\n\n\n\n<div class=\"wp-block-image\"><figure class=\"aligncenter size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"342\" height=\"207\" src=\"https://alfredbaudisch.com/wp-content/uploads/2022/05/UESeeThrough.gif\" alt=\"\" class=\"wp-image-1969\"/></figure></div>\n\n\n\n<p><strong>Developed a 3rd person camera system</strong>, that makes object in front of the camera transparent and has multiple zoom levels. <a href=\"https://alfredbaudisch.com/blog/gamedev/unreal-engine-ue/unreal-engine-actors-transparent-block-camera-occlusion-see-through/\">I wrote an article about it</a> and I even shared the source-code for the see through mechanism.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Grid Base Building System without the Mouse</h2>\n\n\n\n<figure class=\"wp-block-video aligncenter\"><video controls src=\"https://alfredbaudisch.com/wp-content/uploads/2022/05/DogGame-GridBasedBuilding-UnrealEngine.mp4\"></video></figure>\n\n\n\n<p><strong>Implemented a grid and tile based building mechanism</strong>. You can place buildings of different sizes in the grid. It all works with moving the character, without using the mouse, similarly to Harvest Moon.</p>\n\n\n\n<p>It detects overlaps, needed amount of tiles for a building and also supports separate grids (i.e. the game does not have to be grid based, I can have a landscape with grids spread over the level).</p>\n\n\n\n<h2 class=\"wp-block-heading\">C++, Blueprints, Crashes and Corruptions</h2>\n\n\n\n<p>Everything that is related to architecture, game core, business logic is being made with C++. Anything that involves assets or custom properties are being made with Blueprint.</p>\n\n\n\n<p>I was having a lot of trouble with Unreal Engine 5 C++ Live Coding. The Editor would crash constantly and my Blueprints would get corrupted, where I had to redo the work multiple times. See details and how I solved <a href=\"https://forums.unrealengine.com/t/excessive-crashes-and-blueprint-corruption-when-using-live-coding-how-to-fix-that/558177\">on my topic on the Unreal Engine forums</a>. </p>\n\n\n\n<p>I&#8217;m using JetBrains Rider and it&#8217;s a lot of fun to write C++ with it.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://alfredbaudisch.com/wp-content/uploads/2022/05/image-5.png\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"657\" src=\"https://alfredbaudisch.com/wp-content/uploads/2022/05/image-5-1024x657.png\" alt=\"\" class=\"wp-image-2001\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2022/05/image-5-1024x657.png 1024w, https://alfredbaudisch.com/wp-content/uploads/2022/05/image-5-300x193.png 300w, https://alfredbaudisch.com/wp-content/uploads/2022/05/image-5-768x493.png 768w, https://alfredbaudisch.com/wp-content/uploads/2022/05/image-5-1536x986.png 1536w, https://alfredbaudisch.com/wp-content/uploads/2022/05/image-5-1568x1006.png 1568w, https://alfredbaudisch.com/wp-content/uploads/2022/05/image-5.png 1686w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a><figcaption>My project in JetBrains Rider.</figcaption></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Next Steps</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>Building behaviors:<ul><li>Factory Buildings (i.e. produce resources for the SPA)</li><li>Occupancy Buildings</li></ul></li><li>Level and currency system</li><li>Dogs coming in and triggering their requirements over time</li></ul>\n\n\n\n<p>I am going to start making art and other assets only after I finish the gameplay systems &#8211; I have to validate whether the gameplay loop will be fun or not.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>The project started officially on 10th of May, I only worked on it for a few days on the weekends.&hellip; <a class=\"more-link\" href=\"https://alfredbaudisch.com/experiment-logs/devlog-01-camera-system-and-grid-based-construction/\">Continue reading <span class=\"screen-reader-text\">Devlog 01: Camera System and Grid Based Building</span></a></p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 2002,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": "",
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": "",
+      "experiment_log_parent_project": "1990"
+    },
+    "tags": [
+      203
+    ],
+    "project-style": [
+      129,
+      181
+    ],
+    "log-category": [
+      155
+    ],
+    "tool": [
+      202,
+      201,
+      199
+    ],
+    "class_list": [
+      "post-1999",
+      "experiment-logs",
+      "type-experiment-logs",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "tag-ue5",
+      "project-style-gamedev",
+      "project-style-software-development",
+      "log-category-programming",
+      "tool-blueprint",
+      "tool-c",
+      "tool-unreal-engine",
+      "entry"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v15.9.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Devlog 01: Camera System and Grid Based Building - Alfred Reinold Baudisch</title>\n<meta name=\"description\" content=\"Third person camera system, grid and tile based building inspired by Harvest Moon - Devlog of my Dog Spa game with Unreal Engine 5.\" />\n<link rel=\"canonical\" href=\"https://alfredbaudisch.com/experiment-logs/devlog-01-camera-system-and-grid-based-construction/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Devlog 01: Camera System and Grid Based Building - Alfred Reinold Baudisch\" />\n<meta property=\"og:description\" content=\"Third person camera system, grid and tile based building inspired by Harvest Moon - Devlog of my Dog Spa game with Unreal Engine 5.\" />\n<meta property=\"og:url\" content=\"https://alfredbaudisch.com/experiment-logs/devlog-01-camera-system-and-grid-based-construction/\" />\n<meta property=\"og:site_name\" content=\"Alfred Reinold Baudisch\" />\n<meta property=\"article:modified_time\" content=\"2022-05-22T14:43:39+00:00\" />\n<meta property=\"og:image\" content=\"https://alfredbaudisch.com/wp-content/uploads/2022/05/DogSpa-DevLog1-UnrealEngine5-BuildingSystem.jpg\" />\n\t<meta property=\"og:image:width\" content=\"1293\" />\n\t<meta property=\"og:image:height\" content=\"706\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\">\n\t<meta name=\"twitter:data1\" content=\"2 minutes\">\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Person\",\"Organization\"],\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\",\"name\":\"alfredbaudisch\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https://secure.gravatar.com/avatar/1084695a59f72a0bd2c732621bea4839?s=96&d=mm&r=g\",\"caption\":\"alfredbaudisch\"},\"logo\":{\"@id\":\"https://alfredbaudisch.com/#personlogo\"},\"sameAs\":[\"https://alfredbaudisch.com\"]},{\"@type\":\"WebSite\",\"@id\":\"https://alfredbaudisch.com/#website\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Alfred Reinold Baudisch\",\"description\":\"\",\"publisher\":{\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://alfredbaudisch.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/devlog-01-camera-system-and-grid-based-construction/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https://alfredbaudisch.com/wp-content/uploads/2022/05/DogSpa-DevLog1-UnrealEngine5-BuildingSystem.jpg\",\"width\":1293,\"height\":706},{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/devlog-01-camera-system-and-grid-based-construction/#webpage\",\"url\":\"https://alfredbaudisch.com/experiment-logs/devlog-01-camera-system-and-grid-based-construction/\",\"name\":\"Devlog 01: Camera System and Grid Based Building - Alfred Reinold Baudisch\",\"isPartOf\":{\"@id\":\"https://alfredbaudisch.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://alfredbaudisch.com/experiment-logs/devlog-01-camera-system-and-grid-based-construction/#primaryimage\"},\"datePublished\":\"2022-05-22T12:43:59+00:00\",\"dateModified\":\"2022-05-22T14:43:39+00:00\",\"description\":\"Third person camera system, grid and tile based building inspired by Harvest Moon - Devlog of my Dog Spa game with Unreal Engine 5.\",\"breadcrumb\":{\"@id\":\"https://alfredbaudisch.com/experiment-logs/devlog-01-camera-system-and-grid-based-construction/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://alfredbaudisch.com/experiment-logs/devlog-01-camera-system-and-grid-based-construction/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/devlog-01-camera-system-and-grid-based-construction/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/\",\"name\":\"Experiment Logs\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/devlog-01-camera-system-and-grid-based-construction/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/devlog-01-camera-system-and-grid-based-construction/\",\"name\":\"Devlog 01: Camera System and Grid Based Building\"}}]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/1999"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/types/experiment-logs"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 4,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/1999/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 2007,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/1999/revisions/2007"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media/2002"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media?parent=1999"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tags?post=1999"
+        },
+        {
+          "taxonomy": "project-style",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-style?post=1999"
+        },
+        {
+          "taxonomy": "log-category",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/log-category?post=1999"
+        },
+        {
+          "taxonomy": "tool",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tool?post=1999"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1722,
+    "date": "2022-01-29T08:02:07",
+    "date_gmt": "2022-01-29T07:02:07",
+    "guid": {
+      "rendered": "https://alfredbaudisch.com/?post_type=experiment-logs&#038;p=1722"
+    },
+    "modified": "2022-01-29T08:02:07",
+    "modified_gmt": "2022-01-29T07:02:07",
+    "slug": "fire-alpaca-the-most-lightweight-painting-program",
+    "status": "publish",
+    "type": "experiment-logs",
+    "link": "https://alfredbaudisch.com/experiment-logs/fire-alpaca-the-most-lightweight-painting-program/",
+    "title": {
+      "rendered": "Fire Alpaca: the most lightweight painting program"
+    },
+    "content": {
+      "rendered": "\n<p>F<a href=\"https://firealpaca.com/\" target=\"_blank\" rel=\"noreferrer noopener\">ire Alpaca</a> is a tiny and free painting software. It has only the basics, but it&#8217;s surprisingly good at it.</p>\n\n\n\n<p>And it&#8217;s fast, very fast. And also lightweight, very lightweight. It opens in a few milliseconds.</p>\n\n\n\n<p>But line quality is very bad using my <a href=\"https://criajogo.com/tela-gigantesca-para-arte-digital-xp-pen-artist-24-pro-review-e-unboxing/\" target=\"_blank\" rel=\"noreferrer noopener\">XP Pen Artist 24 Pro</a> drawing monitor. I got annoyed by it &#8211; even though I don&#8217;t want to draw, I just want to paint.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Fire Alpaca is a tiny and free painting software. It has only the basics, but it&#8217;s surprisingly good at it.&hellip; <a class=\"more-link\" href=\"https://alfredbaudisch.com/experiment-logs/fire-alpaca-the-most-lightweight-painting-program/\">Continue reading <span class=\"screen-reader-text\">Fire Alpaca: the most lightweight painting program</span></a></p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 1723,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": "",
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": "",
+      "experiment_log_parent_project": "1645"
+    },
+    "tags": [
+      167
+    ],
+    "project-style": [
+      142
+    ],
+    "log-category": [
+      148
+    ],
+    "tool": [],
+    "class_list": [
+      "post-1722",
+      "experiment-logs",
+      "type-experiment-logs",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "tag-fire-alpaca",
+      "project-style-painting",
+      "log-category-sketching",
+      "entry"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v15.9.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Fire Alpaca: the most lightweight painting program - Alfred Reinold Baudisch</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<link rel=\"canonical\" href=\"https://alfredbaudisch.com/experiment-logs/fire-alpaca-the-most-lightweight-painting-program/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Fire Alpaca: the most lightweight painting program - Alfred Reinold Baudisch\" />\n<meta property=\"og:description\" content=\"Fire Alpaca is a tiny and free painting software. It has only the basics, but it&#8217;s surprisingly good at it.&hellip; Continue reading Fire Alpaca: the most lightweight painting program\" />\n<meta property=\"og:url\" content=\"https://alfredbaudisch.com/experiment-logs/fire-alpaca-the-most-lightweight-painting-program/\" />\n<meta property=\"og:site_name\" content=\"Alfred Reinold Baudisch\" />\n<meta property=\"og:image\" content=\"https://alfredbaudisch.com/wp-content/uploads/2022/01/0151-fire-alpaca-painting-experimet.jpg\" />\n\t<meta property=\"og:image:width\" content=\"2559\" />\n\t<meta property=\"og:image:height\" content=\"1439\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\">\n\t<meta name=\"twitter:data1\" content=\"1 minute\">\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Person\",\"Organization\"],\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\",\"name\":\"alfredbaudisch\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https://secure.gravatar.com/avatar/1084695a59f72a0bd2c732621bea4839?s=96&d=mm&r=g\",\"caption\":\"alfredbaudisch\"},\"logo\":{\"@id\":\"https://alfredbaudisch.com/#personlogo\"},\"sameAs\":[\"https://alfredbaudisch.com\"]},{\"@type\":\"WebSite\",\"@id\":\"https://alfredbaudisch.com/#website\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Alfred Reinold Baudisch\",\"description\":\"\",\"publisher\":{\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://alfredbaudisch.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/fire-alpaca-the-most-lightweight-painting-program/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https://alfredbaudisch.com/wp-content/uploads/2022/01/0151-fire-alpaca-painting-experimet.jpg\",\"width\":2559,\"height\":1439},{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/fire-alpaca-the-most-lightweight-painting-program/#webpage\",\"url\":\"https://alfredbaudisch.com/experiment-logs/fire-alpaca-the-most-lightweight-painting-program/\",\"name\":\"Fire Alpaca: the most lightweight painting program - Alfred Reinold Baudisch\",\"isPartOf\":{\"@id\":\"https://alfredbaudisch.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://alfredbaudisch.com/experiment-logs/fire-alpaca-the-most-lightweight-painting-program/#primaryimage\"},\"datePublished\":\"2022-01-29T07:02:07+00:00\",\"dateModified\":\"2022-01-29T07:02:07+00:00\",\"breadcrumb\":{\"@id\":\"https://alfredbaudisch.com/experiment-logs/fire-alpaca-the-most-lightweight-painting-program/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://alfredbaudisch.com/experiment-logs/fire-alpaca-the-most-lightweight-painting-program/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/fire-alpaca-the-most-lightweight-painting-program/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/\",\"name\":\"Experiment Logs\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/fire-alpaca-the-most-lightweight-painting-program/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/fire-alpaca-the-most-lightweight-painting-program/\",\"name\":\"Fire Alpaca: the most lightweight painting program\"}}]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/1722"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/types/experiment-logs"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/1722/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 1724,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/1722/revisions/1724"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media/1723"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media?parent=1722"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tags?post=1722"
+        },
+        {
+          "taxonomy": "project-style",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-style?post=1722"
+        },
+        {
+          "taxonomy": "log-category",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/log-category?post=1722"
+        },
+        {
+          "taxonomy": "tool",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tool?post=1722"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1717,
+    "date": "2022-01-29T07:47:33",
+    "date_gmt": "2022-01-29T06:47:33",
+    "guid": {
+      "rendered": "https://alfredbaudisch.com/?post_type=experiment-logs&#038;p=1717"
+    },
+    "modified": "2022-01-29T07:47:34",
+    "modified_gmt": "2022-01-29T06:47:34",
+    "slug": "paintstorm-the-most-configurable-painting-program",
+    "status": "publish",
+    "type": "experiment-logs",
+    "link": "https://alfredbaudisch.com/experiment-logs/paintstorm-the-most-configurable-painting-program/",
+    "title": {
+      "rendered": "Paintstorm: the most configurable painting program"
+    },
+    "content": {
+      "rendered": "\n<p>From all software that I tried so far, Paintstorm is the one with the best performance (huge mixing brushes that do not drop a sweat, while Photoshop freezes and crashes), but most importantly, the interface is a playground.</p>\n\n\n\n<p>But after trying it with my XP-Pen Artist <a href=\"https://criajogo.com/tela-gigantesca-para-arte-digital-xp-pen-artist-24-pro-review-e-unboxing/\">24&#8243; Pro screen</a>, I found too many annoyances to name, that I gave up using it.</p>\n\n\n\n<figure class=\"wp-block-image alignwide size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"388\" src=\"https://alfredbaudisch.com/wp-content/uploads/2022/01/151-painstorm-result-1024x388.jpg\" alt=\"\" class=\"wp-image-1720\" srcset=\"https://alfredbaudisch.com/wp-content/uploads/2022/01/151-painstorm-result-1024x388.jpg 1024w, https://alfredbaudisch.com/wp-content/uploads/2022/01/151-painstorm-result-300x114.jpg 300w, https://alfredbaudisch.com/wp-content/uploads/2022/01/151-painstorm-result-768x291.jpg 768w, https://alfredbaudisch.com/wp-content/uploads/2022/01/151-painstorm-result-1536x583.jpg 1536w, https://alfredbaudisch.com/wp-content/uploads/2022/01/151-painstorm-result-2048x777.jpg 2048w, https://alfredbaudisch.com/wp-content/uploads/2022/01/151-painstorm-result-1568x595.jpg 1568w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /><figcaption>Quick brush test</figcaption></figure>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>From all software that I tried so far, Paintstorm is the one with the best performance (huge mixing brushes that&hellip; <a class=\"more-link\" href=\"https://alfredbaudisch.com/experiment-logs/paintstorm-the-most-configurable-painting-program/\">Continue reading <span class=\"screen-reader-text\">Paintstorm: the most configurable painting program</span></a></p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 1719,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": "",
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": "",
+      "experiment_log_parent_project": "1645"
+    },
+    "tags": [
+      166
+    ],
+    "project-style": [
+      142
+    ],
+    "log-category": [
+      148
+    ],
+    "tool": [],
+    "class_list": [
+      "post-1717",
+      "experiment-logs",
+      "type-experiment-logs",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "tag-paintstorm",
+      "project-style-painting",
+      "log-category-sketching",
+      "entry"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v15.9.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Paintstorm: the most configurable painting program - Alfred Reinold Baudisch</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<link rel=\"canonical\" href=\"https://alfredbaudisch.com/experiment-logs/paintstorm-the-most-configurable-painting-program/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Paintstorm: the most configurable painting program - Alfred Reinold Baudisch\" />\n<meta property=\"og:description\" content=\"From all software that I tried so far, Paintstorm is the one with the best performance (huge mixing brushes that&hellip; Continue reading Paintstorm: the most configurable painting program\" />\n<meta property=\"og:url\" content=\"https://alfredbaudisch.com/experiment-logs/paintstorm-the-most-configurable-painting-program/\" />\n<meta property=\"og:site_name\" content=\"Alfred Reinold Baudisch\" />\n<meta property=\"article:modified_time\" content=\"2022-01-29T06:47:34+00:00\" />\n<meta property=\"og:image\" content=\"https://alfredbaudisch.com/wp-content/uploads/2022/01/paintstorm-setup.jpg\" />\n\t<meta property=\"og:image:width\" content=\"2536\" />\n\t<meta property=\"og:image:height\" content=\"1423\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\">\n\t<meta name=\"twitter:data1\" content=\"1 minute\">\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Person\",\"Organization\"],\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\",\"name\":\"alfredbaudisch\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https://secure.gravatar.com/avatar/1084695a59f72a0bd2c732621bea4839?s=96&d=mm&r=g\",\"caption\":\"alfredbaudisch\"},\"logo\":{\"@id\":\"https://alfredbaudisch.com/#personlogo\"},\"sameAs\":[\"https://alfredbaudisch.com\"]},{\"@type\":\"WebSite\",\"@id\":\"https://alfredbaudisch.com/#website\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Alfred Reinold Baudisch\",\"description\":\"\",\"publisher\":{\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://alfredbaudisch.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/paintstorm-the-most-configurable-painting-program/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https://alfredbaudisch.com/wp-content/uploads/2022/01/paintstorm-setup.jpg\",\"width\":2536,\"height\":1423},{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/paintstorm-the-most-configurable-painting-program/#webpage\",\"url\":\"https://alfredbaudisch.com/experiment-logs/paintstorm-the-most-configurable-painting-program/\",\"name\":\"Paintstorm: the most configurable painting program - Alfred Reinold Baudisch\",\"isPartOf\":{\"@id\":\"https://alfredbaudisch.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://alfredbaudisch.com/experiment-logs/paintstorm-the-most-configurable-painting-program/#primaryimage\"},\"datePublished\":\"2022-01-29T06:47:33+00:00\",\"dateModified\":\"2022-01-29T06:47:34+00:00\",\"breadcrumb\":{\"@id\":\"https://alfredbaudisch.com/experiment-logs/paintstorm-the-most-configurable-painting-program/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://alfredbaudisch.com/experiment-logs/paintstorm-the-most-configurable-painting-program/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/paintstorm-the-most-configurable-painting-program/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/\",\"name\":\"Experiment Logs\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/paintstorm-the-most-configurable-painting-program/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/paintstorm-the-most-configurable-painting-program/\",\"name\":\"Paintstorm: the most configurable painting program\"}}]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/1717"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/types/experiment-logs"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/1717/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 1721,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/1717/revisions/1721"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media/1719"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media?parent=1717"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tags?post=1717"
+        },
+        {
+          "taxonomy": "project-style",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-style?post=1717"
+        },
+        {
+          "taxonomy": "log-category",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/log-category?post=1717"
+        },
+        {
+          "taxonomy": "tool",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tool?post=1717"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1677,
+    "date": "2022-01-02T20:18:44",
+    "date_gmt": "2022-01-02T19:18:44",
+    "guid": {
+      "rendered": "https://alfredbaudisch.com/?post_type=experiment-logs&#038;p=1677"
+    },
+    "modified": "2022-01-02T20:18:45",
+    "modified_gmt": "2022-01-02T19:18:45",
+    "slug": "initial-gdscript-code-and-matching-patterns",
+    "status": "publish",
+    "type": "experiment-logs",
+    "link": "https://alfredbaudisch.com/experiment-logs/initial-gdscript-code-and-matching-patterns/",
+    "title": {
+      "rendered": "Initial GDScript code and Matching Patterns"
+    },
+    "content": {
+      "rendered": "\n<p>Specified how to match all possible combinations in a match-3 board and then came up with 16 possible matching patterns (8 horizontal matches and 8 vertical matches).</p>\n\n\n\n<p>Implemented the matching patterns with GDScript in a fresh Godot project.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Specified how to match all possible combinations in a match-3 board and then came up with 16 possible matching patterns&hellip; <a class=\"more-link\" href=\"https://alfredbaudisch.com/experiment-logs/initial-gdscript-code-and-matching-patterns/\">Continue reading <span class=\"screen-reader-text\">Initial GDScript code and Matching Patterns</span></a></p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 1678,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": "",
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": "",
+      "experiment_log_parent_project": "1675"
+    },
+    "tags": [],
+    "project-style": [],
+    "log-category": [
+      158,
+      155,
+      157
+    ],
+    "tool": [
+      108
+    ],
+    "class_list": [
+      "post-1677",
+      "experiment-logs",
+      "type-experiment-logs",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "log-category-brainstorming",
+      "log-category-programming",
+      "log-category-specification",
+      "tool-godot",
+      "entry"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v15.9.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Initial GDScript code and Matching Patterns - Alfred Reinold Baudisch</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<link rel=\"canonical\" href=\"https://alfredbaudisch.com/experiment-logs/initial-gdscript-code-and-matching-patterns/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Initial GDScript code and Matching Patterns - Alfred Reinold Baudisch\" />\n<meta property=\"og:description\" content=\"Specified how to match all possible combinations in a match-3 board and then came up with 16 possible matching patterns&hellip; Continue reading Initial GDScript code and Matching Patterns\" />\n<meta property=\"og:url\" content=\"https://alfredbaudisch.com/experiment-logs/initial-gdscript-code-and-matching-patterns/\" />\n<meta property=\"og:site_name\" content=\"Alfred Reinold Baudisch\" />\n<meta property=\"article:modified_time\" content=\"2022-01-02T19:18:45+00:00\" />\n<meta property=\"og:image\" content=\"https://alfredbaudisch.com/wp-content/uploads/2022/01/152-match3-godot-initial-code.jpg\" />\n\t<meta property=\"og:image:width\" content=\"1577\" />\n\t<meta property=\"og:image:height\" content=\"818\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\">\n\t<meta name=\"twitter:data1\" content=\"1 minute\">\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Person\",\"Organization\"],\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\",\"name\":\"alfredbaudisch\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https://secure.gravatar.com/avatar/1084695a59f72a0bd2c732621bea4839?s=96&d=mm&r=g\",\"caption\":\"alfredbaudisch\"},\"logo\":{\"@id\":\"https://alfredbaudisch.com/#personlogo\"},\"sameAs\":[\"https://alfredbaudisch.com\"]},{\"@type\":\"WebSite\",\"@id\":\"https://alfredbaudisch.com/#website\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Alfred Reinold Baudisch\",\"description\":\"\",\"publisher\":{\"@id\":\"https://alfredbaudisch.com/#/schema/person/de01fff140c3d1ae4a5deb9de4d9c142\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://alfredbaudisch.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/initial-gdscript-code-and-matching-patterns/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https://alfredbaudisch.com/wp-content/uploads/2022/01/152-match3-godot-initial-code.jpg\",\"width\":1577,\"height\":818},{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/initial-gdscript-code-and-matching-patterns/#webpage\",\"url\":\"https://alfredbaudisch.com/experiment-logs/initial-gdscript-code-and-matching-patterns/\",\"name\":\"Initial GDScript code and Matching Patterns - Alfred Reinold Baudisch\",\"isPartOf\":{\"@id\":\"https://alfredbaudisch.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://alfredbaudisch.com/experiment-logs/initial-gdscript-code-and-matching-patterns/#primaryimage\"},\"datePublished\":\"2022-01-02T19:18:44+00:00\",\"dateModified\":\"2022-01-02T19:18:45+00:00\",\"breadcrumb\":{\"@id\":\"https://alfredbaudisch.com/experiment-logs/initial-gdscript-code-and-matching-patterns/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://alfredbaudisch.com/experiment-logs/initial-gdscript-code-and-matching-patterns/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/initial-gdscript-code-and-matching-patterns/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/\",\"url\":\"https://alfredbaudisch.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/\",\"name\":\"Experiment Logs\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://alfredbaudisch.com/experiment-logs/initial-gdscript-code-and-matching-patterns/\",\"url\":\"https://alfredbaudisch.com/experiment-logs/initial-gdscript-code-and-matching-patterns/\",\"name\":\"Initial GDScript code and Matching Patterns\"}}]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/1677"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/types/experiment-logs"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/1677/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 1679,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/experiment-logs/1677/revisions/1679"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media/1678"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/media?parent=1677"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tags?post=1677"
+        },
+        {
+          "taxonomy": "project-style",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/project-style?post=1677"
+        },
+        {
+          "taxonomy": "log-category",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/log-category?post=1677"
+        },
+        {
+          "taxonomy": "tool",
+          "embeddable": true,
+          "href": "https://alfredbaudisch.com/wp-json/wp/v2/tool?post=1677"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

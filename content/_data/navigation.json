@@ -1,0 +1,10 @@
+{
+  "main": [
+    { "title": "Home", "url": "/" },
+    { "title": "All Posts", "url": "/archive/" },
+    { "title": "Projects", "url": "/projects/", "hasDropdown": true },
+    { "title": "About", "url": "/about/" },
+    { "title": "Contact", "url": "/contact/" }
+  ]
+}
+

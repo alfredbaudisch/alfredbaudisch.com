@@ -1,0 +1,98 @@
+---
+layout: layouts/base.njk
+title: Experiments
+permalink: /experiments/
+---
+
+<div class="container archive-page">
+  <header>
+    <h1>Experiments</h1>
+    <p>Creations, studies, clippings and more from things from many different categories that I do or study. Experiments are the evolution of my "<a href="/dailies/">Dailies</a>" project. See <a href="/dailies/dailies-are-now-experiments/">details</a>.</p>
+  </header>
+  
+  <div class="archive-filters" id="experiment-filters">
+    <button class="archive-filter active" data-filter="all">All Experiments</button>
+    {% set allExperimentTypes = [] %}
+    {% for experiment in collections.experiments %}
+      {% if experiment.data.experimentTypes %}
+        {% for type in experiment.data.experimentTypes %}
+          {% if type not in allExperimentTypes %}
+            {% set allExperimentTypes = (allExperimentTypes.push(type), allExperimentTypes) %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+    {% for type in allExperimentTypes %}
+    <button class="archive-filter" data-filter="{{ type | slug }}">{{ type }}</button>
+    {% endfor %}
+  </div>
+  
+  <div class="archive-grid" id="experiments-grid">
+    {% for experiment in collections.experiments %}
+    <article class="content-card" data-experiment-types="{% if experiment.data.experimentTypes %}{% for type in experiment.data.experimentTypes %}{{ type | slug }} {% endfor %}{% endif %}">
+      {% if experiment.data.featuredImageThumb %}
+      <a href="{{ experiment.url }}"><img src="{{ experiment.data.featuredImageThumb }}" alt="{{ experiment.data.title }}" class="content-card-image"></a>
+      {% elif experiment.data.featuredImage %}
+      <a href="{{ experiment.url }}"><img src="{{ experiment.data.featuredImage }}" alt="{{ experiment.data.title }}" class="content-card-image"></a>
+      {% endif %}
+      
+      <div class="content-card-body">
+        <h2 class="content-card-title">
+          <a href="{{ experiment.url }}">{{ experiment.data.title }}</a>
+        </h2>
+        
+        <div class="content-card-meta">
+          <time datetime="{{ experiment.data.date | dateISO }}">{{ experiment.data.date | dateDisplay("MMMM d, yyyy") }}</time>
+        </div>
+        
+        {% if experiment.data.excerpt or experiment.templateContent %}
+        <p class="content-card-excerpt">
+          {{ experiment.data.excerpt or experiment.templateContent | striptags | truncate(150) }}
+        </p>
+        {% endif %}
+        
+        {% if experiment.data.experimentTypes %}
+        <div class="taxonomy-tags">
+          {% for type in experiment.data.experimentTypes %}
+          <span class="taxonomy-tag experiment-type">{{ type }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  // Simple client-side filtering
+  document.addEventListener('DOMContentLoaded', function() {
+    const filters = document.querySelectorAll('.archive-filter');
+    const experiments = document.querySelectorAll('.content-card[data-experiment-types]');
+    
+    filters.forEach(filter => {
+      filter.addEventListener('click', function() {
+        // Update active state
+        filters.forEach(f => f.classList.remove('active'));
+        this.classList.add('active');
+        
+        const filterValue = this.dataset.filter;
+        
+        // Filter experiments
+        experiments.forEach(experiment => {
+          if (filterValue === 'all') {
+            experiment.style.display = '';
+          } else {
+            const experimentTypes = experiment.dataset.experimentTypes || '';
+            if (experimentTypes.includes(filterValue)) {
+              experiment.style.display = '';
+            } else {
+              experiment.style.display = 'none';
+            }
+          }
+        });
+      });
+    });
+  });
+</script>
+

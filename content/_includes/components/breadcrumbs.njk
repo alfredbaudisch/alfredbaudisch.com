@@ -1,0 +1,6 @@
+{% if breadcrumbs and breadcrumbs.length > 0 %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol>{% for crumb in breadcrumbs %}{% set isProjectName = breadcrumbs.length >= 3 and not loop.last and loop.index == breadcrumbs.length - 1 %}<li{% if isProjectName %} class="breadcrumb-project-name"{% elif loop.last and not crumb.url %} class="breadcrumb-journal"{% endif %}>{% if loop.last and not crumb.url %}<span aria-current="page">{{ crumb.title }}</span>{% else %}<a href="{{ crumb.url }}">{{ crumb.title }}</a>{% endif %}</li>{% endfor %}</ol>
+</nav>
+{% endif %}
+
