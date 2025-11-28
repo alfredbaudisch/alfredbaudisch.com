@@ -1,6 +1,6 @@
 # Alfred Reinold Baudisch - Personal Website
 
-A static website built with [11ty (Eleventy)](https://www.11ty.dev/) static site generator, migrated from WordPress.
+My personal static website [alfredbaudisch.com](https://alfredbaudisch.com) built with [11ty (Eleventy)](https://www.11ty.dev/) static site generator, migrated from WordPress.
 
 ## Features
 
