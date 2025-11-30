@@ -11,7 +11,8 @@
     "build:css:dev": "node scripts/build-css.js",
     "serve": "eleventy --serve",
     "dev": "rm -rf _site && NODE_ENV=development npm run build:js:dev && NODE_ENV=development npm run build:css:dev && NODE_ENV=development eleventy --serve --watch",
-    "deploy": "bash scripts/deploy/deploy.sh"
+    "deploy": "bash scripts/deploy/deploy.sh",
+    "pngquant": "node scripts/pngquant-content.js"
   },
   "keywords": [],
   "author": "",
