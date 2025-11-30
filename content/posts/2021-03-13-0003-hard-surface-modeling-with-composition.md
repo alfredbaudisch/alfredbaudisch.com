@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "0003: Hard Surface Modeling + First Photobash"
 date: "2021-03-13T21:11:49.000Z"
-updated: "2021-03-15T12:42:38.000Z"
 tags: ["3d", "blender", "photobashing"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/03/0003-hard-surface-and-composition.jpg"

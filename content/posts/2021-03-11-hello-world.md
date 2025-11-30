@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "Website and Dailies again, inspired by BEEPLE Everydays"
 date: "2021-03-11T23:48:21.000Z"
-updated: "2021-03-12T09:22:31.000Z"
 categories: ["Blog"]
 type: "post"
 ---

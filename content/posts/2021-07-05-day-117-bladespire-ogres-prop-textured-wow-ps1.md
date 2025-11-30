@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "Day 117: Bladespire Ogres Prop Textured (WoW PS1)"
 date: "2021-07-05T20:37:14.000Z"
-updated: "2021-07-05T20:38:56.000Z"
 tags: ["3d", "blender", "ps1", "wow"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/07/0117-wow-ps1-bladespire-ogres-prop-textured.png"

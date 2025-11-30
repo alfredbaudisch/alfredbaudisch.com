@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "0007: Phoenix Obtained"
 date: "2021-03-17T21:01:24.000Z"
-updated: "2021-06-26T13:21:11.000Z"
 tags: ["3d", "blender", "wow"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/03/0007-phoenix-composition.png"

@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "0001: Blender Donut but In 10 Minutes"
 date: "2021-03-11T23:56:34.000Z"
-updated: "2021-03-13T19:29:44.000Z"
 tags: ["3d", "art", "blender"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/03/0001.jpg"

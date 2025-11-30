@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "Day 124: Forge Bellow from Ironforge Textured (Wow PS1)"
 date: "2021-07-12T10:52:47.000Z"
-updated: "2021-07-12T10:52:48.000Z"
 tags: ["3d", "blender", "process", "ps1", "texture", "wow"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/07/0124-wow-ironforge-greateforge-textured-ps1-blender.png"

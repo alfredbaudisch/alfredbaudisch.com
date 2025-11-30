@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "0005: The more F-Stops, the more F’s in Focus"
 date: "2021-03-16T00:00:06.000Z"
-updated: "2021-03-27T10:45:30.000Z"
 tags: ["3d", "animation", "blender", "camera"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/03/0005-f-stop-focal-plane.gif"

@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "Day 55: Low Poly Man Body"
 date: "2021-05-04T10:43:24.000Z"
-updated: "2021-05-04T10:43:29.000Z"
 tags: ["3d", "anatomy", "blender", "ps1"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/05/0055-low-poly-ps1-human.png"

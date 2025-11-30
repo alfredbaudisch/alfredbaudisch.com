@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "Day 54: Low Poly Human Head"
 date: "2021-05-03T20:49:03.000Z"
-updated: "2021-05-04T10:44:54.000Z"
 tags: ["3d", "anatomy", "blender", "ps1"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/05/0054-low-poly-head.png"

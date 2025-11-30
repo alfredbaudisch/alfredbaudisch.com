@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "Day 120: Archery Target UV Mapped (WoW PS1)"
 date: "2021-07-08T11:03:57.000Z"
-updated: "2021-07-08T11:03:58.000Z"
 tags: ["3d", "blender", "ps1", "uv", "wow"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/07/0120-wow-archery-target-uv-mapped.jpg"

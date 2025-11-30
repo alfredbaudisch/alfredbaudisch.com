@@ -6,17 +6,6 @@ permalink: /sitemap/
 
 <div class="container">
   <h1>Sitemap</h1>
-  
-  <section class="sitemap-section">
-    <h2>Pages</h2>
-    <ul class="sitemap-list">
-      {% for page in collections.pages | sort(false, false, "data.title") %}
-      <li>
-        <a href="{{ page.url }}">{{ page.data.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-  </section>
 
   <section class="sitemap-section">
     <h2>Posts by Category</h2>
@@ -32,6 +21,17 @@ permalink: /sitemap/
       {% endfor %}
     </ul>
     {% endfor %}
+  </section>
+
+  <section class="sitemap-section">
+    <h2>Pages</h2>
+    <ul class="sitemap-list">
+      {% for page in collections.pages | sort(false, false, "data.title") %}
+      <li>
+        <a href="{{ page.url }}">{{ page.data.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
   </section>
 
   <section class="sitemap-section">

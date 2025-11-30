@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "Day 91: Sweet Tooth"
 date: "2021-06-10T01:07:10.000Z"
-updated: "2021-06-10T01:07:11.000Z"
 tags: ["3d", "blender", "lowpoly"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/06/0091-human-head-antlers.png"

@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "Day 100: Shovel Low Poly Textured"
 date: "2021-06-19T01:04:15.000Z"
-updated: "2021-06-26T13:20:15.000Z"
 tags: ["3d", "blender", "lowpoly", "ps1", "wow"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/06/0100-shovel-ps1-low-poly.png"

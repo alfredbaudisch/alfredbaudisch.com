@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "Day 102: Simplified Lamp from World of Warcraft"
 date: "2021-06-21T00:47:09.000Z"
-updated: "2021-06-21T00:48:46.000Z"
 tags: ["3d", "blender", "lowpoly", "ps1", "wow"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/06/0102-wow-lamp-offhand-lowpoly.png"

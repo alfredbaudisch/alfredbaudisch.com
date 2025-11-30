@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "0008: My 34th Birthday as if I were a PS1 character"
 date: "2021-03-18T14:26:33.000Z"
-updated: "2021-07-14T19:41:38.000Z"
 tags: ["3d", "animation", "blender", "koda", "ps1", "retro"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/03/0008-34th-birthday-alfred-ps1.gif"
