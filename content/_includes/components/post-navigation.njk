@@ -1,0 +1,35 @@
+{% set homepageContent = collections.homepageContent %}
+{% set currentIndex = -1 %}
+{% for item in homepageContent %}
+  {% if item.url == page.url %}
+    {% set currentIndex = loop.index0 %}
+  {% endif %}
+{% endfor %}
+
+{% if currentIndex >= 0 %}
+  {% set previousPost = homepageContent[currentIndex - 1] if currentIndex > 0 else null %}
+  {% set nextPost = homepageContent[currentIndex + 1] if currentIndex < homepageContent.length - 1 else null %}
+  
+  {% if previousPost or nextPost %}
+  <nav class="post-navigation" aria-label="Post navigation">
+    {% if previousPost %}
+    <div class="post-nav-card post-nav-previous">
+      <span class="post-nav-label">&lt; Previous post</span>
+      <a href="{{ previousPost.url }}" class="post-nav-link">
+        <h3 class="post-nav-title">{{ previousPost.data.title }}</h3>
+      </a>
+    </div>
+    {% endif %}
+    
+    {% if nextPost %}
+    <div class="post-nav-card post-nav-next">
+      <span class="post-nav-label">Next post &gt;</span>
+      <a href="{{ nextPost.url }}" class="post-nav-link">
+        <h3 class="post-nav-title">{{ nextPost.data.title }}</h3>
+      </a>
+    </div>
+    {% endif %}
+  </nav>
+  {% endif %}
+{% endif %}
+
