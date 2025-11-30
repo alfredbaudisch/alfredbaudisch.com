@@ -12,22 +12,18 @@
   
   {% if previousPost or nextPost %}
   <nav class="post-navigation" aria-label="Post navigation">
-    {% if previousPost %}
-    <div class="post-nav-card post-nav-previous">
-      <span class="post-nav-label">&lt; Previous post</span>
-      <a href="{{ previousPost.url }}" class="post-nav-link">
-        <h3 class="post-nav-title">{{ previousPost.data.title }}</h3>
-      </a>
-    </div>
-    {% endif %}
-    
     {% if nextPost %}
-    <div class="post-nav-card post-nav-next">
-      <span class="post-nav-label">Next post &gt;</span>
-      <a href="{{ nextPost.url }}" class="post-nav-link">
-        <h3 class="post-nav-title">{{ nextPost.data.title }}</h3>
-      </a>
-    </div>
+    <a href="{{ nextPost.url }}" class="post-nav-card post-nav-previous">
+      <span class="post-nav-label">← Previous post</span>
+      <h3 class="post-nav-title">{{ nextPost.data.title }}</h3>
+    </a>
+    {% endif %}
+
+    {% if previousPost %}
+    <a href="{{ previousPost.url }}" class="post-nav-card post-nav-next">
+      <span class="post-nav-label">Next post →</span>
+      <h3 class="post-nav-title">{{ previousPost.data.title }}</h3>
+    </a>
     {% endif %}
   </nav>
   {% endif %}
