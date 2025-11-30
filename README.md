@@ -6,7 +6,7 @@ My personal static website [alfredbaudisch.com](https://alfredbaudisch.com) buil
 
 - **Content Types**: [Blog posts](https://alfredbaudisch.com/blog), [Projects](https://alfredbaudisch.com/projects), Project Logs, [Experiments](https://alfredbaudisch.com/experiments), Experiment Logs
 - **Custom Taxonomies**: Project Styles, Project Status, Tools, Project Types, Log Categories, Experiment Types, Tags, Categories.
-  - See [example post](content/experiments/154-blender-geometry-nodes/index.md) with taxonomy usage.
+  - See [example post](https://github.com/alfredbaudisch/alfredbaudisch.com/blob/master/content/experiments/154-blender-geometry-nodes/index.md?plain=1) with taxonomy usage.
 - **Archives**: post and taxonomies archive pages, as well [sitemap](https://alfredbaudisch.com/sitemap), [sitemap.xml](https://alfredbaudisch.com/sitemap.xml) and [RSS feed](https://alfredbaudisch.com/feed.xml).
 - **Image Galleries**: Lightbox functionality with keyboard and touch navigation
 - **SEO optimized**
