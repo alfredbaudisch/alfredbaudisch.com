@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "Day 118: Dachshund Dogs Eating Grass in Brazil (AI Image)"
 date: "2021-07-07T00:38:19.000Z"
-updated: "2021-07-14T19:41:22.000Z"
 tags: ["2d", "generated", "images ai", "koda"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/07/dachshund-dogs-eating-grass-in-brazil-in-the-style-of-pesca-dinamica-4.png"

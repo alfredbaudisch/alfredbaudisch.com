@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "0009: The Mandatory Stranger in the Sci-Fi Corridor"
 date: "2021-03-19T23:42:51.000Z"
-updated: "2021-03-21T00:35:35.000Z"
 tags: ["3d", "blender", "scifi"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/03/0009-scifi-corridor-middle-figure.png"

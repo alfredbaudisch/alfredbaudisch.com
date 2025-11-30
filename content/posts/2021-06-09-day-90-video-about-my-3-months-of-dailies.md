@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "Day 90: Video about my 3 Months of Dailies"
 date: "2021-06-09T01:16:40.000Z"
-updated: "2021-06-09T01:17:37.000Z"
 tags: ["cria jogo", "video"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/06/0090-90-days-of-dailies-video.jpg"

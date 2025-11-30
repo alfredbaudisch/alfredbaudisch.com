@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "Day 121: Archery Target Textured (WoW PS1)"
 date: "2021-07-09T21:16:15.000Z"
-updated: "2021-07-09T21:17:06.000Z"
 tags: ["3d", "blender", "ps1", "texture", "wow"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/07/0121-wow-archery-target-stormwind-textured.png"

@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "0010: Meatball Asteroid Pulsing Field"
 date: "2021-03-21T00:27:44.000Z"
-updated: "2021-03-21T00:30:18.000Z"
 tags: ["3d", "abstract", "blender"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/03/0010-abstract_red_asteroids.png"

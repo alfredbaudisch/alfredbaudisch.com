@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "Day 101: Paper Scroll Folded"
 date: "2021-06-19T23:05:36.000Z"
-updated: "2021-06-19T23:50:28.000Z"
 tags: ["3d", "blender", "lowpoly", "ps1"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/06/0101-paper-scroll-folded.png"

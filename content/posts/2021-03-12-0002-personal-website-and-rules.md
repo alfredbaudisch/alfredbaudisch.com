@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "0002: Personal website and Dailies rules"
 date: "2021-03-12T12:26:04.000Z"
-updated: "2021-03-13T13:08:09.000Z"
 tags: ["code", "writing"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/03/0002-website.jpg"

@@ -2,7 +2,6 @@
 layout: "layouts/post.njk"
 title: "0006: Dolly the Sheep, Zoomed"
 date: "2021-03-16T20:40:02.000Z"
-updated: "2021-03-27T10:45:24.000Z"
 tags: ["3d", "animation", "blender", "camera"]
 categories: ["Dailies"]
 featuredImage: "/media/wp-content/2021/03/0006-dolly-zoom-sheep-small.gif"
