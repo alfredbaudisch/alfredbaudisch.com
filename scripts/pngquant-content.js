@@ -10,6 +10,7 @@ const path = require('path');
 const { execSync } = require('child_process');
 
 const CONTENT_DIR = path.join(__dirname, '..', 'content');
+const CACHE_FILE = path.join(__dirname, '..', '.pngquant-cache.json');
 
 /**
  * Check if pngquant is available
@@ -21,6 +22,69 @@ function checkPngquantAvailable() {
   } catch (error) {
     return false;
   }
+}
+
+/**
+ * Load cache file
+ */
+function loadCache() {
+  if (!fs.existsSync(CACHE_FILE)) {
+    return {};
+  }
+  
+  try {
+    const cacheContent = fs.readFileSync(CACHE_FILE, 'utf8');
+    return JSON.parse(cacheContent);
+  } catch (error) {
+    console.warn(`⚠️  Warning: Could not read cache file, starting fresh: ${error.message}`);
+    return {};
+  }
+}
+
+/**
+ * Save cache file
+ */
+function saveCache(cache) {
+  try {
+    fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 2));
+  } catch (error) {
+    console.error(`⚠️  Warning: Could not save cache file: ${error.message}`);
+  }
+}
+
+/**
+ * Get file modification time
+ */
+function getFileMtime(filePath) {
+  try {
+    const stats = fs.statSync(filePath);
+    return stats.mtime.getTime();
+  } catch (error) {
+    return 0;
+  }
+}
+
+/**
+ * Check if file needs processing (not in cache or modified)
+ */
+function needsProcessing(filePath, cache) {
+  const relativePath = path.relative(CONTENT_DIR, filePath);
+  const cachedMtime = cache[relativePath];
+  
+  if (!cachedMtime) {
+    return true; // Not in cache, needs processing
+  }
+  
+  const currentMtime = getFileMtime(filePath);
+  return currentMtime !== cachedMtime; // Modified since last processing
+}
+
+/**
+ * Mark file as processed in cache
+ */
+function markAsProcessed(filePath, cache) {
+  const relativePath = path.relative(CONTENT_DIR, filePath);
+  cache[relativePath] = getFileMtime(filePath);
 }
 
 /**
@@ -132,6 +196,13 @@ function main() {
     process.exit(1);
   }
   
+  // Load cache
+  const cache = loadCache();
+  const cacheSize = Object.keys(cache).length;
+  if (cacheSize > 0) {
+    console.log(`📋 Loaded cache with ${cacheSize} processed file(s)\n`);
+  }
+  
   const pngFiles = getAllPngFiles(CONTENT_DIR);
   
   if (pngFiles.length === 0) {
@@ -139,7 +210,19 @@ function main() {
     return;
   }
   
-  console.log(`📁 Found ${pngFiles.length} PNG file(s)\n`);
+  // Filter files that need processing
+  const filesToProcess = pngFiles.filter(filePath => needsProcessing(filePath, cache));
+  const filesCached = pngFiles.length - filesToProcess.length;
+  
+  console.log(`📁 Found ${pngFiles.length} PNG file(s)`);
+  console.log(`   ${filesCached} already processed (cached)`);
+  console.log(`   ${filesToProcess.length} need processing\n`);
+  
+  if (filesToProcess.length === 0) {
+    console.log('✅ All files are already processed!\n');
+    return;
+  }
+  
   console.log('🔄 Optimizing images...\n');
   
   let processed = 0;
@@ -149,9 +232,9 @@ function main() {
   let totalBeforeSize = 0;
   let totalAfterSize = 0;
   
-  pngFiles.forEach((filePath, index) => {
+  filesToProcess.forEach((filePath, index) => {
     const relativePath = path.relative(CONTENT_DIR, filePath);
-    process.stdout.write(`\r   [${index + 1}/${pngFiles.length}] Processing: ${relativePath}...`);
+    process.stdout.write(`\r   [${index + 1}/${filesToProcess.length}] Processing: ${relativePath}...`);
     
     const result = optimizePng(filePath);
     processed++;
@@ -161,9 +244,11 @@ function main() {
         successful++;
         totalBeforeSize += result.beforeSize;
         totalAfterSize += result.afterSize;
+        markAsProcessed(filePath, cache);
         console.log(`\r   ✓ ${relativePath} - Saved ${formatFileSize(result.saved)} (${result.percentSaved}%)`);
       } else {
         skipped++;
+        markAsProcessed(filePath, cache);
         console.log(`\r   ⊘ ${relativePath} - Already optimized (skipped)`);
       }
     } else {
@@ -172,9 +257,14 @@ function main() {
     }
   });
   
+  // Save updated cache
+  saveCache(cache);
+  
   console.log('\n');
   console.log('📊 Summary:');
   console.log(`   Total files: ${pngFiles.length}`);
+  console.log(`   Already cached: ${filesCached}`);
+  console.log(`   Processed: ${processed}`);
   console.log(`   Optimized: ${successful}`);
   console.log(`   Skipped (already optimal): ${skipped}`);
   console.log(`   Failed: ${failed}`);
