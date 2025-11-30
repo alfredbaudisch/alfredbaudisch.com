@@ -2032,6 +2032,88 @@ pre[class*="language-"] {
   text-decoration: underline;
 }
 
+/* Post Navigation */
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: var(--spacing-md);
+  margin: var(--spacing-lg) 0;
+  padding-top: var(--spacing-md);
+  border-top: var(--border-style-light);
+}
+
+.post-navigation .post-nav-next:only-child {
+  margin-left: auto;
+}
+
+.post-nav-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 40px;
+  color: var(--color-text);
+  text-decoration: none;
+  padding: calc(var(--spacing-xs) * 0.75);
+}
+
+.post-nav-card:hover {
+  color: var(--color-text-bright);
+}
+
+.post-nav-previous {
+  text-align: left;
+}
+
+.post-nav-next {
+  text-align: right;
+}
+
+.post-nav-label {
+  color: var(--color-text-dim);
+  font-size: 0.75em;
+  margin-bottom: calc(var(--spacing-xs) * 0.5);
+  display: block;
+  line-height: 1.2;
+}
+
+.post-nav-title {
+  margin: 0;
+  font-size: 0.75em;
+  line-height: 1.3;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.post-nav-previous .post-nav-title {
+  text-align: left;
+}
+
+.post-nav-next .post-nav-title {
+  text-align: right;
+}
+
+/* Mobile: Stack navigation cards vertically */
+@media (max-width: 768px) {
+  .post-navigation {
+    flex-direction: column;
+  }
+  
+  .post-nav-card {
+    width: 100%;
+  }
+  
+  .post-nav-next {
+    text-align: left;
+  }
+  
+  .post-nav-next .post-nav-title {
+    text-align: left;
+  }
+}
+
 /* Pagination */
 .pagination {
   display: flex;
