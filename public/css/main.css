@@ -39,7 +39,7 @@
   
   /* Typography */
   --font-main: 'IBM VGA', monospace;
-  --font-code: 'JetBrains Mono', 'IBM VGA Code', monospace;
+  --font-code: 'IBM VGA Code', monospace;
   
   /* Spacing - Terminal grid based */
   --spacing-unit: 16px;
