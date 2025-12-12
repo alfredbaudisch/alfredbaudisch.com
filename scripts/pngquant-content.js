@@ -34,7 +34,13 @@ function loadCache() {
   
   try {
     const cacheContent = fs.readFileSync(CACHE_FILE, 'utf8');
-    return JSON.parse(cacheContent);
+    const cache = JSON.parse(cacheContent);
+    // Normalize all cache keys to use forward slashes
+    const normalizedCache = {};
+    for (const key in cache) {
+      normalizedCache[normalizePath(key)] = cache[key];
+    }
+    return normalizedCache;
   } catch (error) {
     console.warn(`⚠️  Warning: Could not read cache file, starting fresh: ${error.message}`);
     return {};
@@ -53,6 +59,21 @@ function saveCache(cache) {
 }
 
 /**
+ * Normalize a path to use forward slashes (Unix-style) for consistent cache keys
+ * Also removes leading ./ if present
+ */
+function normalizePath(filePath) {
+  return filePath.replace(/\\/g, '/').replace(/^\.\//, '');
+}
+
+/**
+ * Get relative path from content directory, normalized
+ */
+function getRelativePath(filePath) {
+  return normalizePath(path.relative(CONTENT_DIR, filePath));
+}
+
+/**
  * Get file modification time
  */
 function getFileMtime(filePath) {
@@ -66,24 +87,30 @@ function getFileMtime(filePath) {
 
 /**
  * Check if file needs processing (not in cache or modified)
+ * Uses mtime comparison with a small tolerance to account for filesystem precision
+ * If file is in cache but mtime differs slightly, we still check it (pngquant may have touched it)
  */
 function needsProcessing(filePath, cache) {
-  const relativePath = path.relative(CONTENT_DIR, filePath);
+  const relativePath = getRelativePath(filePath);
   const cachedMtime = cache[relativePath];
   
-  if (!cachedMtime) {
+  if (cachedMtime === undefined || cachedMtime === null) {
     return true; // Not in cache, needs processing
   }
   
   const currentMtime = getFileMtime(filePath);
-  return currentMtime !== cachedMtime; // Modified since last processing
+  // Allow 2 second tolerance for filesystem timestamp precision and pngquant file touches
+  const timeDifference = Math.abs(currentMtime - cachedMtime);
+  const needsProcessing = timeDifference > 2000;
+  
+  return needsProcessing;
 }
 
 /**
  * Mark file as processed in cache
  */
 function markAsProcessed(filePath, cache) {
-  const relativePath = path.relative(CONTENT_DIR, filePath);
+  const relativePath = getRelativePath(filePath);
   cache[relativePath] = getFileMtime(filePath);
 }
 
@@ -147,9 +174,9 @@ function getAllPngFiles(dir, fileList = []) {
  * pngquant overwrites the original file by default when using --ext .png --force
  */
 function optimizePng(filePath) {
+  const beforeSize = getFileSize(filePath);
+  
   try {
-    const beforeSize = getFileSize(filePath);
-    
     // Run pngquant with quality settings
     // --quality 65-80: balance between size and quality
     // --ext .png: keep original extension
@@ -172,6 +199,24 @@ function optimizePng(filePath) {
       percentSaved
     };
   } catch (error) {
+    // pngquant exits with non-zero code when --skip-if-larger is used and file is already optimized
+    // Exit codes 98/99 typically mean "quality too low/high" or "skipped because output would be larger"
+    // These are success cases - the file is already optimized
+    const afterSize = getFileSize(filePath);
+    
+    // Exit codes 98/99 indicate the file was skipped (already optimized)
+    // This is actually a success case - the file is already optimized
+    if (error.status === 98 || error.status === 99) {
+      return {
+        success: true,
+        beforeSize,
+        afterSize,
+        saved: 0,
+        percentSaved: 0
+      };
+    }
+    
+    // Otherwise, it's a real error
     return {
       success: false,
       error: error.message
@@ -211,6 +256,7 @@ function main() {
   }
   
   // Filter files that need processing
+  // If a file is in cache but mtime differs, we still check it (pngquant will skip if already optimal)
   const filesToProcess = pngFiles.filter(filePath => needsProcessing(filePath, cache));
   const filesCached = pngFiles.length - filesToProcess.length;
   
@@ -233,7 +279,7 @@ function main() {
   let totalAfterSize = 0;
   
   filesToProcess.forEach((filePath, index) => {
-    const relativePath = path.relative(CONTENT_DIR, filePath);
+    const relativePath = getRelativePath(filePath);
     process.stdout.write(`\r   [${index + 1}/${filesToProcess.length}] Processing: ${relativePath}...`);
     
     const result = optimizePng(filePath);
