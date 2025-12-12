@@ -437,6 +437,33 @@ module.exports = function(eleventyConfig) {
     return taxonomyMap[taxonomyType] || taxonomyType.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase()).trim();
   });
 
+  // Format taxonomy title for archive pages
+  // Can accept either (taxonomyType, taxonomyValue) or archive object
+  eleventyConfig.addFilter("formatTaxonomyTitle", function(taxonomyType, taxonomyValue) {
+    // Handle case where archive object is passed as first argument
+    if (taxonomyType && typeof taxonomyType === 'object' && taxonomyType.taxonomyType) {
+      const archive = taxonomyType;
+      taxonomyType = archive.taxonomyType;
+      taxonomyValue = archive.taxonomyValue;
+    }
+    
+    if (taxonomyType === 'projectTypes') {
+      return `${taxonomyValue} Projects`;
+    }
+    if (taxonomyType === 'experimentTypes') {
+      return `${taxonomyValue} Experiments`;
+    }
+    const taxonomyMap = {
+      'projectStyles': 'Project Style',
+      'projectStatus': 'Project Status',
+      'projectTypes': 'Project Type',
+      'tools': 'Tool',
+      'logCategories': 'Log Category'
+    };
+    const typeLabel = taxonomyMap[taxonomyType] || taxonomyType.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase()).trim();
+    return `${typeLabel}: ${taxonomyValue}`;
+  });
+
   // Get all unique project types for navigation dropdown
   eleventyConfig.addCollection("projectTypesList", function(collectionApi) {
     const projects = collectionApi.getFilteredByGlob("content/projects/**/index.md");

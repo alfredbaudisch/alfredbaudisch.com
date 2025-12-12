@@ -6,7 +6,7 @@ pagination:
   alias: archive
 permalink: "{{ archive.url }}"
 eleventyComputed:
-  title: "{{ archive.taxonomyType | formatTaxonomyType }}: {{ archive.taxonomyValue }}"
+  title: "{{ archive.taxonomyType | formatTaxonomyTitle(archive.taxonomyValue) }}"
   taxonomyType: "{{ archive.taxonomyType }}"
   taxonomyValue: "{{ archive.taxonomyValue }}"
 ---
@@ -14,7 +14,7 @@ eleventyComputed:
 <div class="container archive-page">
   {% set archive = pagination.items[0] %}
   <header>
-    <h1>{{ archive.taxonomyType | formatTaxonomyType }}: {{ archive.taxonomyValue }}</h1>
+    <h1>{{ archive.taxonomyType | formatTaxonomyTitle(archive.taxonomyValue) }}</h1>
   </header>
   
   {% set filteredItems = collections.allContent | filterByTaxonomy(archive.taxonomyType, archive.taxonomyValue) %}
