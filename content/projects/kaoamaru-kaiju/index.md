@@ -26,7 +26,7 @@ links:
 -   I worked alone and made, from start to finish, all the graphics, models, sounds, music and code during the Jam.
 -   Available for free on [itch.io](https://splitpainter.itch.io/kaoamaru-kaiju).
 -   A dark cinematic narrative experience – it has no gameplay.
--   It has dozens of secrets and meanings, that still haven’t been unconvered by anyone.
+-   It has dozens of secrets and meanings, that still haven't been unconvered by anyone.
 
 <figure>
 

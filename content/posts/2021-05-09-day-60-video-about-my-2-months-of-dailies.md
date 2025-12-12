@@ -11,6 +11,6 @@ featuredImageSmall: "/media/wp-content/2021/05/0060-video-about-dailies-300x169.
 type: "post"
 ---
 
-Up until today I still haven’t talked about my Dailies on my main YouTube channel. So today, since it’s a very special day, in which I reached 60 days of doing a piece of digital and 3D art per day, I recorded and explained the project to my Portuguese-speaking audience.
+Up until today I still haven't talked about my Dailies on my main YouTube channel. So today, since it's a very special day, in which I reached 60 days of doing a piece of digital and 3D art per day, I recorded and explained the project to my Portuguese-speaking audience.
 
 <iframe width="750" height="422" src="https://www.youtube.com/embed/JvLdRl5mQrs" title="Um Trabalho Criativo POR DIA por 60 Dias (Porque você DEVE FINALIZAR algo todo dia)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

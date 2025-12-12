@@ -40,4 +40,4 @@ To **pick up a darker color** relative to your current color: decrease brightnes
 
 I also experimented with every Blending and Mixing brush I had in Krita (see process image) in order to decide my favorite one. Turns out, there are many – which is bad, it can cause me confusion when painting later.
 
-Previously I wrote th[at I decided to move on with Clip Paint Studio](https://alfredbaudisch.com/experiments/2d-art/151-restarting-digital-painting/). I don’t remember what frustration I came into (I did this experiment in December), and I gave up on it and moved back to Krita.
+Previously I wrote th[at I decided to move on with Clip Paint Studio](https://alfredbaudisch.com/experiments/2d-art/151-restarting-digital-painting/). I don't remember what frustration I came into (I did this experiment in December), and I gave up on it and moved back to Krita.

@@ -11,7 +11,7 @@ featuredImageSmall: "/media/wp-content/2021/07/0143-undercity-skull-sign-hand-pa
 type: "post"
 ---
 
-My first 100% hand-painted texture since I started the Dailies. All other textures I made are mostly photo textures projected, post-processed, stitched, stenciled, and with hand painting here and there. This one was 100% painted. Way harder and a bit stressful, to be honest, due to not having experience with it at all, but I think I’ll do it more times.
+My first 100% hand-painted texture since I started the Dailies. All other textures I made are mostly photo textures projected, post-processed, stitched, stenciled, and with hand painting here and there. This one was 100% painted. Way harder and a bit stressful, to be honest, due to not having experience with it at all, but I think I'll do it more times.
 
 ## Process
 

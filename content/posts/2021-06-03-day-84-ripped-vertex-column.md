@@ -11,4 +11,4 @@ featuredImageSmall: "/media/wp-content/2021/06/0084-ripped-column-300x300.png"
 type: "post"
 ---
 
-Just a small experiment with “Rip Vertices” from Blender.
+Just a small experiment with "Rip Vertices" from Blender.

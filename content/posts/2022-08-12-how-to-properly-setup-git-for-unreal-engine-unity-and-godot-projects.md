@@ -13,24 +13,24 @@ type: "post"
 
 In order to have a Git repository for a game development project, the repository must be properly set with [Git LFS](https://git-lfs.github.com/), otherwise Git is going to make full copies of binary files. With Git LFS you can also version control huge files (in the size of GBs).
 
-But it can be tricky to understand the correct workflow to setup Git LFS, also it’s common to add LFS to a repository but incorrectly track binary files with the normal Git workflow instead of LFS (due to wrong setup order and incorrect `lfs track`).
+But it can be tricky to understand the correct workflow to setup Git LFS, also it's common to add LFS to a repository but incorrectly track binary files with the normal Git workflow instead of LFS (due to wrong setup order and incorrect `lfs track`).
 
-Before we move forward, understand that **when I talk about “binary files” I mean “assets” (meshes, textures, sounds, etc.), anything that is not source-code**. In the case of Unreal Engine, everything is an asset, including Blueprints (because BP files are binaries) – with the exception of C++ files, of course.
+Before we move forward, understand that **when I talk about "binary files" I mean "assets" (meshes, textures, sounds, etc.), anything that is not source-code**. In the case of Unreal Engine, everything is an asset, including Blueprints (because BP files are binaries) – with the exception of C++ files, of course.
 
-> When using Git LFS, your commits will point to a lightweight reference object instead of pointing back to the binary file (you’re actually pushing the original binary file to an LFS repo).
+> When using Git LFS, your commits will point to a lightweight reference object instead of pointing back to the binary file (you're actually pushing the original binary file to an LFS repo).
 > 
 > [Save Time with Git LFS](https://www.gitkraken.com/learn/git/git-lfs)
 
 ## Setup
 
-If you still don’t have a Git repository set in your project folder, initialize the repository and install LFS.
+If you still don't have a Git repository set in your project folder, initialize the repository and install LFS.
 
 ```
 git init
 git lfs install
 ```
 
-Track the folders and subfolders that will contain binary assets. To track a parent folder and all of its children and subfolders recursively add two “**”:
+Track the folders and subfolders that will contain binary assets. To track a parent folder and all of its children and subfolders recursively add two "**":
 
 ```
 \# Unreal Engine:
@@ -57,7 +57,7 @@ Project/
 ---- Scripts/ (Non-LFS, normal Git)
 ```
 
-Then **before adding any other file, you must add and commit the `.gitattributes` file** (this is where it’s common to mess up):
+Then **before adding any other file, you must add and commit the `.gitattributes` file** (this is where it's common to mess up):
 
 ```
 git add .gitattributes
@@ -95,9 +95,9 @@ After LFS is set, you can normally use Git GUI Clients in your workflow, no need
 
 ## Special Unity Setup
 
-Unity offers a special tool to merge scene and prefab files, “[Smart Merge](https://docs.unity3d.com/Manual/SmartMerge.html)“.
+Unity offers a special tool to merge scene and prefab files, "[Smart Merge](https://docs.unity3d.com/Manual/SmartMerge.html)".
 
-Open your global `.gitconfig` file or your project’s `.git` file and add (see [the docs](https://docs.unity3d.com/Manual/SmartMerge.html) to find out where `UnityYAMLMerge` is located):
+Open your global `.gitconfig` file or your project's `.git` file and add (see [the docs](https://docs.unity3d.com/Manual/SmartMerge.html) to find out where `UnityYAMLMerge` is located):
 
 ```
 [merge]
@@ -108,8 +108,8 @@ Open your global `.gitconfig` file or your project’s `.git` file and add (see 
     cmd = '<path to UnityYAMLMerge>' merge -p "$BASE" "$REMOTE" "$LOCAL" "$MERGED"
 ```
 
--   [Get Unity’s .gitignore template](https://github.com/github/gitignore/blob/main/Unity.gitignore)
--   [Get Unity’s .gitattributes template](https://gist.github.com/alfredbaudisch/bc8f204420d0862fd8c869ff77783017)
+-   [Get Unity's .gitignore template](https://github.com/github/gitignore/blob/main/Unity.gitignore)
+-   [Get Unity's .gitattributes template](https://gist.github.com/alfredbaudisch/bc8f204420d0862fd8c869ff77783017)
 
 Project Settings:
 

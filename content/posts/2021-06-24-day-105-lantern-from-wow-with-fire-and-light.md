@@ -12,7 +12,7 @@ type: "post"
 
 [![](/media/wp-content/2021/06/image-2.png)](/media/wp-content/2021/06/image-2.png)
 
-Added particles and lights in Godot to the lantern I made on [Day 102: Simplified Lamp from World of Warcraft](https://alfredbaudisch.com/dailies/day-102-simplified-lamp/) and [Day 104: Lamp Low Poly Textured](https://alfredbaudisch.com/dailies/day-104-lamp-low-poly-textured/) and that I was wrongly called “lamp”.
+Added particles and lights in Godot to the lantern I made on [Day 102: Simplified Lamp from World of Warcraft](https://alfredbaudisch.com/dailies/day-102-simplified-lamp/) and [Day 104: Lamp Low Poly Textured](https://alfredbaudisch.com/dailies/day-104-lamp-low-poly-textured/) and that I was wrongly called "lamp".
 
 ## Process
 

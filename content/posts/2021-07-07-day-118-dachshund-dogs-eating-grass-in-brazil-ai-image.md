@@ -10,7 +10,7 @@ featuredImageSmall: "/media/wp-content/2021/07/dachshund-dogs-eating-grass-in-br
 type: "post"
 ---
 
-A different kind of daily. Spent some time tinkering with [AI image generators](https://colab.research.google.com/drive/1go6YwMFe5MX6XM9tv-cnQiSTU50N9EeT#scrollTo=ZdlpRFL8UAlW), and for today’s daily, I chose the image made with the prompt from the post title.
+A different kind of daily. Spent some time tinkering with [AI image generators](https://colab.research.google.com/drive/1go6YwMFe5MX6XM9tv-cnQiSTU50N9EeT#scrollTo=ZdlpRFL8UAlW), and for today's daily, I chose the image made with the prompt from the post title.
 
 ## Process
 

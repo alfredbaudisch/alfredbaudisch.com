@@ -11,7 +11,7 @@ featuredImageSmall: "/media/wp-content/2021/05/0053-substance-designer-ceiling-c
 type: "post"
 ---
 
-Finally came back to my first Substance Designer project. This time, create the colormap for the ceiling, with a bit of metallic and roughness in the lamps. It’s crazy how you can fine-tune even the colors of details and the metalness of these details.
+Finally came back to my first Substance Designer project. This time, create the colormap for the ceiling, with a bit of metallic and roughness in the lamps. It's crazy how you can fine-tune even the colors of details and the metalness of these details.
 
 ## Process
 

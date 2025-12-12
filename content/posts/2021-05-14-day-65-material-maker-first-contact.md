@@ -11,7 +11,7 @@ featuredImageSmall: "/media/wp-content/2021/05/0065-material-material-bricks-300
 type: "post"
 ---
 
-[Material Maker](https://rodzilla.itch.io/material-maker) is a free and [open-source](https://github.com/RodZill4/material-maker) alternative to Substance Designer. Of course, a lot of features are missing (and there’s no Undo), but Material Maker is still a wonderful software made by just ONE person! And still, it’s quite powerful. I followed the official intro and made a procedural brick material.
+[Material Maker](https://rodzilla.itch.io/material-maker) is a free and [open-source](https://github.com/RodZill4/material-maker) alternative to Substance Designer. Of course, a lot of features are missing (and there's no Undo), but Material Maker is still a wonderful software made by just ONE person! And still, it's quite powerful. I followed the official intro and made a procedural brick material.
 
 What I liked the most about Material Maker:
 

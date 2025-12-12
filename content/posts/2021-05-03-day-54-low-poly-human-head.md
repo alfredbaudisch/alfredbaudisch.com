@@ -10,7 +10,7 @@ featuredImageSmall: "/media/wp-content/2021/05/0054-low-poly-head-300x169.png"
 type: "post"
 ---
 
-When modeling things like these, I remember why in the first place I avoid modeling the human figure. Even with reference, it’s hard to get something accurate. Anyway, I think it turned out ok, considering I want it for PS1-like models.
+When modeling things like these, I remember why in the first place I avoid modeling the human figure. Even with reference, it's hard to get something accurate. Anyway, I think it turned out ok, considering I want it for PS1-like models.
 
 ## Process
 

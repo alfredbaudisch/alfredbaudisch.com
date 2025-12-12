@@ -10,11 +10,11 @@ featuredImageSmall: "/media/wp-content/2021/03/0007-phoenix-composition-300x300.
 type: "post"
 ---
 
-**A fan art of the mount Ashes of Al’ar from World of Warcraft**, because after many years, I finally looted it from the boss Kael’Thas Sunstrider from Tempest Keep!
+**A fan art of the mount Ashes of Al'ar from World of Warcraft**, because after many years, I finally looted it from the boss Kael'Thas Sunstrider from Tempest Keep!
 
 Made in Blender and composed in Photoshop.
 
-Also making this piece was another reminder on how hard it is to deal with lights, particles and shaders in Blender. I really need to deep dive into the subject, but I’m still following a camera course.
+Also making this piece was another reminder on how hard it is to deal with lights, particles and shaders in Blender. I really need to deep dive into the subject, but I'm still following a camera course.
 
 **Base model:** Phoenix by [NORBERTO-3D](https://sketchfab.com/3d-models/phoenix-bird-844ba0cf144a413ea92c779f18912042).
 

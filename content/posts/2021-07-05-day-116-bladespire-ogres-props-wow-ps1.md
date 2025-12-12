@@ -11,6 +11,6 @@ featuredImageSmall: "/media/wp-content/2021/07/0116-bladespire-prop-300x169.png"
 type: "post"
 ---
 
-A strange decoration prop from Bladespire Ogres from Blade Edge’s Mountain from Wow Classic. Details will come from texturing.
+A strange decoration prop from Bladespire Ogres from Blade Edge's Mountain from Wow Classic. Details will come from texturing.
 
 ![](/media/wp-content/2021/07/0116-ref-front.jpg)

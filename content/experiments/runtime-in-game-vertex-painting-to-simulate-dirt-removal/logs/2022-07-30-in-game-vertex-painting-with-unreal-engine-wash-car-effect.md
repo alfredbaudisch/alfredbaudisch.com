@@ -18,7 +18,7 @@ As stated in the [experiment page](https://alfredbaudisch.com/experiments/gamed
 
 **Unfortunately, with this implementation, I did not manage to make it work with packaged projects**, due to `StaticMeshComponent->CachePaintedDataIfNecessary();` which works only in the Editor and PIE.
 
-I’m posting this experiment Log as it can be useful for those looking for runtime Vertex Painting with UE4 and UE5 (and as a future note to myself, in case I need it again).
+I'm posting this experiment Log as it can be useful for those looking for runtime Vertex Painting with UE4 and UE5 (and as a future note to myself, in case I need it again).
 
 In any case, I am not going to use this implementation and this approach, I decided to move forward with splat maps and realtime texture painting with Render Targets.
 
@@ -45,12 +45,12 @@ Basic material to see vertex colors:
 
 If you like my content or if you learned something from it, [buy me a coffee](https://ko-fi.com/alfredbaudisch) ☕, [be my Patreon](https://www.patreon.com/alfredbaudisch) or simply check [all of my links](https://linktr.ee/alfredbaudisch) 🔗 and follow me/subscribe/star my repositories/whatever you prefer. If you want to learn Godot, be sure to check [my courses](https://alfredbaudisch.com/projects/education/dynamic-inventory-system-and-user-interfaces-with-godot-course/) 📚!
 
-**Or you can simply add [my game to your Steam Wishlist](https://store.steampowered.com/app/2125110/?utm_source=alfredbaudisch&utm_campaign=coffee_block) – that helps GREATLY and it’s easy and free 🙂**
+**Or you can simply add [my game to your Steam Wishlist](https://store.steampowered.com/app/2125110/?utm_source=alfredbaudisch&utm_campaign=coffee_block) – that helps GREATLY and it's easy and free 🙂**
 
 ## Implementation
 
 -   Create a new Actor Component C++ class.
--   In `InitialiseInstancedOverrideVertexColorBuffer` it’s possible to count the amount of dirt and cleaned vertices, in order to track progress of the dirtiness/cleanness of the mesh, I left the `TODO` placeholders there.
+-   In `InitialiseInstancedOverrideVertexColorBuffer` it's possible to count the amount of dirt and cleaned vertices, in order to track progress of the dirtiness/cleanness of the mesh, I left the `TODO` placeholders there.
 
 ### C++ Header
 
@@ -282,7 +282,7 @@ Add the newly created `VertexPaintableComponent` to any mesh supposed to be pa
 
 ### Performing the Vertex Painting Action
 
-Perform a line trace with the character and then call `Paint Vertex at Location` from the Hit’s `VertexPaintableComponent` component (if found).  
+Perform a line trace with the character and then call `Paint Vertex at Location` from the Hit's `VertexPaintableComponent` component (if found).  
 Copy the Blueprints from here: [https://blueprintue.com/blueprint/fky3jco9/](https://blueprintue.com/blueprint/fky3jco9/)
 
 [![](/media/wp-content/2022/07/image-29-1024x488.png)](/media/wp-content/2022/07/image-29.png)

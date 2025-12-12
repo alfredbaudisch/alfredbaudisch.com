@@ -13,7 +13,7 @@ type: "post"
 
 Low poly vase modeled and then textured painted using texture stencils (textures [from texturer](http://texturer.com/sub130/)).
 
-I’m liking my current streak of doing props.
+I'm liking my current streak of doing props.
 
 ## Process
 

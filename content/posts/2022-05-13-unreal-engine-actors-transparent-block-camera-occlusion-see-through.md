@@ -14,7 +14,7 @@ type: "post"
 
 I created a quick and simple solution in Unreal Engine to make actors and static meshes transparent (see-through) when the character is behind or occluded by them and when the camera has no collisions enabled, for example, for a top down camera.
 
-There’s no need to change the static meshes in the scene, and neither no need to change existing actors. The solution all happens with a single material that will serve as the see-through material (it can be any material you set) and a custom Player Controller that I wrote with C++, which I call **Occlusion Aware Player Controller**.
+There's no need to change the static meshes in the scene, and neither no need to change existing actors. The solution all happens with a single material that will serve as the see-through material (it can be any material you set) and a custom Player Controller that I wrote with C++, which I call **Occlusion Aware Player Controller**.
 
 ![](/media/wp-content/2022/05/UESeeThrough.gif)
 
@@ -46,7 +46,7 @@ The Blueprint Player Controller should inherit from the C++ class that you creat
 
 [![](/media/wp-content/2022/05/image-1.png)](/media/wp-content/2022/05/image-1.png)
 
-Since it inherits from our custom Player Controller, the Blueprint now has a section called “Camera Occlusion”, where you have to configure the material to be used (plus some other parameters from our custom C++ class):
+Since it inherits from our custom Player Controller, the Blueprint now has a section called "Camera Occlusion", where you have to configure the material to be used (plus some other parameters from our custom C++ class):
 
 <figure class="wp-block-image">
   <a href="/media/wp-content/2022/05/image-4.png"><img src="/media/wp-content/2022/05/image-4.png" alt="" loading="lazy"></a>
@@ -70,7 +70,7 @@ In the Player Controller Blueprint that you created previously (that inherits fr
 
 If you like my content or if you learned something from it, [buy me a coffee](https://ko-fi.com/alfredbaudisch) ☕, [be my Patreon](https://www.patreon.com/alfredbaudisch) or simply check [all of my links](https://linktr.ee/alfredbaudisch) 🔗 and follow me/subscribe/star my repositories/whatever you prefer. If you want to learn Godot, be sure to check [my courses](https://alfredbaudisch.com/projects/education/dynamic-inventory-system-and-user-interfaces-with-godot-course/) 📚!
 
-**Or you can simply add [my game to your Steam Wishlist](https://store.steampowered.com/app/2125110/?utm_source=alfredbaudisch&utm_campaign=coffee_block) – that helps GREATLY and it’s easy and free 🙂**
+**Or you can simply add [my game to your Steam Wishlist](https://store.steampowered.com/app/2125110/?utm_source=alfredbaudisch&utm_campaign=coffee_block) – that helps GREATLY and it's easy and free 🙂**
 
 ## Source-Code
 

@@ -11,4 +11,4 @@ featuredImageSmall: "/media/wp-content/2021/07/0135-catapult-shooting-ps1-300x25
 type: "post"
 ---
 
-Decided to finally check the PS1 shader in Godot in my series of WoW PS1 assets. It’s quite the setup. Next time I’ll try in Unity.
+Decided to finally check the PS1 shader in Godot in my series of WoW PS1 assets. It's quite the setup. Next time I'll try in Unity.

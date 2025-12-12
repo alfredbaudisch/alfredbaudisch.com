@@ -23,7 +23,7 @@ links:
 
 Learn to create extensive user interfaces and dynamic data systems with Godot by building an Inventory Screen. Get it on [Itch](https://bit.ly/GodotUI) or [Udemy](https://www.udemy.com/course/godot-engine-the-ultimate-inventory-dynamic-system-and-ui-course/?referralCode=E1A8C3E5AF8B9EE50CEE).
 
-In this **game development course with 98 byte sized videos, with a total of 10 hours of video content**, you’ll learn how to use the Godot Engine and Editor to create an **Inventory System and Inventory UI (User Interface) that is fully dynamic, with scriptable object items and a central database of items** (using Godot’s Resources). The inventory system has support for **multiple item categories, category groups, dynamic and infinite scrolling grids, equippable slots** (example: main hand and off hand) and more.
+In this **game development course with 98 byte sized videos, with a total of 10 hours of video content**, you'll learn how to use the Godot Engine and Editor to create an **Inventory System and Inventory UI (User Interface) that is fully dynamic, with scriptable object items and a central database of items** (using Godot's Resources). The inventory system has support for **multiple item categories, category groups, dynamic and infinite scrolling grids, equippable slots** (example: main hand and off hand) and more.
 
 **The full source-code from the course is [open-source](https://alfredbaudisch.com/projects/open-source/dynamic-inventory-system-for-godot/), available on Github.**
 
@@ -37,18 +37,18 @@ In this **game development course with 98 byte sized videos, with a total of 10 
 <figure>
 
 <iframe width="750" height="422" src="https://www.youtube.com/embed/5EpliC4gHyo" title="Godot Inventory System and Complex User Interfaces Course Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<figcaption>Trailer for the Godot course “Dynamic Inventory System, UI and Complex User Interfaces with Godot”</figcaption>
+<figcaption>Trailer for the Godot course "Dynamic Inventory System, UI and Complex User Interfaces with Godot"</figcaption>
 </figure>
 
 ## Description
 
 The inventory system you are going to create is **inspired by the Zelda Breath of the Wild inventory screen**, and can be used in RPG, FPS, Adventure, Point-and-Click games and more, basically, any games where the player can **acquire and keep track of items in different categories**.
 
-This is a **MASTERCLASS about creating User Interfaces, Custom Systems, Custom Dynamic Data and Dynamic Interfaces with Godot**. Not only data, it’s a **masterclass about Godot’s Resource system**.
+This is a **MASTERCLASS about creating User Interfaces, Custom Systems, Custom Dynamic Data and Dynamic Interfaces with Godot**. Not only data, it's a **masterclass about Godot's Resource system**.
 
 This course gives you all the knowledge and the power to build **responsive user interfaces with Godot,** you will also learn how to make **Dynamic Systems that use Dynamic Data using your own Data Model and Scriptable Objects**.
 
-You are also going to learn how to create your own **extendable and expandable Godot’s Game Objects and Components with custom Nodes, Scenes and Scripts**. You are going to learn how to create custom Godot’s Resources and how to mix and match Dynamic and Static data.
+You are also going to learn how to create your own **extendable and expandable Godot's Game Objects and Components with custom Nodes, Scenes and Scripts**. You are going to learn how to create custom Godot's Resources and how to mix and match Dynamic and Static data.
 
 ## In a single paragraph
 
@@ -56,9 +56,9 @@ You are going to **learn EVERYTHING** there is about creating **complex User Int
 
 ## (Almost) everything that you are going to learn:
 
--   Godot Nodes and Scenes fundamentals. Understand what are **Godot’s Game Objects and Components in depth**.
+-   Godot Nodes and Scenes fundamentals. Understand what are **Godot's Game Objects and Components in depth**.
 -   Godot Control Nodes and UI fundamentals including margins, anchors, layouts, **responsive layouts, aspect ratios** and more
--   How to understand Godot’s **Container Nodes, Automatic UI Placement and Size Flags**
+-   How to understand Godot's **Container Nodes, Automatic UI Placement and Size Flags**
 -   How to create Big User Interface Screens with Godot that are also responsive for different screen sizes and aspect ratios.
 -   How to create your own **custom UI widgets, expand and inherit them** (custom Control Nodes and Scenes)
 -   How to create an **infinite scrolling container and grids of items, how to split it by pages and how to animate it dynamically**
@@ -67,8 +67,8 @@ You are going to **learn EVERYTHING** there is about creating **complex User Int
 -   How to create User Interface that uses both Dynamic and Static data
 -   How to create **Equippable Item slots that accept configurable categories** of items and show the items equipped in these slots
 -   How to display item and **equipment attributes**
--   How to create and expand **custom Scriptable Objects (Custom Godot’s Resources)** with different attributes for items and equipment
--   Godot’s scripting language, **GDScript, including the Observer pattern with GDScript’s Signals** in details, with a sample Traffic Light project
+-   How to create and expand **custom Scriptable Objects (Custom Godot's Resources)** with different attributes for items and equipment
+-   Godot's scripting language, **GDScript, including the Observer pattern with GDScript's Signals** in details, with a sample Traffic Light project
 -   How to write custom GDScript Signals, connect to them and emit them
 -   **Advanced user interface coding with GDScript**
 -   How to handle and **sync One Handed and Two Handed items,** while automatically unequipping items if both hands are equipped
@@ -85,7 +85,7 @@ This course is divided as:
 -   Planning the inventory system data model
 -   GDScript Crash Course
 -   Programming everything with GDScript
--   Check the [Table of Contents](https://alfredbaudisch.com/project-logs/godot-course-table-of-contents-dynamic-inventory-system/).
+-   Check the [Table of Contents](/project-logs/godot-course-table-of-contents-dynamic-inventory-system/).
 
 In the programming section, I explain the reasoning behind each line of code, so expect lots of drawings.
 
@@ -93,11 +93,11 @@ In the programming section, I explain the reasoning behind each line of code, so
 
 **This course uses Godot 3.4.3**. Since Godot 4 builds upon the fundamentals of Godot 3, this course is long lasting, you are not going to get something that will get deprecated. All of the knowledge is transferable, especially on how to build UIs and structure the data models.
 
-Godot 4 is still too unstable and susceptible for breaking changes. When Godot 4 stable release comes out, I’ll record upgrade and migration videos, this way you are going to learn twice as much.
+Godot 4 is still too unstable and susceptible for breaking changes. When Godot 4 stable release comes out, I'll record upgrade and migration videos, this way you are going to learn twice as much.
 
 ## Target Audience
 
-This course is intended for all audiences, the only requirement is to know a bit of programming logic. You don’t need to know Godot before starting this course.
+This course is intended for all audiences, the only requirement is to know a bit of programming logic. You don't need to know Godot before starting this course.
 
 ## Licenses
 

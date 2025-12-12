@@ -37,7 +37,7 @@ Everything that is related to architecture, game core, business logic is being m
 
 I was having a lot of trouble with Unreal Engine 5 C++ Live Coding. The Editor would crash constantly and my Blueprints would get corrupted, where I had to redo the work multiple times. See details and how I solved [on my topic on the Unreal Engine forums](https://forums.unrealengine.com/t/excessive-crashes-and-blueprint-corruption-when-using-live-coding-how-to-fix-that/558177).
 
-I’m using JetBrains Rider and it’s a lot of fun to write C++ with it.
+I'm using JetBrains Rider and it's a lot of fun to write C++ with it.
 
 <figure class="wp-block-image">
   <a href="/media/wp-content/2022/05/image-5.png"><img src="/media/wp-content/2022/05/image-5-1024x657.png" alt="" loading="lazy"></a>

@@ -25,11 +25,11 @@ Banjo Kazooie environments and levels also faked light, shadow and ambient occlu
 
 <figure class="wp-block-image">
   <a href="/media/wp-content/2025/11/SCR-20251119-ryjg.jpeg"><img src="/media/wp-content/2025/11/SCR-20251119-ryjg-1024x538.jpeg" alt="" loading="lazy"></a>
-  <figcaption>Banjo Kazooie’s Dingpot Teleport Room with vertex colors (from noclip.website)</figcaption>
+  <figcaption>Banjo Kazooie's Dingpot Teleport Room with vertex colors (from noclip.website)</figcaption>
 </figure>
 <figure class="wp-block-image">
   <a href="/media/wp-content/2025/11/SCR-20251119-rykl.jpeg"><img src="/media/wp-content/2025/11/SCR-20251119-rykl-1024x541.jpeg" alt="" loading="lazy"></a>
-  <figcaption>Banjo Kazooie’s Dingpot Teleport Room without vertex colors (from noclip.website). Notice how everything looks flat without vertex colors.</figcaption>
+  <figcaption>Banjo Kazooie's Dingpot Teleport Room without vertex colors (from noclip.website). Notice how everything looks flat without vertex colors.</figcaption>
 </figure>
 
 ## How did they achieve texture blending?
@@ -40,7 +40,7 @@ When disabling vertex colors from the same scene from the first screenshot, this
 
 <figure class="wp-block-image">
   <a href="/media/wp-content/2025/11/n64-banjoenvironment-03-BanjoKazooie-DisabledVertexColors.jpeg"><img src="/media/wp-content/2025/11/n64-banjoenvironment-03-BanjoKazooie-DisabledVertexColors-1024x576.jpeg" alt="" loading="lazy"></a>
-  <figcaption>Banjo Kazooie’s Spiral Mountain, vertex colors disabled. You can see the texture blending between the road, the terrain and the farm plot is gone. The path (which is also painted with vertex colors) is also gone.</figcaption>
+  <figcaption>Banjo Kazooie's Spiral Mountain, vertex colors disabled. You can see the texture blending between the road, the terrain and the farm plot is gone. The path (which is also painted with vertex colors) is also gone.</figcaption>
 </figure>
 
 [noclip.website](https://noclip.website/#bk/01;ShareData=ASKuP9oEUGUFA+H9u^1eWmP;{QUSUaUnOqPUms{KV^ky]UgFD+UOsHx9h_gu+^) allows inspecting the vertex color alpha. This is what it looks like for the same scene:
@@ -63,7 +63,7 @@ In a closed environment, this is what the vertex color looks like:
 
 ## Textures
 
-Banjo Kazooie makes use of all the Nintendo 64’s [texture capabilities](https://n64squid.com/homebrew/n64-sdk/textures/image-formats/) and [formats](https://youtu.be/xwls5SpNn1s?si=Y7lcHdTwm1x2xFzb&t=103), but from my quick observations, the majority of textures used in the game’s environments are:
+Banjo Kazooie makes use of all the Nintendo 64's [texture capabilities](https://n64squid.com/homebrew/n64-sdk/textures/image-formats/) and [formats](https://youtu.be/xwls5SpNn1s?si=Y7lcHdTwm1x2xFzb&t=103), but from my quick observations, the majority of textures used in the game's environments are:
 
 -   32×32 (32-bit)
 -   64×64 (16 colors)
@@ -76,7 +76,7 @@ In order to show more details, it also makes heavy usage of multi-segment 64×64
   <figcaption>Source: The Cutting Room Floor</figcaption>
 </figure>
 
-There’s also the usage of noise and alpha textures. If we go back again to the first screenshot example, the game uses a 32×32 noise texture for most of Spiral Mountain:
+There's also the usage of noise and alpha textures. If we go back again to the first screenshot example, the game uses a 32×32 noise texture for most of Spiral Mountain:
 
 [![](/media/wp-content/2025/11/SCR-20251119-sgsw-1024x618.jpeg)](/media/wp-content/2025/11/SCR-20251119-sgsw.jpeg)
 

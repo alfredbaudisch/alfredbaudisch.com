@@ -10,7 +10,7 @@ featuredImageSmall: "/media/wp-content/2021/06/0100-shovel-ps1-low-poly-300x169.
 type: "post"
 ---
 
-100 days of dailies! To keep my promise of not taking things seriously and to keep fighting against perfection, the 100th daily is a simple low poly shovel! It’s actually [yesterday’s daily](https://alfredbaudisch.com/dailies/day-99-shovel-low-poly/) and today I textured it.
+100 days of dailies! To keep my promise of not taking things seriously and to keep fighting against perfection, the 100th daily is a simple low poly shovel! It's actually [yesterday's daily](https://alfredbaudisch.com/dailies/day-99-shovel-low-poly/) and today I textured it.
 
 ## Process
 

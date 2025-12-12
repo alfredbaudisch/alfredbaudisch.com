@@ -13,9 +13,9 @@ type: "post"
 
 ![](/media/wp-content/2021/04/image.png)
 
-I had the book **[Color Choices](https://www.amazon.com/Color-Choices-Making-Sense-Theory/dp/0823006972)** laying around and I decided to re-read it now that I’m into art daily. Turns out it’s exactly what I need in this journey.
+I had the book **[Color Choices](https://www.amazon.com/Color-Choices-Making-Sense-Theory/dp/0823006972)** laying around and I decided to re-read it now that I'm into art daily. Turns out it's exactly what I need in this journey.
 
-I dedicated some time studying the author’s Color Wheel, which is very popular between traditional art artists. To my surprise, I didn’t find any digital version, with equivalent digital colors. So today’s daily was all about finding colors that match the Quiller wheel.
+I dedicated some time studying the author's Color Wheel, which is very popular between traditional art artists. To my surprise, I didn't find any digital version, with equivalent digital colors. So today's daily was all about finding colors that match the Quiller wheel.
 
 **Check the wheel below and the table of colors and their hex codes at the boom of the post.**
 

@@ -13,4 +13,4 @@ projectStyles: ["Gamedev"]
 
 Developing, with the Godot Engine, a Match-3 game from start to finish, including the main gameplay, start menu, options menu, score screen, finishing screen and levels.
 
-The idea is to make a “finished and playable game product”.
+The idea is to make a "finished and playable game product".

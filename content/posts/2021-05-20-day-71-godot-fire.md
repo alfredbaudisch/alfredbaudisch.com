@@ -11,6 +11,6 @@ featuredImageSmall: "/media/wp-content/2021/05/0071-godot-pixelated-fire-particl
 type: "post"
 ---
 
-Trying Godot’s particle for the first time. Wanted to make a low-resolution fire. Fire base image from Kenney.
+Trying Godot's particle for the first time. Wanted to make a low-resolution fire. Fire base image from Kenney.
 
 [![](/media/wp-content/2021/05/0071-process-godot-1024x466.jpg)](/media/wp-content/2021/05/0071-process-godot.jpg)

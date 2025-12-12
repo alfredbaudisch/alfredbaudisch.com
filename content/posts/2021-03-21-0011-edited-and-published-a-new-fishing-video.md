@@ -11,6 +11,6 @@ featuredImageSmall: "/media/wp-content/2021/03/0011-pesca-dinamica-ultra-light-3
 type: "post"
 ---
 
-For this daily, I edited and published a new video on my daddy’s YouTube channel, [Pesca Dinâmica](https://youtube.com/pescadinamica). Check the [Entertainment](https://alfredbaudisch.com/projects/entertainment/) section in the Projects menu to know more about the channel.
+For this daily, I edited and published a new video on my daddy's YouTube channel, [Pesca Dinâmica](https://youtube.com/pescadinamica). Check the [Entertainment](https://alfredbaudisch.com/projects/entertainment/) section in the Projects menu to know more about the channel.
 
 <iframe width="750" height="422" src="https://www.youtube.com/embed/ee3rmmCDubg" title="Pesca de Robalos e Lúcios com Ultralight (E Receita Exclusiva de Tilápia no Fubá)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

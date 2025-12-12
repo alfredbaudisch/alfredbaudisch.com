@@ -10,7 +10,7 @@ featuredImageSmall: "/media/wp-content/2021/07/0117-wow-ps1-bladespire-ogres-pro
 type: "post"
 ---
 
-Textured the strange decoration prop that I modeled yesterday (design from Bladespire Ogres from Blade Edge’s Mountains from Wow Classic TBC).
+Textured the strange decoration prop that I modeled yesterday (design from Bladespire Ogres from Blade Edge's Mountains from Wow Classic TBC).
 
 ## Process
 

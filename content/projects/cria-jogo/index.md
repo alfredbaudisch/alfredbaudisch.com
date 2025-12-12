@@ -22,9 +22,9 @@ metaDescription: "YouTube channel with game development, digital art, creativity
 -   [**YouTube channel**](https://youtube.com/criajogo) with more than 17K subscribers, created in 2013.
 -   Game development, creativity, programming and art content and tutorials in Portuguese.
     -   Main topics: Creativity, learning techniques, game development, creative documentaries, Lua scripting, Roblox, Blender 3D, digital art, Godot Game Engine
--   My free course, “Introduction to Programming for Complete Beginners”, in Portuguese “Curso de Introdução a Programação para Completos Iniciantes com Lua”, published in 2014, has amassed 245,000 views to date, and still appear on the 1st page results for many related searches.
+-   My free course, "Introduction to Programming for Complete Beginners", in Portuguese "Curso de Introdução a Programação para Completos Iniciantes com Lua", published in 2014, has amassed 245,000 views to date, and still appear on the 1st page results for many related searches.
     -   Over the years, the course has been used by Schools and Universities (for free).
-    -   Surprisingly, the biggest audience is composed of kids, so I’m quite happy to be their first foray into programming.
+    -   Surprisingly, the biggest audience is composed of kids, so I'm quite happy to be their first foray into programming.
 -   Verified [Roblox](https://arstechnica.com/gaming/2021/03/putting-robloxs-incredible-45-billion-ipo-in-context/) [educator](https://education.roblox.com/en-us/educators)
 -   The first channel in Portuguese to teach Roblox development, and still, the biggest one in this language
 

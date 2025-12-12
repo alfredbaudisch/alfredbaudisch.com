@@ -16,7 +16,7 @@ featuredImageSmall: "/media/wp-content/2022/07/image-24-300x219.png"
 
 As stated in the [experiment page](https://alfredbaudisch.com/experiments/gamedev/runtime-in-game-vertex-painting-to-simulate-dirt-removal/), the intention here is to add and remove dirt from meshes dynamically during runtime. My implementation works in packaged games and projects, without any performance hit (dealing with vertex colors is cheap).
 
-In any case, I am not going to use this implementation and this approach. I decided to move forward with splat maps and [realtime texture painting with Render Textures from Viewports](https://alfredbaudisch.com/blog/gamedev/godot-engine/godot-engine-in-game-splat-map-texture-painting-dirt-removal-effect/), because then I don’t have to worry about mesh density. But it’s fine to use this implementation for simple meshes and simple use cases.
+In any case, I am not going to use this implementation and this approach. I decided to move forward with splat maps and [realtime texture painting with Render Textures from Viewports](https://alfredbaudisch.com/blog/gamedev/godot-engine/godot-engine-in-game-splat-map-texture-painting-dirt-removal-effect/), because then I don't have to worry about mesh density. But it's fine to use this implementation for simple meshes and simple use cases.
 
 The source-code and a sample [working project is available on my Github](https://github.com/alfredbaudisch/GodotInGameVertexPaintingDirtEffect).
 
@@ -31,7 +31,7 @@ The source-code and a sample [working project is available on my Github](https:/
 
 ### Painting in the editor (Preloading vertex colors)
 
-In order to map the starting colors of the vertices (for example, where in the car it’s going to be dirty?), the vertices have to be pre-painted.
+In order to map the starting colors of the vertices (for example, where in the car it's going to be dirty?), the vertices have to be pre-painted.
 
 They can be painted both in an external 3D package (Blender, etc) or inside Godot, but to paint inside Godot you need the [VPainter addon](https://github.com/tomankirilov/VPainter).
 
@@ -110,12 +110,12 @@ func _paint_tool() -> void:
 
 If you like my content or if you learned something from it, [buy me a coffee](https://ko-fi.com/alfredbaudisch) ☕, [be my Patreon](https://www.patreon.com/alfredbaudisch) or simply check [all of my links](https://linktr.ee/alfredbaudisch) 🔗 and follow me/subscribe/star my repositories/whatever you prefer. If you want to learn Godot, be sure to check [my courses](https://alfredbaudisch.com/projects/education/dynamic-inventory-system-and-user-interfaces-with-godot-course/) 📚!
 
-**Or you can simply add [my game to your Steam Wishlist](https://store.steampowered.com/app/2125110/?utm_source=alfredbaudisch&utm_campaign=coffee_block) – that helps GREATLY and it’s easy and free 🙂**
+**Or you can simply add [my game to your Steam Wishlist](https://store.steampowered.com/app/2125110/?utm_source=alfredbaudisch&utm_campaign=coffee_block) – that helps GREATLY and it's easy and free 🙂**
 
 ## Where to place the materials?
 
 In the example project, the example Mesh is a car from Kenney, which has many different surfaces.
 
-In this case, MeshInstance’s “Surface 3” contains the material `R_M_SuvHood.tres` and “Surface 5” contains the material `R_M_SuvWindows.tres`.
+In this case, MeshInstance's "Surface 3" contains the material `R_M_SuvHood.tres` and "Surface 5" contains the material `R_M_SuvWindows.tres`.
 
 [![](/media/wp-content/2022/07/image-25.png)](/media/wp-content/2022/07/image-25.png)

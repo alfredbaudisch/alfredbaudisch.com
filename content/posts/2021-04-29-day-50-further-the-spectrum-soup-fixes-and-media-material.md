@@ -11,9 +11,9 @@ featuredImageSmall: "/media/wp-content/2021/04/spectrum_soap_teaser3-masked-intr
 type: "post"
 ---
 
-I finally fixed the “no hear” pose, because the arms were still merging into the body.
+I finally fixed the "no hear" pose, because the arms were still merging into the body.
 
-I also added a “go back to museum” mechanism, created GIFs and re-exported the covers/banners, with the new fixed “no hear”.
+I also added a "go back to museum" mechanism, created GIFs and re-exported the covers/banners, with the new fixed "no hear".
 
 [Play it on Itch.io](https://splitpainter.itch.io/the-spectrum-soup)
 

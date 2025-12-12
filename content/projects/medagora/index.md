@@ -14,4 +14,4 @@ featuredImageSmall: "/media/wp-content/2021/03/image-300x168.png"
 
 -   2012
 -   Find doctors and practices, schedule and pay medical appointments and exams online.
--   Tailored for the low income Brazilian population that didn’t have a health plan. We had agreements with doctors to allow paying appointments from 20 to 80% cheaper than their normal prices.
+-   Tailored for the low income Brazilian population that didn't have a health plan. We had agreements with doctors to allow paying appointments from 20 to 80% cheaper than their normal prices.

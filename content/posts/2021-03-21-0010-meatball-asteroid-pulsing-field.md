@@ -10,6 +10,6 @@ featuredImageSmall: "/media/wp-content/2021/03/0010-abstract_red_asteroids-300x1
 type: "post"
 ---
 
-Procedural shading done in Blender, without any help from tutorials this time – it’s still far from good, but it’s a start. Post processing in Photoshop.
+Procedural shading done in Blender, without any help from tutorials this time – it's still far from good, but it's a start. Post processing in Photoshop.
 
 [![](/media/wp-content/2021/03/0010-process-blender-1024x759.png)](/media/wp-content/2021/03/0010-process-blender.png)

@@ -14,7 +14,7 @@ featuredImageThumb: "/media/wp-content/2022/10/Alfred-Ingredients-Godot-768x432.
 featuredImageSmall: "/media/wp-content/2022/10/Alfred-Ingredients-Godot-300x169.jpg"
 ---
 
-A list of my direct and indirect Godot contributions, including open-source projects made with the engine, educational content as well my direct contributions to Godot’s source code.
+A list of my direct and indirect Godot contributions, including open-source projects made with the engine, educational content as well my direct contributions to Godot's source code.
 
 ## Godot Pull-Requests (PRs \*)
 
@@ -29,7 +29,7 @@ A list of my direct and indirect Godot contributions, including open-source proj
 <figcaption>Select Next Occurrence (like in Sublime Text, VS Code and JetBrains)</figcaption>
 </figure>
 
-After reaching 10 contributions, I’m now [added](https://github.com/godotengine/godot/commit/85ca32bce61c09b9dda64402d225c88acac37129) as an “official” Developer in the About section (_I’m quoting “official”, because technically as soon as you make a single contribution you are already a Godot Developer and Contributor)_:
+After reaching 10 contributions, I'm now [added](https://github.com/godotengine/godot/commit/85ca32bce61c09b9dda64402d225c88acac37129) as an "official" Developer in the About section (_I'm quoting "official", because technically as soon as you make a single contribution you are already a Godot Developer and Contributor)_:
 
 ![](/media/wp-content/2023/02/imagen-7-1024x627.png)
 
@@ -68,7 +68,7 @@ After reaching 10 contributions, I’m now [added](https://github.com/godotengin
 -   [From Unity to Godot: Game Objects and Components in Godot?](https://alfredbaudisch.com/blog/gamedev/from-unity-to-godot-where-are-my-game-objects-and-components/)
 -   [In-game vertex painting with Godot Engine (Wash Car Effect)](https://alfredbaudisch.com/experiment-logs/in-game-vertex-painting-with-godot-engine-wash-car-effect/)
 -   [Godot Engine Lovable Features (plus UE and Unity similarities)](https://alfredbaudisch.com/blog/gamedev/godot-engine/godot-engine-lovable-features-and-characteristics/)
--   [Godot’s 3D Workflow Issues, Inconsistencies, and Confusion](https://alfredbaudisch.com/blog/gamedev/godot-engine/godots-3d-confusing-workflow-inconsistencies-conflicting-behaviours-and-annoyances/)
+-   [Godot's 3D Workflow Issues, Inconsistencies, and Confusion](https://alfredbaudisch.com/blog/gamedev/godot-engine/godots-3d-confusing-workflow-inconsistencies-conflicting-behaviours-and-annoyances/)
 -   [How to Properly Setup Git for Unreal Engine, Unity and Godot Projects](https://alfredbaudisch.com/blog/gamedev/how-to-properly-setup-git-for-unreal-engine-unity-and-godot-projects/)
 -   [152: Match-3 Game with Godot](https://alfredbaudisch.com/experiments/gamedev/152-match-3-game-with-godot/)
 
@@ -101,4 +101,4 @@ After reaching 10 contributions, I’m now [added](https://github.com/godotengin
 
 If you like my content or if you learned something from it, [buy me a coffee](https://ko-fi.com/alfredbaudisch) ☕, [be my Patreon](https://www.patreon.com/alfredbaudisch) or simply check [all of my links](https://linktr.ee/alfredbaudisch) 🔗 and follow me/subscribe/star my repositories/whatever you prefer. If you want to learn Godot, be sure to check [my courses](https://alfredbaudisch.com/projects/education/dynamic-inventory-system-and-user-interfaces-with-godot-course/) 📚!
 
-**Or you can simply add [my game to your Steam Wishlist](https://store.steampowered.com/app/2125110/?utm_source=alfredbaudisch&utm_campaign=coffee_block) – that helps GREATLY and it’s easy and free 🙂**
+**Or you can simply add [my game to your Steam Wishlist](https://store.steampowered.com/app/2125110/?utm_source=alfredbaudisch&utm_campaign=coffee_block) – that helps GREATLY and it's easy and free 🙂**

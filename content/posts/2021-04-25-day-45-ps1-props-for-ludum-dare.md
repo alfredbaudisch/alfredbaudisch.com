@@ -11,7 +11,7 @@ featuredImageSmall: "/media/wp-content/2021/04/0045-ps1-props2-300x169.png"
 type: "post"
 ---
 
-I’m taking part on the 48th Ludum Dare Game Jam and I’m making a PS1 stylized 3D Game. Today I did most of the props.
+I'm taking part on the 48th Ludum Dare Game Jam and I'm making a PS1 stylized 3D Game. Today I did most of the props.
 
 ## Process
 

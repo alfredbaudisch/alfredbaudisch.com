@@ -11,9 +11,9 @@ featuredImageSmall: "/media/wp-content/2022/04/AlfredBaudisch-InfluenceMap-Extra
 type: "post"
 ---
 
-Those are all the items that were left out of the previously posted **“[Artistic Influence Map](https://alfredbaudisch.com/blog/my-artistic-influence-map/)“.**
+Those are all the items that were left out of the previously posted **"[Artistic Influence Map](https://alfredbaudisch.com/blog/my-artistic-influence-map/)".**
 
-All of these also influenced (and continue to influence) artistically speaking, so I don’t want to leave them out.
+All of these also influenced (and continue to influence) artistically speaking, so I don't want to leave them out.
 
 Like the previous image, things are not sorted by priority nor preference, they are sorted randomly.
 
@@ -68,18 +68,18 @@ Like the previous image, things are not sorted by priority nor preference, they 
 -   Dark Souls (PC game)
 -   Sopranos (TV series)
 -   Donut Games
--   Tom Clancy’s Rainbow Six (1998 PC game)
+-   Tom Clancy's Rainbow Six (1998 PC game)
 -   The Sickly Wizard (artist)
 -   Mike Roe Games (artist)
 -   The Lion King (SNES game)
 -   The Lion King (1994 movie)
--   Disney’s Aladdin (SNES game)
+-   Disney's Aladdin (SNES game)
 -   Cartoon Smart (artist)
 -   Will Terry (artist)
 -   Viva Piñata (Xbox 360 game)
 -   Xis-Tudo (TV Series, 90s, Brazil)
 -   Another World / Out of this World (PC Game)
 -   Comandos em Ação (Brazilian G.I. Joe)
--   Oddworld: Abe’s Oddysee (PC game)
+-   Oddworld: Abe's Oddysee (PC game)
 -   The Garden of Earthly Delights (Hieronymus Bosch)
 -   He-Man

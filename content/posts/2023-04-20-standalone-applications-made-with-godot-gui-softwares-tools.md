@@ -36,7 +36,7 @@ Did you know that the Godot Editor is made with the Godot engine GUI system? And
 
 [Material Maker](https://rodzilla.itch.io/material-maker) is a procedural materials authoring and 3D model painting tool, based on the Godot Engine. Materials and brushes are defined as graphs where nodes create or transform textures, and can be exported for the Godot, Unity and Unreal game engines.
 
-It’s like Adobe Substance Designer, but free and open-source made with Godot.
+It's like Adobe Substance Designer, but free and open-source made with Godot.
 
 ### PixelOver
 
@@ -48,7 +48,7 @@ It’s like Adobe Substance Designer, but free and open-source made with Godot.
 
 [![](/media/wp-content/2023/04/GodotGUI-UnionBytes-1024x555.png)](/media/wp-content/2023/04/GodotGUI-UnionBytes.png)
 
-[Union Bytes Painter](https://unionbytes.itch.io/union-bytes-painter) allows the creation of 2D sprite and low res textures with color, normal, height, roughness, and metallic maps. Sprites and textures can be edited using multi-channel mode in the 2D or 3D space. It is similar to common applications such as Substance Painter. Basically, it’s a cheap Adobe Substance Painter alternative (around US$ 13), but focused on retro looking textures.
+[Union Bytes Painter](https://unionbytes.itch.io/union-bytes-painter) allows the creation of 2D sprite and low res textures with color, normal, height, roughness, and metallic maps. Sprites and textures can be edited using multi-channel mode in the 2D or 3D space. It is similar to common applications such as Substance Painter. Basically, it's a cheap Adobe Substance Painter alternative (around US$ 13), but focused on retro looking textures.
 
 ### HeavyPaint
 
@@ -66,7 +66,7 @@ The free and [open source](https://github.com/LyffLyff/Veles) [music application
 
 [![](/media/wp-content/2023/04/GodotGUI-GridlessDB-1024x576.png)](/media/wp-content/2023/04/GodotGUI-GridlessDB.png)
 
-Use [a powerful and intuitive editor](https://radmatt.itch.io/gridless) with a drag-and-drop interface to design, edit and visualize content for your games, like items, quests, characters, and anything else your project needs. Then export to a text file or Unity’s Scriptable Objects.
+Use [a powerful and intuitive editor](https://radmatt.itch.io/gridless) with a drag-and-drop interface to design, edit and visualize content for your games, like items, quests, characters, and anything else your project needs. Then export to a text file or Unity's Scriptable Objects.
 
 ### Pixelorama
 
@@ -88,13 +88,13 @@ Dungeondraft and Wonderdraft are brilliant and extensible tools for map making f
 
 ### Honorable Mentions
 
--   **[Grider](https://splitpainter.itch.io/grider): The Grid Creator**. Create, customize and export grids on top of reference images, for drawing guidance, a tool for artists and those learning how to draw. This is my second Godot project ever, from May/2019. It’s very barebones, but it’s when I got in love with Godot for GUI (and it’s [open-source](https://github.com/alfredbaudisch/grider)).
+-   **[Grider](https://splitpainter.itch.io/grider): The Grid Creator**. Create, customize and export grids on top of reference images, for drawing guidance, a tool for artists and those learning how to draw. This is my second Godot project ever, from May/2019. It's very barebones, but it's when I got in love with Godot for GUI (and it's [open-source](https://github.com/alfredbaudisch/grider)).
 
 ## Resources
 
 ### Godot Software Development Book
 
-I’m [writing a book](https://alfredbaudisch.com/projects/education/godots-book-developing-software-tools-business-apps-api-database/) about developing Business Software, Mobile Apps and Tools with the Godot Engine!
+I'm [writing a book](https://alfredbaudisch.com/projects/education/godots-book-developing-software-tools-business-apps-api-database/) about developing Business Software, Mobile Apps and Tools with the Godot Engine!
 
 ![](/media/wp-content/2022/04/GodotBookCover-ComingSoon.png)
 

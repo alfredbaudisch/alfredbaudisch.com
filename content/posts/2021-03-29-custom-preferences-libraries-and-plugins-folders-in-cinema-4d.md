@@ -15,11 +15,11 @@ All folders used by Cinema 4D can be pointed to a custom path, even the Preferen
 
 ## Browser, Plugins and Scripts Paths
 
-In Windows, right-click “This PC” (or “My PC”), go to _Properties_ and choose _Advanced system settings_, then click _Environment Variables_.
+In Windows, right-click "This PC" (or "My PC"), go to _Properties_ and choose _Advanced system settings_, then click _Environment Variables_.
 
 [![](/media/wp-content/2021/03/image-15.png)](/media/wp-content/2021/03/image-15.png)
 
-In “System variables”, click “New…” and in “Variable name” put one of the 3 values below. For the “Variable value” click “Browse Directory…” and go to the directory related to the variable name. Repeat this step three types, one for each of variable names below.
+In "System variables", click "New…" and in "Variable name" put one of the 3 values below. For the "Variable value" click "Browse Directory…" and go to the directory related to the variable name. Repeat this step three types, one for each of variable names below.
 
 [![](/media/wp-content/2021/03/image-16.png)](/media/wp-content/2021/03/image-16.png)
 
@@ -39,7 +39,7 @@ You have to add a custom parameter to your Cinema 4D shortcut. Before doing so, 
 
 ### Copy Current Folder
 
-In Cinema 4D, go to Edit, Preferences. Then click “Open Preferences Folder…” at the bottom.
+In Cinema 4D, go to Edit, Preferences. Then click "Open Preferences Folder…" at the bottom.
 
 [![](/media/wp-content/2021/03/image-17.png)](/media/wp-content/2021/03/image-17.png)
 
@@ -48,7 +48,7 @@ When the folder opens in Windows Explorer, copy all the contents and paste into 
 ### Make Cinema 4D use the new custom Preferences Folder Path
 
 -   Right-click a Cinema 4D shortcut and go to Properties.
--   In “Target”, inside double-quotes, you will have the path to the Cinema 4D executable.
+-   In "Target", inside double-quotes, you will have the path to the Cinema 4D executable.
 -   After the quotes, add a space and then **`-g_prefspath`\=[custom preferences folder]**, example:
 
 ```
@@ -64,4 +64,4 @@ You can now delete the previous preferences folder. But, remember to always open
 
 If you like my content or if you learned something from it, [buy me a coffee](https://ko-fi.com/alfredbaudisch) ☕, [be my Patreon](https://www.patreon.com/alfredbaudisch) or simply check [all of my links](https://linktr.ee/alfredbaudisch) 🔗 and follow me/subscribe/star my repositories/whatever you prefer. If you want to learn Godot, be sure to check [my courses](https://alfredbaudisch.com/projects/education/dynamic-inventory-system-and-user-interfaces-with-godot-course/) 📚!
 
-**Or you can simply add [my game to your Steam Wishlist](https://store.steampowered.com/app/2125110/?utm_source=alfredbaudisch&utm_campaign=coffee_block) – that helps GREATLY and it’s easy and free 🙂**
+**Or you can simply add [my game to your Steam Wishlist](https://store.steampowered.com/app/2125110/?utm_source=alfredbaudisch&utm_campaign=coffee_block) – that helps GREATLY and it's easy and free 🙂**

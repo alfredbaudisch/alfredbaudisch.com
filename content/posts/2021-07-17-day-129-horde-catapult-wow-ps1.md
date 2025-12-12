@@ -11,7 +11,7 @@ featuredImageSmall: "/media/wp-content/2021/07/0129-horde-catapult-wow-ps1-textu
 type: "post"
 ---
 
-This turned out very satisfying. It took a long time because I really enjoyed playing around with different textures, finding the “right” wood and metal, etc.
+This turned out very satisfying. It took a long time because I really enjoyed playing around with different textures, finding the "right" wood and metal, etc.
 
 ## Process
 

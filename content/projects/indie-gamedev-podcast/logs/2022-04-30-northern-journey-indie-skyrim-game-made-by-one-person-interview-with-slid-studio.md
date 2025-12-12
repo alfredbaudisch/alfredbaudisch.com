@@ -1,6 +1,6 @@
 ---
 layout: "layouts/project-log.njk"
-title: "Northern Journey “Indie Skyrim” Game Made by One Person – Interview with Slid Studio - Indie Gamedev Podcast (Education Projects)"
+title: "Northern Journey \"Indie Skyrim\" Game Made by One Person – Interview with Slid Studio - Indie Gamedev Podcast (Education Projects)"
 date: "2022-04-30T14:44:52.000Z"
 updated: "2022-04-30T14:55:26.000Z"
 type: "project-log"
@@ -14,11 +14,11 @@ featuredImageThumb: "/media/wp-content/2022/04/Podcast-NorthernJourney-5-with-ti
 featuredImageSmall: "/media/wp-content/2022/04/Podcast-NorthernJourney-5-with-title-300x169.jpg"
 ---
 
-He didn’t know how to make games, but by improvising every aspect of game development, he made and published an ambitious 3D game.
+He didn't know how to make games, but by improvising every aspect of game development, he made and published an ambitious 3D game.
 
 <iframe width="750" height="422" src="https://www.youtube.com/embed/buA49oOboNA" title="Northern Journey "Indie Skyrim" Game Made by One Person - Interview with Slid Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-He didn’t know programming, he didn’t know any game engine and he didn’t know how to make art for games. But he wanted to make the game of his dreams, an FPS game. Three years later, he finished and shipped the game Northern Journey, a 3D game with interconnected levels, whimsical characters, and hypnotizing music, made with Unreal Engine 4 (Blueprints) and Blender. Currently a success on Steam.
+He didn't know programming, he didn't know any game engine and he didn't know how to make art for games. But he wanted to make the game of his dreams, an FPS game. Three years later, he finished and shipped the game Northern Journey, a 3D game with interconnected levels, whimsical characters, and hypnotizing music, made with Unreal Engine 4 (Blueprints) and Blender. Currently a success on Steam.
 
 In this podcast, I interviewed Øystein from Slid Studios in Norway, a Solo Indie Game Developer, where he talks about his unique journey while developing the Northern Journey from scratch, with no planning and no schedules. Did you know that he learned and made everything from scratch, including every asset, texture, sound, and more? Not only that, before making the game he spent 10 years making an indie movie.
 
@@ -78,7 +78,7 @@ The Northern Journey is set on a vast landscape inspired by the Norwegian fjords
 00:58:03 – Game Making as a vehicle of Art Making  
 01:03:04 – How to focus while working on a big game?  
 01:06:14 – Where to follow your work?  
-01:07:39 – Final advice – don’t make games, but…  
+01:07:39 – Final advice – don't make games, but…  
 01:08:01 – Make small games or the game of your dreams?  
 01:10:27 – Conclusion  
 01:10:55 – Support the Podcast

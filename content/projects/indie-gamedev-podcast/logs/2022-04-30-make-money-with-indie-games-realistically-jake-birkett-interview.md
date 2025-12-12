@@ -39,11 +39,11 @@ Is it possible to develop your own games and make money with them? How to not go
 ## Videos and articles
 
 -   You are spending too long making your game: [https://www.youtube.com/watch?v=XmIFaAU0mJg](https://www.youtube.com/watch?v=XmIFaAU0mJg)
--   You’re Spending Too Long Making Your Game | Jake Birkett: [https://www.youtube.com/watch?v=HkEE5pvQOR8](https://www.youtube.com/watch?v=HkEE5pvQOR8)
+-   You're Spending Too Long Making Your Game | Jake Birkett: [https://www.youtube.com/watch?v=HkEE5pvQOR8](https://www.youtube.com/watch?v=HkEE5pvQOR8)
 -   How to Survive in Gamedev for Eleven Years Without a Hit: [https://www.youtube.com/watch?v=JmwbYl6f11c](https://www.youtube.com/watch?v=JmwbYl6f11c)
 -   T-Minus 30 interview with Jake Birkett: [https://www.youtube.com/watch?v=_iEcjQNeK8I](https://www.youtube.com/watch?v=_iEcjQNeK8I)
 -   Lessons From 10+ Years Fulltime Indie Dev | Jake Birkett (Grey Alien Games) | MGD #28: [https://www.youtube.com/watch?v=yBpXAEaWZT0](https://www.youtube.com/watch?v=yBpXAEaWZT0)
--   TBoIG 2018: Jake Birkett – Make Money from Small Indie Games: You Don’t Need a Huge Hit: [https://www.youtube.com/watch?v=xTZdNVeApTM](https://www.youtube.com/watch?v=xTZdNVeApTM)
+-   TBoIG 2018: Jake Birkett – Make Money from Small Indie Games: You Don't Need a Huge Hit: [https://www.youtube.com/watch?v=xTZdNVeApTM](https://www.youtube.com/watch?v=xTZdNVeApTM)
 -   Are Casual Games Recession Proof?: [http://greyaliengames.com/blog/are-casual-games-recession-proof/](http://greyaliengames.com/blog/are-casual-games-recession-proof/)
 
 ### Table of Contents
@@ -51,20 +51,20 @@ Is it possible to develop your own games and make money with them? How to not go
 00:00 – Introduction  
 00:46 – Who is Jake Birkett and Grey Alien Games?  
 02:38 – Full-time indie, rich and famous  
-06:02 – Jake’s Games  
+06:02 – Jake's Games  
 08:41 – How to have game ideas?  
 12:33 – Finish or abandon projects?  
 14:17 – How to deal with ambitious game ideas?  
 15:32 – Your first game must be small  
 17:23 – How to cover the costs of game development?  
-20:51 – Chances of having a hit (“Notch factor”)  
+20:51 – Chances of having a hit ("Notch factor")  
 21:35 – Make games or earn a salary from a job?  
 22:37 – Publish many small games  
 24:19 – More games lead to more fans and cross sales  
 25:43 – Sustainable or successful?  
 26:51 – Casual games market  
 32:10 – Where to sell your games?  
-34:37 – T-Minus 30, Jake’s new game  
+34:37 – T-Minus 30, Jake's new game  
 38:00 – Engine and tools  
 41:16 – Who makes the art for your games?  
 42:59 – Aesthetics matter  

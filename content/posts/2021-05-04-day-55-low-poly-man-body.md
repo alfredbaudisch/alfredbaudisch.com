@@ -10,7 +10,7 @@ featuredImageSmall: "/media/wp-content/2021/05/0055-low-poly-ps1-human-300x169.p
 type: "post"
 ---
 
-Continuing from yesterday’s head, I modeled the body. Again, not completely perfect, but fits a PS1 model perfectly. It’s actually even too high poly.
+Continuing from yesterday's head, I modeled the body. Again, not completely perfect, but fits a PS1 model perfectly. It's actually even too high poly.
 
 ## Process
 

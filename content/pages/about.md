@@ -15,17 +15,17 @@ aboutIntroText: |
   <p>I have worked on hundreds of software development projects, using many different languages and frameworks. <strong>Elixir and Phoenix authority since 2015.</strong> Currently working as Elixir backend developer and PostgreSQL data architect in Copenhagen, Denmark.</p>
 ---
 
-> My life’s mission is to acquire knowledge in _every possible field and subject_. The world has so much to offer, that the idea of _focusing on a single subject_ my whole life would be the same as _throwing away my opportunity to live_.
+> My life's mission is to acquire knowledge in _every possible field and subject_. The world has so much to offer, that the idea of _focusing on a single subject_ my whole life would be the same as _throwing away my opportunity to live_.
 > 
 > Alfred Reinold Baudisch
 
 **My biggest passion in life is to learn new things and develop new abilities** and new crafts, and to experiment with them, creating little projects, **mostly Code, Art, and Games**. This is clearly shown by the number of projects and single pieces of work that I have created in the past two decades.
 
-**My biggest aim in life is to achieve what I call “Art Life” or “Creative Life”**, where I can just freely acquire knowledge and experiment with various crafts every day, full time, without any commercial compromise nor pressure, without any need for communication. **You can think about this as my desire to achieve early retirement and then live in a cave as an hermit artist and scientist.**
+**My biggest aim in life is to achieve what I call "Art Life" or "Creative Life"**, where I can just freely acquire knowledge and experiment with various crafts every day, full time, without any commercial compromise nor pressure, without any need for communication. **You can think about this as my desire to achieve early retirement and then live in a cave as an hermit artist and scientist.**
 
 Some of my projects turned into companies, [where one of them, Fred](https://alfredbaudisch.medium.com/how-a-whatsapp-bot-got-famous-and-evolved-as-the-brazilian-wechat-and-conversational-commerce-e2213262183d), raised a round of angel capital from a venture investor. Cobra Legal, one of my previous companies, was all about herpetology education and **giving parties with real snakes wrapped around my neck**.
 
-In order to get better at art and other creative skills and to live a small portion of my dreamed “creative life”, I started the [Dailies project](/dailies), where **I create a piece of work every day, from start to finish**.
+In order to get better at art and other creative skills and to live a small portion of my dreamed "creative life", I started the [Dailies project](/dailies), where **I create a piece of work every day, from start to finish**.
 
 > I THINK IN PICTURES. Words are like a second language to me. I translate both spoken and written words into full-color movies, complete with sound, which run like a VCR tape in my head. When somebody speaks to me, his words are instantly translated into pictures. Language-based thinkers often find this phenomenon difficult to understand, but in my job \[…\], visual thinking is a tremendous advantage. Visual thinking has enabled me to build entire systems in my imagination.
 > 
@@ -45,7 +45,7 @@ In order to get better at art and other creative skills and to live a small port
 
 -   Heavy usage of Phoenix Channels.
 
-_\* When it comes to the frontend in React and React Native I just take care of the data modeling and making sure everything is handling backend events correctly._ _When it comes to frontend in general, I’m not good with CSS._
+_\* When it comes to the frontend in React and React Native I just take care of the data modeling and making sure everything is handling backend events correctly._ _When it comes to frontend in general, I'm not good with CSS._
 
 ## Main Professional Skills
 
@@ -81,23 +81,23 @@ _\* When it comes to the frontend in React and React Native I just take care of 
 
 -   My main interests are art (I am OBSESSED by art), dachshund dogs, patterns in nature and architecture, videogames (especially RPGs and MMORPGs), and especially, learning new things
     
-    -   But since I learn new things all the time, my interests also shift all the time, don’t trust me when I say that I’m highly interested in X, because the next day that may change.
+    -   But since I learn new things all the time, my interests also shift all the time, don't trust me when I say that I'm highly interested in X, because the next day that may change.
     
-    -   When it comes to art, I don’t have any preference, I studied and keep studying all periods of art and artists (including history of art, and many museum visits and art books). I am also deeply involved with digital art. When it comes to art creation myself, I mostly make 3D art (with Blender) and I’m very fond of the Play Station 1 graphics style of art.
+    -   When it comes to art, I don't have any preference, I studied and keep studying all periods of art and artists (including history of art, and many museum visits and art books). I am also deeply involved with digital art. When it comes to art creation myself, I mostly make 3D art (with Blender) and I'm very fond of the Play Station 1 graphics style of art.
     
 
 <figure class="wp-block-image">
   <a href="/media/wp-content/2021/03/dachshund12.png"><img src="/media/wp-content/2021/03/dachshund12-1024x576.png" alt="" loading="lazy"></a>
-  <figcaption>“Play Station 1-like” dachshund that I modeled and textured using photos from my dog, Koda (made in 2020 using Blender, Krita and GIMP)</figcaption>
+  <figcaption>"Play Station 1-like" dachshund that I modeled and textured using photos from my dog, Koda (made in 2020 using Blender, Krita and GIMP)</figcaption>
 </figure>
 
 ## Other Skills and Interests
 
--   Everything revolves around reading and books, so I don’t have to mention that.
+-   Everything revolves around reading and books, so I don't have to mention that.
 
 -   Being a programmer and dealing with programming is just the tip of the iceberg for me (I see programming as a tool to create solutions).
 
--   Most things that I have created are experiments, and they are eventually abandoned, or I like to say, the _experiment has been “successfully experimented_“. In the end, **my biggest mission in life is to learn and create, no matter what.**
+-   Most things that I have created are experiments, and they are eventually abandoned, or I like to say, the _experiment has been "successfully experimented_". In the end, **my biggest mission in life is to learn and create, no matter what.**
     
     -   Check the [Projects page](https://alfredbaudisch.com/projects/) for the latest projects.
     
@@ -106,7 +106,7 @@ _\* When it comes to the frontend in React and React Native I just take care of 
     
     -   I like to study and improve in learning abilities in general
     
-    -   I also like to teach whatever subject I’m currently interested in, which led me to create different YouTube channels, tutorials, and more in the past years.
+    -   I also like to teach whatever subject I'm currently interested in, which led me to create different YouTube channels, tutorials, and more in the past years.
     
 
 -   Writing in general
@@ -135,7 +135,7 @@ _\* When it comes to the frontend in React and React Native I just take care of 
         
     
 
--   I worked with many other programming languages, libraries, frameworks, etc. but since I used them to finish specific projects, I won’t list them here. As an engineer, I can basically work with any language, on a project requirement basis.
+-   I worked with many other programming languages, libraries, frameworks, etc. but since I used them to finish specific projects, I won't list them here. As an engineer, I can basically work with any language, on a project requirement basis.
 
 -   Game development engines:
     

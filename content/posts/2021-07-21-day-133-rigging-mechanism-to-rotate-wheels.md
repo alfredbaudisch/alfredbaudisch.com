@@ -11,11 +11,11 @@ featuredImageSmall: "/media/wp-content/2021/07/0133-rotate-wheel-constraint-300x
 type: "post"
 ---
 
-After a lot of thinkering, I learned and managed a way to rotate a bone (for example, for a wheel), using another bone as the controller, by adding a Transformation constraint, which I’ve never used before. TL;DR; Blender Transformative constraint in a bone / armature to rotate/spin wheels.
+After a lot of thinkering, I learned and managed a way to rotate a bone (for example, for a wheel), using another bone as the controller, by adding a Transformation constraint, which I've never used before. TL;DR; Blender Transformative constraint in a bone / armature to rotate/spin wheels.
 
-Today’s daily, also made me take a drastic decision: for 3D games I’ll start using Unity. Unity handles those animations and 3D asset changes so much better than Godot. Also, Godot couldn’t handle the rotate wheel animation correctly in any way, while Unity played it accordingly out of the box.
+Today's daily, also made me take a drastic decision: for 3D games I'll start using Unity. Unity handles those animations and 3D asset changes so much better than Godot. Also, Godot couldn't handle the rotate wheel animation correctly in any way, while Unity played it accordingly out of the box.
 
-I love Godot, but it’s not the first time that I’ve had a lot of trouble with its 3D workflow.
+I love Godot, but it's not the first time that I've had a lot of trouble with its 3D workflow.
 
 ## Process
 

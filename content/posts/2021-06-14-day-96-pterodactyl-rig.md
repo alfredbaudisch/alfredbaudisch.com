@@ -11,4 +11,4 @@ featuredImageSmall: "/media/wp-content/2021/06/0096-pterodactyl-rig-300x153.png"
 type: "post"
 ---
 
-The most complex rig I’ve created so far. I haven’t parented it to the mesh nor weight painted the mesh yet because the rig itself took a long time for my limited Monday daily time.
+The most complex rig I've created so far. I haven't parented it to the mesh nor weight painted the mesh yet because the rig itself took a long time for my limited Monday daily time.

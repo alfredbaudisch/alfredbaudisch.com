@@ -10,7 +10,7 @@ featuredImageSmall: "/media/wp-content/2021/07/0124-wow-ironforge-greateforge-te
 type: "post"
 ---
 
-In terms of “PS1 look”, the last daily that I was satisfied with was [Day 112: Tauren Mill Rigged and Animated (World of Warcraft PS1)](https://alfredbaudisch.com/dailies/day-112-tauren-mill-rigged-and-animated-world-of-warcraft-ps1/). The other ones don’t exactly look PS1-like.
+In terms of "PS1 look", the last daily that I was satisfied with was [Day 112: Tauren Mill Rigged and Animated (World of Warcraft PS1)](https://alfredbaudisch.com/dailies/day-112-tauren-mill-rigged-and-animated-world-of-warcraft-ps1/). The other ones don't exactly look PS1-like.
 
 With this one, I think I nailed the visuals and style again. Differences in the process:
 

@@ -13,7 +13,7 @@ type: "post"
 
 Modeling a cool building of an AMC Theater. Reason? $AMC.
 
-Due to excitement with the $AMC stock, I lost track of time and haven’t managed to texture the model today. I could only allocate time to model it.
+Due to excitement with the $AMC stock, I lost track of time and haven't managed to texture the model today. I could only allocate time to model it.
 
 ## Reference
 

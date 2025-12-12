@@ -1,6 +1,6 @@
 ---
 layout: "layouts/post.njk"
-title: "0013: Old 90’s CD-Rom cover recreated in Blender"
+title: "0013: Old 90's CD-Rom cover recreated in Blender"
 date: "2021-03-23T21:49:41.000Z"
 updated: "2021-03-24T12:39:25.000Z"
 tags: ["3d", "blender", "instant meshes", "retro"]
@@ -11,11 +11,11 @@ featuredImageSmall: "/media/wp-content/2021/03/0013-old-puzzle-poster-old-magazi
 type: "post"
 ---
 
-I recreated an old magazine Ad / CD-ROM cover in Blender. This is probably the most fun I’ve had in Blender so far (more than PS1-like modeling which is my favorite). The old reference cover was posted by [@moshboy](https://twitter.com/moshboy/status/1374157307718725632).
+I recreated an old magazine Ad / CD-ROM cover in Blender. This is probably the most fun I've had in Blender so far (more than PS1-like modeling which is my favorite). The old reference cover was posted by [@moshboy](https://twitter.com/moshboy/status/1374157307718725632).
 
 The trickiest part for me was getting configuring the camera and getting the right angle and the focal length, to mimic the old cover.
 
-[Instant Meshes](https://github.com/wjakob/instant-meshes) was also involved, to crush down Rodin’s statue from 800K tris down to 25K. I then baked the high poly details into a normal map.
+[Instant Meshes](https://github.com/wjakob/instant-meshes) was also involved, to crush down Rodin's statue from 800K tris down to 25K. I then baked the high poly details into a normal map.
 
 Post-processing done in Photoshop.
 

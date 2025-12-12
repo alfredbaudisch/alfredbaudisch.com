@@ -15,7 +15,7 @@ featuredImageSmall: "/media/wp-content/2022/04/GodotBookCover-ComingSoon-279x300
 metaDescription: "Learn how to create native Business Software, Mobile Apps and Tools, connected to databases, APIs and Websockets with the Godot Engine."
 ---
 
-I’m writing a book about developing Business Software, Mobile Apps and Tools with the Godot Engine!
+I'm writing a book about developing Business Software, Mobile Apps and Tools with the Godot Engine!
 
 **The book will be mostly focused on data-oriented business applications connected to databases, APIs and websockets** (assembling GUI, architecture and implementation).
 
@@ -32,7 +32,7 @@ Interested in joining the book **Waiting List** and being notified about Updates
   <figcaption>My Godot open-source project Godello</figcaption>
 </figure>
 
-Godot is a **viable alternative to React, Qt, Flutter, Electron and other similar application frameworks** (plus Godot is [very lightweight and fast](https://www.reddit.com/r/godot/comments/gbfzmg/compiling_godot_to_just_use_gdscript_gui_and/), and GDScript – Godot’s language – is concise and easy to learn). I proved it with my popular [Godello open-source project](https://alfredbaudisch.com/projects/open-source/godello/) and the book will go in depth about the subject.
+Godot is a **viable alternative to React, Qt, Flutter, Electron and other similar application frameworks** (plus Godot is [very lightweight and fast](https://www.reddit.com/r/godot/comments/gbfzmg/compiling_godot_to_just_use_gdscript_gui_and/), and GDScript – Godot's language – is concise and easy to learn). I proved it with my popular [Godello open-source project](https://alfredbaudisch.com/projects/open-source/godello/) and the book will go in depth about the subject.
 
 **Release Date?** Late 2022/Early 2023.
 

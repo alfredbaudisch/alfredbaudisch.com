@@ -10,4 +10,4 @@ tools: ["Elixir", "PostgreSQL"]
 ---
 
 -   Project on [GitHub](https://github.com/alfredbaudisch/ecto_instashard).
--   PostgreSQL sharding library for Elixir’s Ecto. Shard the same database using schemas or multiple databases, while keeping the data consistent. Follows Instagram’s pattern.
+-   PostgreSQL sharding library for Elixir's Ecto. Shard the same database using schemas or multiple databases, while keeping the data consistent. Follows Instagram's pattern.

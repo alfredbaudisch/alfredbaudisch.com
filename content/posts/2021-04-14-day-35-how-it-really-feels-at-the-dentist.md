@@ -11,7 +11,7 @@ featuredImageSmall: "/media/wp-content/2021/04/0035-how-it-really-feels-at-the-d
 type: "post"
 ---
 
-Went to the dentist today for a simple cleanup. Regardless, I always freak out, and with today’s daily, I made a composition to express what I keep visualizing at the appointment with all the noises and discomforting touches.
+Went to the dentist today for a simple cleanup. Regardless, I always freak out, and with today's daily, I made a composition to express what I keep visualizing at the appointment with all the noises and discomforting touches.
 
 ## Process
 

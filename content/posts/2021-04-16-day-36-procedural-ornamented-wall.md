@@ -11,7 +11,7 @@ featuredImageSmall: "/media/wp-content/2021/04/0036-procedural-wall-substance-de
 type: "post"
 ---
 
-The maps applied in a mesh can be seen below. Unfortunately there’s some broken edges (aliased, lots of small triangles), and I discovered I have to tweak the height, blur, curves and tesselation to avoid those artifacts from materials created in Substance Designer.
+The maps applied in a mesh can be seen below. Unfortunately there's some broken edges (aliased, lots of small triangles), and I discovered I have to tweak the height, blur, curves and tesselation to avoid those artifacts from materials created in Substance Designer.
 
 [![](/media/wp-content/2021/04/0036-rendered-1024x576.png)](/media/wp-content/2021/04/0036-rendered.png)
 

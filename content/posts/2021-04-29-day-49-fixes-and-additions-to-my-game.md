@@ -18,7 +18,7 @@ Fixes:
 -   Increased mouse sensitivity
 -   F to continue dialog, instead of Enter
 -   Fixed some typos
--   Adjusted the “no hear” position, which previously the arms were merging with the body
+-   Adjusted the "no hear" position, which previously the arms were merging with the body
 
 Added:
 

@@ -11,7 +11,7 @@ featuredImageSmall: "/media/wp-content/2021/06/0112-wow-ps1-tauren-mill-animated
 type: "post"
 ---
 
-This was harder than animating a human. I had a lot of trouble figuring out how to spin around an axis, Blender would interpret 360 degrees as 0, so the axis would stay in place and not rotated. But I figured it out after some time (change bone rotation to “Euler Angles”).
+This was harder than animating a human. I had a lot of trouble figuring out how to spin around an axis, Blender would interpret 360 degrees as 0, so the axis would stay in place and not rotated. But I figured it out after some time (change bone rotation to "Euler Angles").
 
 ## Process
 

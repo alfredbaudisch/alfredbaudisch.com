@@ -19,7 +19,7 @@ links:
 metaDescription: "Open-source Godot&#039;s dynamic inventory system, UI with infinite scrolling, item categories, equipment slots, item database, Zelda inspired."
 ---
 
-Godot’s fully dynamic inventory system, UI with infinite scrolling, item categories, equipment slots, database of items, inspired by Zelda Breath of the Wild.
+Godot's fully dynamic inventory system, UI with infinite scrolling, item categories, equipment slots, database of items, inspired by Zelda Breath of the Wild.
 
 Full source-code and example project [available on Github](https://github.com/alfredbaudisch/GodotDynamicInventorySystem). This project is built in my [Godot: Dynamic Inventory System and UI Masterclass Course](https://alfredbaudisch.com/projects/education/dynamic-inventory-system-and-user-interfaces-with-godot-course/) – the course is a premium product with 10 hours of content, while the project built in the course is open-source.
 
@@ -30,7 +30,7 @@ Full source-code and example project [available on Github](https://github.com/al
 Built from scratch, inspired by the Zelda Breath of the Wild inventory system and inventory UI, this is an extensive system:
 
 -   **Fully Dynamic inventory and equipment system**: a database items separated **by categories** and also **groups of categories**, for example, **One Handed Weapons and Two Handed Weapons are grouped under a Weapons group**, while keeping the One and Two Handed classifications.
--   **Custom Scriptable Objects (Custom Godot’s Resources)** with different attributes for items and equipment, **grouped in a database of items** (folder based, with Resource files).
+-   **Custom Scriptable Objects (Custom Godot's Resources)** with different attributes for items and equipment, **grouped in a database of items** (folder based, with Resource files).
 -   **Responsive layout** adjustable for different aspect ratios.
 -   **Custom UI widgets** (custom Control Nodes and Scenes)
 -   **Infinite scrolling container and grids of items**, split it by pages, animated dynamically
@@ -49,7 +49,7 @@ This source-code is built from scratch in the [**Complete Godot Course: Game Use
 
 [![](https://github.com/alfredbaudisch/GodotDynamicInventorySystem/raw/master/Assets/Docs/courseThumb-YouTube.jpg)](https://bit.ly/GodotUI)
 
-**Game development course with 98 byte sized videos, with a total of 10 hours of video content**, where you are going to learn how to use the Godot Engine and Editor to create an **Inventory System and Inventory UI (User Interface) that is fully dynamic, with scriptable object items and a central database of items** (using Custom Godot’s Resources). The inventory system has support for **multiple item categories, category groups, dynamic and infinite scrolling grids, equippable slots** (example: main hand and off hand) and more.
+**Game development course with 98 byte sized videos, with a total of 10 hours of video content**, where you are going to learn how to use the Godot Engine and Editor to create an **Inventory System and Inventory UI (User Interface) that is fully dynamic, with scriptable object items and a central database of items** (using Custom Godot's Resources). The inventory system has support for **multiple item categories, category groups, dynamic and infinite scrolling grids, equippable slots** (example: main hand and off hand) and more.
 
 ## Licenses
 

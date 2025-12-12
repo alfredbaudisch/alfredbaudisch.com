@@ -11,7 +11,7 @@ featuredImageSmall: "/media/wp-content/2021/04/0025-stranded-on-sand-300x169.jpg
 type: "post"
 ---
 
-Based on a real situation that happened to me in Skagen – Denmark. _“[Maria vai com as outras](https://www.amazon.com/Maria-Vai-com-as-Outras/dp/8508007477)“_.
+Based on a real situation that happened to me in Skagen – Denmark. _"[Maria vai com as outras](https://www.amazon.com/Maria-Vai-com-as-Outras/dp/8508007477)"_.
 
 ## References
 
@@ -23,6 +23,6 @@ Based on a real situation that happened to me in Skagen – Denmark. _“[Maria 
 
 ## UPDATE: Post-processing Review
 
-I shouldn’t work again on finished dailies, but for this one, I decided to review the post-processing. The original has a lot of hard edges, I softened them here and also added additional highlights to the chain/rope.
+I shouldn't work again on finished dailies, but for this one, I decided to review the post-processing. The original has a lot of hard edges, I softened them here and also added additional highlights to the chain/rope.
 
 [![](/media/wp-content/2021/04/0025-stranded-sand-reviewed-1024x576.jpg)](/media/wp-content/2021/04/0025-stranded-sand-reviewed.jpg)

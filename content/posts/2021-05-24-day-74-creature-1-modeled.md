@@ -11,4 +11,4 @@ featuredImageSmall: "/media/wp-content/2021/05/0074-jarred-creature-model-300x16
 type: "post"
 ---
 
-I’ll try to make some weird and random creatures in the PS1 style. Today I did the one design and modeled it. A kind of chicken / frog.
+I'll try to make some weird and random creatures in the PS1 style. Today I did the one design and modeled it. A kind of chicken / frog.

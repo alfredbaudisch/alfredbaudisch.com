@@ -11,7 +11,7 @@ featuredImageSmall: "/media/wp-content/2021/07/0131-old-brick-tiles-texture-hori
 type: "post"
 ---
 
-Improved [yesterday’s daily](https://alfredbaudisch.com/dailies/day-130-old-brick-wall-tileable-texture/) by making it tileable from all sides (seamless) and by also adjusting its colors.
+Improved [yesterday's daily](https://alfredbaudisch.com/dailies/day-130-old-brick-wall-tileable-texture/) by making it tileable from all sides (seamless) and by also adjusting its colors.
 
 I took the photo from a miniature church from a miniature city ([Koge Miniby](https://www.koegeminiby.dk/index.php/en/) in Denmark):
 

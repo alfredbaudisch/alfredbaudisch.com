@@ -11,7 +11,7 @@ featuredImageSmall: "/media/wp-content/2021/05/0057-amc-building-textured-300x16
 type: "post"
 ---
 
-Today was one of those days in which I feel that I lost all my abilities. It took me a long time to unwrap [yesterday’s model](https://alfredbaudisch.com/dailies/day-56-amc-theater-base-mesh/) and then more time to texture it and in the end, the result is unsatisfactory. I went to the PS1-look road, again, but this is not even close.
+Today was one of those days in which I feel that I lost all my abilities. It took me a long time to unwrap [yesterday's model](https://alfredbaudisch.com/dailies/day-56-amc-theater-base-mesh/) and then more time to texture it and in the end, the result is unsatisfactory. I went to the PS1-look road, again, but this is not even close.
 
 ## Process
 

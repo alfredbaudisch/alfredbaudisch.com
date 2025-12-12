@@ -10,7 +10,7 @@ projectStyles: ["Gamedev"]
 tools: ["GDScript", "Godot"]
 ---
 
-This is the table of contents from the [Godot Course: Dynamic Inventory System and User Interfaces (Education Projects)](https://alfredbaudisch.com/projects/education/dynamic-inventory-system-and-user-interfaces-with-godot-course/).
+This is the table of contents from the [Godot Course: Dynamic Inventory System and User Interfaces (Education Projects)](/projects/education/dynamic-inventory-system-and-user-interfaces-with-godot-course/).
 
 ## 01-Setup and Godot Concepts
 

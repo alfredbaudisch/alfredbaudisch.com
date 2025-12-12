@@ -15,7 +15,7 @@ Inspired by [a cake I saw on Reddit](https://www.reddit.com/r/amcstock/comments/
 
 ![](/media/wp-content/2021/05/image.png)
 
-Popcorn 3D scan and texture: “Popcorn Flake” ([https://skfb.ly/6UwV9](https://skfb.ly/6UwV9)) by Geksaedr is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+Popcorn 3D scan and texture: "Popcorn Flake" ([https://skfb.ly/6UwV9](https://skfb.ly/6UwV9)) by Geksaedr is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
 ## Process
 

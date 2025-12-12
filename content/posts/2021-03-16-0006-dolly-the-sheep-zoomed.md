@@ -12,9 +12,9 @@ type: "post"
 
 Understanding and practicing Dolly Zoom. Also playing around with the array modifier.
 
-3D cameras and compositing is hard. Lighting is even harder, but I still haven’t studied anything related to lights.
+3D cameras and compositing is hard. Lighting is even harder, but I still haven't studied anything related to lights.
 
-Also, why did the sheep got “broken” geometry when rendering?
+Also, why did the sheep got "broken" geometry when rendering?
 
 **Sheep Mode**l: Sheep Family by JessSwynn [https://skfb.ly/6V8W8](https://skfb.ly/6V8W8)
 

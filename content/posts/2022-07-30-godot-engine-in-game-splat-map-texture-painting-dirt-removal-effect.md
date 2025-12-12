@@ -11,11 +11,11 @@ featuredImageSmall: "/media/wp-content/2022/07/GodotRuntimeTexturePainting-Thumb
 type: "post"
 ---
 
-This is my solution to perform runtime Texture Painting, in order to paint a splat map in-game with the Godot Engine. My initial objective was to accomplish a Car Wash effect, i.e. remove a dirt texture that is overlaid on top of the car mesh’s texture. But the final implementation can be used in many different scenarios and effects, such as:
+This is my solution to perform runtime Texture Painting, in order to paint a splat map in-game with the Godot Engine. My initial objective was to accomplish a Car Wash effect, i.e. remove a dirt texture that is overlaid on top of the car mesh's texture. But the final implementation can be used in many different scenarios and effects, such as:
 
 -   Actual painting something in game
 -   Terrain and mesh deformation
--   Anything else you can imagine by blending textures. Because it’s just a matter of interpolating the painted textures with anything else with shaders (sample shader included here).
+-   Anything else you can imagine by blending textures. Because it's just a matter of interpolating the painted textures with anything else with shaders (sample shader included here).
 
 Download the [source-code and sample project from my Github](https://github.com/alfredbaudisch/GodotRuntimeTextureSplatMapPainting) (you can walk in the world with WASD and to paint click and drag with the left mouse button). My journey in order to find the final solution is documented in the [Godot Forums](https://godotforums.org/d/30491-how-to-translate-a-world-coordinate-to-uv-coordinate).
 
@@ -45,9 +45,9 @@ Unfortunately Godot does not provide any built-in mechanism to map a world posit
 
 The solution I found with Godot involves loading the Mesh vertices and normals with MeshDataTool, and then using Barycentric Coordinates to find the UV from a Vector3.
 
-The final code is heavily adapted from this [Godot 2 repository from 2017](https://github.com/thefryscorer/GodotPaintDemo) by Daniel Byron. I also got the Barycentric calculation function from [Arnklit’s Waterways Godot Plugin](https://github.com/Arnklit/WaterwaysDemo).
+The final code is heavily adapted from this [Godot 2 repository from 2017](https://github.com/thefryscorer/GodotPaintDemo) by Daniel Byron. I also got the Barycentric calculation function from [Arnklit's Waterways Godot Plugin](https://github.com/Arnklit/WaterwaysDemo).
 
-Since Daniel’s code works only with meshes at the world origin (`Vector3(0,0,0)`) and it regenerates the Mesh Data any time you need to find the UV), I improved it to make it work at runtime, with a mesh in any position in the world, as well I cache the vertex data and of course, I made it work with Godot 3.
+Since Daniel's code works only with meshes at the world origin (`Vector3(0,0,0)`) and it regenerates the Mesh Data any time you need to find the UV), I improved it to make it work at runtime, with a mesh in any position in the world, as well I cache the vertex data and of course, I made it work with Godot 3.
 
 ### Code – UVPosition.gd
 
@@ -168,7 +168,7 @@ func is_point_in_triangle(point, v1, v2, v3):
 
 If you like my content or if you learned something from it, [buy me a coffee](https://ko-fi.com/alfredbaudisch) ☕, [be my Patreon](https://www.patreon.com/alfredbaudisch) or simply check [all of my links](https://linktr.ee/alfredbaudisch) 🔗 and follow me/subscribe/star my repositories/whatever you prefer. If you want to learn Godot, be sure to check [my courses](https://alfredbaudisch.com/projects/education/dynamic-inventory-system-and-user-interfaces-with-godot-course/) 📚!
 
-**Or you can simply add [my game to your Steam Wishlist](https://store.steampowered.com/app/2125110/?utm_source=alfredbaudisch&utm_campaign=coffee_block) – that helps GREATLY and it’s easy and free 🙂**
+**Or you can simply add [my game to your Steam Wishlist](https://store.steampowered.com/app/2125110/?utm_source=alfredbaudisch&utm_campaign=coffee_block) – that helps GREATLY and it's easy and free 🙂**
 
 ## Dynamic Texture Render Target (Viewport)
 
@@ -201,7 +201,7 @@ As a child of the Viewport add a Sprite with the brush as texture.
 
 -   Must have a collider.
 -   Shader which blends the Mesh main textures, with the Dirt/Damage textures and the splat map texture.
--   If the mesh is high poly it’s a must to have a very low-poly LOD to serve as the collider and to have the World to UV mapping, otherwise performance will be degraded (check the example project to see how I have done this).
+-   If the mesh is high poly it's a must to have a very low-poly LOD to serve as the collider and to have the World to UV mapping, otherwise performance will be degraded (check the example project to see how I have done this).
 
 ![](/media/wp-content/2022/07/image-32.png)
 
@@ -224,7 +224,7 @@ if result.size() > 0:
 
 ```
 
-And this is it! The splat map is drawn and since it’s interpolated into the mesh’s material, you are going to see the results immediately.
+And this is it! The splat map is drawn and since it's interpolated into the mesh's material, you are going to see the results immediately.
 
 ## Source-code and Sample Project
 

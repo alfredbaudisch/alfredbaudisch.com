@@ -11,7 +11,7 @@ featuredImageSmall: "/media/wp-content/2021/05/0062-uvmapping-fundamentals-300x1
 type: "post"
 ---
 
-From time to time, it seems I completely forget everything about UV Mapping. It is still the 3D skill that I’m the least knowledgeable about, especially on how to avoid stretched textures. So today I took a UV Mapping and Wrapping refresher.
+From time to time, it seems I completely forget everything about UV Mapping. It is still the 3D skill that I'm the least knowledgeable about, especially on how to avoid stretched textures. So today I took a UV Mapping and Wrapping refresher.
 
 ## Process
 

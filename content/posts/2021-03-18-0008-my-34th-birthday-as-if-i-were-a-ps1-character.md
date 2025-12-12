@@ -10,7 +10,7 @@ featuredImageSmall: "/media/wp-content/2021/03/0008-34th-birthday-alfred-ps1-300
 type: "post"
 ---
 
-As I’m very fond of the PS1 aesthetic and since today is my 34th birthday, I made this very badly textured PS1-like version of one of my favorite photos.
+As I'm very fond of the PS1 aesthetic and since today is my 34th birthday, I made this very badly textured PS1-like version of one of my favorite photos.
 
 ![](/media/wp-content/2021/03/0008-alfred-koda-dachshund-holding-ref.png)
 ![](/media/wp-content/2021/03/0008-blender_process.png)

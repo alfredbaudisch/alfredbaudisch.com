@@ -11,11 +11,11 @@ featuredImageSmall: "/media/wp-content/2021/04/0043-ik-refreshment-300x300.gif"
 type: "post"
 ---
 
-In ancitipation to Ludum Dare this Saturday. This was frustrating. Hopefully, I won’t forget it anymore.
+In ancitipation to Ludum Dare this Saturday. This was frustrating. Hopefully, I won't forget it anymore.
 
 ## Process
 
-{% imageGallery [ { src: "/media/wp-content/2021/04/0043-process-blender.png", alt: "", caption: "", link: "/media/wp-content/2021/04/0043-process-blender.png" }, { src: "/media/wp-content/2021/04/frustration.png", alt: "This painting is called “FRUSTRATION”", caption: "This painting is called “FRUSTRATION”", link: "/media/wp-content/2021/04/frustration.png" } ] %}
+{% imageGallery [ { src: "/media/wp-content/2021/04/0043-process-blender.png", alt: "", caption: "", link: "/media/wp-content/2021/04/0043-process-blender.png" }, { src: "/media/wp-content/2021/04/frustration.png", alt: "This painting is called FRUSTRATION", caption: "This painting is called FRUSTRATION", link: "/media/wp-content/2021/04/frustration.png" } ] %}
 
 -   Extend from the tail of the leg bone
 -   Clear parent (ALT+P)

@@ -10,7 +10,7 @@ featuredImageSmall: "/media/wp-content/2021/07/0121-wow-archery-target-stormwind
 type: "post"
 ---
 
-Yesterday’s [Day 120: Archery Target UV Mapped (WoW PS1)](https://alfredbaudisch.com/dailies/day-120-archery-target-uv-mapped-wow-ps1/) daily textured. An Archery Target I found in Stormwind.
+Yesterday's [Day 120: Archery Target UV Mapped (WoW PS1)](https://alfredbaudisch.com/dailies/day-120-archery-target-uv-mapped-wow-ps1/) daily textured. An Archery Target I found in Stormwind.
 
 Also, instead of the usual gray background, I tried to add the model on top of a gradient.
 

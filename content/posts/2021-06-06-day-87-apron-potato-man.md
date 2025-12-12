@@ -10,4 +10,4 @@ featuredImageSmall: "/media/wp-content/2021/06/0087-motohiro-apron-man-300x169.p
 type: "post"
 ---
 
-Inspired by an “Apron Man Creature” from the artist [moto583motohiro](https://www.instagram.com/p/CNjv84IAS28/).
+Inspired by an "Apron Man Creature" from the artist [moto583motohiro](https://www.instagram.com/p/CNjv84IAS28/).

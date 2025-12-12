@@ -15,7 +15,7 @@ featuredImageSmall: "/media/wp-content/2023/03/DevlogBRFoodSim-Devlog1-v3-Screen
 
 The first devlog of my game Brazilian Street Food Simulator is out!
 
-I talk about how for the past 6 months I lost my mind after the game went viral and getting choice paralysis between many concepts and engines. I’ve been making it with Unreal Engine, Godot and Unity at the same time.
+I talk about how for the past 6 months I lost my mind after the game went viral and getting choice paralysis between many concepts and engines. I've been making it with Unreal Engine, Godot and Unity at the same time.
 
 **Watch the devlog on [YouTube](https://www.youtube.com/watch?v=MIdwLRzjw18).**
 

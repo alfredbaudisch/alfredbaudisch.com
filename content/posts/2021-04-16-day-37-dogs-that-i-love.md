@@ -13,7 +13,7 @@ type: "post"
 
 I modeled the PS1 Dachshund and the rocket last year, and then February this year, I animated the spin animation and added Dogecoin into the texture.
 
-I haven’t published this one before and since today was a very exciting day due to Dogecoin hitting $0.45, I think it’s the perfect day to publish this as a daily.
+I haven't published this one before and since today was a very exciting day due to Dogecoin hitting $0.45, I think it's the perfect day to publish this as a daily.
 
 **Update 01/2022:** I regret involving crypto and NFTs into this daily. Should have stuck just with the dog. I was riding the hype and I regret it – everything is bad about NFTs.
 

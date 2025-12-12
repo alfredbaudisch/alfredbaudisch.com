@@ -11,11 +11,11 @@ featuredImageSmall: "/media/wp-content/2021/06/0094-pterodactyl-300x169.png"
 type: "post"
 ---
 
-I was in Un’Goro crater in World of Warcraft, where I had to kill a few Pterodactyls and then got inspired to create one.
+I was in Un'Goro crater in World of Warcraft, where I had to kill a few Pterodactyls and then got inspired to create one.
 
-I’m not satisfied with how the legs and arms look and also making the head was the hardest part, and I don’t like it either.
+I'm not satisfied with how the legs and arms look and also making the head was the hardest part, and I don't like it either.
 
-Let’s see if tomorrow it will look better after being textured.
+Let's see if tomorrow it will look better after being textured.
 
 PS1 dinosaur made in Blender.
 

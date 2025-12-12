@@ -43,7 +43,7 @@ Play around with the different dynamics of preparing Brazilian Street Food, such
 
 ## Wishlist on Steam
 
-The game is in development. [**Wishlist on Steam**](https://store.steampowered.com/app/2125110?utm_source=alfredbaudisch&utm_campaign=project_page) and click “Follow” over there on the Steam Page to be notified about the demo and launch (and possible Early Access)!
+The game is in development. [**Wishlist on Steam**](https://store.steampowered.com/app/2125110?utm_source=alfredbaudisch&utm_campaign=project_page) and click "Follow" over there on the Steam Page to be notified about the demo and launch (and possible Early Access)!
 
 Receive a Steam key when [you buy from Itch](https://splitpainter.itch.io/brazilian-street-food-simulator) on launch.
 
@@ -55,9 +55,9 @@ You can **sign up to the [game newslette](https://pardallgames.com)**[r](https:/
 
 ## Solo Indie Game
 
-Hi! **My name is Alfred Reinold Baudisch, aka Pardall, and I’m developing this game on my free time, alone (with my dog, Koda)**. As a Brazilian living abroad for the past 4 years, I miss Brazilian food and the unique identity and culture of how they sell it, that’s why I decided to make this game (plus I love chill simulator games).
+Hi! **My name is Alfred Reinold Baudisch, aka Pardall, and I'm developing this game on my free time, alone (with my dog, Koda)**. As a Brazilian living abroad for the past 4 years, I miss Brazilian food and the unique identity and culture of how they sell it, that's why I decided to make this game (plus I love chill simulator games).
 
-I’m trying to replicate every detail involved in each of the food types described above, and I’m not only talking about the food itself, but everything involved around them – because depending on the type of food sold by street vendors, there’s a completely different way of presenting and selling it (equipment, furniture, banners, clothing, location, etc.).
+I'm trying to replicate every detail involved in each of the food types described above, and I'm not only talking about the food itself, but everything involved around them – because depending on the type of food sold by street vendors, there's a completely different way of presenting and selling it (equipment, furniture, banners, clothing, location, etc.).
 
 For those reasons, this game will be released in chapters, each chapter will be about a food type. The first chapter is a sandbox all about Sugar Cane Juice
 
@@ -87,7 +87,7 @@ Then, a day later, **over than one million impressions** – all organically!
 -   **TechTudo (huge Brazilian tech website):** [Jogo de simulação permite fazer comidas de rua típicas do Brasil](https://www.techtudo.com.br/noticias/2022/08/jogo-de-simulacao-permite-fazer-comidas-de-rua-tipicas-do-brasil.ghtml)
 -   **Canal Tech:** [Brasileiro cria simulador de comida de rua para computadores](https://canaltech.com.br/games/brasileiro-cria-simulador-de-comida-de-rua-para-computadores-223641/)
 -   **O Globo:** [Brasileiro cria simulador de comida de rua raiz](https://oglobo.globo.com/blogs/saideira/post/2022/08/brasileiro-cria-simulador-de-comida-de-rua-raiz.ghtml)
--   **Jornal do Commercio:** [Game simulador de “caldo de cana”, produzido por brasileiro, chega em 2023](https://jc.ne10.uol.com.br/colunas/press-start/2022/09/15073278-game-simulador-de-caldo-de-cana-produzido-por-brasileiro-chega-em-2023.html)
+-   **Jornal do Commercio:** [Game simulador de "caldo de cana", produzido por brasileiro, chega em 2023](https://jc.ne10.uol.com.br/colunas/press-start/2022/09/15073278-game-simulador-de-caldo-de-cana-produzido-por-brasileiro-chega-em-2023.html)
 -   **Portal Adrenaline:** [Caldo de cana, pastel e mais: estúdio anuncia game indie Brazilian Street Food Simulator](https://adrenaline.com.br/noticias/v/78093/caldo-de-cana-pastel-game-indie-brazilian-street-food-simulator)
 -   **Arkade:** [Brazilian Street Food Simulator é jogo de simulação com tempero brasileiro](https://www.arkade.com.br/brazilian-street-food-simulator-traz-o-classico-pastel-com-caldo-de-cana-para-os-videogames/)
 -   **Tecnoblog:** [Brazilian Street Food Simulator realiza seu sonho de fazer pastel e caldo de cana](https://tecnoblog.net/noticias/2022/08/23/brazilian-street-food-simulator-realiza-seu-sonho-de-fazer-pastel-e-caldo-de-cana/)

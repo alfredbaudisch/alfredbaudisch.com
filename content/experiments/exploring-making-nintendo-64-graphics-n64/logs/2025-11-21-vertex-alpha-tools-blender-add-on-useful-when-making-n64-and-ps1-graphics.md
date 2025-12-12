@@ -16,19 +16,19 @@ I have [previously shown how to make Banjo-Kazooie](https://alfredbaudisch.com/e
 But, there are a few annoyances and small roadblocks in that workflow:
 
 1.  Painting the vertex color alpha to specific values can be difficult.
-2.  It’s very hard to replicate the same vertex color alpha value in different parts of the mesh (for example, in case you want to equally blend another texture in various sections of the mesh).
-3.  It’s cumbersome to visualize the vertex alpha itself.
-4.  There’s no way to know the exact value of the vertex alpha from a specific vertex.
+2.  It's very hard to replicate the same vertex color alpha value in different parts of the mesh (for example, in case you want to equally blend another texture in various sections of the mesh).
+3.  It's cumbersome to visualize the vertex alpha itself.
+4.  There's no way to know the exact value of the vertex alpha from a specific vertex.
 
-To solve issue number 2 I found the free “[VertexAlphaSetter](https://github.com/Desayuno64/VertexAlphaSetter)” Blender add-on by [Desayuno64](https://github.com/Desayuno64/). This add-on lets you set specific alpha values to selected vertices.
+To solve issue number 2 I found the free "[VertexAlphaSetter](https://github.com/Desayuno64/VertexAlphaSetter)" Blender add-on by [Desayuno64](https://github.com/Desayuno64/). This add-on lets you set specific alpha values to selected vertices.
 
-But then I still had all the other 3 issues pending. For that, I created my own solution, “Vertex Alpha Tools” (free, [available on Github)](https://github.com/alfredbaudisch/VertexAlphaTools), with the following features:
+But then I still had all the other 3 issues pending. For that, I created my own solution, "Vertex Alpha Tools" (free, [available on Github)](https://github.com/alfredbaudisch/VertexAlphaTools), with the following features:
 
 ![](/media/wp-content/2025/11/VertexAlphaToolsAddon.png)
 
 -   Toggle vertex color alpha as a material overlay.
 -   Visualize the specific vertex alpha values as 3D labels on top of each vertex.
--   And I unified the original “VertexAlphaSetter” add-on onto my add-on.
+-   And I unified the original "VertexAlphaSetter" add-on onto my add-on.
 
 <figure class="wp-block-image">
   <a href="/media/wp-content/2025/11/example-VisualizeVertexColorAlphaValues.jpeg"><img src="/media/wp-content/2025/11/example-VisualizeVertexColorAlphaValues-1024x407.jpeg" alt="" loading="lazy"></a>

@@ -12,4 +12,4 @@ type: "post"
 
 Rigged and animated the PS1 Dachshund that I modeled and textured last year.
 
-I lost too much time trying to export from Blender as a GIF. Next time I’ll just drop the frames into Krita and make the GIF there.
+I lost too much time trying to export from Blender as a GIF. Next time I'll just drop the frames into Krita and make the GIF there.

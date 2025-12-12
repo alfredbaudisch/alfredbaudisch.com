@@ -14,23 +14,23 @@ featuredImageThumb: "/media/wp-content/2025/11/MakingBanjoKazooieN64TerrainMater
 featuredImageSmall: "/media/wp-content/2025/11/MakingBanjoKazooieN64TerrainMaterialInBlender-300x164.jpg"
 ---
 
-In the first part, [you can see how Banjo-Kazooie from the Nintendo 64 presented its rich environments](https://alfredbaudisch.com/experiment-logs/banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage/), making heavy usage of vertex colors for details, lights and ambient occlusion, and texture blending with vertex color alpha. In this article, let’s try to recreate the same style in Blender using the same techniques.
+In the first part, [you can see how Banjo-Kazooie from the Nintendo 64 presented its rich environments](https://alfredbaudisch.com/experiment-logs/banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage/), making heavy usage of vertex colors for details, lights and ambient occlusion, and texture blending with vertex color alpha. In this article, let's try to recreate the same style in Blender using the same techniques.
 
 ## Initial Material Setup
 
-In Blender, in order to blend two textures using the vertex color alpha, add a “Color Attribute” node and connect it into the “Factor” socket of a “Mix” node. Connect the main texture into “B” and the secondary texture into “A”:
+In Blender, in order to blend two textures using the vertex color alpha, add a "Color Attribute" node and connect it into the "Factor" socket of a "Mix" node. Connect the main texture into "B" and the secondary texture into "A":
 
 [![](/media/wp-content/2025/11/Blender-VertexColorAlphaMixingBlending-1024x721.png)](/media/wp-content/2025/11/Blender-VertexColorAlphaMixingBlending.png)
 
-If you haven’t painted any vertex color information yet, you are going to see the main texture (connected to the “Mix” node “B” socket) covering the whole surface of the mesh:
+If you haven't painted any vertex color information yet, you are going to see the main texture (connected to the "Mix" node "B" socket) covering the whole surface of the mesh:
 
 [![](/media/wp-content/2025/11/Blender-PlainMeshTExture-1024x622.jpeg)](/media/wp-content/2025/11/Blender-PlainMeshTExture-1024x622.jpeg)
 
 ## How to paint Vertex Color Alpha in Blender?
 
-In Vertex Paint mode, press A to select all vertices, choose the color white and then go to “Paint – Set Vertex Colors” to fill all vertices as white.
+In Vertex Paint mode, press A to select all vertices, choose the color white and then go to "Paint – Set Vertex Colors" to fill all vertices as white.
 
-Then go to the Brush’s blending mode settings and choose either Erase Alpha or Add Alpha, and this is how you can affect the vertex color alpha in Blender.
+Then go to the Brush's blending mode settings and choose either Erase Alpha or Add Alpha, and this is how you can affect the vertex color alpha in Blender.
 
 In our case, if you Erase Alpha, it will cause the surface to blend with texture 2:
 
@@ -40,7 +40,7 @@ After erasing the vertex color alpha from some vertices, you can see texture 2 b
 
 [![](/media/wp-content/2025/11/image-1-1024x751.png)](/media/wp-content/2025/11/image-1.png)
 
-If you want to set selected vertices to specific alpha values, there’s a [free add-on for that](https://alfredbaudisch.com/experiment-logs/vertex-alpha-tools-blender-add-on-useful-when-making-n64-and-ps1-graphics/).
+If you want to set selected vertices to specific alpha values, there's a [free add-on for that](https://alfredbaudisch.com/experiment-logs/vertex-alpha-tools-blender-add-on-useful-when-making-n64-and-ps1-graphics/).
 
 ## How to visualize Vertex Color Alpha in Blender?
 
@@ -51,7 +51,7 @@ You can use my [free Blender add-on Vertex Alpha Tools](https://alfredbaudisch.c
   <figcaption>Vertex Alpha Tools add-on</figcaption>
 </figure>
 
-If you don’t want to use add-ons, you can connect the Alpha socket of the Color Attribute node onto the Base Color socket:
+If you don't want to use add-ons, you can connect the Alpha socket of the Color Attribute node onto the Base Color socket:
 
 ![](/media/wp-content/2025/11/image-2.png)
 ![](/media/wp-content/2025/11/image-3-1024x507.png)
@@ -68,5 +68,5 @@ After painting some vertices and adjusting the vertex alpha of others, this is h
 
 ## Tips
 
--   In Edit Mode, select all vertices, press “U”, then “Reset” to reset the UV on top of the texture.
+-   In Edit Mode, select all vertices, press "U", then "Reset" to reset the UV on top of the texture.
 -   Be sure to check the first part: [Banjo-Kazooie (N64) environments and levels: texture blending and vertex color usage](https://alfredbaudisch.com/experiment-logs/banjo-kazooie-n64-environments-and-levels-texture-blending-and-vertex-color-usage/)

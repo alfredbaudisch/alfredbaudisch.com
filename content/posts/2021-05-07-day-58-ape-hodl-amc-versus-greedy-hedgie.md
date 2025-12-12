@@ -26,6 +26,6 @@ The whole army of diamond hands apes holding AMC against short selling hedge fun
 ## Credits
 
 -   Idea, composition, texture adjustments and post processing by me.
--   3D Model “Man In Suit” (https://skfb.ly/6TGsW) by jetsu is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
--   3D Model”Winston (PBR)” (https://skfb.ly/6CvTy) by Cristian Brevis Acevedo is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
--   3D Model “10,000$ (US dollar)” (https://skfb.ly/6Z6oy) by Sean is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+-   3D Model "Man In Suit" (https://skfb.ly/6TGsW) by jetsu is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+-   3D Model"Winston (PBR)" (https://skfb.ly/6CvTy) by Cristian Brevis Acevedo is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+-   3D Model "10,000$ (US dollar)" (https://skfb.ly/6Z6oy) by Sean is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).

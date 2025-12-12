@@ -36,10 +36,10 @@ links:
 
 ### Fred Curiosities
 
--   I participated in the **proof of concept edition of Shark Tank Brasil**, which was called “Million Dollar Elevator” before they got licensed. The episode with my participation can be seen on my personal [YouTube channel](https://www.youtube.com/watch?v=TngSSaLETwY&t=2899s).
+-   I participated in the **proof of concept edition of Shark Tank Brasil**, which was called "Million Dollar Elevator" before they got licensed. The episode with my participation can be seen on my personal [YouTube channel](https://www.youtube.com/watch?v=TngSSaLETwY&t=2899s).
     -   To the investors, I talked about my initial success with my MVP of Fred. They all refused.
     -   The investment I got for Fred has nothing to do with my participation on Shark Tank.
--   I participated in the **official “Big Brother Brasil Hackathon”**, inside the official Big Brother Brasil’s house and studio. In the official video, I appear in different spots of the video (first appearance at 0:25, [here](https://www.youtube.com/watch?v=gkeJs3v9NLw)).
+-   I participated in the **official "Big Brother Brasil Hackathon"**, inside the official Big Brother Brasil's house and studio. In the official video, I appear in different spots of the video (first appearance at 0:25, [here](https://www.youtube.com/watch?v=gkeJs3v9NLw)).
     -   My team and I got second place, which guaranteed some top tier media contacts. **This contact led me to a [publication about the Fred MVP on a huge Brazilian tech site](https://www.techtudo.com.br/noticias/noticia/2015/12/whatsapp-pizza-commerce-chat.html), which finally attracted the attention of serious investors.**
 
 {% imageGallery [ { src: "/media/wp-content/2021/03/shark-tank-brasil-fred-piloto.png", alt: "Shark Tank Brasil", caption: "Shark Tank Brasil", link: "/media/wp-content/2021/03/shark-tank-brasil-fred-piloto.png" }, { src: "/media/wp-content/2021/03/inside-Big-Brother-Brasil.png", alt: "Big Brother Brasil Hackathon", caption: "Big Brother Brasil Hackathon", link: "/media/wp-content/2021/03/inside-Big-Brother-Brasil.png" } ] %}

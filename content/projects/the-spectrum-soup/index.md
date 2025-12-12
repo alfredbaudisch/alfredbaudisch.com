@@ -32,5 +32,5 @@ A short game developed during the course of 3 days, from scratch, by myself, for
 -   Photos from Pexels (all Royalty free, no credit needed), then adjusted and prepared for textures of the 3D models.
 -   Sounds from freesound, additional sound effects obtained from https://www.zapsplat.com. Main music from [https://www.zapsplat.com](https://www.zapsplat.com/).
 -   Game developed in Godot Engine, also from scratch.
--   Calling autistic traits “ingredients” and the spectrum as “soup” was [an inspiration](https://www.reddit.com/r/AutisticPride/comments/mkog87/cypopps_comic_about_the_spectrum/) from the artist Cypopps.
+-   Calling autistic traits "ingredients" and the spectrum as "soup" was [an inspiration](https://www.reddit.com/r/AutisticPride/comments/mkog87/cypopps_comic_about_the_spectrum/) from the artist Cypopps.
 -   To make things even better, April is Autism Acceptance Month, so this game matches this month perfectly.

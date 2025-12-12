@@ -22,4 +22,4 @@ I study a lot of subjects and I create a lot of notes and clippings from what I 
 
 So, in order to start sharing some of the studies and notes that I created, I launched a Wiki website, [https://pardall.xyz](https://pardall.xyz).
 
-This website is also a proof of concept for my framework [PardallMarkdown](https://alfredbaudisch.com/projects/open-source/pardallmarkdown/). Check how the website was made, in the website’s [About page](https://pardall.xyz/about#this-website).
+This website is also a proof of concept for my framework [PardallMarkdown](https://alfredbaudisch.com/projects/open-source/pardallmarkdown/). Check how the website was made, in the website's [About page](https://pardall.xyz/about#this-website).

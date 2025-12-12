@@ -14,7 +14,7 @@ processImage: "/media/wp-content/2022/01/156-process-blender.jpg"
 projectStyles: ["Procedural"]
 ---
 
-I’m still very newbie when it comes to Geometry Nodes, so as a challenge, I tried to do something by my own, to test my newly acquired knowledge. This has been done 100% by me, without following tutorials.
+I'm still very newbie when it comes to Geometry Nodes, so as a challenge, I tried to do something by my own, to test my newly acquired knowledge. This has been done 100% by me, without following tutorials.
 
 It took me almost 4 hours, mostly because I was trying to understand how to evenly space the spikes.
 
@@ -22,15 +22,15 @@ It took me almost 4 hours, mostly because I was trying to understand how to even
 
 ## Problem
 
--   I wanted to create a UV Sphere with spikes (cones), where spikes are aligned to the UV Sphere’s faces normals. I want the spikes to be alternated/ping-ponged: one spike, an empty spot, so on and so forth.
--   I tried to alternate the spikes by using the faces indexes, if the index is even, show spike, otherwise, hide it. The problem is that the faces’ indexes are not linear.
--   I also tried by comparing normals or comparing indexes that already have the “spike”, but I don’t know how to compare with previous iterations using Geo Nodes (i.e. if spike has already been shown at this normal/or this index, do not show it now, like storing a temporary variable – this is so simple with coding).
+-   I wanted to create a UV Sphere with spikes (cones), where spikes are aligned to the UV Sphere's faces normals. I want the spikes to be alternated/ping-ponged: one spike, an empty spot, so on and so forth.
+-   I tried to alternate the spikes by using the faces indexes, if the index is even, show spike, otherwise, hide it. The problem is that the faces' indexes are not linear.
+-   I also tried by comparing normals or comparing indexes that already have the "spike", but I don't know how to compare with previous iterations using Geo Nodes (i.e. if spike has already been shown at this normal/or this index, do not show it now, like storing a temporary variable – this is so simple with coding).
 
 This is the ball full of spikes:
 
 [![](/media/wp-content/2022/01/spikes01.png)](/media/wp-content/2022/01/spikes01.png)
 
-When I tried to alternate the face’s indexes using a Math – Modules node %2:
+When I tried to alternate the face's indexes using a Math – Modules node %2:
 
 [![](/media/wp-content/2022/01/spikes02.png)](/media/wp-content/2022/01/spikes02.png)
 
@@ -40,12 +40,12 @@ Desired output:
 
 ## Proposed Solutions
 
-**Ginyumbi** from [Erindale’s Discord](https://discord.gg/9WP7MS6nCg) proposed using an odd number of segments and it worked immediatelly. But the problem is that at the last row of faces there would always be two spikes side by side:
+**Ginyumbi** from [Erindale's Discord](https://discord.gg/9WP7MS6nCg) proposed using an odd number of segments and it worked immediatelly. But the problem is that at the last row of faces there would always be two spikes side by side:
 
 [![](/media/wp-content/2022/01/spikes04-1-1024x831.png)](/media/wp-content/2022/01/spikes04-1.png)
 
-Then Salami in the same Discord came to the rescue, by suggesting: “if the segment is even, simply offset the index by 1 if the row is even”.
+Then Salami in the same Discord came to the rescue, by suggesting: "if the segment is even, simply offset the index by 1 if the row is even".
 
 [![](/media/wp-content/2022/01/spikes05-full-1024x334.png)](/media/wp-content/2022/01/spikes05-full.png)
 
-And it worked! I then changed it in a way that at the top there’s a unique bigger spike. And that’s it.
+And it worked! I then changed it in a way that at the top there's a unique bigger spike. And that's it.

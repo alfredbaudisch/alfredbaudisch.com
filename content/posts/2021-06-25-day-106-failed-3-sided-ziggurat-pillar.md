@@ -15,4 +15,4 @@ type: "post"
 
 This was supposed to be a pillar with 3 equal-sized sides, but after 40 minutes, I failed to do it.
 
-Those few days were quite interesting. I noticed that I’m struggling with very simple props and hard surface modeling, while I normally can do organic modeling quite comfortably.
+Those few days were quite interesting. I noticed that I'm struggling with very simple props and hard surface modeling, while I normally can do organic modeling quite comfortably.

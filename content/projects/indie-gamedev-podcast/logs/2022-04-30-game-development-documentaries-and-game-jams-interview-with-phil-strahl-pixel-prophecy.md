@@ -14,9 +14,9 @@ featuredImageThumb: "/media/wp-content/2022/04/Podcast-PhilStrahl-PixelProphecy-
 featuredImageSmall: "/media/wp-content/2022/04/Podcast-PhilStrahl-PixelProphecy-300x169.jpg"
 ---
 
-He’s a creative mastermind, he makes high production indie game development videos and documentaries that can take as much as 400 hours of work. He makes music, costumes, art, programming, and more. In this podcast, Phil Strahl, from Pixel Prophecy.
+He's a creative mastermind, he makes high production indie game development videos and documentaries that can take as much as 400 hours of work. He makes music, costumes, art, programming, and more. In this podcast, Phil Strahl, from Pixel Prophecy.
 
-He participates in game jams, especially Ludum Dare and records everything, producing eye catching and engaging documentaries – “Pixel Prophecy – Videos About Making Games”.
+He participates in game jams, especially Ludum Dare and records everything, producing eye catching and engaging documentaries – "Pixel Prophecy – Videos About Making Games".
 
 <iframe width="750" height="422" src="https://www.youtube.com/embed/vcUND7iCFtA" title="Game Development Documentaries and Game Jams - Interview with Phil Strahl (Pixel Prophecy)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -26,7 +26,7 @@ He participates in game jams, especially Ludum Dare and records everything, prod
 -   Pixel Prophecy YouTube: [https://www.youtube.com/c/pixelprophecy](https://www.youtube.com/c/pixelprophecy)
 -   Pixel Prophecy Patreon: [https://www.patreon.com/pixelprophecy](https://www.patreon.com/pixelprophecy)
 -   Twitter: [https://twitter.com/PixelProphecy](https://twitter.com/PixelProphecy)
--   Phil’s Ludum Dare games: [https://ldjam.com/users/philstrahl/games](https://ldjam.com/users/philstrahl/games)
+-   Phil's Ludum Dare games: [https://ldjam.com/users/philstrahl/games](https://ldjam.com/users/philstrahl/games)
 -   LDJam poster: [https://www.patreon.com/posts/theme-always-18279566](https://www.patreon.com/posts/theme-always-18279566)
 -   Fine Sweeper on Steam: [https://store.steampowered.com/app/367000/Fine_Sweeper/](https://store.steampowered.com/app/367000/Fine_Sweeper/)
 
@@ -38,7 +38,7 @@ He participates in game jams, especially Ludum Dare and records everything, prod
 -   Unreal Engine: [https://www.unrealengine.com/](https://www.unrealengine.com/)
 -   Unity: [https://unity.com/](https://unity.com/)
 -   Godot: [https://godotengine.org/](https://godotengine.org/)
--   Alfred’s game, Kaoamaru Kaiju: [https://splitpainter.itch.io/kaoamaru-kaiju](https://splitpainter.itch.io/kaoamaru-kaiju)
+-   Alfred's game, Kaoamaru Kaiju: [https://splitpainter.itch.io/kaoamaru-kaiju](https://splitpainter.itch.io/kaoamaru-kaiju)
 
 ## Table of Contents
 
@@ -54,8 +54,8 @@ He participates in game jams, especially Ludum Dare and records everything, prod
 00:15:39 When did you start making music?  
 00:21:05 Catchy music from the game Rampage  
 00:22:00 Creating what you love vs popular opinion  
-00:24:01 “Create for yourself, not for others”  
-00:25:10 “Indie Games and originality, innovation, passion”  
+00:24:01 "Create for yourself, not for others"  
+00:25:10 "Indie Games and originality, innovation, passion"  
 00:27:20 Van Gogh and Indie Games  
 00:29:00 How do your create game development docs and videos?  
 00:39:15 How to make video editing fun?  
@@ -64,15 +64,15 @@ He participates in game jams, especially Ludum Dare and records everything, prod
 00:51:40 Gamedev and Game Jams as an Excuse to Make Things  
 00:59:31 Most memorable Game Jam  
 01:03:20 Have you ever liked a Game Jam theme?  
-01:04:23 “Open-ended game ideas, limitations, overthinking”  
-01:08:16 “Artist’s Dilemma, finding our own twist”  
+01:04:23 "Open-ended game ideas, limitations, overthinking"  
+01:08:16 "Artist's Dilemma, finding our own twist"  
 01:11:58 Complexity when Making Games  
 01:13:57 Releasing a Commercial Game as Indie  
 01:15:27 Finished not Perfect Indie Game  
 01:16:27 Building a Game from Scratch  
 01:21:01 Indie game marketing  
 01:22:33 Curiosity: Erlang Language  
-01:24:15 Curiosity: Alfred’s name German pronunciation  
+01:24:15 Curiosity: Alfred's name German pronunciation  
 01:25:18 What is your favorite DAW Digital Audio Workstation?  
 01:27:20 Favorite video editing software  
 01:29:05 Favorite Game Engine  

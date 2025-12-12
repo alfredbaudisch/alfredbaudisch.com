@@ -8,7 +8,7 @@ categories: ["Blog"]
 type: "post"
 ---
 
-**Create a new creative piece of work every day, from start to finish**: art, code, text, video, music, photo, etc., no matter whether physical or digital. **It doesn’t matter whether what was created looks good or not**. I can always improve (or get worse) the next day.
+**Create a new creative piece of work every day, from start to finish**: art, code, text, video, music, photo, etc., no matter whether physical or digital. **It doesn't matter whether what was created looks good or not**. I can always improve (or get worse) the next day.
 
 <iframe width="750" height="422" src="https://www.youtube.com/embed/lRtV-ugIT0k" title="Finished Not Perfect" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -18,7 +18,7 @@ Why? Initially, the mission was to create a routine to improve in Art and [Blend
 
 It must be published to account for a consecutive day. Creative and artistic habit building.
 
-Previous days’ dailies can be reused, as long as I use them to create new or derivative pieces of work. For example: in one day I can create a 3D model and in another day I can animate it.
+Previous days' dailies can be reused, as long as I use them to create new or derivative pieces of work. For example: in one day I can create a 3D model and in another day I can animate it.
 
 Inspired by [Beeple Everydays](https://www.beeple-crap.com/everydays) and [Piper Thibodeau](https://twitter.com/Piper_Thibodeau) daily creatures.
 

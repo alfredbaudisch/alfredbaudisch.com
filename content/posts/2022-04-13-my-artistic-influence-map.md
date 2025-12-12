@@ -11,9 +11,9 @@ featuredImageSmall: "/media/wp-content/2022/04/AlfredBaudisch-InfluenceMap-1-205
 type: "post"
 ---
 
-What makes us, creatively speaking? What influences us? This is a question that was asked in the Udemy course “[Design & Criação de Personagens](https://www.udemy.com/course/personagens/)” (translated to _“Character Design and Creation”_ – available only in Portuguese).
+What makes us, creatively speaking? What influences us? This is a question that was asked in the Udemy course "[Design & Criação de Personagens](https://www.udemy.com/course/personagens/)" (translated to _"Character Design and Creation"_ – available only in Portuguese).
 
-Dado, the instructor, shows a “Influence Map” grid, where he placed images from things that inspires and influences him as an artist and as a creative person. The template for the Influence Map is very popular around digital artists and was created by [**fox-orian on Deviantart**](https://www.deviantart.com/fox-orian/art/Influence-Map-Template-174550753).
+Dado, the instructor, shows a "Influence Map" grid, where he placed images from things that inspires and influences him as an artist and as a creative person. The template for the Influence Map is very popular around digital artists and was created by [**fox-orian on Deviantart**](https://www.deviantart.com/fox-orian/art/Influence-Map-Template-174550753).
 
 I decided to create my artistic influence map placing things that influenced me creatively. This task was actually quite challenging yet fun, because you have to carefully think about whether something really influences you or if you are just affected by it due to hype or trends.
 
@@ -21,9 +21,9 @@ I decided to create my artistic influence map placing things that influenced me 
 
 ### Artistic Influences versus Other Influences
 
-As I said, this **Influence Map contains only things that influenced me creatively and artistically**, since we have influences from all kinds of sources for different subjects. **It’s too reductionist or even fatalist to consider a small grid with just a few items as the only source of inspiration and influences for what you are**.
+As I said, this **Influence Map contains only things that influenced me creatively and artistically**, since we have influences from all kinds of sources for different subjects. **It's too reductionist or even fatalist to consider a small grid with just a few items as the only source of inspiration and influences for what you are**.
 
-For example, I’m not a professional artist, I’m a professional software developer, so my influences for my main area of expertise are different from my artistic influences. For many yeas I was involved with entrepreneurship and business in general, naturally I have many other different influences and inspirations for that subject. So on and so forth.
+For example, I'm not a professional artist, I'm a professional software developer, so my influences for my main area of expertise are different from my artistic influences. For many yeas I was involved with entrepreneurship and business in general, naturally I have many other different influences and inspirations for that subject. So on and so forth.
 
 ### List
 
@@ -44,7 +44,7 @@ List of items from the image, the order is not in any priority or preference (ex
 -   Johny Castaway (Windows 95 screensaver)
 -   The Incredible Machine (DOS game)
 -   Tibia (MMORPG)
--   A Goofy Movie (“Pateta – O Filme”)
+-   A Goofy Movie ("Pateta – O Filme")
 -   Toy Story (the first movie)
 -   A Bandeira do Elefante e da Arara (book by Christopher Kastensmidt)
 -   Metal Gear Solid (PS1 game)

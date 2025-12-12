@@ -11,7 +11,7 @@ featuredImageSmall: "/media/wp-content/2021/03/0015-lights-exposure-bounces-300x
 type: "post"
 ---
 
-Finally starting to learn lights and lighting! Also remember: deal with the scene Exposure, instead of trying to “explode” the power of the lights. I always imagined how to get soft lights, since my renders always had hard lights, and now I know.
+Finally starting to learn lights and lighting! Also remember: deal with the scene Exposure, instead of trying to "explode" the power of the lights. I always imagined how to get soft lights, since my renders always had hard lights, and now I know.
 
 PS: How the heck can I reduce noises in Cycles? The denoiser makes the image looks like a compressed JPEG.
 

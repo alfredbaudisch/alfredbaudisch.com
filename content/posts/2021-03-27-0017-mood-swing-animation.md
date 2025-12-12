@@ -16,7 +16,7 @@ type: "post"
   <figcaption>Reference used (by Lucas Zanotto)</figcaption>
 </figure>
 
-[Lucas Zanotto](https://twitter.com/lucas_zanotto/) is one of my favorite artists. He makes minimalist animations around mental health. I’m very fond of those animations.
+[Lucas Zanotto](https://twitter.com/lucas_zanotto/) is one of my favorite artists. He makes minimalist animations around mental health. I'm very fond of those animations.
 
 To my surprise, I saw that he [released a course](https://motiondesign.school/products/get-into-3d-with-lucas-zanotto). To my disappointment, the course is taught around Cinema 4D.
 

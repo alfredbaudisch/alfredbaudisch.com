@@ -11,7 +11,7 @@ featuredImageSmall: "/media/wp-content/2021/06/0088-potato-man-textured-rigged-3
 type: "post"
 ---
 
-I textured and rigged yesterday’s daily, [Day 87: Apron Potato Man](https://alfredbaudisch.com/dailies/day-87-apron-potato-man/).
+I textured and rigged yesterday's daily, [Day 87: Apron Potato Man](https://alfredbaudisch.com/dailies/day-87-apron-potato-man/).
 
 ## Process
 

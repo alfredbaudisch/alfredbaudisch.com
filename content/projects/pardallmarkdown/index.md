@@ -20,7 +20,7 @@ links:
 
 **P[ardallMarkdown](https://github.com/alfredbaudisch/pardall_markdown)** is a reactive publishing framework and engine written in Elixir. Instant websites and documentation websites.
 
-**As opposed to static website generators** (such as Hugo, Docusaurs and others), with PardallMarkdown, **you don’t need to recompile and republish your application every time you write or modify new content**. The application can be kept running indefinitely in production, while it **watches a content folder for changes** and **the new content re-actively gets available for consumption** by your application.
+**As opposed to static website generators** (such as Hugo, Docusaurs and others), with PardallMarkdown, **you don't need to recompile and republish your application every time you write or modify new content**. The application can be kept running indefinitely in production, while it **watches a content folder for changes** and **the new content re-actively gets available for consumption** by your application.
 
 <iframe width="750" height="422" src="https://www.youtube.com/embed/FdzqToe3dug" title="Build a reactive real-time Markdown-based website with  Phoenix LiveView and PardallMarkdown" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -41,7 +41,7 @@ links:
 -   Automatic creation of **post navigation links** (next and previous posts).
 -   Freely embeddable **metadata into posts** as Elixir maps.
 -   Hierarchy **archive lists**.
--   All the content and indexes are kept in an **in-memory cache (Elixir’s ETS)**.
+-   All the content and indexes are kept in an **in-memory cache (Elixir's ETS)**.
 
 ## [](https://github.com/alfredbaudisch/pardall_markdown#use-cases)Use cases
 
@@ -49,5 +49,5 @@ links:
 -   Documentation websites
 -   Wikis
 -   FAQs
--   Any kind of website actually? Even e-commerce websites, where you can use PardallMarkdown’s parsed content as product pages, and more.
+-   Any kind of website actually? Even e-commerce websites, where you can use PardallMarkdown's parsed content as product pages, and more.
 -   Any application that needs content?
