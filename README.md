@@ -226,9 +226,8 @@ Configure the following secrets in the GitHub repository:
 1. Push changes to the `master` branch
 2. GitHub Actions automatically:
    - Builds the site
-   - Deploys to VPS
-   - Updates the symlink
-   - Reloads Nginx
+   - Deploys and syncs everything to the VPS with `rsync`
+   - And that's it.
 
 #### Locally
 To deploy from the development machine simply call `npm run deploy`
