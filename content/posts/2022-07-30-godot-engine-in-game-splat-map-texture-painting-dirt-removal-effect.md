@@ -4,7 +4,9 @@ title: "Godot Engine In-game Splat Map Texture Painting (Dirt Removal Effect)"
 date: "2022-07-30T14:34:37.000Z"
 updated: "2022-07-30T18:27:58.000Z"
 tags: ["godot", "godot engine", "shaders", "uv", "uv mapping"]
-categories: ["Godot Engine"]
+categories: ["Godot Engine", "Gamedev"]
+redirectFrom:
+  - /blog/gamedev/godot-engine/godot-engine-in-game-splat-map-texture-painting-dirt-removal-effect/
 featuredImage: "/media/wp-content/2022/07/GodotRuntimeTexturePainting-Thumb.jpg"
 featuredImageThumb: "/media/wp-content/2022/07/GodotRuntimeTexturePainting-Thumb-768x423.jpg"
 featuredImageSmall: "/media/wp-content/2022/07/GodotRuntimeTexturePainting-Thumb-300x165.jpg"

@@ -33,4 +33,10 @@ jobs:
         rsync -avz --delete --no-owner --no-group \
           -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /tmp/deploy_key" \
           _site/ ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/var/www/alfredbaudisch.com/_site/
+        if [ -f scripts/deploy/nginx-redirects.generated.conf ]; then
+          rsync -avz --no-owner --no-group \
+            -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /tmp/deploy_key" \
+            scripts/deploy/nginx-redirects.generated.conf \
+            ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/var/www/alfredbaudisch.com/nginx-redirects.generated.conf
+        fi
         rm -f /tmp/deploy_key

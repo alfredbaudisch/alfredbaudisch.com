@@ -1,0 +1,23 @@
+---
+pagination:
+  data: collections.redirects
+  size: 1
+  alias: redirect
+  addAllPagesToCollections: false
+permalink: "{{ redirect.from }}"
+eleventyExcludeFromCollections: true
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0;url={{ redirect.to }}">
+  <link rel="canonical" href="{{ redirect.to }}">
+  <title>Redirecting…</title>
+  <script>window.location.replace("{{ redirect.to }}");</script>
+</head>
+<body>
+  <p>Redirecting to <a href="{{ redirect.to }}">{{ redirect.to }}</a></p>
+</body>
+</html>

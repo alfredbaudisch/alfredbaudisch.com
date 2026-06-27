@@ -70,6 +70,13 @@ rsync -avz --delete --no-owner --no-group \
     -e "ssh -i $SSH_KEY -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" \
     "$BUILD_DIR/" "$VPS_USER@$VPS_HOST:$DEPLOY_DIR/_site/"
 
+if [ -f "scripts/deploy/nginx-redirects.generated.conf" ]; then
+    info "Syncing nginx redirect rules..."
+    rsync -avz --no-owner --no-group \
+        -e "ssh -i $SSH_KEY -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" \
+        "scripts/deploy/nginx-redirects.generated.conf" "$VPS_USER@$VPS_HOST:$DEPLOY_DIR/nginx-redirects.generated.conf"
+fi
+
 if [ $? -ne 0 ]; then
     error "Failed to sync files to VPS"
 fi

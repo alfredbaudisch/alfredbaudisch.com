@@ -2,6 +2,7 @@ const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 const markdownItAttrs = require("markdown-it-attrs");
 const slugify = require("slugify");
+const { buildRedirects, writeNginxRedirects } = require("./scripts/lib/redirects");
 
 // Helper function to get sort date (updated || date)
 function getSortDate(item) {
@@ -33,6 +34,7 @@ function getSortDate(item) {
 }
 
 module.exports = function(eleventyConfig) {
+  let siteRedirects = [];
   // Add environment data
   eleventyConfig.addGlobalData("env", {
     NODE_ENV: process.env.NODE_ENV || 'development'
@@ -85,6 +87,11 @@ module.exports = function(eleventyConfig) {
         const dateB = getSortDate(b);
         return dateB - dateA;
       });
+  });
+
+  eleventyConfig.addCollection("redirects", function(collectionApi) {
+    siteRedirects = buildRedirects(collectionApi);
+    return siteRedirects;
   });
 
   // Homepage content - excludes pages and archive pages
@@ -746,6 +753,9 @@ module.exports = function(eleventyConfig) {
       
       // Exclude drafts - check if page.data exists first
       if (page.data && page.data.draft) return false;
+
+      // Exclude redirect pages
+      if (page.data && page.data.sitemap === false) return false;
       
       return true;
     });
@@ -813,6 +823,8 @@ ${sitemapEntries.map(entry => `  <url>
     
     writeFileSync(join('_site', 'sitemap.xml'), sitemap);
     console.log(`✓ Generated sitemap.xml with ${sitemapEntries.length} URLs`);
+
+    writeNginxRedirects(siteRedirects);
   });
 
   // Copy robots.txt
