@@ -122,6 +122,8 @@ body {
 /* Header */
 .site-header {
   margin-bottom: var(--spacing-md);
+  position: relative;
+  z-index: 200;
 }
 
 .site-header .container {
@@ -179,6 +181,7 @@ body {
 
 .main-nav {
   position: relative;
+  z-index: 1;
 }
 
 .mobile-menu-toggle {
@@ -269,7 +272,7 @@ body {
   background-color: var(--color-bg-alt);
   border: var(--border-style-light);
   min-width: 200px;
-  z-index: 100;
+  z-index: 2;
   margin-top: 0;
   padding-top: var(--spacing-sm);
 }
