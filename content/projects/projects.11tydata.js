@@ -1,5 +1,18 @@
 module.exports = {
   eleventyComputed: {
+    linksRenderedInline: function(data) {
+      if (!data.page?.inputPath) {
+        return false;
+      }
+
+      try {
+        const fs = require("fs");
+        const raw = fs.readFileSync(data.page.inputPath, "utf8");
+        return /\{%\s*projectLinks\s*%\}/.test(raw);
+      } catch {
+        return false;
+      }
+    },
     permalink: function(data) {
       if (!data.page || !data.page.filePathStem) return data.permalink;
       

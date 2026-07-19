@@ -1,0 +1,10 @@
+{% if links and links.length > 0 %}
+<section class="links-section">
+  <h2>Links</h2>
+  <ul class="links-list">
+    {% for link in links %}
+    <li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

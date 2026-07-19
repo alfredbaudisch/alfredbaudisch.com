@@ -3,6 +3,7 @@ const markdownIt = require("markdown-it");
 const markdownItAttrs = require("markdown-it-attrs");
 const slugify = require("slugify");
 const { buildRedirects, writeNginxRedirects } = require("./scripts/lib/redirects");
+const { renderLinksSection } = require("./scripts/lib/render-links-section");
 
 // Helper function to get sort date (updated || date)
 function getSortDate(item) {
@@ -831,6 +832,16 @@ ${sitemapEntries.map(entry => `  <url>
   eleventyConfig.addPassthroughCopy('content/robots.txt');
 
   // Shortcodes
+  eleventyConfig.addShortcode("projectLinks", function() {
+    const links = this.ctx.links;
+
+    if (!links || !Array.isArray(links) || links.length === 0) {
+      return "";
+    }
+
+    return renderLinksSection(links);
+  });
+
   eleventyConfig.addShortcode("imageGallery", function(images) {
     if (!images || !Array.isArray(images)) return "";
     const imagesHtml = images.map((img, index) => {
