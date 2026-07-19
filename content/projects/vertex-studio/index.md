@@ -5,9 +5,9 @@ date: "2026-07-19T16:59:00.000Z"
 type: "project"
 projectStatus: ["Active", "Completed"]
 projectTypes: ["Software"]
-projectStyles: ["Gamedev", "Hand-Painted Texture", "N64", "Photo Texture", "Vertex Colors"]
+projectStyles: ["Gamedev", "Hand-Painted Texture", "N64", "Photo Texture", "Vertex Colors", "PS1"]
 tools: ["GDScript", "Godot"]
-tags: ["N64", "Godot", "GDScript", "Plugin", "Tools", "Vertex Colors", "Gamedev"]
+tags: ["N64", "PS1", "Godot", "GDScript", "Plugin", "Tools", "Vertex Colors", "Gamedev"]
 featuredImage: "/media/projects/vertex-studio/vertex-studio-cover.png"
 featuredImageThumb: "/media/projects/vertex-studio/vertex-studio-cover-thumb.jpg"
 links:
