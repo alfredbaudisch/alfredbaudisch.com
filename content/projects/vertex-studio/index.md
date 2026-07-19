@@ -1,11 +1,13 @@
 ---
 layout: "layouts/project.njk"
 title: "Vertex Studio"
-date: "2026-07-19T16:22:00.000Z"
+date: "2026-07-19T16:59:00.000Z"
 type: "project"
 projectStatus: ["Active", "Completed"]
-projectTypes: ["Sofware"]
+projectTypes: ["Software"]
+projectStyles: ["Gamedev", "Hand-Painted Texture", "N64", "Photo Texture", "Vertex Colors"]
 tools: ["GDScript", "Godot"]
+tags: ["N64", "Godot", "GDScript", "Plugin", "Tools", "Vertex Colors", "Gamedev"]
 featuredImage: "/media/projects/vertex-studio/vertex-studio-cover.png"
 featuredImageThumb: "/media/projects/vertex-studio/vertex-studio-cover-thumb.jpg"
 links:
@@ -18,6 +20,8 @@ links:
 ---
 
 **Vertex Studio** is a Godot plugin for **editing, managing and painting vertex colors and vertex normals** of 3D meshes. A complete solution for vertex painting inside the Godot editor. Vertex Studio is a must-have tool for making games inspired by PS1, N64 or early 2000s PC games aesthetics, but it's useful even in modern workflows, since vertex coloring can also be used for texture blending and masking.
+
+<video controls="" src="/media/projects/vertex-studio/vertex-studio-all-features-including-multi-texture-blending.mp4"></video>
 
 ## Summary of Features
 
@@ -32,7 +36,11 @@ links:
 - **Creating and managing variations/snapshots** of vertex colors, selections and vertex smoothness topology, creating non-destructive variations of a single mesh.
 - Switching between **mesh variations at runtime** and blending between variations.
 
-<video controls="" src="/media/projects/vertex-studio/vertex-studio-all-features-including-multi-texture-blending.mp4"></video>
+{% projectLinks %}
+
+## Origins
+
+The idea for this plugin came when I was disassembling Banjo-Kazooie levels and [exploring making Nintendo 64 graphics](/experiments/3d-art/exploring-making-nintendo-64-graphics-n64/) with Blender and Godot, because I was also experimenting with making a 3D collect-a-thon N64-like platformer, and for that I needed vertex color tools in Godot, and more than 6 months later, Vertex Studio 1.0 was finished and released.
 
 ## Vertex Studio features in details
 
@@ -129,3 +137,5 @@ Vertex Studio brushes and selections work in both **perspective and orthographic
 
   * **Free** includes the core, essential features for vertex painting: brush, eraser, bucket fill, opacity, point selection, select all / deselect, swatches & palettes (including PNG import), blur, debug views, view modes and the non-destructive material setup.
   * **Pro** ⭐: everything from Free plus lasso / rectangle / ellipse & linked selection tools, invert selection, split-vertex painting, paint precision, paint normals, vertex groups, replace colors, single-channel R/G/B/A painting, falloff curve editing, and Variations + the VSRuntime node (Inspector/runtime switching and snapshot blending).
+
+{% projectLinks %}

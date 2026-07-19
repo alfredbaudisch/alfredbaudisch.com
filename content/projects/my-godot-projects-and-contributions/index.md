@@ -2,7 +2,7 @@
 layout: "layouts/project.njk"
 title: "My Godot Projects and Contributions"
 date: "2022-10-23T14:28:44.000Z"
-updated: "2025-11-22T14:27:20.000Z"
+updated: "2026-07-19T16:58:00.000Z"
 type: "project"
 tags: ["godot", "godot engine", "open-source"]
 projectStyles: ["Gamedev"]
@@ -50,6 +50,10 @@ After reaching 10 contributions, I'm now [added](https://github.com/godotengine/
   <img src="/media/wp-content/2021/08/godello-drag-and-drop-example.gif" alt="Godello Godot Drag and Drop" loading="lazy">
   <figcaption>Godello</figcaption>
 </figure>
+
+## Paid Addons
+
+- [Vertex Studio: a complete vertex color painting solution for Godot](/projects/software/vertex-studio/)
 
 ## Courses
 
