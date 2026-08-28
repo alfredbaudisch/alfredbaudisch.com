@@ -89,11 +89,11 @@ After reaching 10 contributions, I'm now [added](https://github.com/godotengine/
 
 ![](/media/wp-content/2022/07/FromUnityToGodot-NodesScenes-1024x576.jpg)
 
-## Games
+## Game Jam Games
 
--   [Kaoamaru Kaiju (Games Projects)](https://alfredbaudisch.com/projects/games/kaoamaru-kaiju/)
--   [The Spectrum Soup (Games Projects)](https://alfredbaudisch.com/projects/games/the-spectrum-soup/)
--   [The Blue Bedroom (Games Projects)](https://alfredbaudisch.com/projects/games/the-blue-bedroom/)
+-   [Kaoamaru Kaiju](https://alfredbaudisch.com/projects/games/kaoamaru-kaiju/)
+-   [The Spectrum Soup](https://alfredbaudisch.com/projects/games/the-spectrum-soup/)
+-   [The Blue Bedroom](https://alfredbaudisch.com/projects/games/the-blue-bedroom/)
 
 ![](/media/wp-content/2021/10/van-gogh-blue-bedroom-banner-itch.png)
 
