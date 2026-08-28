@@ -38,7 +38,7 @@ He participates in game jams, especially Ludum Dare and records everything, prod
 -   Unreal Engine: [https://www.unrealengine.com/](https://www.unrealengine.com/)
 -   Unity: [https://unity.com/](https://unity.com/)
 -   Godot: [https://godotengine.org/](https://godotengine.org/)
--   Alfred's game, Kaoamaru Kaiju: [https://splitpainter.itch.io/kaoamaru-kaiju](https://splitpainter.itch.io/kaoamaru-kaiju)
+-   Alfred's game, Kaoamaru Kaiju: [https://alfredbaudisch.itch.io/kaoamaru-kaiju](https://alfredbaudisch.itch.io/kaoamaru-kaiju)
 
 ## Table of Contents
 

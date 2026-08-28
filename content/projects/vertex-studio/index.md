@@ -12,7 +12,7 @@ featuredImage: "/media/projects/vertex-studio/vertex-studio-cover.png"
 featuredImageThumb: "/media/projects/vertex-studio/vertex-studio-cover-thumb.jpg"
 links:
   - name: "itch.io"
-    url: "https://splitpainter.itch.io/vertex-studio"
+    url: "https://alfredbaudisch.itch.io/vertex-studio"
   - name: "Godot Asset Store"
     url: "https://store.godotengine.org/asset/alfredbaudisch/vertex-studio/"
   - name: "Documentation"

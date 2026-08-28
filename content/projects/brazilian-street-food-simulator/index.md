@@ -16,7 +16,7 @@ links:
   - name: "Steam"
     url: "https://store.steampowered.com/app/2125110?utm_source=alfredbaudisch&utm_campaign=project_page"
   - name: "Itch.io"
-    url: "https://splitpainter.itch.io/brazilian-street-food-simulator"
+    url: "https://alfredbaudisch.itch.io/brazilian-street-food-simulator"
   - name: "Newsletter"
     url: "https://pardallgames.com"
   - name: "Twitter"
@@ -45,7 +45,7 @@ Play around with the different dynamics of preparing Brazilian Street Food, such
 
 The game is in development. [**Wishlist on Steam**](https://store.steampowered.com/app/2125110?utm_source=alfredbaudisch&utm_campaign=project_page) and click "Follow" over there on the Steam Page to be notified about the demo and launch (and possible Early Access)!
 
-Receive a Steam key when [you buy from Itch](https://splitpainter.itch.io/brazilian-street-food-simulator) on launch.
+Receive a Steam key when [you buy from Itch](https://alfredbaudisch.itch.io/brazilian-street-food-simulator) on launch.
 
 [![](/media/wp-content/2022/08/SteamWidgetPrint.png)](https://store.steampowered.com/app/2125110?utm_source=alfredbaudisch&utm_campaign=project_page)
 

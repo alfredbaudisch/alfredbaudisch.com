@@ -13,7 +13,7 @@ featuredImageThumb: "/media/wp-content/2021/03/Kaoamaru-Kaiju-Ludum-Dare-Godot-G
 featuredImageSmall: "/media/wp-content/2021/03/Kaoamaru-Kaiju-Ludum-Dare-Godot-Game-300x238.png"
 links:
   - name: "Play the game (itch.io)"
-    url: "https://splitpainter.itch.io/kaoamaru-kaiju"
+    url: "https://alfredbaudisch.itch.io/kaoamaru-kaiju"
   - name: "Making of video documentary"
     url: "https://www.youtube.com/watch?v=rcnoxfp1FdY"
   - name: "Post-mortem"
@@ -24,7 +24,7 @@ links:
 
 -   Game made in 72h for the [Game Jam Ludum Dare 46](https://ldjam.com/events/ludum-dare/46/kaoamaru-kaiju) (the theme was _Keep it Alone_).
 -   I worked alone and made, from start to finish, all the graphics, models, sounds, music and code during the Jam.
--   Available for free on [itch.io](https://splitpainter.itch.io/kaoamaru-kaiju).
+-   Available for free on [itch.io](https://alfredbaudisch.itch.io/kaoamaru-kaiju).
 -   A dark cinematic narrative experience – it has no gameplay.
 -   It has dozens of secrets and meanings, that still haven't been unconvered by anyone.
 

@@ -51,7 +51,7 @@ Comparisons:
 
 As opposed to most people, Godot's GUI System is what made me fall in absolute love with the engine. But my reasons are very different from almost every other Godot user: it's because I was looking for a JavaScript and CSS alternative to make user interfaces and business software.
 
-The first thing I made with Godot was [a tiny "Grid Maker" software](https://splitpainter.itch.io/grider). Then things escalated very quickly and **I made a clone of Trello with Godot, [Godello](https://github.com/alfredbaudisch/Godello), which is very popular amongst Godot's users. Yes, I made a clone of the interface of a full blown complex web application that originally requires thousands of lines of CSS and Javascript.**
+The first thing I made with Godot was [a tiny "Grid Maker" software](https://alfredbaudisch.itch.io/grider). Then things escalated very quickly and **I made a clone of Trello with Godot, [Godello](https://github.com/alfredbaudisch/Godello), which is very popular amongst Godot's users. Yes, I made a clone of the interface of a full blown complex web application that originally requires thousands of lines of CSS and Javascript.**
 
 <figure class="wp-block-image">
   <a href="/media/wp-content/2021/08/godello-drag-and-drop-example.gif"><img src="/media/wp-content/2021/08/godello-drag-and-drop-example.gif" alt="Godello Godot Drag and Drop" loading="lazy"></a>
@@ -258,9 +258,9 @@ I have been using Godot for personal projects, experiments and education since 2
 -   Godot Phoenix Channels library: [https://github.com/alfredbaudisch/GodotPhoenixChannels](https://github.com/alfredbaudisch/GodotPhoenixChannels)
 -   Two 3D games and one 2D game: [https://itch.io/c/2510992/ludum-dare-games](https://itch.io/c/2510992/ludum-dare-games)
 -   Implementation of a [texture painting during runtime](https://twitter.com/AlfredBaudisch/status/1547605886499057665) and also [vertex painting in runtime](https://twitter.com/AlfredBaudisch/status/1546028556865642497).
--   A 10 hour long course: [https://splitpainter.itch.io/dynamic-inventory-system-and-ui-with-godot-course](https://splitpainter.itch.io/dynamic-inventory-system-and-ui-with-godot-course)
+-   A 10 hour long course: [https://alfredbaudisch.itch.io/dynamic-inventory-system-and-ui-with-godot-course](https://alfredbaudisch.itch.io/dynamic-inventory-system-and-ui-with-godot-course)
 -   Writing a Book about making software and tools with Godot: [https://bit.ly/GodotBook](https://bit.ly/GodotBook)
--   A small "Grid Maker" tool: [https://splitpainter.itch.io/grider](https://splitpainter.itch.io/grider)
+-   A small "Grid Maker" tool: [https://alfredbaudisch.itch.io/grider](https://alfredbaudisch.itch.io/grider)
 -   Many small experiments with [Shaders](https://twitter.com/AlfredBaudisch/status/1546887115350458370) and Particles
 -   Many [YouTube videos](https://www.youtube.com/watch?v=c3KAhT7Xalo&list=PLqYboeh3Jru6Fds033Q2pdW53qbw-x2Rn&index=1) and a [very popular article](https://twitter.com/AlfredBaudisch/status/1548337776256397312).
 

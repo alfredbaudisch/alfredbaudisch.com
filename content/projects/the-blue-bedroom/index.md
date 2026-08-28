@@ -13,7 +13,7 @@ featuredImageThumb: "/media/wp-content/2021/10/van-gogh-blue-bedroom-banner-itch
 featuredImageSmall: "/media/wp-content/2021/10/van-gogh-blue-bedroom-banner-itch-300x157.png"
 links:
   - name: "Play the game (free)"
-    url: "https://splitpainter.itch.io/the-blue-bedroom"
+    url: "https://alfredbaudisch.itch.io/the-blue-bedroom"
   - name: "Making a Van Gogh game in just 3 days"
     url: "https://alfredbaudisch.medium.com/making-a-historically-accurate-van-gogh-game-in-just-3-days-c35363ef7e35"
   - name: "Ludum Dare page"

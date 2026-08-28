@@ -15,6 +15,6 @@ I finally fixed the "no hear" pose, because the arms were still merging into the
 
 I also added a "go back to museum" mechanism, created GIFs and re-exported the covers/banners, with the new fixed "no hear".
 
-[Play it on Itch.io](https://splitpainter.itch.io/the-spectrum-soup)
+[Play it on Itch.io](https://alfredbaudisch.itch.io/the-spectrum-soup)
 
 [![](/media/wp-content/2021/04/0050-process-blender.png)](/media/wp-content/2021/04/0050-process-blender.png)

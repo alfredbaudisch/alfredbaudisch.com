@@ -13,7 +13,7 @@ featuredImageThumb: "/media/wp-content/2021/10/game-the-spectrum-soup-exploring-
 featuredImageSmall: "/media/wp-content/2021/10/game-the-spectrum-soup-exploring-autism-spectrum-300x157.png"
 links:
   - name: "Play the game (free)"
-    url: "https://splitpainter.itch.io/the-spectrum-soup"
+    url: "https://alfredbaudisch.itch.io/the-spectrum-soup"
   - name: "Ludum Dare page"
     url: "https://ldjam.com/events/ludum-dare/48/the-spectrum-soup"
 metaDescription: "A interactive virtual museum about Autism. An exploration of some of the ingredients and traits of the ASD - Autism Spectrum Disorder in adults"

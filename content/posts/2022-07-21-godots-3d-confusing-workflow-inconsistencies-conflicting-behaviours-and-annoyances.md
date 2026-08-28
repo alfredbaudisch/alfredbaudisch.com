@@ -265,9 +265,9 @@ I have been using Godot for personal projects, experiments and education since 2
 -   Godot Phoenix Channels library: [https://github.com/alfredbaudisch/GodotPhoenixChannels](https://github.com/alfredbaudisch/GodotPhoenixChannels)
 -   Two 3D games and one 2D game: [https://itch.io/c/2510992/ludum-dare-games](https://itch.io/c/2510992/ludum-dare-games)
 -   Implementation of a [texture painting during runtime](https://twitter.com/AlfredBaudisch/status/1547605886499057665) and also [vertex painting in runtime](https://twitter.com/AlfredBaudisch/status/1546028556865642497).
--   A 10 hour long course: [https://splitpainter.itch.io/dynamic-inventory-system-and-ui-with-godot-course](https://splitpainter.itch.io/dynamic-inventory-system-and-ui-with-godot-course)
+-   A 10 hour long course: [https://alfredbaudisch.itch.io/dynamic-inventory-system-and-ui-with-godot-course](https://alfredbaudisch.itch.io/dynamic-inventory-system-and-ui-with-godot-course)
 -   Writing a Book about making software and tools with Godot: [https://bit.ly/GodotBook](https://bit.ly/GodotBook)
--   A small "Grid Maker" tool: [https://splitpainter.itch.io/grider](https://splitpainter.itch.io/grider)
+-   A small "Grid Maker" tool: [https://alfredbaudisch.itch.io/grider](https://alfredbaudisch.itch.io/grider)
 -   Many small experiments with [Shaders](https://twitter.com/AlfredBaudisch/status/1546887115350458370) and Particles
 -   Many [YouTube videos](https://www.youtube.com/watch?v=c3KAhT7Xalo&list=PLqYboeh3Jru6Fds033Q2pdW53qbw-x2Rn&index=1) and a [very popular article](https://twitter.com/AlfredBaudisch/status/1548337776256397312).
 

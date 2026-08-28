@@ -88,7 +88,7 @@ Dungeondraft and Wonderdraft are brilliant and extensible tools for map making f
 
 ### Honorable Mentions
 
--   **[Grider](https://splitpainter.itch.io/grider): The Grid Creator**. Create, customize and export grids on top of reference images, for drawing guidance, a tool for artists and those learning how to draw. This is my second Godot project ever, from May/2019. It's very barebones, but it's when I got in love with Godot for GUI (and it's [open-source](https://github.com/alfredbaudisch/grider)).
+-   **[Grider](https://alfredbaudisch.itch.io/grider): The Grid Creator**. Create, customize and export grids on top of reference images, for drawing guidance, a tool for artists and those learning how to draw. This is my second Godot project ever, from May/2019. It's very barebones, but it's when I got in love with Godot for GUI (and it's [open-source](https://github.com/alfredbaudisch/grider)).
 
 ## Resources
 
@@ -106,7 +106,7 @@ Everything is still very much a work in progress. The most important thing is th
 
 Do you want to learn how to make complex GUI with Godot right now? I created a 10 hours-long course on this subject: [Godot Course: Dynamic Inventory System and User Interfaces](https://alfredbaudisch.com/projects/education/dynamic-inventory-system-and-user-interfaces-with-godot-course/)!
 
-[![](/media/wp-content/2022/05/GodotInventoryUI-System-CustomResources-FinalSystem3-1.gif)](https://splitpainter.itch.io/dynamic-inventory-system-and-ui-with-godot-course)
+[![](/media/wp-content/2022/05/GodotInventoryUI-System-CustomResources-FinalSystem3-1.gif)](https://alfredbaudisch.itch.io/dynamic-inventory-system-and-ui-with-godot-course)
 
 ### Godello
 

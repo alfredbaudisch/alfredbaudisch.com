@@ -20,13 +20,13 @@ Made in 72 hours, from scratch, by myself, alone, for Ludum Dare 48.
 -   ALL the art from scratch in Blender.
 -   Photos from Pexels (all Royalty free, no credit needed), then adjusted and prepared for textures of the 3D models.
 -   Sounds from freesound.
--   Music by me, but not made during the jam, it's the music I made [for Ludum Dare 46](https://splitpainter.itch.io/kaoamaru-kaiju).
+-   Music by me, but not made during the jam, it's the music I made [for Ludum Dare 46](https://alfredbaudisch.itch.io/kaoamaru-kaiju).
 -   Game developed in Godot Engine, also from scratch.
 
 ## Links
 
 -   [Lu](https://ldjam.com/events/ludum-dare/48/the-spectrum-soup)[dum Dare Page](https://ldjam.com/events/ludum-dare/48/the-spectrum-soup)
--   [Play the game!](https://splitpainter.itch.io/the-spectrum-soup)
+-   [Play the game!](https://alfredbaudisch.itch.io/the-spectrum-soup)
 
 ## Some Process
 

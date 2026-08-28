@@ -238,7 +238,7 @@ This is just the tip of the iceberg. Godot 4.0 is massive, if you want to learn 
 -   [All the function renames in Godot 4](https://github.com/godotengine/godot/blob/master/editor/renames_map_3_to_4.cpp)
 -   Check the [other posts and videos](https://godotengine.org/blog/) from the community about the launch of 4.0. Each post and video created for the 4.0 release is unique, so be sure to check them all!
 -   And of course, [download Godot 4.0](https://godotengine.org/download/) and play with it by yourself! There's no reason to wait anymore!
--   Check my [Godot course](https://splitpainter.itch.io/dynamic-inventory-system-and-ui-with-godot-course) (60% off during Godot 4.0 launch) and [open-source projects](https://alfredbaudisch.com/projects/open-source/my-godot-projects-and-contributions/).
+-   Check my [Godot course](https://alfredbaudisch.itch.io/dynamic-inventory-system-and-ui-with-godot-course) (60% off during Godot 4.0 launch) and [open-source projects](https://alfredbaudisch.com/projects/open-source/my-godot-projects-and-contributions/).
 
 ## Press Release
 
