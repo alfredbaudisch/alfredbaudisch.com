@@ -28,6 +28,8 @@ Pixel Art Studio is a Blender add-on for **pixel perfect pixel art texture paint
 
 <video controls="" src="/media/projects/pixel-art-studio/showcasepixelart-studio-better-start-small.mp4"></video>
 
+{% projectLinks %}
+
 ## Summary of Features
 
 Every drawing, selection and layer tool works in the 3D Viewport and in the Image Editor, in perspective and orthographic views, so you can move the camera around freely while painting.
@@ -44,8 +46,6 @@ Every drawing, selection and layer tool works in the 3D Viewport and in the Imag
 - One-click setup buttons to **setup the viewport for pixel art** (grid size and snapping adjusted to the pixel size) and to UV unwrap the model for instant pixel art painting (*notice: auto UV unwrapping is very basic, for the majority of models you are still going to need to manually unwrap UVs*).
 - **Density Zones** (*optional*): assign and manage texel density values per face, allowing for **uniform pixel size across the whole mesh or different pixel sizes per face**.
    - Different density zones **automatically resizes Blender's grid on the fly**, when you hover different faces of the model, in the 3D viewport.
-
-{% projectLinks %}
 
 ## Pixel Art Studio features in details
 
