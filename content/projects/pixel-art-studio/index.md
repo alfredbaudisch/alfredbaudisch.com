@@ -47,6 +47,15 @@ Every drawing, selection and layer tool works in the 3D Viewport and in the Imag
 - **Density Zones** (*optional*): assign and manage texel density values per face, allowing for **uniform pixel size across the whole mesh or different pixel sizes per face**.
    - Different density zones **automatically resizes Blender's grid on the fly**, when you hover different faces of the model, in the 3D viewport.
 
+## Blender version required?
+
+- Recommended (officially supported): Blender 5.1
+- Also compatible with Blender 3.6, Blender 4.0+ through Blender 5.1.
+
+## Does it require external dependencies?
+
+No, it's made 100% with Python using only Blender's APIs. It is a native Blender plugin. 
+
 ## Pixel Art Studio features in details
 
 Every drawing, selection and layer tool works in the **3D Viewport and in the Image Editor**, in **perspective and orthographic** views, so you can move the camera around freely while painting.
@@ -131,7 +140,5 @@ Every drawing, selection and layer tool works in the **3D Viewport and in the Im
   - **Tools and settings popup**: press <kbd>F</kbd> over either editor for a floating panel with the tools and their settings.
   - Painting on the model works in **Object and in Edit mode**, and you can alternate between Pixel Art Studio's tools and Blender's own tools on the fly.
   - The canvas is a normal Blender image: it's packed into the .blend, and it renders and exports like any other texture.
-
-> **Note:** Pixel Art Studio requires **Blender 5.1 or higher**
 
 {% projectLinks %}
