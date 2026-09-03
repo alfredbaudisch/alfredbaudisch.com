@@ -2,6 +2,7 @@
 layout: "layouts/project.njk"
 title: "Pixel Art Studio"
 date: "2026-08-26T18:00:00.000Z"
+updated: "2026-09-02T21:41:07.000Z"
 type: "project"
 projectStatus: ["Active", "Completed"]
 projectTypes: ["Software"]
@@ -13,6 +14,12 @@ featuredImageThumb: "/media/projects/pixel-art-studio/pixel-art-studio-cover-thu
 links:
   - name: "itch.io"
     url: "https://alfredbaudisch.itch.io/pixel-art-studio"
+  - name: Superhive (aka Blender Market)
+    url: https://superhivemarket.com/products/pixel-art-studio?ref=10057
+  - name: Gumroad
+    url: https://alfredbaudisch.gumroad.com/l/pixel-art-studio
+  - name: Hotmart (payment options for Brazilians)
+    url: https://go.hotmart.com/F107441454W?dp=1
   - name: "Documentation"
     url: "https://pardalltools.github.io/pixel-art-studio-docs/"
 ---
@@ -22,6 +29,8 @@ Pixel Art Studio is a Blender add-on for **pixel perfect pixel art texture paint
 <video controls="" src="/media/projects/pixel-art-studio/showcasepixelart-studio-better-start-small.mp4"></video>
 
 ## Summary of Features
+
+Every drawing, selection and layer tool works in the 3D Viewport and in the Image Editor, in perspective and orthographic views, so you can move the camera around freely while painting.
 
 - **Pixel perfect drawing and painting pixel art tools**: brush / pencil, eraser, line, rectangle, ellipse, bucket fill (by pixels, by selected faces, by color), blur, gradient (with dithering options), opacity, color picker, pressure sensitivity.
    - All tools have pixel perfect line handling algorithms.
