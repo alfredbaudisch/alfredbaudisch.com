@@ -188,6 +188,7 @@ When making a selection with the Wand Selection tool, then adjusting parameters 
 - When you have the Image Editor and 3D viewport side by side, colors picked in one viewport automatically are picked into the other.
 - Changes made with and within selections are now mirrored when a symmetry tool is active.
 - The Bucket Fill now gets mirrored when a symmetry tool is active.
+- Added a "Scramble" blur brush, which shifts pixels around instead of changing colors.
 
 ## General Improvements
 Bucket fill fills enclosed areas that are split across multiple UV islands (ex: draw a shape on a cylinder cap that has been poked with triangles, the bucket fill is going to fill the shape and distribute each slice in each triangle's UV island).
@@ -227,6 +228,7 @@ The rectangle and ellipse tools now project straight between faces.
 - **New feature:** A new temporary color picker has been added, "Eyedropper on Hover" to pickup colors without clicking, with customizable shortcuts. Default: SHIFT+ALT+X (the other temporary color picker with ALT+Left Click is still present).
 - **New feature:** Pick colors from any object and from any area of the Blender viewport
 - **New feature:** Translation (i18n) framework. Every public facing text is now an extracted string living in a single file, which can allow for translations in the future, making Pixel Art Studio multi-language.
+- **New feature:** Added a "Scramble" blur brush, which shifts pixels around instead of changing colors.
 - **Improvement:** The rectangle and ellipse drawing tools can now be filled with either the primary or secondary color. When filled with the secondary color, it gets an outline with the primary color.
 - **Improvement:** Selection marching ants are smaller and faster, making them more readable.
 - **Improvement:** Bucket fill fills enclosed areas that are split across multiple UV islands (ex: draw a shape on a cylinder cap that has been poked with triangles, the bucket fill is going to fill the shape and distribute each slice in each triangle's UV island).
