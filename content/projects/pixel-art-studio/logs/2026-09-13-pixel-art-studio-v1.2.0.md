@@ -14,6 +14,7 @@ metaDescription: "<TODO META>"
 
 ## v1.2.0 Changelog
 
+- **New feature:** New selection engine called "Paper Fold", that allows for pixel selection and movement even in the most complex UV scenarios, for example, such as selections made on triangulated cylinder caps, which crosses over dozens of UV islands.
 - **New feature:** Custom brushes. Custom brushes are created in the Image Editor, and can be persisted in the .blend file, marked as asset (to be shared in the Asset Browser) and persisted in the add-on preferences (for reuse in all .blend files).
 - **New feature:** Transform layers and selections (scale, rotate, skew)
 - **New feature:** Text tool
@@ -27,7 +28,6 @@ metaDescription: "<TODO META>"
 - **New feature:** Flip selections horizontally and vertically
 - **New feature:** hold CTRL+SHIFT while using the Brush tool to draw connecting lines and polygons
 - **New feature:** Customize the selection marquee (transparent by default)
-- **New feature:** New selection engine called Paper Fold, that allows for pixel selection and movement even in the most complex UV scenarios, like triangulated cylinder caps.
 - **New feature:** Show the brush and the eraser shape, color and opacity under the cursor (brush ghosting)
 - **New feature:** Bindable shortcuts for layer and group operations (Photoshop's like keybindings)
 - **New feature:** Manage custom density presets
@@ -35,8 +35,9 @@ metaDescription: "<TODO META>"
 - **New feature:** The selection tools have a new selection method: "Select by Topology" (only for the 3D viewport), to select the whole contour of the topology, to allow for painting and filling half and corner pixels.
 - **New feature:** A new temporary color picker has been added, "Eyedropper on Hover" to pickup colors without clicking, with customizable shortcuts. Default: SHIFT+ALT+X (the other temporary color picker with ALT+Left Click is still present).
 - **New feature:** Pick colors from any object and from any area of the Blender viewport
+- **New feature:** Translation (i18n) framework. Every public facing text is now an extracted string living in a single file, which can allow for translations in the future, making Pixel Art Studio multi-language.
 - **Improvement:** The rectangle and ellipse drawing tools can now be filled with either the primary or secondary color. When filled with the secondary color, it gets an outline with the primary color.
-- **Improvement:** Selection marching ants are smaller and faster
+- **Improvement:** Selection marching ants are smaller and faster, making them more readable.
 - **Improvement:** Bucket fill fills enclosed areas that are split across multiple UV islands (ex: draw a shape on a cylinder cap that has been poked with triangles, the bucket fill is going to fill the shape and distribute each slice in each triangle's UV island).
 - **Improvement:** Selection tools are faster in the Image Editor
 - **Improvement:** The rectangle and ellipse tools now project straight between faces
@@ -48,6 +49,7 @@ metaDescription: "<TODO META>"
 - **Improvement:** Hold SHIFT while placing a gradient to place straight gradients. Move to increment by 45 degrees.
 - **Improvement:** When you have the Image Editor and 3D viewport side by side, colors picked in one viewport automatically are picked into the other.
 - **Improvement:** Performance improvements when painting textures higher than 1024x1024 (validated and tested in a mesh with 2 4096x4096 textures).
+- **Improvement:** Changes made with and within selections are now mirrored when a symmetry tool is active.
 - **Bug fix:** using the Activator Shortcut in the Image Editor does not steal the focus from the shortcut from the 3D viewport (when having both viewports side by side, like with the Pixel Art Studio workspace).
 - **Bug fix:** fixed a critical issue where the texture file would be replaced by stale layers when a blend file that previously had a Pixel Art Studio canvas was saved as another file. Now the file watcher conflict popup is triggered on file load when the file saved separately is opened.
 - **Bug fix:** merge layer down correctly makes the destination layer the active layer, instead of the layer below it
