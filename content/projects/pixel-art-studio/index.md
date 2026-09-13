@@ -11,6 +11,7 @@ tools: ["Blender", "Aseprite"]
 tags: ["N64", "PS1", "Blender", "Aseprite", "Plugin", "Tools", "Pixel Art", "Gamedev", "Texturing", "Texture", "Texture Painting"]
 featuredImage: "/media/projects/pixel-art-studio/pixel-art-studio-cover.png"
 featuredImageThumb: "/media/projects/pixel-art-studio/pixel-art-studio-cover-thumb.jpg"
+metaDescription: "Blender add-on for pixel perfect pixel art texture painting. Draw and paint pixel art inside Blender (3D viewport and Image Editor). Selections (lasso, wand), layers, palettes, pixel size setup (texel density)."
 links:
   - name: "itch.io"
     url: "https://alfredbaudisch.itch.io/pixel-art-studio"
