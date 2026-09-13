@@ -2,6 +2,7 @@
 layout: "layouts/project-log.njk"
 title: "Pixel Art Studio v1.2.0 is out! More than 40 new features and improvements!"
 date: "2026-09-13T09:00:00.000Z"
+updated: "2026-09-13T20:40:00.000Z"
 type: "project-log"
 parentProject: "pixel-art-studio"
 logCategories: ["Update", "New Release"]
@@ -35,6 +36,8 @@ The next step is making the full manual and documentation, alongside more tutori
 Check the list of new features and improvements (full changelog at the bottom).
 
 {% projectLinks %}
+
+{% toc %}
 
 ## Clipping Layers and Transparency Masks
 

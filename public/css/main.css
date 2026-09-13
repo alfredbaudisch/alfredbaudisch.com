@@ -1841,7 +1841,8 @@ pre[class*="language-"] {
 }
 
 .process-section,
-.links-section {
+.links-section,
+.table-of-contents {
   margin-top: var(--spacing-md);
   padding: var(--spacing-md);
   border-top: var(--border-style-light);
@@ -1852,7 +1853,8 @@ pre[class*="language-"] {
 }
 
 .process-section h2,
-.links-section h2 {
+.links-section h2,
+.table-of-contents .toc-title {
   margin-top: 0;
   margin-bottom: var(--spacing-md);
   border-bottom: var(--border-style-dark);
@@ -1861,6 +1863,34 @@ pre[class*="language-"] {
   text-transform: uppercase;
   font-size: 1.2em;
   letter-spacing: 1px;
+}
+
+.table-of-contents .toc-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.table-of-contents .toc-list .toc-list {
+  margin-top: var(--spacing-xs);
+  padding-left: var(--spacing-md);
+}
+
+.table-of-contents .toc-item {
+  margin-bottom: var(--spacing-xs);
+}
+
+.table-of-contents .toc-item::before {
+  content: none;
+}
+
+.table-of-contents .toc-item a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+.table-of-contents .toc-item a:hover {
+  text-decoration: underline;
 }
 
 .process-image-wrapper {

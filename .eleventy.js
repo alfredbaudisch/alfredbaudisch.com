@@ -1,9 +1,11 @@
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
+const markdownItAnchor = require("markdown-it-anchor");
 const markdownItAttrs = require("markdown-it-attrs");
 const slugify = require("slugify");
 const { buildRedirects, writeNginxRedirects } = require("./scripts/lib/redirects");
 const { renderLinksSection } = require("./scripts/lib/render-links-section");
+const { renderTocFromFile, slugifyHeading } = require("./scripts/lib/toc");
 
 // Helper function to get sort date (updated || date)
 function getSortDate(item) {
@@ -69,7 +71,13 @@ module.exports = function(eleventyConfig) {
     html: true,
     breaks: true,
     linkify: true
-  }).use(markdownItAttrs);
+  })
+    .use(markdownItAnchor, {
+      slugify: slugifyHeading,
+      tabIndex: false,
+      permalink: false
+    })
+    .use(markdownItAttrs);
 
   eleventyConfig.setLibrary("md", md);
   
@@ -840,6 +848,12 @@ ${sitemapEntries.map(entry => `  <url>
     }
 
     return renderLinksSection(links);
+  });
+
+  // Table of contents from headings in the current markdown file.
+  // Usage: {% toc %} (h2–h3) or {% toc "2" %} (h2 only) or {% toc "2,4" %} (h2–h4)
+  eleventyConfig.addShortcode("toc", function(levels) {
+    return renderTocFromFile(this.page?.inputPath, levels);
   });
 
   eleventyConfig.addShortcode("imageGallery", function(images) {
