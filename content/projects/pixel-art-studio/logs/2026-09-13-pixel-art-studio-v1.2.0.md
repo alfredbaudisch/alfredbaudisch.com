@@ -59,9 +59,9 @@ You can now adjust the Brightness and Contrast, HSL (Hue, Saturation and Lightne
 
 You can now Flip selections and layers horizontally (SHIFT+H) and vertically (SHIFT+V). There's also a Transform tool (CTRL+T) with the Move, Rotate, Scaling and Skew operations both for layers and selections. Everything works in 3D on top of the model (3D transformations were _REALLY hard_ to implement) and in the Image Editor. 
 
-Press ENTER to confirm the transform or ESC to cancel.
+Press ENTER to confirm the transform or ESC to cancel (you can also undo each step with CTRL+Z).
 
-You have 3 options of pixel rotation algorithms when rotating transformations: Clean Rotation ([cleanEdge](https://torcado.com/cleanEdge/) by torcado, this one provides the cleanest results), Fast Rotation ([aseprite](https://github.com/aseprite/aseprite/blob/main/src/doc/algorithm/rotate.cpp)) and [RotSprite](https://en.wikipedia.org/wiki/Pixel-art_scaling_algorithms#RotSprite).
+3 options of pixel rotation algorithms when rotating transformations: Clean Rotation ([cleanEdge](https://torcado.com/cleanEdge/) by torcado, this one provides the cleanest results), Fast Rotation ([aseprite](https://github.com/aseprite/aseprite/blob/main/src/doc/algorithm/rotate.cpp)) and [RotSprite](https://en.wikipedia.org/wiki/Pixel-art_scaling_algorithms#RotSprite).
 
 ![](/media/projects/pixel-art-studio/changelogs/v1.2.0/pixelartstudio-v1.2.0-07-07-transform-flip.gif)
 
@@ -100,6 +100,19 @@ Add text with the new Text tool both in the Image Editor or 3D Viewport projecte
 - Once done, press ENTER
 
 ![](/media/projects/pixel-art-studio/changelogs/v1.2.0/pixelartstudio-v1.2.0-10-10-text-tool.gif)
+
+## Path (Bézier Curve) and Polygon drawing tool
+
+A Bézier curve tool has been added, with smoothed and hard corners, allowing to draw pixel art curves and polygons, including filled polygons. To use it: 
+- Click to place a point
+- Hold and drag the mouse to draw smooth
+- Click and release to draw hard corners
+- Enter to confirm the path
+- Or add another point on top of the starting point to close the curve
+- It's possible to draw the curve filled with the primary or secondary color, working as a polygon drawing tool
+- [Shortcuts documentation updated](https://pardalltools.github.io/pixel-art-studio-docs/shortcuts.html) with this new tool
+
+![](/media/projects/pixel-art-studio/changelogs/v1.2.0/pixelartstudio-v1.2.0-11-11-path-tool.gif)
 
 ## Bucket Fill by Face or by Pixel toggles
 
