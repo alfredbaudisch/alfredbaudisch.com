@@ -1,6 +1,6 @@
 ---
 layout: "layouts/project-log.njk"
-title: "Pixel Art Studio v1.2.0"
+title: "Pixel Art Studio v1.2.0 is out! More than 40 new features and improvements!"
 date: "2026-09-13T09:00:00.000Z"
 type: "project-log"
 parentProject: "pixel-art-studio"
@@ -8,8 +8,33 @@ logCategories: ["Update", "New Release"]
 projectStyles: ["Gamedev", "Hand-Painted Texture", "PS1", "Pixel Art", "N64"]
 tools: ["Blender", "Aseprite"]
 tags: ["N64", "PS1", "Blender", "Aseprite", "Plugin", "Tools", "Pixel Art", "Gamedev", "Texturing", "Texture", "Texture Painting"]
-metaDescription: "<TODO META>"
+featuredImage: "/media/projects/pixel-art-studio/changelogs/v1.2.0/pixel-art-studio-1.2.0-cover.png"
+featuredImageThumb: "/media/projects/pixel-art-studio/changelogs/v1.2.0/pixel-art-studio-1.2.0-cover-thumb.jpg"
+metaDescription: "Pixel Art Studio for Blender now has transforms, masks, blending modes, adjustments, custom brushes, text tool and much more! See all the new features."
+links:
+  - name: "itch.io"
+    url: "https://alfredbaudisch.itch.io/pixel-art-studio"
+  - name: Superhive (aka Blender Market)
+    url: https://superhivemarket.com/products/pixel-art-studio?ref=10057
+  - name: Gumroad
+    url: https://alfredbaudisch.gumroad.com/l/pixel-art-studio
+  - name: Hotmart (payment options for Brazilians)
+    url: https://go.hotmart.com/F107441454W?dp=1
+  - name: "Documentation"
+    url: "https://pardalltools.github.io/pixel-art-studio-docs/"
 ---
+
+Pixel art Clipping Layers and Transparency Masks, Transforms, Select and Fill Half-Pixels, Custom Brushes, Layer Blending Modes and Adjustments, Text Tool, Object 3D Symmetry, Brush Preview, and much more!
+
+Pixel Art Studio for Blender v1.2.0 is packed with **22 new features and more than 20 new improvements (so in total 40+ changes), including many quality of life additions and bug fixes**. With this release, Pixel Art Studio is now **feature complete**.
+
+Since this is a big release, please **report any bugs and issues** that you might come across.
+
+The next step is making the full manual and documentation, alongside more tutorials.
+
+Check the list of new features and improvements (full changelog at the bottom).
+
+{% projectLinks %}
 
 ## Clipping Layers and Transparency Masks
 
@@ -33,7 +58,7 @@ The viewport now displays the realtime preview of the brush and the eraser (size
 
 ## Select by Topology and Fill by Topology
 
-One of the biggest issues of 3D pixel art texture painting: sub-texels (aka half-pixels, UV fringes, diagonal UVs, etc). To solve this, all selection tools now have the option to select by Topology (default shortcut: CTRL+SHIFT+T), which selects all pixels (including the half-pixels). The Bucket Fill now also fills by Topology.
+One of the biggest issues of 3D pixel art texture painting: sub-texels (aka half-pixels, UV fringes, diagonal UVs, etc). To solve this, all selection tools now have the option to select by Topology (default shortcut: CTRL+SHIFT+T), which selects all pixels (including the half-pixels). The Bucket Fill now also fills by Topology and the bucket fill method fill by face now fills the whole topology of the selected faces (including half-pixels).
 
 ![](/media/projects/pixel-art-studio/changelogs/v1.2.0/pixelartstudio-v1.2.0-03-03-select-topology.gif)
 
@@ -114,8 +139,69 @@ A Bézier curve tool has been added, with smoothed and hard corners, allowing to
 
 ![](/media/projects/pixel-art-studio/changelogs/v1.2.0/pixelartstudio-v1.2.0-11-11-path-tool.gif)
 
-## Bucket Fill by Face or by Pixel toggles
+## Export Layers as PNG, Import and Paste Images as Layers
 
+In the _Layer Extras_ menu you can find three import and export actions:
+- _Import PNG_: to import an external PNG image as a new layer
+- _Export PNG_: to export a layer or group as PNG
+- _Paste Image as Layer_: if you copy image data outside Blender, you can now paste it as a new layer
+
+And at the top of toolbar you are going to find _Paste as New Layer_, which actually pastes what you copy INSIDE Pixel Art Studio as a new layer (copy and paste between Pixel Art Studio's own layers).
+
+![](/media/projects/pixel-art-studio/changelogs/v1.2.0/pixelartstudio-v1.2.0-13-13-export-import-png.gif)
+
+## General New Quality of Life Features and Improvements
+In the add-on settings customize the look of the selection marquees (now it's transparent by default).
+![](/media/projects/pixel-art-studio/changelogs/v1.2.0/qol/01-customize-selections.png)
+
+More readability in selection marques: the marching ants are black and white, smaller and much faster, making selections easier to read.
+![](/media/projects/pixel-art-studio/changelogs/v1.2.0/qol/02-customize-selections.png)
+
+Bucket Fill has explicit Fill by Pixels or Fill by Face toggles.
+![](/media/projects/pixel-art-studio/changelogs/v1.2.0/qol/03-bucket-fill-toggles.png)
+
+Bindable shortcuts for layer and group operations (by default Photoshop's like keybindings, like CTRL+J to duplicate layer and CTRL+G to Group).
+![](/media/projects/pixel-art-studio/changelogs/v1.2.0/qol/04-layers-shortcuts.png)
+
+Custom pixel density presets.
+![](/media/projects/pixel-art-studio/changelogs/v1.2.0/qol/05-custom-density-preset.png)
+![](/media/projects/pixel-art-studio/changelogs/v1.2.0/qol/05-custom-density-preset2.png)
+![](/media/projects/pixel-art-studio/changelogs/v1.2.0/qol/05-custom-density-preset3.png)
+
+The default shortcut for the temporary colorpicker is ALT+left mouse button click, aligned with other painting tools. Users that need the ALT key free (such as to rotate the viewport), can still customize the shortcut to something else (Preferences > Add-ons > Pixel Art Studio > Shortcuts > customize "Eyedropper (hold and click)").
+![](/media/projects/pixel-art-studio/changelogs/v1.2.0/qol/10-default-color-picker.png)
+
+Pickup colors without clicking with the new "Eyedropper on Hover" color picker, default shortcut SHIFT+ALT+X. Activate it and move the mouse to pick colors.
+![](/media/projects/pixel-art-studio/changelogs/v1.2.0/qol/06-eyedropper-hover.png)
+
+The rectangle and ellipse drawing tools can now be filled with either the primary or secondary color. When filled with the secondary color, it gets an outline with the primary color.
+![](/media/projects/pixel-art-studio/changelogs/v1.2.0/qol/07-filled-shapes.png)
+
+When making a selection with the Wand Selection tool, then adjusting parameters (Tolerance, Contiguous), and clicking on top of the active selection again while the tool is still active, it's possible to configure it to make a new selection with the new paramaters.
+![](/media/projects/pixel-art-studio/changelogs/v1.2.0/qol/11-wand-recompute.png)
+
+**Other quality of life improvements or new features:**
+- The temporary colorpicker keeps picking colors as long as you hold the shortcut and move the mouse (ALT+left mouse click by default).
+- Pick colors from any object and from any area of the Blender viewport.
+- Translation framework: Pixel Art Studio is now ready to be multi-language (English only, for now).
+- Hold SHIFT while placing a gradient to place straight gradients. Move to increment by 45 degrees.
+- When you have the Image Editor and 3D viewport side by side, colors picked in one viewport automatically are picked into the other.
+- Changes made with and within selections are now mirrored when a symmetry tool is active.
+- The Bucket Fill now gets mirrored when a symmetry tool is active.
+
+## General Improvements
+Bucket fill fills enclosed areas that are split across multiple UV islands (ex: draw a shape on a cylinder cap that has been poked with triangles, the bucket fill is going to fill the shape and distribute each slice in each triangle's UV island).
+![](/media/projects/pixel-art-studio/changelogs/v1.2.0/qol/08-bucket-fill-islands.png)
+
+The rectangle and ellipse tools now project straight between faces.
+![](/media/projects/pixel-art-studio/changelogs/v1.2.0/qol/09-improv-project-straight.png)
+
+**Other improvements:**
+- Selection tools are faster in the Image Editor
+- Support to higher resolution textures
+- Performance improvements when painting textures higher than 1024x1024 (validated and tested in a mesh with 2 4096x4096 textures).
+
+{% projectLinks %}
 
 ## v1.2.0 Changelog
 
@@ -131,31 +217,34 @@ A Bézier curve tool has been added, with smoothed and hard corners, allowing to
 - **New feature:** Paste external image as layer
 - **New feature:** Path and Polygon tool
 - **New feature:** Flip selections horizontally and vertically
-- **New feature:** _[TODO]_ Customize the selection marquee (transparent by default)
+- **New feature:** Customize the selection marquee (transparent by default)
 - **New feature:** hold CTRL+SHIFT while using the Brush tool to draw connecting lines and polygons
 - **New feature:** Show the brush and the eraser shape, color and opacity under the cursor (brush ghosting)
-- **New feature:** _[TODO]_ Bindable shortcuts for layer and group operations (Photoshop's like keybindings)
-- **New feature:** _[TODO]_ Manage custom density presets
+- **New feature:** Bindable shortcuts for layer and group operations (Photoshop's like keybindings)
+- **New feature:** Manage custom density presets
 - **New feature:** The symmetry tools in the 3D viewport now have 4 modes: aligned with view (the only previous mode), centered aligned with the object, aligned with view at the 3D cursor, aligned with the object at the 3D cursor.
 - **New feature:** The selection tools have a new selection method: "Select by Topology" (only for the 3D viewport), to select the whole contour of the topology, to allow for painting and filling half and corner pixels.
-- **New feature:** _[TODO]_ A new temporary color picker has been added, "Eyedropper on Hover" to pickup colors without clicking, with customizable shortcuts. Default: SHIFT+ALT+X (the other temporary color picker with ALT+Left Click is still present).
-- **New feature:** _[TODO]_ Pick colors from any object and from any area of the Blender viewport
-- **New feature:** _[TODO]_ Translation (i18n) framework. Every public facing text is now an extracted string living in a single file, which can allow for translations in the future, making Pixel Art Studio multi-language.
-- **Improvement:** _[TODO]_ The rectangle and ellipse drawing tools can now be filled with either the primary or secondary color. When filled with the secondary color, it gets an outline with the primary color.
-- **Improvement:** _[TODO]_ Selection marching ants are smaller and faster, making them more readable.
-- **Improvement:** _[TODO]_ Bucket fill fills enclosed areas that are split across multiple UV islands (ex: draw a shape on a cylinder cap that has been poked with triangles, the bucket fill is going to fill the shape and distribute each slice in each triangle's UV island).
-- **Improvement:** _[TODO]_ Selection tools are faster in the Image Editor
-- **Improvement:** _[TODO]_ The rectangle and ellipse tools now project straight between faces
-- **Improvement:** _[TODO]_ The default shortcut for the temporary colorpicker is ALT+left mouse button click, aligned with other painting tools. Users that need the ALT key free (such as to rotate the viewport), can still customize the shortcut to something else (Preferences > Add-ons > Pixel Art Studio > Shortcuts > customize "Eyedropper (hold and click)").
-- **Improvement:** _[TODO]_ The temporary colorpicker keeps picking colors as long as you hold the shortcut and move the mouse (ALT+left mouse click by default).
-- **Improvement:** _[TODO]_ The bucket fill tool has 2 clear methods of filling with 2 toggle buttons: Fill by Pixels and Fill by Selected Faces.
-- **Improvement:** _[TODO]_ The bucket fill method fill by face now fill the whole topology of the selected faces (including half-pixels).
-- **Improvement:** _[TODO]_ When making a selection with the Wand Selection tool, then adjusting parameters (Tolerance, Contiguous), and clicking on top of the active selection again while the tool is still active, a new selection is performed with the new paramaters.
-- **Improvement:** _[TODO]_ Hold SHIFT while placing a gradient to place straight gradients. Move to increment by 45 degrees.
-- **Improvement:** _[TODO]_ When you have the Image Editor and 3D viewport side by side, colors picked in one viewport automatically are picked into the other.
-- **Improvement:** _[TODO]_ Performance improvements when painting textures higher than 1024x1024 (validated and tested in a mesh with 2 4096x4096 textures).
-- **Improvement:** _[TODO]_ Changes made with and within selections are now mirrored when a symmetry tool is active.
-- **Bug fix:** _[TODO]_ using the Activator Shortcut in the Image Editor does not steal the focus from the shortcut from the 3D viewport (when having both viewports side by side, like with the Pixel Art Studio workspace).
-- **Bug fix:** _[TODO]_ fixed a critical issue where the texture file would be replaced by stale layers when a blend file that previously had a Pixel Art Studio canvas was saved as another file. Now the file watcher conflict popup is triggered on file load when the file saved separately is opened.
-- **Bug fix:** _[TODO]_ merge layer down correctly makes the destination layer the active layer, instead of the layer below it
-- **Bug fix:** _[TODO]_ merging into the generated Pixel Art Grid layer, correctly merges the layer instead of deleting it.
+- **New feature:** A new temporary color picker has been added, "Eyedropper on Hover" to pickup colors without clicking, with customizable shortcuts. Default: SHIFT+ALT+X (the other temporary color picker with ALT+Left Click is still present).
+- **New feature:** Pick colors from any object and from any area of the Blender viewport
+- **New feature:** Translation (i18n) framework. Every public facing text is now an extracted string living in a single file, which can allow for translations in the future, making Pixel Art Studio multi-language.
+- **Improvement:** The rectangle and ellipse drawing tools can now be filled with either the primary or secondary color. When filled with the secondary color, it gets an outline with the primary color.
+- **Improvement:** Selection marching ants are smaller and faster, making them more readable.
+- **Improvement:** Bucket fill fills enclosed areas that are split across multiple UV islands (ex: draw a shape on a cylinder cap that has been poked with triangles, the bucket fill is going to fill the shape and distribute each slice in each triangle's UV island).
+- **Improvement:** Selection tools are faster in the Image Editor
+- **Improvement:** The rectangle and ellipse tools now project straight between faces
+- **Improvement:** The default shortcut for the temporary colorpicker is ALT+left mouse button click, aligned with other painting tools. Users that need the ALT key free (such as to rotate the viewport), can still customize the shortcut to something else (Preferences > Add-ons > Pixel Art Studio > Shortcuts > customize "Eyedropper (hold and click)").
+- **Improvement:** The temporary colorpicker keeps picking colors as long as you hold the shortcut and move the mouse (ALT+left mouse click by default).
+- **Improvement:** The bucket fill tool has 2 clear methods of filling with 2 toggle buttons: Fill by Pixels and Fill by Selected Faces.
+- **Improvement:** The bucket fill method fill by face now fill the whole topology of the selected faces (including half-pixels).
+- **Improvement:** When making a selection with the Wand Selection tool, then adjusting parameters (Tolerance, Contiguous), and clicking on top of the active selection again while the tool is still active, it's possible to configure it to make a new selection with the new paramaters.
+- **Improvement:** Hold SHIFT while placing a gradient to place straight gradients. Move to increment by 45 degrees.
+- **Improvement:** When you have the Image Editor and 3D viewport side by side, colors picked in one viewport automatically are picked into the other.
+- **Improvement:** Performance improvements when painting textures higher than 1024x1024 (validated and tested in a mesh with 2 4096x4096 textures).
+- **Improvement:** Changes made with and within selections are now mirrored when a symmetry tool is active.
+- **Improvement:** The Bucket Fill now gets mirrored when a symmetry tool is active.
+- **Bug fix:** using the Activator Shortcut in the Image Editor does not steal the focus from the shortcut from the 3D viewport (when having both viewports side by side, like with the Pixel Art Studio workspace).
+- **Bug fix:** fixed a critical issue where the texture file would be replaced by stale layers when a blend file that previously had a Pixel Art Studio canvas was saved as another file. Now the file watcher conflict popup is triggered on file load when the file saved separately is opened.
+- **Bug fix:** merge layer down correctly makes the destination layer the active layer, instead of the layer below it
+- **Bug fix:** merging into the generated Pixel Art Grid layer, correctly merges the layer instead of deleting it.
+
+{% projectLinks %}
