@@ -12,17 +12,6 @@ tags: ["N64", "PS1", "Blender", "Aseprite", "Plugin", "Tools", "Pixel Art", "Gam
 featuredImage: "/media/projects/pixel-art-studio/changelogs/v1.2.0/pixel-art-studio-1.2.0-cover.png"
 featuredImageThumb: "/media/projects/pixel-art-studio/changelogs/v1.2.0/pixel-art-studio-1.2.0-cover-thumb.jpg"
 metaDescription: "Pixel Art Studio for Blender now has transforms, masks, blending modes, adjustments, custom brushes, text tool and much more! See all the new features."
-links:
-  - name: "itch.io"
-    url: "https://alfredbaudisch.itch.io/pixel-art-studio"
-  - name: Superhive (aka Blender Market)
-    url: https://superhivemarket.com/products/pixel-art-studio?ref=10057
-  - name: Gumroad
-    url: https://alfredbaudisch.gumroad.com/l/pixel-art-studio
-  - name: Hotmart (payment options for Brazilians)
-    url: https://go.hotmart.com/F107441454W?dp=1
-  - name: "Documentation"
-    url: "https://pardalltools.github.io/pixel-art-studio-docs/"
 ---
 
 Pixel art Clipping Layers and Transparency Masks, Transforms, Select and Fill Half-Pixels, Custom Brushes, Layer Blending Modes and Adjustments, Text Tool, Object 3D Symmetry, Brush Preview, and much more!

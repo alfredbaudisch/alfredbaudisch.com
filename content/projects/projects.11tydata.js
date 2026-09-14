@@ -1,5 +1,10 @@
+const { resolveProjectLinks } = require("../../scripts/lib/resolve-project-links");
+
 module.exports = {
   eleventyComputed: {
+    links: function(data) {
+      return resolveProjectLinks(data) || data.links;
+    },
     linksRenderedInline: function(data) {
       if (!data.page?.inputPath) {
         return false;

@@ -5,6 +5,7 @@ const markdownItAttrs = require("markdown-it-attrs");
 const slugify = require("slugify");
 const { buildRedirects, writeNginxRedirects } = require("./scripts/lib/redirects");
 const { renderLinksSection } = require("./scripts/lib/render-links-section");
+const { resolveProjectLinks } = require("./scripts/lib/resolve-project-links");
 const { renderTocFromFile, slugifyHeading } = require("./scripts/lib/toc");
 
 // Helper function to get sort date (updated || date)
@@ -841,9 +842,9 @@ ${sitemapEntries.map(entry => `  <url>
 
   // Shortcodes
   eleventyConfig.addShortcode("projectLinks", function() {
-    const links = this.ctx.links;
+    const links = resolveProjectLinks(this.ctx);
 
-    if (!links || !Array.isArray(links) || links.length === 0) {
+    if (!links || links.length === 0) {
       return "";
     }
 
