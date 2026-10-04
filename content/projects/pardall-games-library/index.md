@@ -86,13 +86,13 @@ Game maps and levels have story and event toggles and variations, as well the in
 - **Open and explore any model in 3D**, with its textures and vertex colors as they were in the game, and play its animations.
     - Alternate 3D view-modes (lit, vertex colors, normals, wireframe).
     - Export the current view as PNG.
-- **Open and explore 3D maps and scenarios, levels and maps**, navigate with `WASD` and right-mouse camera controls. See [the shortcuts](/#/keys) or press `?` anytime to open the help.
+- **Open and explore 3D maps and scenarios, levels and maps**, navigate with `WASD` and right-mouse camera controls. See [the shortcuts](https://library.pardallgames.com/#/keys) or press `?` anytime to open the help.
     - Navigate even pre-rendered scenarios.
 - **Put a whole game in one 3D scene**, or compare models side by side in split panes (click **Add to arena** from any 3D model, then click the **Arena** button in the topbar and then **3D: One Scene** at the bottom).
 - **Look at the textures** of a model or a game.
 - Play spritesheet and 2D animations.
 
-Read the [FAQ](#/faq) before using anything from it.
+Read the [FAQ](https://library.pardallgames.com/#/faq) before using anything from it.
 
 ## Can I download these assets?
 
@@ -100,6 +100,6 @@ No. It's just for reference, browsing and appreciation. It will never be possibl
 
 ## What games are coming next?
 
-Check the [Roadmap](/#/roadmap) for a big surprise.
+Check the [Roadmap](https://library.pardallgames.com/#/roadmap).
 
 {% projectLinks %}
