@@ -18,6 +18,8 @@ links:
     url: https://library.pardallgames.com/news/2026-09-26-pardall-browser-is-online
   - name: All games in the library
     url: https://library.pardallgames.com/games
+  - name: News and updates feed
+    url: https://library.pardallgames.com/news
 ---
 
 **Pardall Games is a non-commercial archive of assets from PS1, N64 and Saturn games, a retro gaming interactive digital museum. It's here for archival, preservation, reference and study**. It has an advanced model viewer with various view modes (including the UVs), split view, and more.
