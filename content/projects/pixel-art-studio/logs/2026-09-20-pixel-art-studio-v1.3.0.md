@@ -26,6 +26,7 @@ metaDescription: "Pixel Art Studio for Blender now has transforms, masks, blendi
   - _Keep Together (Join)_: neighbouring faces stay connected as one UV island when running Pixel Art Unwrap (to preserve the shape of the mesh, like a character's face), instead of each face becoming its own island. Click the X button to release them.
   - _Select Linked UV Faces_: selects every face that is shared or joined with the selected faces.
   - _Flip Islands H_ and _Flip Islands V_: flips UV islands in place.
+  - _Quick Unwrap Model_: unwraps the whole model from any mode (Object, Edit, Sculpt, Paint) and goes back to the mode and selection you had, so you don't have to manually go to Edit Mode > select all faces > Unwrap > and back again to where you were at.
   - New _Shared Faces_ and _Joined Faces_ lists: every group gets a name and a color, and can be selected and removed from the list. Selecting a face in Edit Mode also selects its group in the list, and the group is highlighted in the 3D Viewport and in the UV Editor.
   - Each joined group can choose how Pixel Art Unwrap unwraps it: _Relax_, _Keep Aspect_ (keeps the proportions of the current UVs) or _Keep Shape_ (keeps the island exactly as drawn, only scaled to the texel density). A group can also be a single face, to keep the shape or aspect of just that face.
   - Pixel Art Unwrap now lays each face flat in its own plane, keeping its exact shape and pixel density.
@@ -47,25 +48,29 @@ metaDescription: "Pixel Art Studio for Blender now has transforms, masks, blendi
   - The canvas setup wizard also has _Keep Density Zones_, and the texture size it suggests takes the zones into account.
 - **New feature:** Fill Patterns and Dithering Patterns for all drawing tools (including brush, shapes, eraser, bucket fill, etc), inspired by [Graphics Gale](https://github.com/PardallTools/pixel-art-studio-docs/issues/61). The patterns can be filled with 2 colors or with primary color + transparency.
 - **New feature:** Custom pattern management.
-- **New feature:** Show active tool icon at mouse position, so you know which tool is currenty active without having to look at the toolbar. The icon follows the brush size radius.
+- **New feature:** New _Brushes and Patterns_ section, with galleries for the brush shapes and the patterns.
+- **New feature:** Show active tool icon at mouse position (tool cursor), so you know which tool is currently active without having to look at the toolbar. The icon follows the brush size radius.
+  - The selection cursor shows + or - when SHIFT adds to or ALT removes from a selection.
 - **New feature:** Show color being picked with the eyedropper, at the cursor's position, over the viewport (inspired by Krita).
 - **New feature:** New "Colors and Palettes" section with Blender's color wheel embedded into Pixel Art Studio's panel (it follows Blender's global Color Picker Type preference). The wheel can be hidden in the add-on preferences.
+  - New swap button for the two colors (same as the X shortcut).
 - **New feature:** Tiled Mode in the Image Editor (ported from [Pixelorama](https://github.com/orama-interactive/pixelorama)).
 - **New feature:** Shading brush (ported from [Pixelorama](https://github.com/orama-interactive/pixelorama)).
 - **New feature:** Pixel art Spray Can tool.
-- **New feature:** Integration with Godot, Unity and Unreal Engine, a game engine pipeline to easily import and auto-update models and textures painted with Pixel Art Studio into game engines (auto-export when savin in Blender, as well auto create pixel art materials into the game project).
+- **New feature:** Integration with Godot, Unity and Unreal Engine, a game engine pipeline to easily import and auto-update models and textures painted with Pixel Art Studio into game engines (auto-export when saving in Blender, as well auto create pixel art materials into the game project).
 - **New feature:** Auto-export to GLTF and FBX on save.
+- **New feature:** Every glTF export out of Blender, including a plain File > Export, writes the canvas as unlit pixel art (nearest filtering, alpha cutout). It can be turned off with the _Unlit Pixel Art in glTF_ switch.
 - **New feature:** Brush and line tools bleed (UV dilation) like the paint bucket and gradient tools.
 - **New feature:** The Eraser has the brush's line shortcuts: CTRL+SHIFT erases a straight line from the last stroke, and CTRL+SHIFT+ALT an angled one. It also has its own Bleed setting.
 - **Improvement:** Pixel Art Unwrap relaxes curved Joined Faces instead of projecting them flat, tilted faces no longer lose pixels.
 - **Improvement:** Much faster painting with Pixel Perfect on low poly models where every face is its own UV island. Long strokes across many small faces no longer get slower the longer you paint.
-- **Improvement:** Increased performance of when drawing with brushes bigger than 36px.
+- **Improvement:** Increased performance when drawing with brushes bigger than 36px.
 - **Improvement:** Holding SHIFT when using the Line tool and moving the mouse now also draws isometric angled lines (straight, 45 degrees, and the 2:1 / 1:2 isometrics, the quarter turn cut at 18, 36, 54 and 72 degrees).
 - **Improvement:** Holding CTRL+SHIFT+ALT when using the Brush tool and moving the mouse now also draws isometric angled lines (straight, 45 degrees, and the 2:1 / 1:2 isometrics, the quarter turn cut at 18, 36, 54 and 72 degrees).
 - **Improvement:** Disable the Pixel Perfect button and algorithm for bigger brush sizes, as it cause performance issues and the algorithm does not make a difference past a size of 12px.
-- **Improvement:** The gradient tool is mirrored when symmetry is active in the 3D viewport.
-- **Improvement:** THIRD-PARTY-LICENSES updated with the additions from Pixelorama.
-- **Bug fix:** Brushes that even sized (2, 4, 6, etc) correctly mirror to the other side when a symmetry tool is active, without leaving a 1px offset anymore.
+- **Improvement:** The gradient tool is mirrored when symmetry is active, in the 3D viewport and in the Image Editor.
+- **Improvement:** Painting in the 3D viewport stays instant over models with many thin faces.
+- **Bug fix:** Brushes that are even sized (2, 4, 6, etc) correctly mirror to the other side when a symmetry tool is active, without leaving a 1px offset anymore.
 - **Bug fix:** When the temporary eyedropper or eyedropper on hold is active, do not show the brush preview alongside the eyedropper.
 - **Bug fix:** When activating the temporary eyedropper or eyedropper on hold shortcut, show them and pick the colors even if the mouse does not move.
 - **Bug fix:** Fixed the brush preview (brush ghosting) for brushes bigger than 3px hovering faces with diagonal UVs.
@@ -74,6 +79,12 @@ metaDescription: "Pixel Art Studio for Blender now has transforms, masks, blendi
 - **Bug fix:** The brush paints the same texels whichever direction the stroke started from, fixes UV and face leaks.
 - **Bug fix:** The brush no longer paints texels that are fully outside the UV of the face under it. To reach the half covered texels along a UV edge, use Bleed 0.5.
 - **Bug fix:** Fixed Curved Path segments that go from the cap of a cylinder over its rim onto the side stay on their points.
+- **Bug fix:** Selections on models with a Mirror modifier: the marquee, lasso and wand select where you drag, the marching ants show on the half you selected, and the selection can now be moved, as well when the UVs run past the texture's edge. The Magic Wand no longer crashes with a face selected in Edit Mode.
+- **Bug fix:** The brush preview shows at every view angle and on faces with flipped normals, and big brushes in perspective are no longer speckled.
+- **Bug fix:** A selection dragged on the model and quickly brought back no longer leaves a ghost (or copy) behind. Also it doesn't lose pixels along the way anymore.
+- **Bug fix:** With a tool active in the UV Editor, G, R and S stay Blender's UV move, rotate and scale.
+- **Bug fix:** Density Zones: _Setup Viewport_ no longer turns red after CTRL+Z, and the pixel grid stays on the zone's density.
+- **Bug fix:** Section headers are readable on the Blender Light theme.
 - **Bug fix:** Activating Pixel Art Studio in a workspace or view do not cause it to create a "zombie" activation onto another workspace or view. Example when you have the UV Editor and 3D Viewport side by side or when you jump between the Layout workspace and another workspace. Fixes https://github.com/PardallTools/pixel-art-studio-docs/issues/80.
 
 
