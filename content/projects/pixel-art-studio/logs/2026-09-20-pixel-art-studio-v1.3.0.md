@@ -1,6 +1,6 @@
 ---
 layout: "layouts/project-log.njk"
-title: "Pixel Art Studio v1.3.0!"
+title: "Pixel Art Studio for Blender v1.3.0!"
 date: "2026-09-30T09:00:00.000Z"
 type: "project-log"
 draft: true
@@ -8,10 +8,10 @@ parentProject: "pixel-art-studio"
 logCategories: ["Update", "New Release"]
 projectStyles: ["Gamedev", "Hand-Painted Texture", "PS1", "Pixel Art", "N64"]
 tools: ["Blender", "Aseprite"]
-tags: ["N64", "PS1", "Blender", "Aseprite", "Plugin", "Tools", "Pixel Art", "Gamedev", "Texturing", "Texture", "Texture Painting"]
+tags: ["N64", "PS1", "Blender", "Aseprite", "Plugin", "Tools", "Pixel Art", "Gamedev", "Texturing", "Texture", "Texture Painting", "UV"]
 featuredImage: "/media/projects/pixel-art-studio/changelogs/v1.2.0/pixel-art-studio-1.2.0-cover.png"
 featuredImageThumb: "/media/projects/pixel-art-studio/changelogs/v1.2.0/pixel-art-studio-1.2.0-cover-thumb.jpg"
-metaDescription: "Pixel Art Studio for Blender now has transforms, masks, blending modes, adjustments, custom brushes, text tool and much more! See all the new features."
+metaDescription: "Now with one-click UV tools, shared UVs, joined faces, fill patterns, tiled mode, shading, spray can, game engine integrations and more! See all the new features."
 ---
 
 {% projectLinks %}
