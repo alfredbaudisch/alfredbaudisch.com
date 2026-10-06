@@ -74,6 +74,7 @@ metaDescription: "Pixel Art Studio for Blender now has transforms, masks, blendi
 - **Bug fix:** The brush paints the same texels whichever direction the stroke started from, fixes UV and face leaks.
 - **Bug fix:** The brush no longer paints texels that are fully outside the UV of the face under it. To reach the half covered texels along a UV edge, use Bleed 0.5.
 - **Bug fix:** Fixed Curved Path segments that go from the cap of a cylinder over its rim onto the side stay on their points.
+- **Bug fix:** Activating Pixel Art Studio in a workspace or view do not cause it to create a "zombie" activation onto another workspace or view. Example when you have the UV Editor and 3D Viewport side by side or when you jump between the Layout workspace and another workspace. Fixes https://github.com/PardallTools/pixel-art-studio-docs/issues/80.
 
 
 {% projectLinks %}
