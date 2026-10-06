@@ -23,7 +23,7 @@ metaDescription: "Now with one-click UV tools, shared UVs, joined faces, fill pa
 - **New feature:** Multiple new UV tools and new options to "Pixel Art Unwrap".
   - New _UV Tools_ section in the UV panel. Pixel Art Unwrap options are now in their own _Unwrap Options_ section.
   - _Share UVs_: stacks the selected faces on the same UV spot, so they paint the same pixels (ex: the 8 sides of a cylinder painted only once). The last selected face is the source, and _Match Size_ also resizes the other faces to the source's size. Click the X button to unshare.
-  - _Keep Together (Join)_: neighbouring faces stay connected as one UV island when running Pixel Art Unwrap (to preserve the shape of the mesh, like a character's face), instead of each face becoming its own island. Click the X button to release them.
+  - _Keep Together (Join)_: neighbouring faces stay connected as one UV island when running Pixel Art Unwrap (to preserve the shape of the mesh, like a character's face or a vehicle's front), instead of each face becoming its own island. Click the X button to release them.
   - _Select Linked UV Faces_: selects every face that is shared or joined with the selected faces.
   - _Flip Islands H_ and _Flip Islands V_: flips UV islands in place.
   - _Quick Unwrap Model_: unwraps the whole model from any mode (Object, Edit, Sculpt, Paint) and goes back to the mode and selection you had, so you don't have to manually go to Edit Mode > select all faces > Unwrap > and back again to where you were at.
