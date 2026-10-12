@@ -11,7 +11,7 @@ tools: ["Blender", "Aseprite"]
 tags: ["N64", "PS1", "Blender", "Aseprite", "Plugin", "Tools", "Pixel Art", "Gamedev", "Texturing", "Texture", "Texture Painting", "UV"]
 featuredImage: "/media/projects/pixel-art-studio/changelogs/v1.2.0/pixel-art-studio-1.2.0-cover.png"
 featuredImageThumb: "/media/projects/pixel-art-studio/changelogs/v1.2.0/pixel-art-studio-1.2.0-cover-thumb.jpg"
-metaDescription: "Now with one-click UV tools, shared UVs, joined faces, fill patterns, tiled mode, shading, spray can, game engine integrations and more! See all the new features."
+metaDescription: "Now with one-click UV tools, shared UVs, joined faces, fill patterns, noise and color jitter, tiled mode, shading, spray can, game engine integrations and more! See all the new features."
 ---
 
 {% projectLinks %}
@@ -48,6 +48,14 @@ metaDescription: "Now with one-click UV tools, shared UVs, joined faces, fill pa
   - The canvas setup wizard also has _Keep Density Zones_, and the texture size it suggests takes the zones into account.
 - **New feature:** Fill Patterns and Dithering Patterns for all drawing tools (including brush, shapes, eraser, bucket fill, etc), inspired by [Graphics Gale](https://github.com/PardallTools/pixel-art-studio-docs/issues/61). The patterns can be filled with 2 colors or with primary color + transparency.
 - **New feature:** Custom pattern management.
+- **New feature:** _Noise_ fill pattern, to paint random pixel noise (example: the body of a PS1 bottle or a dirt wall). It works with every tool that supports patterns, with 2 colors or with primary color + transparency.
+  - _Density_: how many pixels take the primary color.
+  - _Clump_: 1 scatters single pixels, higher values gather them into patches or islands and valleys.
+  - _Seed_: a different seed gives a different noise. The noise is fixed to the texture's pixels, so painting over the same area again doesn't change it or make it denser, and strokes next to each other meet without a seam.
+- **New feature:** _Color Jitter_ for the Brush and the Bucket Fill, in the _Colors and Palettes_ section. Every pixel gets a variation of the color:
+  - _Shades_: lighter and darker shades of the color being painted (with an optional _Hue Shift_, where light shades get warmer and dark shades get cooler, same as the Shading brush).
+  - _Swatches_: scatters the selected swatch and the swatches to its right, ex: pick 4 browns from your palette and paint with the 4 of them at once.
+  - It also has its own _Clump_ and _Seed_, and the brush preview shows the varied colors before you paint.
 - **New feature:** New _Brushes and Patterns_ section, with galleries for the brush shapes and the patterns.
 - **New feature:** Show active tool icon at mouse position (tool cursor), so you know which tool is currently active without having to look at the toolbar. The icon follows the brush size radius.
   - The selection cursor shows + or - when SHIFT adds to or ALT removes from a selection.
@@ -62,6 +70,7 @@ metaDescription: "Now with one-click UV tools, shared UVs, joined faces, fill pa
 - **New feature:** Every glTF export out of Blender, including a plain File > Export, writes the canvas as unlit pixel art (nearest filtering, alpha cutout). It can be turned off with the _Unlit Pixel Art in glTF_ switch.
 - **New feature:** Brush and line tools bleed (UV dilation) like the paint bucket and gradient tools.
 - **New feature:** The Eraser has the brush's line shortcuts: CTRL+SHIFT erases a straight line from the last stroke, and CTRL+SHIFT+ALT an angled one. It also has its own Bleed setting.
+- **New feature:** Move a selection locked to one axis: hold SHIFT and drag from inside the selection, and it only moves horizontally or vertically. CTRL+SHIFT duplicates it along one axis. The Move tool also moves the layer along one axis with SHIFT.
 - **Improvement:** Pixel Art Unwrap relaxes curved Joined Faces instead of projecting them flat, tilted faces no longer lose pixels.
 - **Improvement:** Much faster painting with Pixel Perfect on low poly models where every face is its own UV island. Long strokes across many small faces no longer get slower the longer you paint.
 - **Improvement:** Increased performance when drawing with brushes bigger than 36px.
@@ -86,6 +95,7 @@ metaDescription: "Now with one-click UV tools, shared UVs, joined faces, fill pa
 - **Bug fix:** Density Zones: _Setup Viewport_ no longer turns red after CTRL+Z, and the pixel grid stays on the zone's density.
 - **Bug fix:** Section headers are readable on the Blender Light theme.
 - **Bug fix:** Activating Pixel Art Studio in a workspace or view do not cause it to create a "zombie" activation onto another workspace or view. Example when you have the UV Editor and 3D Viewport side by side or when you jump between the Layout workspace and another workspace. Fixes https://github.com/PardallTools/pixel-art-studio-docs/issues/80.
+- **Bug fix:** Setting a layer blend mode correctly adds the action to the undo stack, allowing to undo the choice. The same for the layer's opacity, name, visibility, lock, clip and mask toggle, also when the model is in Edit Mode (before, CTRL+Z skipped the change and undid strokes instead).
 
 
 {% projectLinks %}
