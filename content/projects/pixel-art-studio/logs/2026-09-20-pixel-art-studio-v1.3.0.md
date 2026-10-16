@@ -30,6 +30,7 @@ metaDescription: "Now with one-click UV tools, stacked UVs, joined faces, fill p
   - New _Stacked Faces_ and _Joined Faces (UVs Together)_ lists: every group gets a name and a color, and can be selected and removed from the list. Selecting a face in Edit Mode also selects its group in the list, and the group is highlighted in the 3D Viewport and in the UV Editor.
   - Each joined group can choose how Pixel Art Unwrap unwraps it: _Relax_, _Keep Aspect_ (keeps the proportions of the current UVs) or _Keep Shape_ (keeps the island exactly as drawn, only scaled to the texel density). A group can also be a single face, to keep the shape or aspect of just that face.
   - Pixel Art Unwrap now lays each face flat in its own plane, keeping its exact shape and pixel density.
+  - Several meshes that use the same texture are unwrapped together as one layout (ex: a character made of separate head, body, arms and legs objects): one pixel density for all of them, and no UV islands on top of each other. Works with _Pixel Art Unwrap_ (select the meshes and go to Edit Mode) and with _Quick Unwrap Model_. From Object Mode, _Quick Unwrap Model_ takes the selected meshes that use the active mesh's texture, and its report says which selected meshes it left out. _Grow Texture to Fit_ grows the texture to fit the whole group.
   - New Unwrap Options:
     - _Margin (px)_: whole pixels between islands.
     - _Avoid Shearing and Diagonal Pixels_: faces keep their exact shape and pixel density. When turned off, every corner goes onto a pixel corner, there are no partial pixels, but faces that are not rectangles bend a little.
@@ -96,6 +97,9 @@ metaDescription: "Now with one-click UV tools, stacked UVs, joined faces, fill p
 - **Bug fix:** Section headers are readable on the Blender Light theme.
 - **Bug fix:** Activating Pixel Art Studio in a workspace or view do not cause it to create a "zombie" activation onto another workspace or view. Example when you have the UV Editor and 3D Viewport side by side or when you jump between the Layout workspace and another workspace. Fixes https://github.com/PardallTools/pixel-art-studio-docs/issues/80.
 - **Bug fix:** Setting a layer blend mode correctly adds the action to the undo stack, allowing to undo the choice. The same for the layer's opacity, name, visibility, lock, clip and mask toggle, also when the model is in Edit Mode (before, CTRL+Z skipped the change and undid strokes instead).
+- **Bug fix:** On Blender 3.6 to 4.5, opening a file and saving it without painting anything no longer empties the layers (they came back empty the next time the file was opened).
+- **Bug fix:** Saving a texture that is a JPEG, TGA or 16 bit PNG file keeps the file in its own format. Before, it was written as a PNG (or EXR) under the same name, which Blender could still open but other programs couldn't. A PSD texture is left untouched, since Blender can't write PSD files.
+- **Bug fix:** The CTRL+SHIFT straight line on the model crosses between UV islands whose pixel grids are rotated against each other (ex: two _Keep UVs Together_ groups on the cone of a hat). The line used to disappear when the mouse reached the other island.
 
 
 {% projectLinks %}
