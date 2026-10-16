@@ -1,18 +1,33 @@
 ---
 layout: "layouts/project-log.njk"
 title: "Pixel Art Studio for Blender v1.3.0!"
-date: "2026-09-30T09:00:00.000Z"
+date: "2026-10-16-T12:00:00.000Z"
 type: "project-log"
-draft: true
 parentProject: "pixel-art-studio"
 logCategories: ["Update", "New Release"]
 projectStyles: ["Gamedev", "Hand-Painted Texture", "PS1", "Pixel Art", "N64"]
 tools: ["Blender", "Aseprite"]
 tags: ["N64", "PS1", "Blender", "Aseprite", "Plugin", "Tools", "Pixel Art", "Gamedev", "Texturing", "Texture", "Texture Painting", "UV"]
-featuredImage: "/media/projects/pixel-art-studio/changelogs/v1.2.0/pixel-art-studio-1.2.0-cover.png"
-featuredImageThumb: "/media/projects/pixel-art-studio/changelogs/v1.2.0/pixel-art-studio-1.2.0-cover-thumb.jpg"
-metaDescription: "Now with one-click UV tools, stacked UVs, joined faces, fill patterns, noise and color jitter, tiled mode, shading, spray can, game engine integrations and more! See all the new features."
+featuredImage: "/media/projects/pixel-art-studio/changelogs/v1.3.0/pixel-art-studio-cover-v1.3.png"
+featuredImageThumb: "/media/projects/pixel-art-studio/changelogs/v1.3.0/pixel-art-studio-cover-v1.3-thumb.jpg"
+metaDescription: "Now with one-click UV tools, stacked UVs, joined faces, fill patterns, one-click per-face texel densities, noise and color jitter, tiled mode, shading, spray can, game engine integrations and more! See all the new features."
 ---
+
+Pixel Art Studio 1.3 is out! The highlight of this version is **completely rewritten UV unwrapping algorithms and a new set of UV tools, for 1-click UV unwrapping for texture painting**. You can now also **assign and test different texel densities (pixel sizes) to selected faces on the fly, even while you are still editing the mesh, so you don't ever have to manually position and scale UV islands again**.
+
+Also: 
+- Fill patterns, custom patterns, color jitter and noise added to all tools.
+- Spray can tool.
+- Shading tool (lighten and darken colors, as well perform hue shifting).
+- Integration with Godot, Unity and Unreal Engine to auto-export models and textures painted with Pixel Art Studio, on save, automatically.
+- Tiled mode in the image editor.
+- Tool icon and color picker colors at mouse position.
+
+Many improvements and bug fixes across the board!
+
+<video controls="" src="/media/projects/pixel-art-studio/changelogs/v1.3.0/pixelartstudio-v1.3.0.mp4"></video>
+
+Check the features in action in the video and see everything that has been added in the changelog below.
 
 {% projectLinks %}
 
