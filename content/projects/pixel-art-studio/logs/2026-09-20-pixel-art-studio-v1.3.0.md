@@ -1,6 +1,6 @@
 ---
 layout: "layouts/project-log.njk"
-title: "Pixel Art Studio for Blender v1.3.0!"
+title: "Pixel Art Studio v1.3.0 is out! 1-click UV tools, patterns, new painting tools and improvements"
 date: "2026-10-16-T12:00:00.000Z"
 type: "project-log"
 parentProject: "pixel-art-studio"
